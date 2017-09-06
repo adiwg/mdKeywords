@@ -1,0 +1,35 @@
+{
+  "name": "mdkeywords",
+  "version": "1.0.0",
+  "description": "Keywords for metadata",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "scripts/pretest.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiwg/mdKeywords.git"
+  },
+  "keywords": [
+    "metadata",
+    "keywords",
+    "adiwg",
+    "mdEditor",
+    "mdJSON"
+  ],
+  "author": "jbradley@arcticlcc.org",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/adiwg/mdKeywords/issues"
+  },
+  "homepage": "https://github.com/adiwg/mdKeywords#readme",
+  "devDependencies": {
+    "buildify": "^0.4.0",
+    "glob": "^7.1.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.1.2",
+    "rimraf": "^2.5.4"
+  }
+}
