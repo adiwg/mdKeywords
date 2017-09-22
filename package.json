@@ -19,6 +19,10 @@
     "mdEditor",
     "mdJSON"
   ],
+  "files": [
+    "lib",
+    "resources"
+  ],
   "author": "jbradley@arcticlcc.org",
   "license": "Unlicense",
   "bugs": {
