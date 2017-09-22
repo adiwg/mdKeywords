@@ -4,10 +4,10 @@
       "date": "2017-09",
       "dateType": "revision"
     }],
-    "title": "User Types - Landscape Conservation Cooperatives",
+    "title": "End User Types - Landscape Conservation Cooperatives",
     "edition": "2017",
     "onlineResource": [{
-      "uri": "https://lccnetwork.org/"
+      "uri": "https://www.sciencebase.gov/vocab/vocabulary/54760ef9e4b0f62cb5dc41a0"
     }],
     "identifier": [{
       "identifier": "425f4a7c-dca2-56d8-947e-6f6bd1033d70"
@@ -62,6 +62,6 @@
       "uuid": "004d65a8-70e6-44bd-a6a7-0a49708f85f2"
     }
   ],
-  "keywordType": "theme",
-  "label": "LCC User Types"
+  "keywordType": "LCC End User Type",
+  "label": "LCC End User Types"
 }
