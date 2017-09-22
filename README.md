@@ -1,6 +1,6 @@
 # mdkeywords
 [![NPM version](https://badge.fury.io/js/mdkeywords.svg)](https://npmjs.org/package/mdkeywords)
-[![Build Status](https://travis-ci.org/adiwg/mdkeywords.svg?branch=master)](https://travis-ci.org/adiwg/mdkeywords)
+[![Build Status](https://travis-ci.org/adiwg/mdKeywords.svg?branch=master)](https://travis-ci.org/adiwg/mdKeywords)
 
 > Keywords for metadata
 
