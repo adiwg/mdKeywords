@@ -1,10 +1,10 @@
 {
   "name": "mdkeywords",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Keywords for metadata",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublishOnly": "npm test",
     "pretest": "scripts/pretest.js",
     "test": "mocha"
   },
