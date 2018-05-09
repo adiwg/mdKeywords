@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/adiwg/mdKeywords#readme",
   "devDependencies": {
-    "buildify": "^0.4.0",
+    "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
     "glob": "^7.1.1",
     "mkdirp": "^0.5.1",
-    "mocha": "^3.1.2",
-    "rimraf": "^2.5.4"
+    "mocha": "^5.1.1",
+    "rimraf": "^2.6.2"
   }
 }
