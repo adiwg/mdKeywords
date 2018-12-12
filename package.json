@@ -1,12 +1,15 @@
 {
   "name": "mdkeywords",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Keywords for metadata",
   "main": "index.js",
+  "module": "src/main.js",
+  "browser": "dist/mdkeywords.umd.js",
   "scripts": {
     "prepublishOnly": "npm test",
-    "pretest": "scripts/pretest.js",
-    "test": "mocha"
+    "pretest": "rollup -c",
+    "test": "mocha",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -20,8 +23,9 @@
     "mdJSON"
   ],
   "files": [
-    "lib",
-    "resources"
+    "resources",
+    "src",
+    "dist"
   ],
   "author": "jbradley@arcticlcc.org",
   "license": "Unlicense",
@@ -31,9 +35,20 @@
   "homepage": "https://github.com/adiwg/mdKeywords#readme",
   "devDependencies": {
     "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "glob": "^7.1.1",
     "mkdirp": "^0.5.1",
     "mocha": "^5.1.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "rollup": "^0.67.4",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "uglify-es": "^3.3.9"
   }
 }
