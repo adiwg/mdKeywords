@@ -14,7 +14,8 @@ $ npm install --save mdkeywords
 
 ```javascript
 var mdkeywords = require('mdkeywords');
-mdkeywords();
+mdkeywords.category;
+mdkeywords.asArray();
 ```
 
 ## License
