@@ -1,0 +1,562 @@
+[
+  {
+    "uuid": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+    "broader": "71a99733-f4fd-530d-ab35-4cad6a9df747",
+    "label": "Datacite Contributor Type",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "d03323ff-942c-5a98-a54f-db20ecbccfff",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "ContactPerson",
+        "definition": "The contributor is a ContactPerson"
+      },
+      {
+        "uuid": "858c6273-b013-5366-969a-917a3e120dee",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "DataCollector",
+        "definition": "The contributor is a DataCollector"
+      },
+      {
+        "uuid": "3c90fdf3-365e-5b89-ac0c-e81567133a18",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "DataCurator",
+        "definition": "The contributor is a DataCurator"
+      },
+      {
+        "uuid": "a86c6e4a-382f-59a2-b29f-365aa5e444a6",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "DataManager",
+        "definition": "The contributor is a DataManager"
+      },
+      {
+        "uuid": "7b56ecb8-2e21-5cbc-83cc-f79636fa586b",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Distributor",
+        "definition": "The contributor is a Distributor"
+      },
+      {
+        "uuid": "1503aa3f-cfc6-59cc-953b-c47772e47d31",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Editor",
+        "definition": "The contributor is a Editor"
+      },
+      {
+        "uuid": "a1de1adf-8646-533e-a61d-997fc7b7652c",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "HostingInstitution",
+        "definition": "The contributor is a HostingInstitution"
+      },
+      {
+        "uuid": "946efd95-5d17-5d5d-ad5b-ee18be9b56a7",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Other",
+        "definition": "The contributor is a Other"
+      },
+      {
+        "uuid": "5f3cbba6-eb80-587c-b74f-4e65f4bd9af5",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Producer",
+        "definition": "The contributor is a Producer"
+      },
+      {
+        "uuid": "d6f5af7f-19b6-52bc-b4bf-0826cd61a72b",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "ProjectLeader",
+        "definition": "The contributor is a ProjectLeader"
+      },
+      {
+        "uuid": "3c4a58b4-3adb-557c-80c9-c7c3d9b476bd",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "ProjectManager",
+        "definition": "The contributor is a ProjectManager"
+      },
+      {
+        "uuid": "6807e2ba-e9b0-59b8-916b-7d9095a928be",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "ProjectMember",
+        "definition": "The contributor is a ProjectMember"
+      },
+      {
+        "uuid": "1107a16d-dc37-5526-8baf-c3097c44ca74",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "RegistrationAgency",
+        "definition": "The contributor is a RegistrationAgency"
+      },
+      {
+        "uuid": "6bc94e14-eea0-5616-b59f-0f967791d969",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "RegistrationAuthority",
+        "definition": "The contributor is a RegistrationAuthority"
+      },
+      {
+        "uuid": "0179abf3-147b-5182-ad33-1a7ec9468720",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "RelatedPerson",
+        "definition": "The contributor is a RelatedPerson"
+      },
+      {
+        "uuid": "18e5e7f0-445b-5cc8-beba-6a9f9c968672",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Researcher",
+        "definition": "The contributor is a Researcher"
+      },
+      {
+        "uuid": "de91e8a7-99c3-57e7-8e69-9670535af239",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "ResearchGroup",
+        "definition": "The contributor is a ResearchGroup"
+      },
+      {
+        "uuid": "70e8e8cd-a68a-5b0f-b46b-65634dfbf78f",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "RightsHolder",
+        "definition": "The contributor is a RightsHolder"
+      },
+      {
+        "uuid": "728cb232-7038-51a9-8a14-7743037179c6",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Sponsor",
+        "definition": "The contributor is a Sponsor"
+      },
+      {
+        "uuid": "1fef60ee-c784-5a1c-ac68-8a454d9fc2f0",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "Supervisor",
+        "definition": "The contributor is a Supervisor"
+      },
+      {
+        "uuid": "8844c101-8fcb-52ce-833f-526fb6656a7a",
+        "broader": "2edd5aab-a8a1-5944-848f-16cccf88a85c",
+        "label": "WorkPackageLeader",
+        "definition": "The contributor is a WorkPackageLeader"
+      }
+    ]
+  },
+  {
+    "uuid": "168447c0-34f1-59b4-8619-22414b21b574",
+    "broader": "71a99733-f4fd-530d-ab35-4cad6a9df747",
+    "label": "Datacite Description Type",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "f553e5de-81ed-55ba-9e92-17301dee3cab",
+        "broader": "168447c0-34f1-59b4-8619-22414b21b574",
+        "label": "Abstract",
+        "definition": "The description is an Abstract"
+      },
+      {
+        "uuid": "0a5b33b5-9b95-565b-b5a6-283a421362c5",
+        "broader": "168447c0-34f1-59b4-8619-22414b21b574",
+        "label": "Methods",
+        "definition": "The description describes Methods"
+      },
+      {
+        "uuid": "8065a0b9-a9b0-52d6-8cb6-a727f98a53ee",
+        "broader": "168447c0-34f1-59b4-8619-22414b21b574",
+        "label": "Other",
+        "definition": "The description is not a standard type"
+      },
+      {
+        "uuid": "a9c98903-2de3-57fc-ba4c-f25966804420",
+        "broader": "168447c0-34f1-59b4-8619-22414b21b574",
+        "label": "TableOfContents",
+        "definition": "The description is a TableOfContents"
+      },
+      {
+        "uuid": "58a25dcd-4df9-5157-bc70-ec401580d0c8",
+        "broader": "168447c0-34f1-59b4-8619-22414b21b574",
+        "label": "TechnicalInfo",
+        "definition": "The description is TechnicalInfo"
+      }
+    ]
+  },
+  {
+    "uuid": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+    "broader": "71a99733-f4fd-530d-ab35-4cad6a9df747",
+    "label": "Datacite Relation Type",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "72cea9c0-23ad-5c2d-91a2-954170aecc02",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Cites",
+        "definition": "The resource being registered Cites the related resource."
+      },
+      {
+        "uuid": "d7fbcad1-b786-5509-9c7c-b5ec9b233031",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Compiles",
+        "definition": "The resource being registered Compiles the related resource."
+      },
+      {
+        "uuid": "fa2b50f3-37f9-562e-a671-c7414c77f414",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Continues",
+        "definition": "The resource being registered Continues the related resource."
+      },
+      {
+        "uuid": "a42ec73c-e7af-5262-930e-916a2f9b74e1",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Describes",
+        "definition": "The resource being registered Describes the related resource."
+      },
+      {
+        "uuid": "f7f12ca6-bb85-5ae4-8c1f-6fac932f737d",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Documents",
+        "definition": "The resource being registered Documents the related resource."
+      },
+      {
+        "uuid": "853f1605-47e8-5119-a3e1-c7c818ef4177",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "HasMetadata",
+        "definition": "The resource being registered HasMetadata for the related resource."
+      },
+      {
+        "uuid": "7723e4ac-bd6e-57d0-ae30-d90d564543a5",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "HasPart",
+        "definition": "The resource being registered HasPart the related resource."
+      },
+      {
+        "uuid": "96d9bdb3-f0c5-5e0c-a9eb-5e52fcd4e40f",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "HasVersion",
+        "definition": "The resource being registered HasVersion the related resource."
+      },
+      {
+        "uuid": "c08493ee-4fb6-5741-bb53-3114657f68a0",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsCitedBy",
+        "definition": "The resource being registered IsCitedBy the related resource."
+      },
+      {
+        "uuid": "94e657b9-0670-52cd-bdfe-fa2487190fc3",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsCompiledBy",
+        "definition": "The resource being registered IsCompiledBy the related resource."
+      },
+      {
+        "uuid": "e72f8b25-23f9-5103-9f3e-d897ff906e6c",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsContinuedBy",
+        "definition": "The resource being registered IsContinuedBy the related resource."
+      },
+      {
+        "uuid": "5a91c1ce-6184-596f-9dee-beb0a7a7e2cf",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsDerivedFrom",
+        "definition": "The resource being registered IsDerivedFrom the related resource."
+      },
+      {
+        "uuid": "8d9549f8-8ef3-58a8-9d6b-8d454093b490",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsDescribedBy",
+        "definition": "The resource being registered IsDescribedBy the related resource."
+      },
+      {
+        "uuid": "bda6cd23-6344-5f0f-8665-264eb0a69c05",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsDocumentedBy",
+        "definition": "The resource being registered IsDocumentedBy the related resource."
+      },
+      {
+        "uuid": "087674d6-15df-5c51-b2a1-6b1ac742a8a2",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsIdenticalTo",
+        "definition": "The resource being registered IsIdenticalTo the related resource."
+      },
+      {
+        "uuid": "587db141-e552-5f45-9e01-1d5f67e9f0a7",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsMetadataFor",
+        "definition": "The resource being registered IsMetadataFor the related resource."
+      },
+      {
+        "uuid": "5869f363-386e-5023-903f-527c3ce2795e",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsNewVersionOf",
+        "definition": "The resource being registered IsNewVersionOf the related resource."
+      },
+      {
+        "uuid": "294f93c3-96cd-5e8c-8b34-885ca3e4ed7d",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsObsoletedBy",
+        "definition": "The resource being registered IsObsoletedBy the related resource."
+      },
+      {
+        "uuid": "a18cc35b-a586-5148-86b6-c4a0196c2d18",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsOriginalFormOf",
+        "definition": "The resource being registered IsOriginalFormOf the related resource."
+      },
+      {
+        "uuid": "5ec91989-601a-5685-8fdf-50f32d67a1a2",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsPartOf",
+        "definition": "The resource being registered IsPartOf the related resource."
+      },
+      {
+        "uuid": "99d7500b-6630-5783-97cd-f64fee0ca9d2",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsPreviousVersionOf",
+        "definition": "The resource being registered IsPreviousVersionOf the related resource."
+      },
+      {
+        "uuid": "d59d4426-4568-5093-bcd8-eab0ccd3ad74",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsPublishedIn",
+        "definition": "The resource being registered IsPublishedIn the related resource."
+      },
+      {
+        "uuid": "b6827bda-c928-59a6-9770-4ef9bb500b9a",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsReferencedBy",
+        "definition": "The resource being registered IsReferencedBy the related resource."
+      },
+      {
+        "uuid": "e3af8f02-da69-507a-be64-667aaa23780f",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsRequiredBy",
+        "definition": "The resource being registered IsRequiredBy the related resource."
+      },
+      {
+        "uuid": "404ba100-ddda-5a2a-8cc0-7a6165ddf2e3",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsReviewedBy",
+        "definition": "The resource being registered IsReviewedBy the related resource."
+      },
+      {
+        "uuid": "c038a4fc-439e-5afe-9101-9d00f01779ff",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsSourceOf",
+        "definition": "The resource being registered IsSourceOf the related resource."
+      },
+      {
+        "uuid": "04fa6348-62db-5186-ba71-8eeb8fd48567",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsSupplementedBy",
+        "definition": "The resource being registered IsSupplementedBy the related resource."
+      },
+      {
+        "uuid": "bbb72352-d69d-55ca-8b23-645b6586c1c6",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsSupplementTo",
+        "definition": "The resource being registered IsSupplementTo the related resource."
+      },
+      {
+        "uuid": "3d8a6913-28b3-5846-b41b-430dfd622745",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsVariantFormOf",
+        "definition": "The resource being registered IsVariantFormOf the related resource."
+      },
+      {
+        "uuid": "aa6de5b4-6e2b-5e65-94ca-3f9f6ad1687f",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "IsVersionOf",
+        "definition": "The resource being registered IsVersionOf the related resource."
+      },
+      {
+        "uuid": "ce6f111d-248f-5fde-949a-f58b4d2c3a2c",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Obsoletes",
+        "definition": "The resource being registered Obsoletes the related resource."
+      },
+      {
+        "uuid": "0683db13-5f73-5713-a042-32d3c4764c66",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "References",
+        "definition": "The resource being registered References the related resource."
+      },
+      {
+        "uuid": "825fc668-bf04-5204-9050-5096d1e981e2",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Requires",
+        "definition": "The resource being registered Requires the related resource."
+      },
+      {
+        "uuid": "5b869899-168a-5197-815a-f52a04e81291",
+        "broader": "ec1be3b3-bec2-58d8-8483-7d3a9a2ed4da",
+        "label": "Reviews",
+        "definition": "The resource being registered Reviews the related resource."
+      }
+    ]
+  },
+  {
+    "uuid": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+    "broader": "71a99733-f4fd-530d-ab35-4cad6a9df747",
+    "label": "Datacite Resource Type General",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "25f27e82-e3fb-5178-b427-416e43e598aa",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Audiovisual",
+        "definition": "The resource is an Audiovisual "
+      },
+      {
+        "uuid": "55a71012-5661-5434-bb4a-2827bf1633c0",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Book",
+        "definition": "The resource is a Book"
+      },
+      {
+        "uuid": "e7c36782-11be-5741-85a7-7bf09a11b04f",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "BookChapter",
+        "definition": "The resource is a Book Chapter"
+      },
+      {
+        "uuid": "41bab223-bf27-5ba9-8d8c-fe3fed70d054",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Collection",
+        "definition": "The resource is a Collection"
+      },
+      {
+        "uuid": "8f7e111c-273b-5635-b488-59da94a0f0b5",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "ComputationalNotebook",
+        "definition": "The resource is a Computational Notebook"
+      },
+      {
+        "uuid": "81358d21-4836-5b9a-b345-10b2aca2d0ca",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "ConferencePaper",
+        "definition": "The resource is a Conference Paper"
+      },
+      {
+        "uuid": "3811c6dc-0cc3-5d31-b94b-bf2a48ded722",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "ConferenceProceeding",
+        "definition": "The resource is a Conference Proceeding"
+      },
+      {
+        "uuid": "8b760751-d058-53b5-bb58-715b6356aeb1",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "DataPaper",
+        "definition": "The resource is a Data Paper"
+      },
+      {
+        "uuid": "232a55c5-83ff-5482-a0a3-7fa16b7c8514",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Dataset",
+        "definition": "The resource is a Dataset"
+      },
+      {
+        "uuid": "41aab432-05f2-57a8-8ed6-27df3e6847b9",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Dissertation",
+        "definition": "The resource is a Dissertation"
+      },
+      {
+        "uuid": "f0a81014-7219-52c3-bba8-2ebadbb68b2f",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Event",
+        "definition": "The resource is an Event"
+      },
+      {
+        "uuid": "98606a45-4197-5e7f-9fc4-784ac5e3bede",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Image",
+        "definition": "The resource is an Image"
+      },
+      {
+        "uuid": "288c421b-5e13-5f64-b99b-4c0cb6917eeb",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "InteractiveResource",
+        "definition": "The resource is an Interactive Resource"
+      },
+      {
+        "uuid": "7528dc52-9c13-5061-b0ba-96eb865e4cf8",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Journal",
+        "definition": "The resource is a Journal"
+      },
+      {
+        "uuid": "1d3a3687-1c97-5384-b520-f88b3630c878",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "JournalArticle",
+        "definition": "The resource is a Journal Article"
+      },
+      {
+        "uuid": "6fcb4047-7496-5444-99a6-1902d6f7db08",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Model",
+        "definition": "The resource is a Model"
+      },
+      {
+        "uuid": "7505ad7e-2218-57fa-b525-9a61a2e7be97",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Other",
+        "definition": "The resource type is not included in this list"
+      },
+      {
+        "uuid": "54527dc4-314e-5f28-aa09-41bffe0f5393",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "OutputManagementPlan",
+        "definition": "The resource is an Output Management Plan"
+      },
+      {
+        "uuid": "d036e216-b6f4-5794-9442-5312057addbe",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "PeerReview",
+        "definition": "The resource is a PeerReview"
+      },
+      {
+        "uuid": "70577f97-f9c5-586c-8c7e-8d5d37314e0f",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "PhysicalObject",
+        "definition": "The resource is a Physical Object"
+      },
+      {
+        "uuid": "3e96ee68-315d-5000-97c6-666dd8d4c8a9",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Preprint",
+        "definition": "The resource is a Preprint"
+      },
+      {
+        "uuid": "25d48804-5379-5e08-b140-47759956117e",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Report",
+        "definition": "The resource is a Report"
+      },
+      {
+        "uuid": "a6ce6a6f-99a9-59b7-84da-f598f5695c86",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Service",
+        "definition": "The resource is a Service"
+      },
+      {
+        "uuid": "50a19fb1-e29e-5de1-a7b8-da669007fab6",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Software",
+        "definition": "The resource is Software"
+      },
+      {
+        "uuid": "dcd3540b-d854-5096-928b-81639fd71b6b",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Sound",
+        "definition": "The resource is a Sound"
+      },
+      {
+        "uuid": "5eed60ad-2dda-514d-9d1d-052b74edba31",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Standard",
+        "definition": "The resource is a Standard"
+      },
+      {
+        "uuid": "fe0be128-da9e-5f3f-8e96-7e0032fa749b",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Text",
+        "definition": "The resource is Text"
+      },
+      {
+        "uuid": "42c821be-b77b-5606-b48b-6429e5c716ac",
+        "broader": "dd030592-0be9-5022-ae8b-dc8fd3cdd697",
+        "label": "Workflow",
+        "definition": "The resource is a Workflow"
+      }
+    ]
+  }
+]

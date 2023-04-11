@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sciencekeywords",
+    "label": "Science Keywords"
+  },
+  {
+    "id": "platforms",
+    "label": "Platforms"
+  },
+  {
+    "id": "instruments",
+    "label": "Instruments"
+  },
+  {
+    "id": "providers",
+    "label": "Providers"
+  },
+  {
+    "id": "projects",
+    "label": "Projects"
+  },
+  {
+    "id": "locations",
+    "label": "Locations"
+  },
+  {
+    "id": "horizontalresolutionrange",
+    "label": "Horizontal Resolution Range"
+  },
+  {
+    "id": "verticalresolutionrange",
+    "label": "Vertical Resolution Range"
+  },
+  {
+    "id": "temporalresolutionrange",
+    "label": "Temporal Resolution Range"
+  },
+  {
+    "id": "rucontenttype",
+    "label": "RU Content Type"
+  },
+  {
+    "id": "DataFormat",
+    "label": "Data Format"
+  },
+  {
+    "id": "chronounits",
+    "label": "Chrono Units"
+  },
+  {
+    "id": "MimeType",
+    "label": "Mime Type"
+  },
+  {
+    "id": "MeasurementName",
+    "label": "Measurement Name"
+  }
+]
