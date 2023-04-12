@@ -11,6 +11,8 @@ jobs:
           node-version: "16"
       - name: Running nightly build
         run: date
+      - name: Change working directory
+        run: cd harvesters/
       - name: Install node packages
         run: npm i
       - name: Run script to generate new files
