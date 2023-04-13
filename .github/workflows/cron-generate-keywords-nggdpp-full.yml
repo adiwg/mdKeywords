@@ -18,7 +18,7 @@ jobs:
       - name: Install node packages
         run: npm i
       - name: Run script to generate new files
-        run: npm start # build:nggdpp
+        run: npm run build:nggdpp
       - name: Configure git user
         run: git config --local user.name actions-user
       - name: Configure git user's email
