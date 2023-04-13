@@ -2,7 +2,8 @@ name: generate-keywords-gcmd
 run-name: Generating GCMD keywords ${{ github.ref_name }}
 on:
   schedule:
-    - cron: "57 * * * *"
+    - cron: "5/10 * * * *"
+    - cron: "9/10 * * * *"
 env:
   CONF_JSON: "src/gcmd/conf.json"
 jobs:
