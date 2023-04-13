@@ -52,12 +52,16 @@ const buildTree = (sqlData) => {
   return findChildren(parsedData, rootNode[COLUMN.CODE]);
 };
 
+// TODO
+// const loadSqlFromSource = (source) => {};
+
 async function main() {
   const response = await axios.get(SQL_SOURCE).catch((err) => {
     console.log('Error retrieving data from source', SQL_SOURCE, err);
     process.exit(1);
   });
   const sqlData = response.data;
+  // TODO const sqlData = await loadSqlFromSource(SQL_SOURCE);
   const tree = buildTree(sqlData);
   console.log('Build completed successfully.');
   writeToLocalFile(tree, OUTPUT_FILENAME);
