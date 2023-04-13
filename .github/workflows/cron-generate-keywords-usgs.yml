@@ -1,6 +1,8 @@
 name: generate-keywords-usgs
 run-name: Generating USGS keywords ${{ github.ref_name }}
-on: [push]
+on:
+  schedule:
+    - cron: "1/9 * * * *"
 env:
   CONF_JSON: "src/usgs/conf.json"
 jobs:
