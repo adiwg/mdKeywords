@@ -1,4 +1,4 @@
-name: generate-keywords
+name: generate-keywords-usgs
 run-name: Generating keywords ${{ github.ref }}
 on: [push]
 env:

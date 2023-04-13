@@ -1,4 +1,4 @@
-name: generate-keywords
+name: generate-keywords-gcmd
 run-name: Generating keywords ${{ github.ref }}
 on: [push]
 env:
