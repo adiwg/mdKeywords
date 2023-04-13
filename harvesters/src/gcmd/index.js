@@ -2,13 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 const dotenv = require('dotenv').config({ path: 'src/gcmd/.env' });
 const axios = require('axios');
-const { loadConfig, sleep } = require('../utils');
-const {
-  hasError,
-  isPrimaryCell,
-  parseMeta,
-  saveJsonToFile,
-} = require('./utils');
+const { loadConfig, sleep, writeToLocalFile } = require('../utils');
+const { hasError, isPrimaryCell, parseMeta } = require('./utils');
 const { KeywordPrototype, CategoryPrototype } = require('./prototypes');
 const { ceil } = require('lodash');
 
@@ -167,15 +162,14 @@ async function buildKeywordTree(category) {
     if (status === 'ERROR') break;
   }
   if (status === 'ERROR') return null;
-  console.log('tree', tree);
   return tree.children;
 }
 
 async function generateKeywordsJson(categoryRaw) {
   const category = await loadCategory(categoryRaw);
   const keywordsJson = await buildKeywordTree(category);
-  if (keywordsJson)
-    saveJsonToFile(categoryRaw.id, keywordsJson, OUTPUT_FILENAME_PREFIX);
+  const filename = `${OUTPUT_FILENAME_PREFIX}${categoryRaw.id}.json`;
+  if (keywordsJson) writeToLocalFile(keywordsJson, filename);
 }
 
 async function main() {

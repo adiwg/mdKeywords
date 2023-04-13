@@ -1,10 +1,3 @@
-const { writeToLocalFile } = require('../utils');
-
-function saveJsonToFile(id, json, prefix) {
-  const filename = `${prefix}${id}.json`;
-  writeToLocalFile(json, filename);
-}
-
 function parseMeta(data) {
   return data.split(/:(.*)/s)[1].replace('"', '').replace(/ /s, '');
 }
@@ -26,4 +19,4 @@ function hasError(currentHeader, headerIndex, headersLength) {
   return currentHeader === 'UUID' || headerIndex >= headersLength;
 }
 
-module.exports = { hasError, isPrimaryCell, parseMeta, saveJsonToFile };
+module.exports = { hasError, isPrimaryCell, parseMeta };
