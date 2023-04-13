@@ -6,7 +6,7 @@ const uuid = require('uuid');
 const { loadConfig, sleep, writeToLocalFile } = require('../utils');
 
 const { CONF_JSON } = process.env;
-const { BASE_URL, OUTPUT_FILENAME_PREFIX, ROOT_NODES } = loadConfig(CONF_JSON);
+const { BASE_URL, OUTPUT_FILENAME, ROOT_NODES } = loadConfig(CONF_JSON);
 
 const UUID_V5_NAMESPACE = uuid.v5(BASE_URL, uuid.v5.URL);
 
@@ -91,8 +91,7 @@ async function buildTree(baseId) {
   let vocabulary = [];
   const rootUuid = uuid.v5(baseId, UUID_V5_NAMESPACE);
   await populateVocabulary(rootNode.list, vocabulary, rootUuid);
-  const filename = `${OUTPUT_FILENAME_PREFIX}${baseId}.json`;
-  writeToLocalFile(vocabulary, filename);
+  writeToLocalFile(vocabulary, OUTPUT_FILENAME);
 }
 
 async function main() {
