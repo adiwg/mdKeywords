@@ -6,104 +6,864 @@
         "label": "Balloons",
         "children": [
           {
-            "label": "BALLOONS",
-            "children": [],
-            "uuid": "a1586112-38f5-461c-9e88-0a95cf62062c"
+            "label": "",
+            "children": [
+              {
+                "label": "BALLOONS",
+                "children": [],
+                "uuid": "a1586112-38f5-461c-9e88-0a95cf62062c"
+              },
+              {
+                "label": "EOLE",
+                "children": [],
+                "uuid": "95707b1d-4451-4958-af57-0fdf70444cac"
+              },
+              {
+                "label": "MAXIS",
+                "children": [
+                  {
+                    "label": "MeV Auroral X-ray Imaging and Spectroscopy",
+                    "children": [],
+                    "uuid": "a1cfc5a9-e688-4f2e-88b0-9d72d07ea41a"
+                  }
+                ]
+              },
+              {
+                "label": "PIBAL",
+                "children": [
+                  {
+                    "label": "Pilot Balloons",
+                    "children": [],
+                    "uuid": "dbb82f09-3a6f-4840-b1a9-c4acc3f6bbe8"
+                  }
+                ]
+              },
+              {
+                "label": "RADIOSONDES",
+                "children": [],
+                "uuid": "2516981b-e560-479d-ba96-f8edfb54efe9"
+              }
+            ],
+            "uuid": "90077852-8e6b-4f16-92b3-24a52eecdd4a"
           }
-        ],
-        "uuid": "90077852-8e6b-4f16-92b3-24a52eecdd4a"
+        ]
       },
       {
         "label": "Dropwindsondes",
         "children": [
           {
-            "label": "DROPWINDSONDES",
-            "children": [],
-            "uuid": "fa514134-ff56-47d1-bc02-6b8568ad21e7"
+            "label": "",
+            "children": [
+              {
+                "label": "DROPWINDSONDES",
+                "children": [],
+                "uuid": "fa514134-ff56-47d1-bc02-6b8568ad21e7"
+              },
+              {
+                "label": "Dropsondes",
+                "children": [],
+                "uuid": "fea5b6b5-7b78-4a4e-b722-e0b5a89e2632"
+              }
+            ],
+            "uuid": "2f8b489b-a1d3-43ff-baf4-935ceac2c4d4"
           }
-        ],
-        "uuid": "2f8b489b-a1d3-43ff-baf4-935ceac2c4d4"
+        ]
       },
       {
         "label": "Jet",
         "children": [
           {
-            "label": "A340-600",
+            "label": "",
             "children": [
               {
-                "label": "Airbus A340-600",
+                "label": "A340-600",
+                "children": [
+                  {
+                    "label": "Airbus A340-600",
+                    "children": [],
+                    "uuid": "bab77f95-aa34-42aa-9a12-922d1c9fae63"
+                  }
+                ]
+              },
+              {
+                "label": "Airplane",
+                "children": [
+                  {
+                    "label": "Airplane",
+                    "children": [],
+                    "uuid": "8b7834c1-2c66-414e-a655-2298e7dcc479"
+                  }
+                ]
+              },
+              {
+                "label": "Alpha",
+                "children": [
+                  {
+                    "label": "H211 Alpha Jet",
+                    "children": [],
+                    "uuid": "4595fee4-25d7-41f3-abe0-73203138c243"
+                  }
+                ]
+              },
+              {
+                "label": "CESSNA CITATION II",
                 "children": [],
-                "uuid": "bab77f95-aa34-42aa-9a12-922d1c9fae63"
+                "uuid": "80b0db4e-1a31-4b54-b61f-f4bd9f17d96a"
+              },
+              {
+                "label": "CONVAIR-990",
+                "children": [
+                  {
+                    "label": "CONVAIR-990 CORONADO",
+                    "children": [],
+                    "uuid": "fc0c7954-fdd2-4a16-905e-d3688dfc9be1"
+                  }
+                ]
+              },
+              {
+                "label": "CORSAIR 131A",
+                "children": [],
+                "uuid": "ee4eccba-83d0-4ba5-83f4-8e366712b44f"
+              },
+              {
+                "label": "DC-6",
+                "children": [
+                  {
+                    "label": "Douglas DC-6",
+                    "children": [],
+                    "uuid": "1dea03cc-d165-4f61-9a8c-b624b981f36a"
+                  }
+                ]
+              },
+              {
+                "label": "DLR-Falcon",
+                "children": [
+                  {
+                    "label": "DLR-Falcon 20 Aircraft",
+                    "children": [],
+                    "uuid": "0c31ed1c-8ec6-4f7c-ac27-23fb428b7415"
+                  }
+                ]
+              },
+              {
+                "label": "G-III",
+                "children": [
+                  {
+                    "label": "Gulfstream III",
+                    "children": [],
+                    "uuid": "a7b0e975-f965-4f8f-aa85-68aeae48ffb1"
+                  }
+                ]
+              },
+              {
+                "label": "G-II",
+                "children": [
+                  {
+                    "label": "GULFSTREAM II",
+                    "children": [],
+                    "uuid": "e9b3e773-5a35-4793-9683-737a9dc82524"
+                  }
+                ]
+              },
+              {
+                "label": "G-IV",
+                "children": [
+                  {
+                    "label": "GULFSTREAM IV",
+                    "children": [],
+                    "uuid": "aad5d9e8-7e22-4abc-a8c3-9cdc7578bca6"
+                  }
+                ]
+              },
+              {
+                "label": "G-I",
+                "children": [
+                  {
+                    "label": "GULFSTREAM I",
+                    "children": [],
+                    "uuid": "38f334bd-7507-43ed-8b45-d1c8ac2379a2"
+                  }
+                ]
+              },
+              {
+                "label": "G-LiHT",
+                "children": [
+                  {
+                    "label": "Goddard's LiDAR",
+                    "children": [],
+                    "uuid": " Hyperspectral and Thermal (G-LiHT) airborne imaging system"
+                  }
+                ]
+              },
+              {
+                "label": "G-V",
+                "children": [
+                  {
+                    "label": "Gulfstream V",
+                    "children": [],
+                    "uuid": "924c4b23-30f0-451f-baa2-b6de47c94e58"
+                  }
+                ]
+              },
+              {
+                "label": "HU-25A",
+                "children": [
+                  {
+                    "label": "Dassault HU-25A Guardian",
+                    "children": [],
+                    "uuid": "d77685bd-aa94-4717-bd97-632699d999b5"
+                  }
+                ]
+              },
+              {
+                "label": "HU-25C",
+                "children": [
+                  {
+                    "label": "Dassault HU-25C Guardian",
+                    "children": [],
+                    "uuid": "47b6caf1-e14c-458c-84a1-ec64cf29b534"
+                  }
+                ]
+              },
+              {
+                "label": "J-31",
+                "children": [
+                  {
+                    "label": "J-31 aircraft",
+                    "children": [],
+                    "uuid": "293eba8a-cae4-4505-9c59-d1e223990ea4"
+                  }
+                ]
+              },
+              {
+                "label": "LEARJET",
+                "children": [],
+                "uuid": "5c7ba790-030e-4cd6-99e8-9fe9809c5052"
+              },
+              {
+                "label": "NASA DC-8",
+                "children": [
+                  {
+                    "label": "NASA Douglas DC-8",
+                    "children": [],
+                    "uuid": "a930c78a-6ed3-4a49-ad2d-bd2c5c36d291"
+                  }
+                ]
+              },
+              {
+                "label": "NASA ER-2",
+                "children": [
+                  {
+                    "label": "NASA Earth Resources-2",
+                    "children": [],
+                    "uuid": "b16010e6-c7ea-4c98-929e-3f844ca2f2c2"
+                  }
+                ]
+              },
+              {
+                "label": "NASA S-3B VIKING",
+                "children": [],
+                "uuid": "7f1568aa-e87e-4b83-a622-e8f8a03f75bd"
+              },
+              {
+                "label": "NASA WB-57F",
+                "children": [],
+                "uuid": "701c4a38-b7f2-41de-ab5f-d1c8ad76a717"
+              },
+              {
+                "label": "NSF/NCAR C-130",
+                "children": [
+                  {
+                    "label": "NSF/NCAR Hercules C130 Aircraft",
+                    "children": [],
+                    "uuid": "3a59dbd3-86c4-47dd-aeb1-935c657aa544"
+                  }
+                ]
+              },
+              {
+                "label": "NSF/NCAR GV HIAPER",
+                "children": [
+                  {
+                    "label": "NSF/NCAR Gulfstream GV Aircraft",
+                    "children": [],
+                    "uuid": "879d697c-381f-45df-a48d-2d9095bc5c54"
+                  }
+                ]
+              },
+              {
+                "label": "T-39",
+                "children": [
+                  {
+                    "label": "Rockwell Sabreliner T-39",
+                    "children": [],
+                    "uuid": "d3a21a28-538b-4292-9570-5fd3da9ce4d2"
+                  }
+                ]
+              },
+              {
+                "label": "UND CITATION II",
+                "children": [],
+                "uuid": "7f2883c4-bbaf-4150-93d8-dc48716476ca"
               }
-            ]
+            ],
+            "uuid": "5b8e4067-db4e-42d4-b4a5-7de5e683125d"
           }
-        ],
-        "uuid": "5b8e4067-db4e-42d4-b4a5-7de5e683125d"
+        ]
       },
       {
         "label": "Propeller",
         "children": [
           {
-            "label": "AC-500S",
+            "label": "",
             "children": [
               {
-                "label": "Rockwell Aero Commander AC-500S",
+                "label": "AC-500S",
+                "children": [
+                  {
+                    "label": "Rockwell Aero Commander AC-500S",
+                    "children": [],
+                    "uuid": "20d7a6a7-1c69-469b-ac53-92078dcb2a67"
+                  }
+                ]
+              },
+              {
+                "label": "AC-680E",
+                "children": [
+                  {
+                    "label": "Rockwell Aero Commander AC-680E",
+                    "children": [],
+                    "uuid": "3ecc7e27-1cf9-4c7d-817f-557752323560"
+                  }
+                ]
+              },
+              {
+                "label": "AC-690A",
+                "children": [
+                  {
+                    "label": "Aerocommander aircraft",
+                    "children": [],
+                    "uuid": "6fa682b9-c6b5-46ca-971f-b7ecd4bf304d"
+                  }
+                ]
+              },
+              {
+                "label": "B-200",
+                "children": [
+                  {
+                    "label": "Beechcraft King Air B-200",
+                    "children": [],
+                    "uuid": "d6aa2406-0323-43c1-b890-3509ee22784e"
+                  }
+                ]
+              },
+              {
+                "label": "BE-200",
+                "children": [
+                  {
+                    "label": "Beechcraft King Air BE-200",
+                    "children": [],
+                    "uuid": "a2128496-3729-45ff-9feb-20b9b700470b"
+                  }
+                ]
+              },
+              {
+                "label": "BT-67",
+                "children": [
+                  {
+                    "label": "Basler BT-67",
+                    "children": [],
+                    "uuid": "1bfe5750-3641-4ff1-b8bf-40deb163abf0"
+                  }
+                ]
+              },
+              {
+                "label": "C-130",
+                "children": [
+                  {
+                    "label": "Lockheed C-130 Hercules",
+                    "children": [],
+                    "uuid": "a790e30f-5a13-4188-befb-2647a884034b"
+                  }
+                ]
+              },
+              {
+                "label": "C-131A",
+                "children": [
+                  {
+                    "label": "Convair C-131 Samaritan",
+                    "children": [],
+                    "uuid": "0fa676d8-e487-4905-81c7-1a98150e86c8"
+                  }
+                ]
+              },
+              {
+                "label": "C-185",
+                "children": [
+                  {
+                    "label": "Cessna 185",
+                    "children": [],
+                    "uuid": "04da5a44-7299-4d07-b85f-26db1552d00a"
+                  }
+                ]
+              },
+              {
+                "label": "C-23 Sherpa",
+                "children": [
+                  {
+                    "label": "Short Brothers C-23 Sherpa",
+                    "children": [],
+                    "uuid": "abe97ffb-af51-43b2-a1d4-a922ddf9bc6e"
+                  }
+                ]
+              },
+              {
+                "label": "CESSNA 172 SKYHAWK",
                 "children": [],
-                "uuid": "20d7a6a7-1c69-469b-ac53-92078dcb2a67"
+                "uuid": "ee829117-a171-4500-a0a5-81cac07f1071"
+              },
+              {
+                "label": "CESSNA 188",
+                "children": [],
+                "uuid": "80374e6d-fef6-4b11-bcc4-53568a3db220"
+              },
+              {
+                "label": "CESSNA 206",
+                "children": [],
+                "uuid": "ebf5d441-db97-4691-a8fc-08b4afdbac46"
+              },
+              {
+                "label": "CESSNA 320",
+                "children": [],
+                "uuid": "e10cf52f-a68a-4593-896b-8fe3d17483fe"
+              },
+              {
+                "label": "CESSNA SINGLE-ENGINE AIRCRAFT",
+                "children": [
+                  {
+                    "label": "CESSNA SINGLE-ENGINE AIRCRAFT",
+                    "children": [],
+                    "uuid": "d80f3d86-ab38-4c27-82c5-aeae2b4c3370"
+                  }
+                ]
+              },
+              {
+                "label": "CONVAIR CV-580",
+                "children": [
+                  {
+                    "label": "CONVAIR CV-580",
+                    "children": [],
+                    "uuid": "0b69c56f-5aaa-46a2-83da-9c4cffc7c181"
+                  }
+                ]
+              },
+              {
+                "label": "Cessna Pelican",
+                "children": [],
+                "uuid": "c97d09d4-4966-42ed-a6c7-4330a1e76edf"
+              },
+              {
+                "label": "Convair-580",
+                "children": [
+                  {
+                    "label": "Aircraft operated by University of Washington",
+                    "children": [],
+                    "uuid": "9fd64ddf-4c61-45ae-8721-aa306829a165"
+                  }
+                ]
+              },
+              {
+                "label": "DHC-3",
+                "children": [
+                  {
+                    "label": "DeHavilland DHC-3 Otter",
+                    "children": [],
+                    "uuid": "aef364b1-6a71-49c0-b248-6dc1ecd4eaa3"
+                  }
+                ]
+              },
+              {
+                "label": "DHC-6",
+                "children": [
+                  {
+                    "label": "DeHavilland Twin Otter",
+                    "children": [],
+                    "uuid": "a3d03059-eeec-4afd-b3f1-c24a1fcf3862"
+                  }
+                ]
+              },
+              {
+                "label": "FOKKER F27",
+                "children": [],
+                "uuid": "050f6aee-d3c0-4d1c-9c88-86c9e5ac9e81"
+              },
+              {
+                "label": "G-1 AIRCRAFT",
+                "children": [
+                  {
+                    "label": "G-1 Aircraft",
+                    "children": [],
+                    "uuid": "c285cedc-7581-4abc-aeee-978ffd3a8879"
+                  }
+                ]
+              },
+              {
+                "label": "GULFSTREAM 1000 (695A)",
+                "children": [
+                  {
+                    "label": "Gulfstream Jet Prop Commander 1000 (695a)",
+                    "children": [],
+                    "uuid": "365c9e65-c156-4763-968a-a3e53e8accff"
+                  }
+                ]
+              },
+              {
+                "label": "HC-130",
+                "children": [
+                  {
+                    "label": "HC-130",
+                    "children": [],
+                    "uuid": "8e7d2140-fbbb-4169-ba3e-e6d1fe6c7cf8"
+                  }
+                ]
+              },
+              {
+                "label": "King Air",
+                "children": [
+                  {
+                    "label": "Beechcraft King Air",
+                    "children": [],
+                    "uuid": "f959e3c5-f014-40b7-a134-4d41b616f79d"
+                  }
+                ]
+              },
+              {
+                "label": "LA-27",
+                "children": [
+                  {
+                    "label": "Lake Seawolf LA-27",
+                    "children": [],
+                    "uuid": "c88b260b-2acd-417e-9c82-3a8226b4e218"
+                  }
+                ]
+              },
+              {
+                "label": "NASA ELECTRA",
+                "children": [],
+                "uuid": "b1a1eda8-55a5-43a0-a984-239ab657be68"
+              },
+              {
+                "label": "NASA P-3",
+                "children": [],
+                "uuid": "45abac35-586f-4fed-ac38-5dcd59af2cc5"
+              },
+              {
+                "label": "NCAR ELECTRA",
+                "children": [
+                  {
+                    "label": "NCAR ELECTRA",
+                    "children": [],
+                    "uuid": "fdb96a23-16f4-4df4-a60b-a4d1123587ce"
+                  }
+                ]
+              },
+              {
+                "label": "NOAA Twin Otter",
+                "children": [
+                  {
+                    "label": "NOAA De Havilland DHC-6-300 Twin Otter",
+                    "children": [],
+                    "uuid": "ef194fe1-50e0-4ba7-943a-c87c6f5e72c1"
+                  }
+                ]
+              },
+              {
+                "label": "NP-3C Orion",
+                "children": [
+                  {
+                    "label": "Naval Research Lab P-3C Orion",
+                    "children": [],
+                    "uuid": "fb9f4171-b9b6-4627-9c79-1d3b5890dfc4"
+                  }
+                ]
+              },
+              {
+                "label": "NRL P-3",
+                "children": [
+                  {
+                    "label": "Aircraft operated by Naval Research Lab",
+                    "children": [],
+                    "uuid": "02d1826b-a34b-4773-a61d-de91677eb8bd"
+                  }
+                ]
+              },
+              {
+                "label": "P-3A ORION",
+                "children": [
+                  {
+                    "label": "Lockheed P-3A Orion",
+                    "children": [],
+                    "uuid": "29564e60-e0d6-4d5d-9999-97b9cd16a034"
+                  }
+                ]
+              },
+              {
+                "label": "P-3B",
+                "children": [
+                  {
+                    "label": "Lockheed P-3B Orion",
+                    "children": [],
+                    "uuid": "eb80f2b1-4c2f-4cbb-8cb2-40a7613edff3"
+                  }
+                ]
+              },
+              {
+                "label": "PA-12",
+                "children": [
+                  {
+                    "label": "Piper PA-12 Super Cruiser",
+                    "children": [],
+                    "uuid": "3a710b96-89c3-4783-b811-e9c5a3f3784f"
+                  }
+                ]
+              },
+              {
+                "label": "PIPER AZTEC",
+                "children": [],
+                "uuid": "03c57589-9fc0-4ffb-b0c4-73a6e065a74f"
+              },
+              {
+                "label": "PIPER NAVAJO CHIEFTAIN",
+                "children": [
+                  {
+                    "label": "PIPER NAVAJO CHIEFTAIN",
+                    "children": [],
+                    "uuid": "993d2657-71e9-4c5a-b456-ffce88699c55"
+                  }
+                ]
+              },
+              {
+                "label": "SA Mooney",
+                "children": [
+                  {
+                    "label": "Scientific Aviation Mooney",
+                    "children": [],
+                    "uuid": "32e58bec-22e7-406e-bded-20d97de35f64"
+                  }
+                ]
+              },
+              {
+                "label": "SKYVAN",
+                "children": [],
+                "uuid": "7ec84078-8ced-4e7f-9a8c-781cc5d2bd8d"
+              },
+              {
+                "label": "TWIN OTTER CIRPAS NPS",
+                "children": [],
+                "uuid": "eaa3cf37-b738-47ae-abac-7c430d4ecdc7"
+              },
+              {
+                "label": "UC-12B",
+                "children": [
+                  {
+                    "label": "NASA Langley Beechcraft UC-12B Huron",
+                    "children": [],
+                    "uuid": "18cb3d65-a7ab-4220-b7e3-38b98ce04ac7"
+                  }
+                ]
+              },
+              {
+                "label": "UMD Cessna",
+                "children": [
+                  {
+                    "label": "University Of Maryland Cessna 402B Research Aircraft",
+                    "children": [],
+                    "uuid": "1d0fbb34-9f52-41cc-8b83-b45af8e58777"
+                  }
+                ]
+              },
+              {
+                "label": "UWKA",
+                "children": [
+                  {
+                    "label": "University of Wyoming King Air",
+                    "children": [],
+                    "uuid": "64b518f5-2026-4c5b-9bae-9fa55b5b5778"
+                  }
+                ]
+              },
+              {
+                "label": "WC-130J",
+                "children": [
+                  {
+                    "label": "Lockheed-Martin WC-130J Hercules",
+                    "children": [],
+                    "uuid": "8b1791fe-cef8-4883-a634-b3963a39c8a6"
+                  }
+                ]
+              },
+              {
+                "label": "WP-3D ORION",
+                "children": [
+                  {
+                    "label": "Lockheed WP-3D Orion",
+                    "children": [],
+                    "uuid": "5a9f3704-2947-483b-8fe7-992692c9f289"
+                  }
+                ]
               }
-            ]
+            ],
+            "uuid": "6175c78e-432c-4254-b442-40d3cf0f6b34"
           }
-        ],
-        "uuid": "6175c78e-432c-4254-b442-40d3cf0f6b34"
+        ]
       },
       {
         "label": "Rockets",
         "children": [
           {
-            "label": "ROCKETS",
-            "children": [],
-            "uuid": "c2a3f38e-524a-46ee-ac1b-2a12910e6bdd"
+            "label": "",
+            "children": [
+              {
+                "label": "ROCKETS",
+                "children": [],
+                "uuid": "c2a3f38e-524a-46ee-ac1b-2a12910e6bdd"
+              }
+            ],
+            "uuid": "812304fb-2eaf-4ce8-ac49-2de68c025927"
           }
-        ],
-        "uuid": "812304fb-2eaf-4ce8-ac49-2de68c025927"
+        ]
       },
       {
         "label": "Rotorcraft/Helicopter",
         "children": [
           {
-            "label": "AS350-B2",
+            "label": "",
             "children": [
               {
-                "label": "Helicopter AS350-B2",
-                "children": [],
-                "uuid": "50ce4651-516f-4b05-a5e0-864617ec26eb"
+                "label": "AS350-B2",
+                "children": [
+                  {
+                    "label": "Helicopter AS350-B2",
+                    "children": [],
+                    "uuid": "50ce4651-516f-4b05-a5e0-864617ec26eb"
+                  }
+                ]
+              },
+              {
+                "label": "AS350-B3",
+                "children": [
+                  {
+                    "label": "Helicopter AS350-B3",
+                    "children": [],
+                    "uuid": "ad1d4887-ac0d-43a0-9e9b-b42172befebc"
+                  }
+                ]
+              },
+              {
+                "label": "AS355-F2",
+                "children": [
+                  {
+                    "label": "Helicopter AS355-F2",
+                    "children": [],
+                    "uuid": "770c3b12-d083-4df9-8b36-27a4786794bb"
+                  }
+                ]
+              },
+              {
+                "label": "HELICOPTER",
+                "children": [
+                  {
+                    "label": "HELICOPTER",
+                    "children": [],
+                    "uuid": "06e037ed-f463-4fa3-a23e-8f694b321eb1"
+                  }
+                ]
               }
-            ]
+            ],
+            "uuid": "610cd524-ed33-44c2-811c-66bd27b9b3ea"
           }
-        ],
-        "uuid": "610cd524-ed33-44c2-811c-66bd27b9b3ea"
+        ]
       },
       {
         "label": "Sounding Rockets",
         "children": [
           {
-            "label": "SOUNDING ROCKETS",
-            "children": [],
-            "uuid": "3b3bc1cb-312d-448c-8cdf-a8de43bb540a"
+            "label": "",
+            "children": [
+              {
+                "label": "SOUNDING ROCKETS",
+                "children": [],
+                "uuid": "3b3bc1cb-312d-448c-8cdf-a8de43bb540a"
+              },
+              {
+                "label": "Titan 34D",
+                "children": [],
+                "uuid": "9e9e86b0-d613-4069-abe2-8291a6fac3ef"
+              },
+              {
+                "label": "Titan IIID",
+                "children": [],
+                "uuid": "a044e8ff-8225-4bba-85c4-80ea394e007b"
+              }
+            ],
+            "uuid": "db2063ed-c27a-41e2-9e40-9f2f7e63f94b"
           }
-        ],
-        "uuid": "db2063ed-c27a-41e2-9e40-9f2f7e63f94b"
+        ]
       },
       {
         "label": "Uncrewed Aerial Vehicles",
         "children": [
           {
-            "label": "AEROSONDE",
-            "children": [],
-            "uuid": "6be3bc48-c307-4583-8357-34262cf8f35d"
+            "label": "",
+            "children": [
+              {
+                "label": "AEROSONDE",
+                "children": [],
+                "uuid": "6be3bc48-c307-4583-8357-34262cf8f35d"
+              },
+              {
+                "label": "ALTUS",
+                "children": [],
+                "uuid": "46392889-f6e2-4b06-8f79-87f2ff9d4349"
+              },
+              {
+                "label": "GLOBAL HAWK",
+                "children": [],
+                "uuid": "f3494b27-4de0-45d9-9a5b-8dae39785182"
+              },
+              {
+                "label": "IKHANA",
+                "children": [
+                  {
+                    "label": "Ikhana Unmanned Science and Research Aircraft System",
+                    "children": [],
+                    "uuid": "6c58928b-d25f-46cf-a8a6-3d5a27cc2248"
+                  }
+                ]
+              },
+              {
+                "label": "RQ-4",
+                "children": [
+                  {
+                    "label": "Northrop Grumman RQ-4 Global Hawk",
+                    "children": [],
+                    "uuid": "e5aedd55-cce6-417c-97c0-595448406ad5"
+                  }
+                ]
+              },
+              {
+                "label": "UAV",
+                "children": [
+                  {
+                    "label": "Unmanned Aerial Vehicle",
+                    "children": [],
+                    "uuid": "9b6da136-51c7-4941-8023-5826be7a9273"
+                  }
+                ]
+              }
+            ],
+            "uuid": "841ec82d-fdea-466c-8436-68ed93d6d6de"
           }
-        ],
-        "uuid": "841ec82d-fdea-466c-8436-68ed93d6d6de"
+        ]
       }
     ],
     "uuid": "ef71c514-0fec-4354-bb1e-6baa5967634f"
@@ -115,44 +875,659 @@
         "label": "Field Sites",
         "children": [
           {
-            "label": "CONTROL SURVEYS",
-            "children": [],
-            "uuid": "9909bdb4-b48b-40b0-88b3-360f9b86d0bc"
+            "label": "",
+            "children": [
+              {
+                "label": "CONTROL SURVEYS",
+                "children": [],
+                "uuid": "9909bdb4-b48b-40b0-88b3-360f9b86d0bc"
+              },
+              {
+                "label": "Data Collections",
+                "children": [],
+                "uuid": "c10044b3-6ebc-413a-99b7-2be30c08e507"
+              },
+              {
+                "label": "FIELD SURVEYS",
+                "children": [
+                  {
+                    "label": "FIELD SURVEYS",
+                    "children": [],
+                    "uuid": "cca1ba09-0595-4ab0-a28f-158f988e9301"
+                  }
+                ]
+              },
+              {
+                "label": "Ice Shelf",
+                "children": [],
+                "uuid": "dd445d5a-14d5-4813-b1cb-243799a044f7"
+              },
+              {
+                "label": "TRIPOD",
+                "children": [],
+                "uuid": "9c44243f-3122-4f7f-98b1-fb4e729418e0"
+              },
+              {
+                "label": "Transmitter Station",
+                "children": [],
+                "uuid": "e7057cfa-7b76-494b-b07b-01d1b284bfc6"
+              }
+            ],
+            "uuid": "ca8f355b-7f63-407d-89bb-d3a6cd10d683"
           }
-        ],
-        "uuid": "ca8f355b-7f63-407d-89bb-d3a6cd10d683"
+        ]
       },
       {
         "label": "Permanent Land Sites",
         "children": [
           {
-            "label": "ACARS",
+            "label": "",
             "children": [
               {
-                "label": "ACARS Ground Receiving Station",
+                "label": "ACARS",
+                "children": [
+                  {
+                    "label": "ACARS Ground Receiving Station",
+                    "children": [],
+                    "uuid": "c1b6934c-bcb3-45f3-bc53-60d856ac7ea1"
+                  }
+                ]
+              },
+              {
+                "label": "AGBFM",
+                "children": [
+                  {
+                    "label": "Advanced Ground Based Field Mill",
+                    "children": [],
+                    "uuid": "0b011fe7-4a05-4e04-92f6-fa23b9e85e1a"
+                  }
+                ]
+              },
+              {
+                "label": "ANTHMS",
+                "children": [
+                  {
+                    "label": "Antarctic Hydrometric Stations",
+                    "children": [],
+                    "uuid": "a7d17dd8-34f9-44ed-bb30-2742db429707"
+                  }
+                ]
+              },
+              {
+                "label": "ARWS",
+                "children": [
+                  {
+                    "label": "Automatic Remote Weather Station",
+                    "children": [],
+                    "uuid": "1fe1486b-3f7a-41a8-9400-98607b49ca3e"
+                  }
+                ]
+              },
+              {
+                "label": "ASOS",
+                "children": [
+                  {
+                    "label": "Automated Surface Observing System",
+                    "children": [],
+                    "uuid": "b8d95bb8-6841-4a77-8ae7-53375a98bf8f"
+                  }
+                ]
+              },
+              {
+                "label": "AWOS",
+                "children": [
+                  {
+                    "label": "Automated Weather Observing System",
+                    "children": [],
+                    "uuid": "51368be1-9b75-43de-8a73-e525c9b3848c"
+                  }
+                ]
+              },
+              {
+                "label": "BAPMON",
+                "children": [
+                  {
+                    "label": "Background Air Pollution Monitoring Stations",
+                    "children": [],
+                    "uuid": "cb5fc8b1-e8e3-4984-84ac-03f6f4d8a662"
+                  }
+                ]
+              },
+              {
+                "label": "COASTAL STATIONS",
+                "children": [
+                  {
+                    "label": "COASTAL STATIONS",
+                    "children": [],
+                    "uuid": "897f64c0-14e3-48d8-99fe-a589f57133d0"
+                  }
+                ]
+              },
+              {
+                "label": "CODAR SeaSonde",
                 "children": [],
-                "uuid": "c1b6934c-bcb3-45f3-bc53-60d856ac7ea1"
+                "uuid": "294cc889-28bc-4a33-b630-8225f559c3e7"
+              },
+              {
+                "label": "ENTLN",
+                "children": [
+                  {
+                    "label": "Earth Networks Total Lightning Network (ENTLN)",
+                    "children": [],
+                    "uuid": "1ab2e0db-8911-434d-a6ba-3917730e83a6"
+                  }
+                ]
+              },
+              {
+                "label": "ESRL STATIONS",
+                "children": [
+                  {
+                    "label": "NOAA Earth Science Research Laboratory Stations",
+                    "children": [],
+                    "uuid": "c775e963-be99-4dcf-8edd-ab826995dcba"
+                  }
+                ]
+              },
+              {
+                "label": "FDSN",
+                "children": [
+                  {
+                    "label": "Federation of Digital Seismographic Networks",
+                    "children": [],
+                    "uuid": "0768c45e-417b-4c35-aeb3-28e4325ef2d2"
+                  }
+                ]
+              },
+              {
+                "label": "FIXED OBSERVATION STATIONS",
+                "children": [
+                  {
+                    "label": "FIXED OBSERVATION STATIONS",
+                    "children": [],
+                    "uuid": "2219e7fa-9fd0-443d-ab1b-62d1ccf41a89"
+                  }
+                ]
+              },
+              {
+                "label": "GAW",
+                "children": [
+                  {
+                    "label": "Global Atmospheric Stations",
+                    "children": [],
+                    "uuid": "7effe54c-3378-470d-a0de-5eeab1109867"
+                  }
+                ]
+              },
+              {
+                "label": "GEODYNAMIC STATIONS",
+                "children": [],
+                "uuid": "106de241-cb93-4ccc-8255-71784fd14b0c"
+              },
+              {
+                "label": "GEOMAGNETIC STATIONS",
+                "children": [],
+                "uuid": "1fc48515-92a3-48a6-bbf0-61dfb23b1c9c"
+              },
+              {
+                "label": "GEOMET",
+                "children": [
+                  {
+                    "label": "USGS Desert Winds Geological/Meteorological Ground Station",
+                    "children": [],
+                    "uuid": "42f675c4-e14a-455c-b3f3-7cff1a7025f9"
+                  }
+                ]
+              },
+              {
+                "label": "GMCC",
+                "children": [
+                  {
+                    "label": "NOAA Geophysical Monitoring for Climatic Change Stations",
+                    "children": [],
+                    "uuid": "7e99dce7-ccef-4e44-a234-9af5ffa83e4f"
+                  }
+                ]
+              },
+              {
+                "label": "GONG NETWORK",
+                "children": [
+                  {
+                    "label": "Global Oscillation Network Group",
+                    "children": [],
+                    "uuid": "44c310ff-2688-48bd-a1eb-6e8a80a78bf0"
+                  }
+                ]
+              },
+              {
+                "label": "GRAVITY STATIONS",
+                "children": [],
+                "uuid": "9a869e6f-df72-49dd-ac66-b9d319b9db77"
+              },
+              {
+                "label": "GREAT WALL STATION",
+                "children": [
+                  {
+                    "label": "CHINESE GREAT WALL STATION",
+                    "children": [],
+                    "uuid": "92aae4b1-cd4c-41b8-b931-4c2b70790baf"
+                  }
+                ]
+              },
+              {
+                "label": "GROUND STATIONS",
+                "children": [
+                  {
+                    "label": "GROUND STATIONS",
+                    "children": [],
+                    "uuid": "491d3fcc-c097-4357-b1cf-39ccf3592347"
+                  }
+                ]
+              },
+              {
+                "label": "GROUND-BASED OBSERVATIONS",
+                "children": [
+                  {
+                    "label": "GROUND-BASED OBSERVATIONS",
+                    "children": [],
+                    "uuid": "dbcead38-c78b-4306-b56f-0ea15c0b755b"
+                  }
+                ]
+              },
+              {
+                "label": "GSN",
+                "children": [
+                  {
+                    "label": "Global Seismic Network",
+                    "children": [],
+                    "uuid": "abb8c7fb-7b79-4eb3-8106-5152b8bdf8a3"
+                  }
+                ]
+              },
+              {
+                "label": "IMPROVE",
+                "children": [
+                  {
+                    "label": "IMPROVE ambient monitoring network",
+                    "children": [],
+                    "uuid": "d8b8c801-bc1a-4ecc-a8e8-6757e9aeddc4"
+                  }
+                ]
+              },
+              {
+                "label": "IRIS-GSN",
+                "children": [
+                  {
+                    "label": "Incorporated Research Institutions for Seismology Network - Global Seismographic Network",
+                    "children": [],
+                    "uuid": "5423963b-822b-4eac-8442-c9fab383f5e8"
+                  }
+                ]
+              },
+              {
+                "label": "LDAR",
+                "children": [
+                  {
+                    "label": "Lightning Detection and Ranging",
+                    "children": [],
+                    "uuid": "af4130b5-af02-4602-9e05-81405cfe6dc5"
+                  }
+                ]
+              },
+              {
+                "label": "LPATS",
+                "children": [
+                  {
+                    "label": "Lightning Positioning and Tracking System Network",
+                    "children": [],
+                    "uuid": "db3774b8-9dc1-4ae7-a999-80702cdfa41d"
+                  }
+                ]
+              },
+              {
+                "label": "MESONET",
+                "children": [
+                  {
+                    "label": "Mesoscale Meteorological Network",
+                    "children": [],
+                    "uuid": "3232dc8a-d223-4df2-b64a-4bd4fb632f9e"
+                  }
+                ]
+              },
+              {
+                "label": "METEOROLOGICAL STATIONS",
+                "children": [
+                  {
+                    "label": "METEOROLOGICAL STATIONS",
+                    "children": [],
+                    "uuid": "9b51d8b7-1ad3-4ca4-985b-e178bb17f745"
+                  }
+                ]
+              },
+              {
+                "label": "NEUTRON MONITOR STATIONS",
+                "children": [],
+                "uuid": "a5e3eadc-b8a0-4b3b-92e4-10ae18e3041f"
+              },
+              {
+                "label": "NLDN",
+                "children": [
+                  {
+                    "label": "National Lightning Detection Network",
+                    "children": [],
+                    "uuid": "081f2d22-ca33-437f-b945-57397fd24247"
+                  }
+                ]
+              },
+              {
+                "label": "NPN",
+                "children": [
+                  {
+                    "label": "NOAA Profiler Network",
+                    "children": [],
+                    "uuid": "522c7bf2-c8dd-42be-8596-742ccea0f99d"
+                  }
+                ]
+              },
+              {
+                "label": "OBSERVATORIES",
+                "children": [],
+                "uuid": "ae0531ae-ee94-4861-bcd0-5b9000b87c38"
+              },
+              {
+                "label": "PASSCAL",
+                "children": [
+                  {
+                    "label": "Program for Array Seismic Studies of the Continental Lithosphere",
+                    "children": [],
+                    "uuid": "c0872e6c-ddab-43b9-a892-1b8c5ba23f4e"
+                  }
+                ]
+              },
+              {
+                "label": "PMS",
+                "children": [
+                  {
+                    "label": "Permafrost Monitoring Stations",
+                    "children": [],
+                    "uuid": "465b92cd-6189-4a04-8ee7-484a1da7722f"
+                  }
+                ]
+              },
+              {
+                "label": "PROFS",
+                "children": [
+                  {
+                    "label": "Program for Regional Observing and Forecast Systems Mesonet",
+                    "children": [],
+                    "uuid": "04c212d2-4091-452d-b672-92d19547f7c2"
+                  }
+                ]
+              },
+              {
+                "label": "RSTN",
+                "children": [
+                  {
+                    "label": "Radio Solar Telescope Network",
+                    "children": [],
+                    "uuid": "f56e3e86-8e09-44ac-a4bb-6da59e9dcc2c"
+                  }
+                ]
+              },
+              {
+                "label": "SEISMOLOGICAL STATIONS",
+                "children": [],
+                "uuid": "182fc560-a2b1-4c9d-9acf-febe0e1bf179"
+              },
+              {
+                "label": "SGO",
+                "children": [
+                  {
+                    "label": "Superconducting  Gravimeter Observatory",
+                    "children": [],
+                    "uuid": "feb61055-a920-4fe3-90a2-caac0c4fd08a"
+                  }
+                ]
+              },
+              {
+                "label": "SID",
+                "children": [
+                  {
+                    "label": "Sudden Ionospheric Disturbance Stations",
+                    "children": [],
+                    "uuid": "73f8e476-b048-4f4d-b350-8987e3862e45"
+                  }
+                ]
+              },
+              {
+                "label": "SMART-R",
+                "children": [
+                  {
+                    "label": "Shared Mobile Atmospheric Research and Teaching Radar",
+                    "children": [],
+                    "uuid": "78d5b254-ae1d-4014-99a0-77e6ccd90e6f"
+                  }
+                ]
+              },
+              {
+                "label": "SOLAR OBSERVATORY STATIONS",
+                "children": [],
+                "uuid": "5d5dddb9-ba89-49c4-bf06-d9abbe56b329"
+              },
+              {
+                "label": "SOLAR RADIATION STATIONS",
+                "children": [],
+                "uuid": "30778eeb-9fab-4503-a230-1fc470f297ed"
+              },
+              {
+                "label": "SOON",
+                "children": [
+                  {
+                    "label": "Solar Observing Optical Network",
+                    "children": [],
+                    "uuid": "3ca305ea-d322-46f1-8aa4-469f8d3cdd59"
+                  }
+                ]
+              },
+              {
+                "label": "STREAMFLOW STATION",
+                "children": [
+                  {
+                    "label": "STREAMFLOW STATION",
+                    "children": [],
+                    "uuid": "7b335954-929b-4568-a758-1640d15c2504"
+                  }
+                ]
+              },
+              {
+                "label": "SURFACE WATER WEIR",
+                "children": [
+                  {
+                    "label": "SURFACE WATER WEIR",
+                    "children": [],
+                    "uuid": "a0dc24a6-75d5-48c4-aa94-0a0c9c4a440a"
+                  }
+                ]
+              },
+              {
+                "label": "SURFRAD",
+                "children": [
+                  {
+                    "label": "Surface Radiation Budget Network",
+                    "children": [],
+                    "uuid": "d5456efc-ae6c-4c68-8b5e-66e40226d897"
+                  }
+                ]
+              },
+              {
+                "label": "TMRS2",
+                "children": [
+                  {
+                    "label": "Tower Mounted Radiometer System 2",
+                    "children": [],
+                    "uuid": "e9046495-96f1-4f28-9ca0-9f35b10c7c14"
+                  }
+                ]
+              },
+              {
+                "label": "VOLCANO OBSERVATORY",
+                "children": [],
+                "uuid": "7f62a51d-7391-418c-8589-b9a4e7d20452"
+              },
+              {
+                "label": "Vaisala HydroMet AWS",
+                "children": [
+                  {
+                    "label": "Vaisala HydroMet Automatic Weather Station",
+                    "children": [],
+                    "uuid": "6c9e32c9-bcc2-4e70-97a1-8a31a23ba65a"
+                  }
+                ]
+              },
+              {
+                "label": "Vaisala WXT520",
+                "children": [
+                  {
+                    "label": "Vaisala Weather Transmitter WXT520",
+                    "children": [],
+                    "uuid": "8c17b0a9-ae57-4aee-8c6b-8e7020513cc2"
+                  }
+                ]
+              },
+              {
+                "label": "WEATHER STATIONS",
+                "children": [
+                  {
+                    "label": "WEATHER STATIONS",
+                    "children": [],
+                    "uuid": "1551f765-cbb8-479f-a796-87c61868c509"
+                  }
+                ]
+              },
+              {
+                "label": "WWLLN",
+                "children": [
+                  {
+                    "label": "World Wide Lightning Location Network",
+                    "children": [],
+                    "uuid": "0b6bafa6-1cc4-47eb-9925-f72c6d6008fc"
+                  }
+                ]
+              },
+              {
+                "label": "WeatherStation 200WX",
+                "children": [
+                  {
+                    "label": "AIRMAR 200WX WeatherStation",
+                    "children": [],
+                    "uuid": "e9367c95-0a87-46e6-81d7-07171e5463a0"
+                  }
+                ]
+              },
+              {
+                "label": "X-POW",
+                "children": [
+                  {
+                    "label": "X-band Polarimetric Weather Radar",
+                    "children": [],
+                    "uuid": "8ba138b3-efea-491a-8595-e06bd53f7e2e"
+                  }
+                ]
               }
-            ]
+            ],
+            "uuid": "0ec10fd9-492c-498a-b6d8-e2840cc3643b"
           }
-        ],
-        "uuid": "0ec10fd9-492c-498a-b6d8-e2840cc3643b"
+        ]
       },
       {
         "label": "Vehicles",
         "children": [
           {
-            "label": "HAGGLUND",
+            "label": "",
             "children": [
               {
-                "label": "NZAP Hagglund Oversnow Vehicle",
-                "children": [],
-                "uuid": "d308b30a-fdb5-44e1-9ce8-6b67051938f4"
+                "label": "HAGGLUND",
+                "children": [
+                  {
+                    "label": "NZAP Hagglund Oversnow Vehicle",
+                    "children": [],
+                    "uuid": "d308b30a-fdb5-44e1-9ce8-6b67051938f4"
+                  }
+                ]
+              },
+              {
+                "label": "MIO",
+                "children": [
+                  {
+                    "label": "Mobile Ionospheric Observatory",
+                    "children": [],
+                    "uuid": "a8cf26fe-dcfb-462b-ae0e-5d7280ecfa38"
+                  }
+                ]
+              },
+              {
+                "label": "MIPS",
+                "children": [
+                  {
+                    "label": "Mobile Integrated Profiling System",
+                    "children": [],
+                    "uuid": "4576f6dc-d2c6-460b-9001-248043a65765"
+                  }
+                ]
+              },
+              {
+                "label": "NSRN",
+                "children": [
+                  {
+                    "label": "NOAA Solar Radiation Network",
+                    "children": [],
+                    "uuid": "5f65fc52-a4f7-4ae0-a352-74fae989f9aa"
+                  }
+                ]
+              },
+              {
+                "label": "PAM-II",
+                "children": [
+                  {
+                    "label": "Portable Automated Mesonet II",
+                    "children": [],
+                    "uuid": "0e3131f5-f92d-441e-bba3-e28e55cfead7"
+                  }
+                ]
+              },
+              {
+                "label": "PAM",
+                "children": [
+                  {
+                    "label": "Portable Automated Mesonet",
+                    "children": [],
+                    "uuid": "7fe65a2b-756a-43a7-8ee6-d9ff2eb33f4c"
+                  }
+                ]
+              },
+              {
+                "label": "SV",
+                "children": [
+                  {
+                    "label": "Snow Vehicle",
+                    "children": [],
+                    "uuid": "eb24a648-bc31-48ad-935a-bbd2621da456"
+                  }
+                ]
+              },
+              {
+                "label": "TRAVERSE",
+                "children": [
+                  {
+                    "label": "Logistic tractor traverse",
+                    "children": [],
+                    "uuid": "ea573a26-c698-482d-9f1a-09193067bb46"
+                  }
+                ]
               }
-            ]
+            ],
+            "uuid": "8dc44d7b-e349-42ab-860e-18f5acfc1b28"
           }
-        ],
-        "uuid": "8dc44d7b-e349-42ab-860e-18f5acfc1b28"
+        ]
       }
     ],
     "uuid": "3850efdc-1839-4881-a7c0-347b57587850"
@@ -164,12 +1539,17 @@
         "label": "Living Organism",
         "children": [
           {
-            "label": "Living Organism",
-            "children": [],
-            "uuid": "ecc4a2bb-f195-4296-b300-c1227221b688"
+            "label": "",
+            "children": [
+              {
+                "label": "Living Organism",
+                "children": [],
+                "uuid": "ecc4a2bb-f195-4296-b300-c1227221b688"
+              }
+            ],
+            "uuid": "6438d343-2e1f-4a89-97a9-b032e651163f"
           }
-        ],
-        "uuid": "6438d343-2e1f-4a89-97a9-b032e651163f"
+        ]
       }
     ],
     "uuid": "2385b75c-6ff2-41f8-9cd8-9b5225e4a862"
@@ -181,28 +1561,38 @@
         "label": "Charts",
         "children": [
           {
-            "label": "Charts",
-            "children": [],
-            "uuid": "e9bd8b22-dc54-4bb5-b404-9ce41d7ac53d"
+            "label": "",
+            "children": [
+              {
+                "label": "Charts",
+                "children": [],
+                "uuid": "e9bd8b22-dc54-4bb5-b404-9ce41d7ac53d"
+              }
+            ],
+            "uuid": "018e1ad9-a5ad-4fae-a712-ba376144fcc3"
           }
-        ],
-        "uuid": "018e1ad9-a5ad-4fae-a712-ba376144fcc3"
+        ]
       },
       {
         "label": "Maps",
         "children": [
           {
-            "label": "MAPS",
+            "label": "",
             "children": [
               {
                 "label": "MAPS",
-                "children": [],
-                "uuid": "8d56ab86-f13a-423b-b209-eca2baeb73ee"
+                "children": [
+                  {
+                    "label": "MAPS",
+                    "children": [],
+                    "uuid": "8d56ab86-f13a-423b-b209-eca2baeb73ee"
+                  }
+                ]
               }
-            ]
+            ],
+            "uuid": "d53da93a-cc40-457a-a708-6bd4eeb1ffc1"
           }
-        ],
-        "uuid": "d53da93a-cc40-457a-a708-6bd4eeb1ffc1"
+        ]
       },
       {
         "label": "Models",
@@ -316,50 +1706,100 @@
         "label": "NOT APPLICABLE",
         "children": [
           {
-            "label": "NOT APPLICABLE",
-            "children": [],
-            "uuid": "cffdd7e9-e25d-4c85-86ae-ff651532f02e"
+            "label": "",
+            "children": [
+              {
+                "label": "NOT APPLICABLE",
+                "children": [],
+                "uuid": "cffdd7e9-e25d-4c85-86ae-ff651532f02e"
+              }
+            ],
+            "uuid": "76b8f939-8558-4a10-8139-c7f8a0162102"
           }
-        ],
-        "uuid": "76b8f939-8558-4a10-8139-c7f8a0162102"
+        ]
       },
       {
         "label": "Photographs",
         "children": [
           {
-            "label": "AERIAL PHOTOGRAPHS",
+            "label": "",
             "children": [
               {
                 "label": "AERIAL PHOTOGRAPHS",
+                "children": [
+                  {
+                    "label": "AERIAL PHOTOGRAPHS",
+                    "children": [],
+                    "uuid": "3cb5948f-2a92-4c2a-9410-eb17a1045d8e"
+                  }
+                ]
+              },
+              {
+                "label": "STEREOGRAPHIC PHOTOGRAPHS",
                 "children": [],
-                "uuid": "3cb5948f-2a92-4c2a-9410-eb17a1045d8e"
+                "uuid": "c9219254-6f80-495b-b3dc-92b1abfdaa8b"
               }
-            ]
+            ],
+            "uuid": "af32bc6d-1bfc-4a2b-8a63-43fcd20a773e"
           }
-        ],
-        "uuid": "af32bc6d-1bfc-4a2b-8a63-43fcd20a773e"
+        ]
       },
       {
         "label": "Physical Models",
         "children": [
           {
-            "label": "Analytical Lab",
-            "children": [],
-            "uuid": "ac63eed1-779d-4085-92f8-5743ec64a942"
+            "label": "",
+            "children": [
+              {
+                "label": "Analytical Lab",
+                "children": [],
+                "uuid": "ac63eed1-779d-4085-92f8-5743ec64a942"
+              },
+              {
+                "label": "LABORATORY",
+                "children": [
+                  {
+                    "label": "LABORATORY",
+                    "children": [],
+                    "uuid": "3cbb9f17-ddb1-48d3-a507-786887e485af"
+                  }
+                ]
+              },
+              {
+                "label": "PHOTOSYNTHESIS CHAMBER",
+                "children": [
+                  {
+                    "label": "PHOTOSYNTHESIS CHAMBER",
+                    "children": [],
+                    "uuid": "ec465fa3-b45e-4f0f-8a3b-857f91c8dbed"
+                  }
+                ]
+              }
+            ],
+            "uuid": "c85170ef-cf60-470e-b9d0-f22c138911fd"
           }
-        ],
-        "uuid": "c85170ef-cf60-470e-b9d0-f22c138911fd"
+        ]
       },
       {
         "label": "Reports",
         "children": [
           {
-            "label": "MISSION REPORTS",
-            "children": [],
-            "uuid": "f9846838-fdbc-4aa0-86e9-b0e70e97d0e2"
+            "label": "",
+            "children": [
+              {
+                "label": "MISSION REPORTS",
+                "children": [],
+                "uuid": "f9846838-fdbc-4aa0-86e9-b0e70e97d0e2"
+              },
+              {
+                "label": "Publications",
+                "children": [],
+                "uuid": "2e555886-1baa-4f05-899b-1d14ab69fe62"
+              }
+            ],
+            "uuid": "d62db12c-fdcf-40ec-a714-4fb7c615aebe"
           }
-        ],
-        "uuid": "d62db12c-fdcf-40ec-a714-4fb7c615aebe"
+        ]
       }
     ],
     "uuid": "5cd7da77-cb95-40aa-8775-b6df68e0aa63"

@@ -1,80 +1,38 @@
-const dotenv = require("dotenv").config({ path: "src/gcmd/.env" });
-const axios = require("axios");
-const { writeToLocalFile } = require("../usgs/utils");
-const { ceil } = require("lodash");
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
+/*global process */
+// eslint-disable-next-line no-unused-vars
+const dotenv = require('dotenv').config({ path: 'src/gcmd/.env' });
+const axios = require('axios');
+const { loadConfig, sleep } = require('../utils');
 const {
-  CATEGORY_URL,
-  COLLAPSE_EMPTY_CELLS,
-  GCMD_BY_CATEGORY_URL,
-  OUTPUT_FILENAME_PREFIX,
-} = process.env;
+  hasError,
+  isPrimaryCell,
+  parseMeta,
+  saveJsonToFile,
+} = require('./utils');
+const { KeywordPrototype, CategoryPrototype } = require('./prototypes');
+const { ceil } = require('lodash');
 
-const KeywordPrototype = {
-  uuid: "",
-  label: "",
-  broader: "",
-  definition: "",
-  children: [],
-};
-
-const CategoryPrototype = {
-  id: null,
-  label: null,
-  hits: null,
-  pageNum: null,
-  totalPages: null,
-  pageSize: 2000,
-  version: null,
-  revision: null,
-  timestamp: null,
-  terms: null,
-  xmlUrl: null,
-  caseNative: true,
-  headers: [],
-  keywords: [],
-};
-
-async function loadCategories(url) {
-  console.log("Retrieving list of GCMD Keywords by Category from", url);
-  const response = await axios.get(url).catch((err) => {
-    console.log("Error retrieving list of categories", err);
-    process.exit(1);
-  });
-  if (response.error) {
-    console.log("Response Error:", response.error);
-    process.exit(1);
-  }
-  if (response.data) {
-    const categories = response.data;
-    return categories;
-  }
-  return null;
-}
-
-function parseMeta(data) {
-  return data.split(/:(.*)/s)[1].replace('"', "").replace(/ /s, "");
-}
+const { CONF_JSON } = process.env;
+const { CATEGORY_URL, OUTPUT_FILENAME_PREFIX, CATEGORIES } =
+  loadConfig(CONF_JSON);
 
 async function loadCategoryPage(id, pageNumber) {
   const categoryPage = Object.create(CategoryPrototype);
   const { pageSize } = categoryPage;
   const pageUrl = `${CATEGORY_URL}${id}/?format=csv&page_num=${pageNumber}&page_size=${pageSize}`;
-  console.log("Loading keywords from", pageUrl);
+  console.log('Loading keywords from', pageUrl);
   const response = await axios.get(pageUrl).catch((err) => {
-    console.log("Error loading keywords", pageUrl);
+    console.log('Error loading keywords', err);
     return;
   });
   if (response.error) {
-    console.log("Response Error:", response.error);
+    console.log('Response Error:', response.error);
     return;
   }
   if (response.data) {
-    const lines = response.data.split("\n");
-    const categoryMetaData = lines[0].split(",");
-    const categoryHeaders = lines[1].split(",");
+    const lines = response.data.split('\n');
+    const categoryMetaData = lines[0].split(',');
+    const categoryHeaders = lines[1].split(',');
     const keywordLinesRaw = lines.slice(2);
     const hits = parseInt(parseMeta(categoryMetaData[0]));
     categoryPage.hits = hits;
@@ -88,11 +46,11 @@ async function loadCategoryPage(id, pageNumber) {
     categoryPage.headers = categoryHeaders;
     const newKeywords = [];
     keywordLinesRaw.forEach((line) => {
-      const words = line.split(",");
+      const words = line.split(',');
       if (words.length > 1) {
         const newLine = {};
         categoryHeaders.forEach((header, i) => {
-          newLine[header] = words[i].replace(/"/g, "");
+          newLine[header] = words[i].replace(/"/g, '');
         });
         newKeywords.push(newLine);
       }
@@ -103,10 +61,12 @@ async function loadCategoryPage(id, pageNumber) {
 }
 
 async function loadCategory(categoryRaw) {
+  const { id: categoryId, label, collapseEmptyCells } = categoryRaw;
   let pageNumber = 1;
-  const category = await loadCategoryPage(categoryRaw.id, pageNumber);
-  category.id = categoryRaw.id;
-  category.label = categoryRaw.label;
+  const category = await loadCategoryPage(categoryId, pageNumber);
+  category.id = categoryId;
+  category.label = label;
+  category.collapseEmptyCells = collapseEmptyCells;
   const { totalPages } = category;
   if (totalPages > 1) {
     while (pageNumber < totalPages) {
@@ -129,33 +89,22 @@ function findNode(node, keyword, headers, headerIndex) {
   return { node, headerIndex };
 }
 
-// Primary cell is the cell associated with the UUID
-function isPrimaryCell(keyword, headers, headerIndex) {
-  const nextHeader = headers[headerIndex + 1];
-  const nextLabel = keyword[nextHeader];
-  if (nextHeader === "UUID") {
-    return true;
-  }
-  if (nextLabel === "") {
-    return isPrimaryCell(keyword, headers, headerIndex + 1);
-  }
-  return false;
-}
-
-function hasError(currentHeader, headerIndex, headersLength) {
-  return currentHeader === "UUID" || headerIndex >= headersLength;
-}
-
-function generateChildChain(node, keyword, headers, headerIndex) {
+function generateChildChain(
+  node,
+  keyword,
+  headers,
+  headerIndex,
+  collapseEmptyCells
+) {
   const currentHeader = headers[headerIndex];
   const currentLabel = keyword[currentHeader];
   if (hasError(currentHeader, headerIndex, headers.length)) {
-    console.log("Error: generateChildChain called on invalid column");
-    if (currentHeader === "UUID") {
+    console.log('Error: generateChildChain called on invalid column');
+    if (currentHeader === 'UUID') {
       console.log('Error: currentHeader === "UUID"');
     }
     if (headerIndex >= headers.length) {
-      console.log("Error: headerIndex >= headers.length");
+      console.log('Error: headerIndex >= headers.length');
     }
     return null;
   }
@@ -175,17 +124,17 @@ function generateChildChain(node, keyword, headers, headerIndex) {
       return null;
     }
   }
-  if (COLLAPSE_EMPTY_CELLS === "true" && currentLabel === "") {
+  if (collapseEmptyCells && currentLabel === '') {
     return [...node.children, ...newChildNode.children];
   }
   return [...node.children, newChildNode];
 }
 
-async function upsertKeyword(tree, keyword, headers) {
+async function upsertKeyword(tree, keyword, headers, collapseEmptyCells) {
   const { node, headerIndex } = findNode(tree, keyword, headers, 0);
   if (
     node.label === keyword[headers[headerIndex - 1]] &&
-    keyword[headers[headerIndex]] === ""
+    keyword[headers[headerIndex]] === ''
   ) {
     node.uuid = keyword.UUID;
   } else {
@@ -193,58 +142,54 @@ async function upsertKeyword(tree, keyword, headers) {
       node,
       keyword,
       headers,
-      headerIndex
+      headerIndex,
+      collapseEmptyCells
     );
   }
   if (node.children === null) {
-    return "ERROR";
+    return 'ERROR';
   }
-  return "OK";
+  return 'OK';
 }
 
 async function buildKeywordTree(category) {
-  const { id, label, headers, keywords } = category;
-  console.log("Building keyword tree", label);
+  const { id, label, collapseEmptyCells, headers, keywords } = category;
+  console.log('Building keyword tree', label);
   const tree = {
     id,
     label,
     headers,
     children: [],
   };
-  let status = "OK";
+  let status = 'OK';
   for (const keyword of keywords) {
-    status = await upsertKeyword(tree, keyword, headers);
-    if (status === "ERROR") break;
+    status = await upsertKeyword(tree, keyword, headers, collapseEmptyCells);
+    if (status === 'ERROR') break;
   }
-  if (status === "ERROR") return null;
-  console.log("tree", tree);
+  if (status === 'ERROR') return null;
+  console.log('tree', tree);
   return tree.children;
-}
-
-function saveJsonToFile(id, json) {
-  const filename = `${OUTPUT_FILENAME_PREFIX}${id}.json`;
-  writeToLocalFile(json, filename);
 }
 
 async function generateKeywordsJson(categoryRaw) {
   const category = await loadCategory(categoryRaw);
   const keywordsJson = await buildKeywordTree(category);
-  if (keywordsJson) saveJsonToFile(categoryRaw.id, keywordsJson);
+  if (keywordsJson)
+    saveJsonToFile(categoryRaw.id, keywordsJson, OUTPUT_FILENAME_PREFIX);
 }
 
 async function main() {
-  const categories = await loadCategories(GCMD_BY_CATEGORY_URL);
-  if (!categories) {
-    console.log("Error loading categories");
-    process.exit(1);
-  }
-  console.log("Generating JSON files for:");
-  categories.forEach((category) => {
+  console.log('Generating JSON files for:');
+  CATEGORIES.forEach((category) => {
     console.log(` * ${category.label}`);
   });
-  for (const category of categories) {
-    console.log(category.label.toUpperCase());
-    await generateKeywordsJson(category);
+  for (const categoryRaw of CATEGORIES) {
+    if (categoryRaw.enabled) {
+      console.log(categoryRaw.label.toUpperCase());
+      await generateKeywordsJson(categoryRaw);
+    } else {
+      console.log('Skipped:', categoryRaw.label.toUpperCase());
+    }
   }
 }
 

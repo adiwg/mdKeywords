@@ -1,0 +1,4 @@
+{
+  "SQL_SOURCE": "https://apps.usgs.gov/thesaurus/download/update-usgs-thesaurus.sql",
+  "OUTPUT_FILENAME": "usgs.json"
+}

@@ -1,0 +1,90 @@
+{
+  "CATEGORY_URL": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/",
+  "OUTPUT_FILENAME_PREFIX": "gcmd-",
+  "CATEGORIES": [
+    {
+      "id": "sciencekeywords",
+      "label": "Science Keywords",
+      "enabled": true,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "platforms",
+      "label": "Platforms",
+      "enabled": true,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "instruments",
+      "label": "Instruments",
+      "enabled": true,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "providers",
+      "label": "Providers",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "horizontalresolutionrange",
+      "label": "Horizontal Resolution Range",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "verticalresolutionrange",
+      "label": "Vertical Resolution Range",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "temporalresolutionrange",
+      "label": "Temporal Resolution Range",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "rucontenttype",
+      "label": "RU Content Type",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "DataFormat",
+      "label": "Data Format",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "chronounits",
+      "label": "Chrono Units",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "MimeType",
+      "label": "Mime Type",
+      "enabled": false,
+      "collapseEmptyCells": true
+    },
+    {
+      "id": "MeasurementName",
+      "label": "Measurement Name",
+      "enabled": false,
+      "collapseEmptyCells": true
+    }
+  ]
+}
