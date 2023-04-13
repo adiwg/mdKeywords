@@ -16,7 +16,7 @@ jobs:
       - name: Change working directory
         run: cd harvesters/
       - name: Install node packages
-        run: npm i
+        run: pwd && npm i
       - name: Run script to generate new files
         run: node src/usgs/index.js
       - name: Configure git user
