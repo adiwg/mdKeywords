@@ -1,12 +1,12 @@
 {
-  "name": "buildthesaurus",
+  "name": "harvesters",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "echo \"Operation not defined\" && exit 1",
+    "start": "npm run build:usgs & npm run build:nggdpp & npm run build:gcmd &",
     "build:usgs": "node src/usgs/index.js",
-    "build:sci": "node src/sciencebase/index.js",
+    "build:nggdpp": "node src/nggdpp/index.js",
     "build:gcmd": "node src/gcmd/index.js"
   },
   "author": "",
@@ -16,5 +16,11 @@
     "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.7"
   }
 }
