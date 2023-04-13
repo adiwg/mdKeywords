@@ -9,8 +9,7 @@
     "prepublishOnly": "npm test",
     "pretest": "rollup -c",
     "test": "mocha",
-    "build": "rollup -c",
-    "build:usgs": "echo Wrong package.json"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
