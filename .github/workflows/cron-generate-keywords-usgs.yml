@@ -17,7 +17,7 @@ jobs:
       - name: Install node packages
         run: npm i
       - name: Run script to generate new files
-        run: npm run build:usgs
+        run: node src/usgs/index.js
       - name: Configure git user
         run: git config --local user.name actions-user
       - name: Configure git user's email
