@@ -1,5 +1,5 @@
 name: generate-keywords-gcmd
-run-name: Generating keywords ${{ github.ref }}
+run-name: Generating GCMD keywords ${{ github.ref_name }}
 env:
   CONF_JSON: "src/gcmd/conf.json"
 jobs:
@@ -12,14 +12,10 @@ jobs:
           node-version: "16"
       - name: Running nightly build
         run: date
-      - name: Change working directory
-        run: cd harvesters/
       - name: Install node packages
-        run: npm i
+        run: cd harvesters/ && npm i
       - name: Run script to generate new files
-        run: npm run build:gcmd
-      - name: Change working directory back to root
-        run: cd ..
+        run: cd harvesters/ && node src/gcmd/index.js
       - name: Configure git user
         run: git config --local user.name actions-user
       - name: Configure git user's email
@@ -29,4 +25,4 @@ jobs:
       - name: Commit new output files
         run: git commit -m "Updating resources"
       - name: Push results
-        run: git push -f ${{ github.ref }}
+        run: git push -f origin ${{ github.ref_name }}
