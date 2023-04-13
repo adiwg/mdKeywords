@@ -2,7 +2,7 @@ name: generate-keywords-nggdpp-collection
 run-name: Generating NGGDPP keywords ${{ github.ref_name }}
 on:
   schedule:
-    - cron: "15 10 * * *"
+    - cron: "20 * * * *"
 env:
   CONF_JSON: "src/nggdpp/conf-collection.json"
 jobs:
