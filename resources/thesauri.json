@@ -3,6 +3,87 @@
     "citation": {
       "date": [
         {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "LCC Category Example Description",
+      "title": "LCC Category Example Title",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": ""
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "LCC Category"
+        }
+      ]
+    },
+    "keywordType": "LCCCategoryExample",
+    "label": "LCC Category Example Label",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-category.json"
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "LCC Deliverable Type Example Description",
+      "title": "LCC Deliverable Type Example Title",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": ""
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "LCC Deliverable Type"
+        }
+      ]
+    },
+    "keywordType": "LCCDeliverableTypeExample",
+    "label": "LCC Deliverable Type Example Label",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-deliverabletype.json"
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "LCC User Type Example Description",
+      "title": "LCC User Type Example Title",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": ""
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "LCC User Type"
+        }
+      ]
+    },
+    "keywordType": "LCCUserTypeExample",
+    "label": "LCC User Type Example Label",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-usertype.json"
+  },
+  {
+    "citation": {
+      "date": [
+        {
           "date": "2014-04",
           "dateType": "revision"
         }
