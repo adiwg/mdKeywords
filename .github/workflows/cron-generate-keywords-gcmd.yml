@@ -1,6 +1,5 @@
 name: generate-keywords-gcmd
 run-name: Generating keywords ${{ github.ref }}
-on: [push]
 env:
   CONF_JSON: "src/gcmd/conf.json"
 jobs:

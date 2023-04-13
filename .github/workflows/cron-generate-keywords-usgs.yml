@@ -1,6 +1,5 @@
 name: generate-keywords-usgs
 run-name: Generating keywords ${{ github.ref }}
-on: [push]
 env:
   CONF_JSON: "src/usgs/conf.json"
 jobs:
