@@ -1,5 +1,6 @@
 name: generate-keywords-nggdpp-full
 run-name: Generating NGGDPP keywords ${{ github.ref_name }}
+on: [push]
 env:
   CONF_JSON: "src/nggdpp/conf-full.json"
 jobs:
