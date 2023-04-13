@@ -28,4 +28,4 @@ jobs:
       - name: Commit new output files
         run: git commit -m "Updating resources"
       - name: Push results
-        run: git push -f ${{ github.ref_name }}
+        run: git push -f origin ${{ github.ref_name }}
