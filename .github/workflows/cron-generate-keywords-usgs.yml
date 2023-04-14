@@ -20,26 +20,23 @@ jobs:
       - name: Running nightly build
         run: date
       - name: Install node packages
-        run: cd harvesters/ && npm i
+        run: npm i
+        working-directory: ./harvesters
       - name: Run script to generate new files
-        run: cd harvesters/ && node src/usgs/index.js
+        run: node src/usgs/index.js
+        working-directory: ./harvesters
       - name: Configure git user
         run: git config --local user.name actions-user
       - name: Configure git user's email
         run: git config --local user.email actions@github.com
       - name: Update repo
         run: git pull
-      - name: Git Diff
-        id: git-diff
-        run: git diff --name-only HEAD^ HEAD
-      - name: Git Status Before Add
-        id: git-status-before
-        run: git status
       - name: Add resource(s) to commit
         run: git add resources/json/*
-      - name: Git Status After Add
-        id: git-status-after
-        run: git status
+      - name: Git Status
+        id: git-status
+        run: |
+          echo "git status | tail -1"
       - name: Commit new resource(s)
         run: git commit -m "Updating resource(s)"
       - name: Push results
