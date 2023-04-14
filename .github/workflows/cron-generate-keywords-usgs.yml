@@ -36,7 +36,7 @@ jobs:
       - name: Git Status
         id: git-status
         run: |
-          echo "git status | tail -1"
+          git status | tail -1
       - name: Commit new resource(s)
         run: git commit -m "Updating resource(s)"
       - name: Push results
