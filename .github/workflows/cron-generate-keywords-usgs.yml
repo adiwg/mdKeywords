@@ -36,9 +36,7 @@ jobs:
       - name: Git Status
         id: git-status
         run: |
-          GIT_STATUS=`git status | tail -1`
-          echo $GIT_STATUS
-          Write-Host "::set-output name=git_status::$GIT_STATUS"
+          "GIT_STATUS=`git status | tail -1`" >> $GITHUB_OUTPUT
       - name: Commit new resource(s)
         if: steps.git-status.outputs.git_status != 'nothing to commit, working tree clean'
         run: git commit -m "Updating resource(s)"
