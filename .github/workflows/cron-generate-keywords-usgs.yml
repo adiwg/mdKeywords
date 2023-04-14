@@ -28,9 +28,9 @@ jobs:
         run: git pull
       - name: Add resource(s) to commit
         run: git add resources/json/*
+      - name: Check add status
+        run: echo ${{ toJSON(github) }}
       - name: Commit new resource(s)
         run: git commit -m "Updating resource(s)"
-      - name: Check commit status
-        run: echo ${{ toJSON(github) }}
       - name: Push results
         run: git push -f origin ${{ github.ref_name }}
