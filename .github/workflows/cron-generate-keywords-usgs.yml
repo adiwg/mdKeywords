@@ -35,6 +35,7 @@ jobs:
         run: git add resources/json/*
       - name: Git Status
         id: git-status
+        shell: bash
         run: |
           $GIT_STATUS=git status | tail -1
           echo $GIT_STATUS
