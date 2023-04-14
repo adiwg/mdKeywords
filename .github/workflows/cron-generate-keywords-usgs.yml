@@ -30,11 +30,11 @@ jobs:
       - name: Add resource(s) to commit
         run: git add resources/json/*
       - name: Check job
-        run: echo ${{ toJSON(job) }}
+        run: echo '${{ toJSON(job) }}'
       - name: Check steps
-        run: echo ${{ toJSON(steps) }}
+        run: echo '${{ toJSON(steps) }}'
       - name: Check runner
-        run: echo ${{ toJSON(runner) }}
+        run: echo '${{ toJSON(runner) }}'
       - name: Commit new resource(s)
         run: git commit -m "Updating resource(s)"
       - name: Push results
