@@ -28,7 +28,7 @@ jobs:
       - name: Update repo
         run: git pull
       - name: Git Diff
-        run: git diff
+        run: git diff --name-only HEAD^ HEAD
       - name: Add resource(s) to commit
         run: git add resources/json/*
       - name: Check job
