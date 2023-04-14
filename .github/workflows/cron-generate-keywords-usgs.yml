@@ -3,7 +3,7 @@ run-name: Generating USGS keywords ${{ github.ref_name }}
 on:
   schedule:
     - cron: "40 7 * * *"
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 env:
   CONF_JSON: "src/usgs/conf.json"
 jobs:
@@ -26,9 +26,11 @@ jobs:
         run: git config --local user.email actions@github.com
       - name: Update repo
         run: git pull
-      - name: Add output file to be commit
+      - name: Add resource(s) to commit
         run: git add resources/json/*
       - name: Commit new output files
         run: git commit -m "Updating resources"
+      - name: Check commit status
+        run: echo ${{ toJSON(github) }}
       - name: Push results
         run: git push -f origin ${{ github.ref_name }}
