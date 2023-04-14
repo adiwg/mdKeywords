@@ -24,7 +24,7 @@
     "keywordType": "LCC Project Category",
     "label": "LCC Project Category",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-category-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-category-keywords.json"
   },
   {
     "citation": {
@@ -51,7 +51,7 @@
     "keywordType": "LCC Deliverable",
     "label": "LCC Deliverable Types",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-deliverabletype-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-deliverabletype-keywords.json"
   },
   {
     "citation": {
@@ -78,7 +78,7 @@
     "keywordType": "LCC End User Type",
     "label": "LCC End User Types",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/lcc-usertype-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-usertype-keywords.json"
   },
   {
     "citation": {
@@ -105,7 +105,7 @@
     "keywordType": "NGGDPPBootloadExample",
     "label": "NGGDPP Bootload Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/nggdpp-full.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/nggdpp-full-4f4e475ee4b07f02db47df09.json"
   },
   {
     "citation": {
@@ -132,7 +132,7 @@
     "keywordType": "usgsThesaurus",
     "label": "USGS Thesaurus Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/usgs.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/usgs.json"
   },
   {
     "citation": {
@@ -159,7 +159,7 @@
     "keywordType": "GCMDChronoUnitsExample",
     "label": "GCMD Chrono Units Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-chronounits.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-chronounits.json"
   },
   {
     "citation": {
@@ -186,7 +186,7 @@
     "keywordType": "GCMDDataFormatExample",
     "label": "GCMD Data Format Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-DataFormat.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-DataFormat.json"
   },
   {
     "citation": {
@@ -213,7 +213,7 @@
     "keywordType": "GCMDhorizontalresolutionrangeExample",
     "label": "GCMD Horizontal Resolution Range Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-horizontalresolutionrange.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-horizontalresolutionrange.json"
   },
   {
     "citation": {
@@ -240,7 +240,7 @@
     "keywordType": "GCMDinstrumentsExample",
     "label": "GCMD Instruments Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-instruments.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-instruments.json"
   },
   {
     "citation": {
@@ -267,7 +267,7 @@
     "keywordType": "GCMDlocationsExample",
     "label": "GCMD Locations Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-locations.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-locations.json"
   },
   {
     "citation": {
@@ -294,7 +294,7 @@
     "keywordType": "GCMDMimeTypeExample",
     "label": "GCMD Mime Type Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-MimeType.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-MimeType.json"
   },
   {
     "citation": {
@@ -321,7 +321,7 @@
     "keywordType": "GCMDplatformsExample",
     "label": "GCMD Platforms Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-platforms.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-platforms.json"
   },
   {
     "citation": {
@@ -348,7 +348,7 @@
     "keywordType": "GCMDprojectsExample",
     "label": "GCMD Projects Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-projects.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-projects.json"
   },
   {
     "citation": {
@@ -375,7 +375,7 @@
     "keywordType": "GCMDprovidersExample",
     "label": "GCMD Providers Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-providers.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-providers.json"
   },
   {
     "citation": {
@@ -402,7 +402,7 @@
     "keywordType": "GCMDrucontenttypeExample",
     "label": "GCMD RU Content Type Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-rucontenttype.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-rucontenttype.json"
   },
   {
     "citation": {
@@ -429,7 +429,7 @@
     "keywordType": "GCMDsciencekeywordsExample",
     "label": "GCMD Science Keywords Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-sciencekeywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-sciencekeywords.json"
   },
   {
     "citation": {
@@ -456,7 +456,7 @@
     "keywordType": "GCMDtemporalresolutionrangeExample",
     "label": "GCMD Temporal Resolution Range Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-temporalresolutionrange.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-temporalresolutionrange.json"
   },
   {
     "citation": {
@@ -483,6 +483,6 @@
     "keywordType": "GCMDverticalresolutionrangeExample",
     "label": "GCMD Vertical Resolution Range Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords/resources/json/gcmd-verticalresolutionrange.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-verticalresolutionrange.json"
   }
 ]
