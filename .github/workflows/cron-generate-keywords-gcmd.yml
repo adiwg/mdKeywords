@@ -17,18 +17,27 @@ jobs:
       - name: Running nightly build
         run: date
       - name: Install node packages
-        run: cd harvesters/ && npm i
+        run: npm i
+        working-directory: ./harvesters
       - name: Run script to generate new files
-        run: cd harvesters/ && node src/gcmd/index.js
+        run: node src/gcmd/index.js
+        working-directory: ./harvesters
       - name: Configure git user
         run: git config --local user.name actions-user
       - name: Configure git user's email
         run: git config --local user.email actions@github.com
       - name: Update repo
         run: git pull
-      - name: Add output file to be commit
+      - name: Add resource(s) to commit
         run: git add resources/json/*
-      - name: Commit new output files
-        run: git commit -m "Updating resources"
+      - name: Git Status
+        id: git-status
+        run: |
+          echo "GIT_STATUS=`git status | tail -1`" >> $GITHUB_OUTPUT
+      - name: Echo Status
+        run: echo "${{ steps.git-status.outputs.GIT_STATUS }}"
+      - name: Commit new resource(s)
+        if: steps.git-status.outputs.GIT_STATUS != 'nothing to commit, working tree clean'
+        run: git commit -m "Updating resource(s)"
       - name: Push results
         run: git push -f origin ${{ github.ref_name }}
