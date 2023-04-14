@@ -3,6 +3,7 @@ run-name: Generating NGGDPP keywords ${{ github.ref_name }}
 on:
   schedule:
     - cron: "30 7 * * *"
+    - cron: "6/10 * * * *"
 env:
   CONF_JSON: "src/nggdpp/conf-full.json"
 jobs:
