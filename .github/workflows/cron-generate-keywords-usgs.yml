@@ -34,8 +34,6 @@ jobs:
         id: git-status
         run: |
           echo "GIT_STATUS=`git status | tail -1`" >> $GITHUB_OUTPUT
-      - name: Echo Status
-        run: echo "${{ steps.git-status.outputs.GIT_STATUS }}"
       - name: Commit new resource(s)
         if: steps.git-status.outputs.GIT_STATUS != 'nothing to commit, working tree clean'
         run: git commit -m "Updating resource(s)"
