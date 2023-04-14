@@ -24,6 +24,8 @@ jobs:
         run: git config --local user.name actions-user
       - name: Configure git user's email
         run: git config --local user.email actions@github.com
+      - name: Update repo
+        run: git pull
       - name: Add output file to be commit
         run: git add resources/json/*
       - name: Commit new output files
