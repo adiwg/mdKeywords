@@ -36,8 +36,11 @@ jobs:
       - name: Git Status
         id: git-status
         run: |
-          git status | tail -1
+          $GIT_STATUS = git status | tail -1
+          echo $GIT_STATUS
+          Write-Host "::set-output name=git_status::$GIT_STATUS"
       - name: Commit new resource(s)
+        if: steps.git-status.outputs.git_status != 'nothing to commit, working tree clean'
         run: git commit -m "Updating resource(s)"
       - name: Push results
         run: git push -f origin ${{ github.ref_name }}
