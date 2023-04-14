@@ -36,7 +36,7 @@ jobs:
       - name: Git Status
         id: git-status
         run: |
-          GIT_STATUS=$(git status | tail -1)
+          GIT_STATUS=`git status | tail -1`
           echo $GIT_STATUS
           Write-Host "::set-output name=git_status::$GIT_STATUS"
       - name: Commit new resource(s)
