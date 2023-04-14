@@ -1,0 +1,396 @@
+[
+  {
+    "uuid": "7b983864-d492-57b3-9290-b9db7aeb9020",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Arrangement Level",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "cd535704-67fb-5d91-858c-200615c815bc",
+        "broader": "7b983864-d492-57b3-9290-b9db7aeb9020",
+        "label": "Level_1",
+        "definition": "Mixed taxa stored in the same vial, jar, unit tray, slide, etc. Annelid slides made from same collection are in different boxes."
+      },
+      {
+        "uuid": "88a7a195-31cf-57f6-857f-b377899eb974",
+        "broader": "7b983864-d492-57b3-9290-b9db7aeb9020",
+        "label": "Level_2",
+        "definition": "Specimens crowded. Species sharing trays, or taxa scattered in two or more places. Arrangement is only at a higher taxonomic level. More than one annelid sample for collection site is stored in the same box."
+      },
+      {
+        "uuid": "ecd5acd0-4384-59d7-a8f5-98006c8317bf",
+        "broader": "7b983864-d492-57b3-9290-b9db7aeb9020",
+        "label": "Level_3",
+        "definition": "Specimens arranged alphabetically by family, genus, and species, or, if arranged phylogenetically, with an alphabetical cross-referenced list. Annelid slides arranged in boxes according to collection event and/or locality."
+      },
+      {
+        "uuid": "37d2be88-b6db-5ef3-8f18-5e768514fd8e",
+        "broader": "7b983864-d492-57b3-9290-b9db7aeb9020",
+        "label": "Level_4",
+        "definition": "Specimens arranged geographically within a taxon, or arranged numerically by catalog number if specimens have been databased."
+      }
+    ]
+  },
+  {
+    "uuid": "1ccbbc27-f2f6-54a8-b3bd-2ac8567eb7f6",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Computerization Level",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "7ad9b411-bdaf-507f-9499-52430b1243c1",
+        "broader": "1ccbbc27-f2f6-54a8-b3bd-2ac8567eb7f6",
+        "label": "Level_1",
+        "definition": "Level 1 is not defined."
+      },
+      {
+        "uuid": "3cbc88ed-fee5-5c40-a5a2-2df7cfd572f1",
+        "broader": "1ccbbc27-f2f6-54a8-b3bd-2ac8567eb7f6",
+        "label": "Level_2",
+        "definition": "No computerization at all."
+      },
+      {
+        "uuid": "0bfaca80-e623-5c66-89ba-1f658b6155d4",
+        "broader": "1ccbbc27-f2f6-54a8-b3bd-2ac8567eb7f6",
+        "label": "Level_3",
+        "definition": "All [herbarium, mollusk, and vertebrate] specimens databased. Taxonomic information of other groups electronically inventoried, but specimens themselves not yet databased and assigned catalog numbers."
+      },
+      {
+        "uuid": "a4a341d0-bd89-5e8d-b888-369a6e921785",
+        "broader": "1ccbbc27-f2f6-54a8-b3bd-2ac8567eb7f6",
+        "label": "Level_4",
+        "definition": "All localities geo-referenced and stored electronically. Invertebrates databased at the level of storage unit (pin, vial, jar, slide)."
+      }
+    ]
+  },
+  {
+    "uuid": "1b88f42c-2ccf-5bcf-bf0a-aafcb9ada3fd",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Condition Of Labels",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "128dcaee-d95b-526c-a771-bf8a90935ef4",
+        "broader": "1b88f42c-2ccf-5bcf-bf0a-aafcb9ada3fd",
+        "label": "Level_1",
+        "definition": "Labels are faded to illegible, crumbling, or missing. Labels have become detached from the specimen."
+      },
+      {
+        "uuid": "7c4330c5-f67e-5849-a2ec-24baf7acca47",
+        "broader": "1b88f42c-2ccf-5bcf-bf0a-aafcb9ada3fd",
+        "label": "Level_2",
+        "definition": "Labels are partially faded, laser-printed in fluid or in pencil, or on non-archival paper"
+      },
+      {
+        "uuid": "24439569-e281-5b5f-bc69-7b42965fd7e6",
+        "broader": "1b88f42c-2ccf-5bcf-bf0a-aafcb9ada3fd",
+        "label": "Level_3",
+        "definition": "Labels are readily legible, printed with non-bleeding (if in fluid) archival paper and ink."
+      }
+    ]
+  },
+  {
+    "uuid": "5c4be9f3-83f7-5f5c-9a1b-c57e8361723e",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Conservation Status (dry)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "d7335d61-6354-574d-afd9-54b63a0a43e4",
+        "broader": "5c4be9f3-83f7-5f5c-9a1b-c57e8361723e",
+        "label": "Level_1",
+        "definition": "Shells have Byne’s disease. Specimens (of any kind) have signs of pest infestation. Insect specimens have fallen off of pin. Specimens are damaged to the point of being unusable"
+      },
+      {
+        "uuid": "d91e7ad6-d214-5917-9e1f-430476e2720c",
+        "broader": "5c4be9f3-83f7-5f5c-9a1b-c57e8361723e",
+        "label": "Level_2",
+        "definition": "Specimens are damaged: broken into multiple pieces, with past pest damage, loose teeth or bones. Insect pins are broken or significantly bent."
+      },
+      {
+        "uuid": "11dcd74a-dc44-55b2-95af-d153d2e8812f",
+        "broader": "5c4be9f3-83f7-5f5c-9a1b-c57e8361723e",
+        "label": "Level_3",
+        "definition": "All specimens are intact and stable."
+      }
+    ]
+  },
+  {
+    "uuid": "9bd350d7-0ce7-5268-a26a-e02b90d381c4",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Conservation Status (fluid)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "5f87166d-d430-52de-8682-1d13d88d397e",
+        "broader": "9bd350d7-0ce7-5268-a26a-e02b90d381c4",
+        "label": "Level_2",
+        "definition": "Fluid level is low, but completely covers specimens. Alcohol is dark"
+      },
+      {
+        "uuid": "4ba4f0b4-4738-55ad-abeb-a0dc4779bf67",
+        "broader": "9bd350d7-0ce7-5268-a26a-e02b90d381c4",
+        "label": "Level_3",
+        "definition": "Fluid is topped-off and relatively clear"
+      }
+    ]
+  },
+  {
+    "uuid": "b1213a23-86b5-5f22-b4b2-54187d8346b1",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Conservation Status (slide)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "8128bbf7-0875-55c0-9045-584301519938",
+        "broader": "b1213a23-86b5-5f22-b4b2-54187d8346b1",
+        "label": "Level_1",
+        "definition": "Slide or cover slip is broken. Mounting medium is crystallized, running, or has receded up to specimen."
+      },
+      {
+        "uuid": "22ef6347-5edb-516a-b6cb-aea5fa113489",
+        "broader": "b1213a23-86b5-5f22-b4b2-54187d8346b1",
+        "label": "Level_2",
+        "definition": "Aqueous mounting medium is not sealed (ringed) under cover slip. Mounting medium has receded. Cover slip or slide is cracked."
+      },
+      {
+        "uuid": "b0462053-f134-5543-ad2e-bde654db7b5a",
+        "broader": "b1213a23-86b5-5f22-b4b2-54187d8346b1",
+        "label": "Level_3",
+        "definition": "Slide in good condition. Mounted in Canada balsam or cover slip has been sealed (ringed)."
+      }
+    ]
+  },
+  {
+    "uuid": "913a430a-aaae-59a7-bc25-7386c60ca4bf",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Container Condition (dry)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "42300dc0-2b86-5d73-9d35-ea00df2b8ecd",
+        "broader": "913a430a-aaae-59a7-bc25-7386c60ca4bf",
+        "label": "Level_1",
+        "definition": "Specimens in old cardboard boxes, cigar boxes, pill boxes, or paper bags. Specimens not stored in unit trays. Plants mounted on cardboard with rubber cement"
+      },
+      {
+        "uuid": "1f593d5a-4a85-52d7-a4c6-372abad63fc4",
+        "broader": "913a430a-aaae-59a7-bc25-7386c60ca4bf",
+        "label": "Level_2",
+        "definition": "Specimens stored in new cardboard boxes or zip-lock bags. Vertebrate trays are unlined. Skulls or skeletal material are in substandard containers. Insects pinned in hard-bottom unit trays. Plants pressed in newspaper. Fungi kept in packets when they should be in boxes, or glued to paper in the packets."
+      },
+      {
+        "uuid": "b634529d-bef6-5ac6-b5ea-82daf65fd3c7",
+        "broader": "913a430a-aaae-59a7-bc25-7386c60ca4bf",
+        "label": "Level_3",
+        "definition": "Unit trays are archival. Insects pinned in foam-bottom trays. Vertebrate trays are lined with acid-free paper. Plants and fungi are in/on acid paper/packet/box withElmer’s or other non-archival glue, or lacking fragment folders."
+      },
+      {
+        "uuid": "dbdf0b0f-16f3-5bc8-a7d7-6f9ee2668adb",
+        "broader": "913a430a-aaae-59a7-bc25-7386c60ca4bf",
+        "label": "Level_4",
+        "definition": " Plants and fungi in/on acid free paper/packet/box, fixed with acid free glue, and with fragment folders present."
+      }
+    ]
+  },
+  {
+    "uuid": "21c1bd37-8c86-5e17-9988-f62ed4ed2b7f",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Container Condition (fluid)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "0d786105-c1f3-5a68-85d9-52c75819d0c0",
+        "broader": "21c1bd37-8c86-5e17-9988-f62ed4ed2b7f",
+        "label": "Level_1",
+        "definition": "Vial stoppers are cracked, broken, swollen, or disintegrating. Stoppers are made of cork. Vials are loose on shelf, or banded together, and not in vial rack. Jar lids are old and rusted (if metal), or are BakeliteH lids (which crack easily). Jar seals are missing, cracked, or shrinking. Five-gallon buckets have poor seals or loose lids."
+      },
+      {
+        "uuid": "e3baa7c4-7528-50b4-a939-5899e400cc1d",
+        "broader": "21c1bd37-8c86-5e17-9988-f62ed4ed2b7f",
+        "label": "Level_2",
+        "definition": "Hardened but intact vial stoppers. Vials aligned in wire-sided racks. Jar lids are metal or with non-polyethylene jar seals. Large specimens are stored in 5-gallon buckets."
+      },
+      {
+        "uuid": "4cdd15ca-001b-56d0-916a-c5c794eeef4a",
+        "broader": "21c1bd37-8c86-5e17-9988-f62ed4ed2b7f",
+        "label": "Level_3",
+        "definition": "Vials have good quality stoppers. Vial racks are solid with no risk of vial loss. Jars are bail-topped with polyethylene gaskets, or have polypropylene lids. Large specimens are stored in archival barrels with clamping sealing mechanisms."
+      }
+    ]
+  },
+  {
+    "uuid": "49f89480-d1ce-5cae-ad69-726158b3ded7",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Container Condition (slide)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "47e450dc-dd92-5d75-9932-06ae18a3c0db",
+        "broader": "49f89480-d1ce-5cae-ad69-726158b3ded7",
+        "label": "Level_1",
+        "definition": "Slides not in slide box or tray. Slide box broken."
+      },
+      {
+        "uuid": "c35c4e23-d278-55a0-a155-5b588dddb08a",
+        "broader": "49f89480-d1ce-5cae-ad69-726158b3ded7",
+        "label": "Level_2",
+        "definition": "Slide box not standard 100-slide box. Slides in trays are not protected by envelope or thick labels, which prevent the crushing of the cover slip on one slide by the adjoining slide."
+      },
+      {
+        "uuid": "91c9460d-b4cb-532f-803d-3b9c7524c5f2",
+        "broader": "49f89480-d1ce-5cae-ad69-726158b3ded7",
+        "label": "Level_3",
+        "definition": "Good slide boxes or trays with rust-free hinges and substantial closure clasps."
+      },
+      {
+        "uuid": "74c61908-67a3-5cbf-8739-f8210e35ae47",
+        "broader": "49f89480-d1ce-5cae-ad69-726158b3ded7",
+        "label": "Level_4",
+        "definition": "Tray slides stored flat."
+      }
+    ]
+  },
+  {
+    "uuid": "548b2031-66de-5b63-b9a9-ecd16679451e",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Data Quality",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "1b68f5d9-37b2-550d-9316-acd4a813a11f",
+        "broader": "548b2031-66de-5b63-b9a9-ecd16679451e",
+        "label": "Level_1",
+        "definition": "Data are in codes or missing entirely."
+      },
+      {
+        "uuid": "2d20d42e-c3e6-5fca-9d97-3fe14fbf0541",
+        "broader": "548b2031-66de-5b63-b9a9-ecd16679451e",
+        "label": "Level_2",
+        "definition": "Some data are missing but can be inferred. Specimen containers (vials, jars, or slides) lack determination labels."
+      },
+      {
+        "uuid": "686470ed-079e-5eeb-8465-90a1d307765e",
+        "broader": "548b2031-66de-5b63-b9a9-ecd16679451e",
+        "label": "Level_3",
+        "definition": "All data fields are complete for all groups except pinned insects may have determination labels missing."
+      },
+      {
+        "uuid": "3d1ad90a-751f-5140-a95c-2b48b5fcead8",
+        "broader": "548b2031-66de-5b63-b9a9-ecd16679451e",
+        "label": "Level_4",
+        "definition": "Localities fully geo-referenced. All species-level insect pins have determination labels."
+      }
+    ]
+  },
+  {
+    "uuid": "db38096e-46b6-5c30-ab97-37507480e55c",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Identification Level",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "377a120c-1c0e-53ae-9f31-29a337a4838e",
+        "broader": "db38096e-46b6-5c30-ab97-37507480e55c",
+        "label": "Level_1",
+        "definition": "All specimens undetermined and major groups mixed."
+      },
+      {
+        "uuid": "150cd13d-a11d-534b-b62d-e63dd0277a12",
+        "broader": "db38096e-46b6-5c30-ab97-37507480e55c",
+        "label": "Level_2",
+        "definition": "Specimens determined to order or family (depending of the size of the group). Not all annelid slides in a slide box fully determined. All other groups determined to the family or genus level."
+      },
+      {
+        "uuid": "25fc854c-79be-5249-99e5-24f86fd40bdb",
+        "broader": "db38096e-46b6-5c30-ab97-37507480e55c",
+        "label": "Level_3",
+        "definition": "Specimens determined to the genus or family level. All other groups determined to species."
+      },
+      {
+        "uuid": "09575f89-59d9-53c9-8d73-0486b0a2a112",
+        "broader": "db38096e-46b6-5c30-ab97-37507480e55c",
+        "label": "Level_4",
+        "definition": "Specimens determined to the species level. All other groups determined to species or (often) subspecies and verified by a specialist."
+      }
+    ]
+  },
+  {
+    "uuid": "b27abedf-1e87-5240-8757-ff72d0c227d6",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Processing State (dry)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "d9dba53e-400e-5edb-9ba1-6712ae46a195",
+        "broader": "b27abedf-1e87-5240-8757-ff72d0c227d6",
+        "label": "Level_1",
+        "definition": "Bulk insect specimens papered, or in jars, boxes, or cotton. Unsorted botanical specimens in newspaper or paper bags (backlog)."
+      },
+      {
+        "uuid": "14e2753d-78cd-5a91-b2ae-19a724cee79f",
+        "broader": "b27abedf-1e87-5240-8757-ff72d0c227d6",
+        "label": "Level_2",
+        "definition": "Insect specimens pinned, but improperly mounted on pin or point. Mollusk and vertebrate samples not cleaned, cataloged, or numbered. Botanical material mounted to herbarium sheets with labels, but without accession numbers."
+      },
+      {
+        "uuid": "a985d0f4-3a00-530f-bea8-f1f83d8681b7",
+        "broader": "b27abedf-1e87-5240-8757-ff72d0c227d6",
+        "label": "Level_3",
+        "definition": "Insects properly pinned, pointed, or enveloped. Vertebrate and mollusk specimens cleaned, cataloged and numbered. Herbarium sheets in folders with all labels and accession numbers."
+      }
+    ]
+  },
+  {
+    "uuid": "6e24f1d4-ec95-5987-b505-944314c9d1da",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Processing State (fluid)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "b0ca35e7-9419-53f9-9ce8-e543d2ebe8f4",
+        "broader": "6e24f1d4-ec95-5987-b505-944314c9d1da",
+        "label": "Level_1",
+        "definition": "Specimens stored in bulk and unprocessed. Unsorted samples stored in Whirlpac bags, Nalgene or other bottles, jars, or in the freezer."
+      },
+      {
+        "uuid": "3a34bf79-bb72-52ce-8de5-f2a7bb9693a6",
+        "broader": "6e24f1d4-ec95-5987-b505-944314c9d1da",
+        "label": "Level_2",
+        "definition": "Mixed field sample, rinsed, stored in clean alcohol, in standard quality storage containers."
+      },
+      {
+        "uuid": "878336c0-90ac-51cd-8798-9c7ea0bb62af",
+        "broader": "6e24f1d4-ec95-5987-b505-944314c9d1da",
+        "label": "Level_3",
+        "definition": "Vertebrate samples sorted and tagged. Mollusk shells and soft body tissue separated. Insect specimens stored in proper vials with cotton and micro-vials, if necessary."
+      }
+    ]
+  },
+  {
+    "uuid": "9dde5ff9-9333-5c21-bbc9-0e92c4cc5aaa",
+    "broader": "0c0497f6-c17e-57ad-befe-c1c39634344c",
+    "label": "Favret Processing State (slide)",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "bbf29767-8f07-5c6c-8971-d259239a4105",
+        "broader": "9dde5ff9-9333-5c21-bbc9-0e92c4cc5aaa",
+        "label": "Level_1",
+        "definition": "As soon as specimens are slide-mounted they are already semi-processed, so there is no Level 1."
+      },
+      {
+        "uuid": "40ea93e9-f5f4-5ff6-bec8-a53aa32b9ce8",
+        "broader": "9dde5ff9-9333-5c21-bbc9-0e92c4cc5aaa",
+        "label": "Level_2",
+        "definition": "Specimens were not cleared prior to mounting, or were improperly oriented on slide."
+      },
+      {
+        "uuid": "c0933406-ebcb-521f-9d30-0960925df739",
+        "broader": "9dde5ff9-9333-5c21-bbc9-0e92c4cc5aaa",
+        "label": "Level_3",
+        "definition": "Specimens properly cleared and oriented on slide."
+      }
+    ]
+  }
+]
