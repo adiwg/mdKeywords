@@ -32,11 +32,14 @@ jobs:
       - name: Git Diff
         id: git-diff
         run: git diff --name-only HEAD^ HEAD
-      - name: Git Status
-        id: git-status
+      - name: Git Status Before Add
+        id: git-status-before
         run: git status
       - name: Add resource(s) to commit
         run: git add resources/json/*
+      - name: Git Status After Add
+        id: git-status-after
+        run: git status
       - name: Commit new resource(s)
         run: git commit -m "Updating resource(s)"
       - name: Push results
