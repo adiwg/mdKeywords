@@ -1,0 +1,5 @@
+{
+  "BASE_URL": "https://www.sciencebase.gov/vocab/categories",
+  "OUTPUT_FILENAME_PREFIX": "nggdpp-full-",
+  "ROOT_NODES": ["4f4e475ee4b07f02db47df09"]
+}
