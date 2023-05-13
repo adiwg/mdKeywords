@@ -447,6 +447,16 @@
                 ]
               },
               {
+                "label": "CESSNA T206H",
+                "children": [
+                  {
+                    "label": "CESSNA T206H",
+                    "children": [],
+                    "uuid": "992b25fe-7863-4885-98b9-875ddafb6935"
+                  }
+                ]
+              },
+              {
                 "label": "CONVAIR CV-580",
                 "children": [
                   {
@@ -4363,6 +4373,32 @@
             "uuid": "3e77610e-bb50-4c45-a62a-c50194ec16c2"
           },
           {
+            "label": "PREFIRE",
+            "children": [
+              {
+                "label": "PREFIRE-SAT1",
+                "children": [
+                  {
+                    "label": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Satellite-1",
+                    "children": [],
+                    "uuid": "ffb2314a-d470-4ede-bb2a-46558a38a70c"
+                  }
+                ]
+              },
+              {
+                "label": "PREFIRE-SAT2",
+                "children": [
+                  {
+                    "label": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Satellite-2",
+                    "children": [],
+                    "uuid": "478b9bfa-ec10-4c17-98c4-0941a79cc4bd"
+                  }
+                ]
+              }
+            ],
+            "uuid": "01536059-6bd9-4d5e-941d-55f33ddb5efa"
+          },
+          {
             "label": "Pleiades",
             "children": [
               {
@@ -6684,6 +6720,16 @@
                 "label": "Saildrone",
                 "children": [],
                 "uuid": "6077a16e-dc27-47ba-b2b8-6ae731615925"
+              },
+              {
+                "label": "Wave Glider",
+                "children": [
+                  {
+                    "label": "Wave Glider",
+                    "children": [],
+                    "uuid": "ef8c4927-8814-482c-947d-002a2b3342a7"
+                  }
+                ]
               }
             ],
             "uuid": "e634b062-56ba-41a9-9c95-0cff642b5974"
