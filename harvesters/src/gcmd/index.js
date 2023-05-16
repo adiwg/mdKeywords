@@ -1,4 +1,4 @@
-/*global process */
+/* global process */
 // eslint-disable-next-line no-unused-vars
 const dotenv = require('dotenv').config({ path: 'src/gcmd/.env' });
 const axios = require('axios');
