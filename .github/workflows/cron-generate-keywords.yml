@@ -1,10 +1,8 @@
-name: generate-keywords-nggdpp
-run-name: Generating NGGDPP keywords ${{ github.ref_name }}
+name: generate-keywords
+run-name: Generating keywords ${{ github.ref_name }}
 on:
   schedule:
-    - cron: "30 7 * * *"
-env:
-  CONF_JSON: "src/nggdpp/conf-nggdpp.json"
+    - cron: "10 7 * * *"
 jobs:
   generate-json-file:
     runs-on: ubuntu-latest
@@ -19,7 +17,7 @@ jobs:
         run: npm i
         working-directory: ./harvesters
       - name: Run script to generate new files
-        run: node src/nggdpp/index.js
+        run: node src/index.js
         working-directory: ./harvesters
       - name: Configure git user
         run: git config --local user.name actions-user
