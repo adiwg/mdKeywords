@@ -11946,6 +11946,11 @@
                     "label": "DIGITAL ELEVATION/TERRAIN MODEL (DEM)",
                     "children": [],
                     "uuid": "395372ad-2883-4b6a-a481-6383a310ca47"
+                  },
+                  {
+                    "label": "Digital Surface Model (DSM)",
+                    "children": [],
+                    "uuid": "a1f5c621-7b45-4889-8d02-b5ca6bf86c08"
                   }
                 ],
                 "uuid": "74ed1690-968e-444c-8a31-7b8344a2aad3"

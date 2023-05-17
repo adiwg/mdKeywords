@@ -1162,6 +1162,16 @@
                         "uuid": "3f53531b-4c12-493a-bc9b-a65502bd62c5"
                       }
                     ]
+                  },
+                  {
+                    "label": "Leica CityMapper-2",
+                    "children": [
+                      {
+                        "label": "Leica CityMapper-2",
+                        "children": [],
+                        "uuid": "0ddf66ea-00c8-4d49-862a-0905ce22c480"
+                      }
+                    ]
                   }
                 ],
                 "uuid": "7c13f166-8711-4d2f-9251-4635002c6c31"
@@ -11070,7 +11080,7 @@
             ]
           }
         ],
-        "uuid": "8143e95e-a438-4a2a-82b2-6d7ae079fba7"
+        "uuid": "f9b2f95d-3edf-47f8-87a2-0fdf67b974e5"
       },
       {
         "label": "Pressure/Height Meters",
