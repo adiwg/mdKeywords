@@ -1,14 +1,12 @@
-/*global process */
+/* global process */
 // eslint-disable-next-line no-unused-vars
 const dotenv = require('dotenv').config({ path: 'src/nggdpp/.env' });
 const axios = require('axios');
-const uuid = require('uuid');
 const { loadConfig, sleep, writeToLocalFile } = require('../utils');
 
 const { CONF_JSON } = process.env;
-const { BASE_URL, OUTPUT_FILENAME_PREFIX, ROOT_NODES } = loadConfig(CONF_JSON);
-
-const UUID_V5_NAMESPACE = uuid.v5(BASE_URL, uuid.v5.URL);
+const { BASE_URL, OUTPUT_FILENAME, ROOT_NODES, VOCAB_URL } =
+  loadConfig(CONF_JSON);
 
 const getNode = async (parentId, nodeType) => {
   let params = {
@@ -18,86 +16,110 @@ const getNode = async (parentId, nodeType) => {
     offset: 0,
     format: 'json',
   };
-  // TODO handle pagination
   const response = await axios
     .get(`${BASE_URL}/get`, { params })
     .then((response) => response.data);
-  // const fetched = response.list.length;
+  console.log('response', JSON.stringify(response, null, 2));
   const total = response.total;
   let list = response.list;
   console.log('total', total);
-  console.log('list.length', list.length);
+  console.log('list', list.length);
   while (list.length < total) {
-    await sleep(1000);
     params.offset += 10;
-    console.log('fetching next page');
+    console.log('fetching next page: params', JSON.stringify(params, null, 2));
     const nextResponse = await axios
       .get(`${BASE_URL}/get`, { params })
       .then((response) => response.data);
     list = list.concat(nextResponse.list);
     console.log('total', total);
-    console.log('list.length', list.length);
+    console.log('list', list.length);
+    await sleep(1000);
   }
   return { list };
 };
 
-const populateVocabulary = async (list, vocabulary, parentUuid) => {
+const populateVocabulary = async (list, vocabulary, parentId) => {
   for (const item of list) {
     await sleep(1000);
     console.log();
-    console.log('populating:');
+    console.log('populating: item' /* , JSON.stringify(item, null, 2) */);
     console.log('id:', item.id);
     console.log('name:', item.name);
     console.log('nodeType:', item.nodeType);
-    const itemUuid = uuid.v5(item.id, UUID_V5_NAMESPACE);
     if (item.nodeType === 'vocabulary') {
       let terms = [];
       vocabulary.push({
-        uuid: itemUuid,
-        broader: parentUuid,
+        uuid: item.id,
         label: item.name,
         definition: item.description || '',
         children: terms,
       });
       const termNode = await getNode(item.id, 'term');
-      console.log('termNode length:', termNode.list.length);
       for (const termItem of termNode.list) {
         terms.push({
-          uuid: uuid.v5(termItem.id, UUID_V5_NAMESPACE),
-          broader: itemUuid,
+          uuid: termItem.id,
+          parentId: item.id,
           label: termItem.name,
           definition: termItem.description,
         });
       }
     } else {
       const node = await getNode(item.id);
-      console.log('node.list.length', node.list.length);
       let children = [];
       vocabulary.push({
-        uuid: itemUuid,
-        broader: parentUuid,
+        uuid: item.id,
+        parentId,
         label: item.name,
         definition: item.description || '',
         children,
       });
-      await populateVocabulary(node.list, children, itemUuid);
+      await populateVocabulary(node.list, children, item.id);
     }
   }
 };
 
 async function buildTree(baseId) {
-  console.log('Building tree from', baseId);
+  console.log(
+    '==============Building tree from',
+    baseId,
+    '==================='
+  );
   const rootNode = await getNode(baseId);
   let vocabulary = [];
-  const rootUuid = uuid.v5(baseId, UUID_V5_NAMESPACE);
-  await populateVocabulary(rootNode.list, vocabulary, rootUuid);
-  writeToLocalFile(vocabulary, `${OUTPUT_FILENAME_PREFIX}${baseId}.json`);
+  await populateVocabulary(rootNode.list, vocabulary, baseId);
+  return vocabulary;
+}
+
+// This request actually retrieves the entire "root" object - this might be useful...
+async function getLabel(id) {
+  console.log('Getting label for', id);
+  let params = {
+    format: 'json',
+  };
+  const response = await axios
+    .get(`${VOCAB_URL}/${id}`, { params })
+    .then((response) => response.data);
+  console.log('response', JSON.stringify(response, null, 2));
+  return response.name;
 }
 
 async function main() {
-  for (const nodeId of ROOT_NODES) {
-    await buildTree(nodeId).catch((e) => console.log(e));
+  const consolidatedVocabulary = [];
+  for (const uuid of ROOT_NODES) {
+    if (uuid === '') {
+      console.log('skipping empty node id');
+      continue;
+    }
+    const vocab = await buildTree(uuid).catch((e) => console.log(e));
+    const label = await getLabel(uuid);
+    const nextNode = {
+      uuid,
+      label,
+      children: vocab,
+    };
+    consolidatedVocabulary.push(nextNode);
   }
+  writeToLocalFile(consolidatedVocabulary, OUTPUT_FILENAME);
 }
 
 main();

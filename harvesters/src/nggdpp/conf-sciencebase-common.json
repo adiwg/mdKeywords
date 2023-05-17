@@ -1,0 +1,27 @@
+{
+  "BASE_URL": "https://www.sciencebase.gov/vocab/categories",
+  "VOCAB_URL": "https://www.sciencebase.gov/vocab/vocabulary",
+  "OUTPUT_FILENAME": "sciencebase-common.json",
+  "ROOT_NODES": [
+    "6112869cf0d1326bc2b4bed8",
+    "6112869df0d1326bc2b4bedc",
+    "6112869df0d1326bc2b4bee0",
+    "6112869df0d1326bc2b4bee4",
+    "6112869ef0d1326bc2b4bee9",
+    "6112869ef0d1326bc2b4beed",
+    "611286a0f0d1326bc2b4befc",
+    "611286a0f0d1326bc2b4bf00",
+    "611286a1f0d1326bc2b4bf04",
+    "",
+    "",
+    "",
+    "4f4e475ee4b07f02db47df14",
+    "4f4e475ee4b07f02db47df0b",
+    "4f4e475ee4b07f02db47df22",
+    "4f4e475fe4b07f02db47df7b",
+    "4f4e475ee4b07f02db47df1d",
+    "",
+    "611d3f2dbfff3461918aba4d",
+    "611d213fbfff3461918aba48"
+  ]
+}
