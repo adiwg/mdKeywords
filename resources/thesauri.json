@@ -51,7 +51,7 @@
     "keywordType": "LCC Project Category",
     "label": "LCC Project Category",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-category-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-category.json"
   },
   {
     "citation": {
@@ -78,7 +78,7 @@
     "keywordType": "LCC Deliverable",
     "label": "LCC Deliverable Types",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-deliverabletype-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-deliverabletype.json"
   },
   {
     "citation": {
@@ -105,7 +105,7 @@
     "keywordType": "LCC End User Type",
     "label": "LCC End User Types",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-usertype-keywords.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/lcc-usertype.json"
   },
   {
     "citation": {
@@ -132,7 +132,7 @@
     "keywordType": "NGGDPPBootloadExample",
     "label": "NGGDPP Bootload Example Label",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/nggdpp-full-4f4e475ee4b07f02db47df09.json"
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sciencebase-nggdpp.json"
   },
   {
     "citation": {
