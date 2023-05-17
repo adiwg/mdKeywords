@@ -1,10 +1,10 @@
-name: generate-keywords-nggdpp-full
-run-name: Generating NGGDPP keywords ${{ github.ref_name }}
+name: generate-keywords-sciencebase-common
+run-name: Generating ScienceBase Common keywords ${{ github.ref_name }}
 on:
   schedule:
-    - cron: "30 7 * * *"
+    - cron: "20 7 * * *"
 env:
-  CONF_JSON: "src/nggdpp/conf-full.json"
+  CONF_JSON: "src/nggdpp/conf-sciencebase-common.json"
 jobs:
   generate-json-file:
     runs-on: ubuntu-latest
