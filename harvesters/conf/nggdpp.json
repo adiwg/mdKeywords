@@ -1,4 +1,5 @@
 {
+  "SOURCE": "sciencebase",
   "BASE_URL": "https://www.sciencebase.gov/vocab/categories",
   "VOCAB_URL": "https://www.sciencebase.gov/vocab/vocabulary",
   "OUTPUT_FILENAME": "nggdpp-full.json",

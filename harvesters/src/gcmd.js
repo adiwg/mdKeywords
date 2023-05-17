@@ -1,15 +1,51 @@
 /* global process */
-// eslint-disable-next-line no-unused-vars
-const dotenv = require('dotenv').config({ path: 'src/gcmd/.env' });
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('../utils');
-const { hasError, isPrimaryCell, parseMeta } = require('./utils');
-const { KeywordPrototype, CategoryPrototype } = require('./prototypes');
+const { loadConfig, sleep, writeToLocalFile } = require('./utils');
+const { KeywordPrototype } = require('./prototypes');
 const { ceil } = require('lodash');
 
 const { CONF_JSON } = process.env;
 const { CATEGORY_URL, OUTPUT_FILENAME_PREFIX, CATEGORIES } =
   loadConfig(CONF_JSON);
+
+const CategoryPrototype = {
+  id: null,
+  label: null,
+  collapseEmptyCells: null,
+  hits: null,
+  pageNum: null,
+  totalPages: null,
+  pageSize: 2000,
+  version: null,
+  revision: null,
+  timestamp: null,
+  terms: null,
+  xmlUrl: null,
+  caseNative: true,
+  headers: [],
+  keywords: [],
+};
+
+function parseMeta(data) {
+  return data.split(/:(.*)/s)[1].replace('"', '').replace(/ /s, '');
+}
+
+// Primary cell is the cell associated with the UUID
+function isPrimaryCell(keyword, headers, headerIndex) {
+  const nextHeader = headers[headerIndex + 1];
+  const nextLabel = keyword[nextHeader];
+  if (nextHeader === 'UUID') {
+    return true;
+  }
+  if (nextLabel === '') {
+    return isPrimaryCell(keyword, headers, headerIndex + 1);
+  }
+  return false;
+}
+
+function hasError(currentHeader, headerIndex, headersLength) {
+  return currentHeader === 'UUID' || headerIndex >= headersLength;
+}
 
 async function loadCategoryPage(id, pageNumber) {
   const categoryPage = Object.create(CategoryPrototype);

@@ -1,4 +1,5 @@
 {
+  "SOURCE": "GCMD",
   "CATEGORY_URL": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/",
   "OUTPUT_FILENAME_PREFIX": "gcmd-",
   "CATEGORIES": [

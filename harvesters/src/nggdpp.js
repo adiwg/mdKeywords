@@ -1,8 +1,6 @@
 /* global process */
-// eslint-disable-next-line no-unused-vars
-const dotenv = require('dotenv').config({ path: 'src/nggdpp/.env' });
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('../utils');
+const { loadConfig, sleep, writeToLocalFile } = require('./utils');
 
 const { CONF_JSON } = process.env;
 const { BASE_URL, OUTPUT_FILENAME, ROOT_NODES, VOCAB_URL } =

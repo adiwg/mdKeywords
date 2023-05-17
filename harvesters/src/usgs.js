@@ -3,10 +3,18 @@
 const dotenv = require('dotenv').config({ path: 'src/usgs/.env' });
 const axios = require('axios');
 const { loadConfig, writeToLocalFile } = require('../utils');
-const { regex, COLUMN } = require('./utils');
 
 const { CONF_JSON } = process.env;
 const { OUTPUT_FILENAME, SQL_SOURCE } = loadConfig(CONF_JSON);
+
+const regex = /insert into term \(code,name,parent,scope\) values \((.*)\);$/gm;
+
+const COLUMN = Object.freeze({
+  CODE: 0,
+  NAME: 1,
+  PARENT: 2,
+  SCOPE: 3,
+});
 
 const parseSql = (sqlData) => {
   let m;
