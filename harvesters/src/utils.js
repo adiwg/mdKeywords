@@ -6,12 +6,15 @@ const loadConfig = (configFilename) => {
   return JSON.parse(configData);
 };
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-const throwError = (msg) => {
-  console.log(`Error: ${msg}`);
-  process.exit(1);
+const KeywordPrototype = {
+  uuid: '',
+  parentId: '',
+  label: '',
+  definition: '',
+  children: [],
 };
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const writeToLocalFile = (jsonData, filename = 'output.json') => {
   console.log(`Saving to resources/json/${filename}`);
@@ -22,4 +25,4 @@ const writeToLocalFile = (jsonData, filename = 'output.json') => {
   console.log('File saved successfully');
 };
 
-module.exports = { loadConfig, sleep, throwError, writeToLocalFile };
+module.exports = { loadConfig, KeywordPrototype, sleep, writeToLocalFile };
