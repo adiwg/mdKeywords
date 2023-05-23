@@ -1,7 +1,0 @@
-{
-  "SOURCE": "sciencebase",
-  "BASE_URL": "https://www.sciencebase.gov/vocab/categories",
-  "VOCAB_URL": "https://www.sciencebase.gov/vocab/vocabulary",
-  "OUTPUT_FILENAME": "sciencebase-nggdpp.json",
-  "ROOT_NODES": ["4f4e475ee4b07f02db47df09"]
-}
