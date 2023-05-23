@@ -1,0 +1,30 @@
+[
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": ""
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": ""
+        }
+      ]
+    },
+    "keywordType": "",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "",
+    "keywords": []
+  }
+]
