@@ -1,11 +1,14 @@
-/* global process */
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('./utils');
-const { KeywordPrototype } = require('./prototypes');
+const {
+  loadConfig,
+  KeywordPrototype,
+  sleep,
+  writeToLocalFile,
+} = require('./utils');
 const { ceil } = require('lodash');
 
-const { CONF_JSON } = process.env;
-const { CATEGORY_URL, OUTPUT_FILENAME_PREFIX, CATEGORIES } =
+const CONF_JSON = 'conf/gcmd.json';
+const { categoryUrl, keywordsBaseUrl, outputFilenamePrefix } =
   loadConfig(CONF_JSON);
 
 const CategoryPrototype = {
@@ -50,7 +53,7 @@ function hasError(currentHeader, headerIndex, headersLength) {
 async function loadCategoryPage(id, pageNumber) {
   const categoryPage = Object.create(CategoryPrototype);
   const { pageSize } = categoryPage;
-  const pageUrl = `${CATEGORY_URL}${id}/?format=csv&page_num=${pageNumber}&page_size=${pageSize}`;
+  const pageUrl = `${categoryUrl}${id}/?format=csv&page_num=${pageNumber}&page_size=${pageSize}`;
   console.log('Loading keywords from', pageUrl);
   const response = await axios.get(pageUrl).catch((err) => {
     console.log('Error loading keywords', err);
@@ -91,19 +94,19 @@ async function loadCategoryPage(id, pageNumber) {
   return categoryPage;
 }
 
-async function loadCategory(categoryRaw) {
-  const { id: categoryId, label, collapseEmptyCells } = categoryRaw;
+async function loadCategory(vocabulary) {
+  const { id, name } = vocabulary;
   let pageNumber = 1;
-  const category = await loadCategoryPage(categoryId, pageNumber);
-  category.id = categoryId;
-  category.label = label;
-  category.collapseEmptyCells = collapseEmptyCells;
+  const category = await loadCategoryPage(id, pageNumber);
+  category.id = id;
+  category.label = name;
+  category.collapseEmptyCells = vocabulary.collapseEmptyCells || true;
   const { totalPages } = category;
   if (totalPages > 1) {
     while (pageNumber < totalPages) {
       await sleep(1000);
       pageNumber += 1;
-      const nextPage = await loadCategoryPage(categoryRaw.id, pageNumber);
+      const nextPage = await loadCategoryPage(vocabulary.id, pageNumber);
       category.keywords.push(...nextPage.keywords);
     }
   }
@@ -201,26 +204,44 @@ async function buildKeywordTree(category) {
   return tree.children;
 }
 
-async function generateKeywordsJson(categoryRaw) {
-  const category = await loadCategory(categoryRaw);
+function generateCitation(vocabulary, filename) {
+  console.log('generate citation', vocabulary);
+  return {
+    citation: {
+      date: [
+        {
+          date: '',
+          dateType: '',
+        },
+      ],
+      description: '',
+      title: vocabulary.name,
+      edition: '',
+      onlineResource: [
+        {
+          uri: `${categoryUrl}${vocabulary.id}`,
+        },
+      ],
+      identifier: [
+        {
+          identifier: vocabulary.id,
+        },
+      ],
+    },
+    keywordType: '',
+    label: vocabulary.name,
+    dynamicLoad: true,
+    keywordsUrl: `${keywordsBaseUrl}${filename}`,
+    keywords: [],
+  };
+}
+
+async function generateKeywordsFile(vocabulary) {
+  const category = await loadCategory(vocabulary);
   const keywordsJson = await buildKeywordTree(category);
-  const filename = `${OUTPUT_FILENAME_PREFIX}${categoryRaw.id}.json`;
+  const filename = `${outputFilenamePrefix}${vocabulary.id}.json`;
   if (keywordsJson) writeToLocalFile(keywordsJson, filename);
+  return generateCitation(vocabulary, filename);
 }
 
-async function main() {
-  console.log('Generating JSON files for:');
-  CATEGORIES.forEach((category) => {
-    console.log(` * ${category.label}`);
-  });
-  for (const categoryRaw of CATEGORIES) {
-    if (categoryRaw.enabled) {
-      console.log(categoryRaw.label.toUpperCase());
-      await generateKeywordsJson(categoryRaw);
-    } else {
-      console.log('Skipped:', categoryRaw.label.toUpperCase());
-    }
-  }
-}
-
-main();
+module.exports = { generateKeywordsFile };

@@ -1,5 +1,5 @@
 {
   "baseUrl": "https://www.sciencebase.gov/vocab",
-  "profilesListUrl": "https://s3.amazonaws.com/sit-cdn.xentity/mdeditor/profilesList.json",
+  "keywordsBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/",
   "outputFilenamePrefix": "sb-"
 }

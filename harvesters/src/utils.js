@@ -7,19 +7,23 @@ const loadConfig = (configFilename) => {
 };
 
 const KeywordPrototype = {
-  uuid: '',
-  parentId: '',
-  label: '',
-  definition: '',
+  uuid: null,
+  parentId: null,
+  label: null,
+  definition: null,
   children: [],
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const writeToLocalFile = (jsonData, filename = 'output.json') => {
-  console.log(`Saving to resources/json/${filename}`);
+const writeToLocalFile = (
+  jsonData,
+  filename = 'output.json',
+  filepath = 'resources/json'
+) => {
+  console.log(`Saving to ${filepath}/${filename}`);
   fs.writeFileSync(
-    `../resources/json/${filename}`,
+    `../${filepath}/${filename}`,
     JSON.stringify(jsonData, null, 2)
   );
   console.log('File saved successfully');
