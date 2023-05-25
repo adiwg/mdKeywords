@@ -16,7 +16,6 @@ const getNode = async (parentId, nodeType) => {
   const response = await axios
     .get(`${baseUrl}/categories/get`, { params })
     .then((response) => response.data);
-  console.log('response', JSON.stringify(response, null, 2));
   const total = response.total;
   let list = response.list;
   console.log('total', total);
@@ -91,7 +90,6 @@ async function loadMetadataFromId(id) {
 }
 
 function generateCitation(metadata, outputFilename) {
-  console.log(metadata);
   return {
     citation: {
       date: [
