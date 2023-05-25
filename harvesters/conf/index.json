@@ -1,3 +1,5 @@
 {
-  "profilesListUrl": "https://s3.amazonaws.com/sit-cdn.xentity/mdeditor/profilesList.json"
+  "outputFilePath": "resources",
+  "profilesListUrl": "https://s3.amazonaws.com/sit-cdn.xentity/mdeditor/profilesList.json",
+  "vocabulariesFilename": "vocabularies.json"
 }

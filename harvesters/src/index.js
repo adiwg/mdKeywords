@@ -5,7 +5,8 @@ const gcmd = require('./gcmd');
 const { loadConfig, writeToLocalFile } = require('./utils');
 
 const CONF_JSON = 'conf/index.json';
-const { profilesListUrl } = loadConfig(CONF_JSON);
+const { outputFilePath, profilesListUrl, vocabulariesFilename } =
+  loadConfig(CONF_JSON);
 
 function isValidVocabulary(vocabulary) {
   if (!vocabulary.source || vocabulary.source === '') return false;
@@ -70,12 +71,10 @@ async function main() {
     }
     console.log('Successfully completed', vocabulary.name);
   }
-  const outputFilename = 'vocabularies-auto.json';
-  const outputFilePath = 'resources';
-  writeToLocalFile(vocabularyCitations, outputFilename, outputFilePath);
+  writeToLocalFile(vocabularyCitations, vocabulariesFilename, outputFilePath);
   console.log(
-    'Finished processing all vocabularies. New citations file saved to',
-    outputFilename
+    'Finished processing all vocabularies.\nNew citations file saved to',
+    `${outputFilePath}/${vocabulariesFilename}`
   );
 }
 
