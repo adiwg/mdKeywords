@@ -1,12 +1,17 @@
-/* global process */
-// eslint-disable-next-line no-unused-vars
-const dotenv = require('dotenv').config({ path: 'src/usgs/.env' });
 const axios = require('axios');
-const { loadConfig, writeToLocalFile } = require('../utils');
-const { regex, COLUMN } = require('./utils');
+const { loadConfig, writeToLocalFile } = require('./utils');
 
-const { CONF_JSON } = process.env;
-const { OUTPUT_FILENAME, SQL_SOURCE } = loadConfig(CONF_JSON);
+const CONF_JSON = 'conf/usgs.json';
+const { metadata, outputFilename, sqlUrl } = loadConfig(CONF_JSON);
+
+const regex = /insert into term \(code,name,parent,scope\) values \((.*)\);$/gm;
+
+const COLUMN = Object.freeze({
+  CODE: 0,
+  NAME: 1,
+  PARENT: 2,
+  SCOPE: 3,
+});
 
 const parseSql = (sqlData) => {
   let m;
@@ -52,19 +57,16 @@ const buildTree = (sqlData) => {
   return findChildren(parsedData, rootNode[COLUMN.CODE]);
 };
 
-// TODO
-// const loadSqlFromSource = (source) => {};
+const loadSql = async () => {
+  const response = await axios.get(sqlUrl);
+  return response.data;
+};
 
-async function main() {
-  const response = await axios.get(SQL_SOURCE).catch((err) => {
-    console.log('Error retrieving data from source', SQL_SOURCE, err);
-    process.exit(1);
-  });
-  const sqlData = response.data;
-  // TODO const sqlData = await loadSqlFromSource(SQL_SOURCE);
+async function generateKeywordsFile() {
+  const sqlData = await loadSql();
   const tree = buildTree(sqlData);
-  console.log('Build completed successfully.');
-  writeToLocalFile(tree, OUTPUT_FILENAME);
+  writeToLocalFile(tree, outputFilename);
+  return metadata;
 }
 
-main();
+module.exports = { generateKeywordsFile };

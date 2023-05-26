@@ -1,11 +1,8 @@
-/* global process */
-// eslint-disable-next-line no-unused-vars
-const dotenv = require('dotenv').config({ path: 'src/nggdpp/.env' });
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('../utils');
+const { loadConfig, sleep, writeToLocalFile } = require('./utils');
 
-const { CONF_JSON } = process.env;
-const { BASE_URL, OUTPUT_FILENAME, ROOT_NODES, VOCAB_URL } =
+const CONF_JSON = 'conf/sciencebase.json';
+const { baseUrl, keywordsBaseUrl, outputFilenamePrefix } =
   loadConfig(CONF_JSON);
 
 const getNode = async (parentId, nodeType) => {
@@ -17,9 +14,8 @@ const getNode = async (parentId, nodeType) => {
     format: 'json',
   };
   const response = await axios
-    .get(`${BASE_URL}/get`, { params })
+    .get(`${baseUrl}/categories/get`, { params })
     .then((response) => response.data);
-  console.log('response', JSON.stringify(response, null, 2));
   const total = response.total;
   let list = response.list;
   console.log('total', total);
@@ -28,7 +24,7 @@ const getNode = async (parentId, nodeType) => {
     params.offset += 10;
     console.log('fetching next page: params', JSON.stringify(params, null, 2));
     const nextResponse = await axios
-      .get(`${BASE_URL}/get`, { params })
+      .get(`${baseUrl}/categories/get`, { params })
       .then((response) => response.data);
     list = list.concat(nextResponse.list);
     console.log('total', total);
@@ -42,10 +38,7 @@ const populateVocabulary = async (list, vocabulary, parentId) => {
   for (const item of list) {
     await sleep(1000);
     console.log();
-    console.log('populating: item' /* , JSON.stringify(item, null, 2) */);
-    console.log('id:', item.id);
-    console.log('name:', item.name);
-    console.log('nodeType:', item.nodeType);
+    console.log('populating:', JSON.stringify(item, null, 2));
     if (item.nodeType === 'vocabulary') {
       let terms = [];
       vocabulary.push({
@@ -79,47 +72,61 @@ const populateVocabulary = async (list, vocabulary, parentId) => {
 };
 
 async function buildTree(baseId) {
-  console.log(
-    '==============Building tree from',
-    baseId,
-    '==================='
-  );
   const rootNode = await getNode(baseId);
   let vocabulary = [];
   await populateVocabulary(rootNode.list, vocabulary, baseId);
   return vocabulary;
 }
 
-// This request actually retrieves the entire "root" object - this might be useful...
-async function getLabel(id) {
-  console.log('Getting label for', id);
+async function loadMetadataFromId(id) {
+  console.log('Getting metadata for', id);
   let params = {
     format: 'json',
   };
-  const response = await axios
-    .get(`${VOCAB_URL}/${id}`, { params })
+  const metadata = await axios
+    .get(`${baseUrl}/vocabulary/${id}`, { params })
     .then((response) => response.data);
-  console.log('response', JSON.stringify(response, null, 2));
-  return response.name;
+  return metadata;
 }
 
-async function main() {
-  const consolidatedVocabulary = [];
-  for (const uuid of ROOT_NODES) {
-    if (uuid === '') {
-      console.log('skipping empty node id');
-      continue;
-    }
-    const vocab = await buildTree(uuid).catch((e) => console.log(e));
-    const label = await getLabel(uuid);
-    const nextNode = {
-      uuid,
-      label,
-      children: vocab,
-    };
-    consolidatedVocabulary.push(nextNode);
-  }
-  writeToLocalFile(consolidatedVocabulary, OUTPUT_FILENAME);
+function generateCitation(metadata, outputFilename) {
+  return {
+    citation: {
+      date: [
+        {
+          date: '',
+          dateType: '',
+        },
+      ],
+      description: '',
+      title: metadata.name,
+      edition: '',
+      onlineResource: [
+        {
+          uri: metadata.uri,
+        },
+      ],
+      identifier: [
+        {
+          identifier: metadata.id,
+        },
+      ],
+    },
+    keywordType: metadata.nodeType,
+    label: metadata.label,
+    dynamicLoad: true,
+    keywordsUrl: `${keywordsBaseUrl}${outputFilename}`,
+    keywords: [],
+  };
 }
 
-main();
+async function generateKeywordsFile(vocabulary) {
+  const { id: sciencebaseId } = vocabulary;
+  const metadata = await loadMetadataFromId(sciencebaseId);
+  const keywords = await buildTree(sciencebaseId);
+  const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
+  writeToLocalFile(keywords, outputFilename);
+  return generateCitation(metadata, outputFilename);
+}
+
+module.exports = { generateKeywordsFile };

@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://www.sciencebase.gov/vocab",
+  "keywordsBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/",
+  "outputFilenamePrefix": "sb-"
+}
