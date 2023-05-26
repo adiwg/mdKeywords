@@ -1,6 +1,6 @@
 {
   "categoryUrl": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/",
-  "keywordsBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/",
+  "keywordsBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/",
   "outputFilenamePrefix": "gcmd-",
   "categories": [
     {
