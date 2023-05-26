@@ -205,7 +205,6 @@ async function buildKeywordTree(category) {
 }
 
 function generateCitation(vocabulary, filename) {
-  console.log('generate citation', vocabulary);
   return {
     citation: {
       date: [
