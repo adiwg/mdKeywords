@@ -26,7 +26,7 @@ jobs:
       - name: Update repo
         run: git pull
       - name: Add resource(s) to commit
-        run: git add resources/json/*
+        run: git add resources/*
       - name: Git Status
         id: git-status
         run: |
