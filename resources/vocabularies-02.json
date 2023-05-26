@@ -23,7 +23,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869cf0d1326bc2b4bed8.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869cf0d1326bc2b4bed8.json",
     "keywords": []
   },
   {
@@ -50,7 +50,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869df0d1326bc2b4bedc.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bedc.json",
     "keywords": []
   },
   {
@@ -77,7 +77,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869df0d1326bc2b4bee0.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bee0.json",
     "keywords": []
   },
   {
@@ -104,7 +104,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869df0d1326bc2b4bee4.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bee4.json",
     "keywords": []
   },
   {
@@ -131,7 +131,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869ef0d1326bc2b4bee9.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4bee9.json",
     "keywords": []
   },
   {
@@ -158,7 +158,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-6112869ef0d1326bc2b4beed.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4beed.json",
     "keywords": []
   },
   {
@@ -185,7 +185,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-611286a0f0d1326bc2b4befc.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a0f0d1326bc2b4befc.json",
     "keywords": []
   },
   {
@@ -212,7 +212,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-611286a0f0d1326bc2b4bf00.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a0f0d1326bc2b4bf00.json",
     "keywords": []
   },
   {
@@ -239,7 +239,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-611286a1f0d1326bc2b4bf04.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a1f0d1326bc2b4bf04.json",
     "keywords": []
   },
   {
@@ -266,7 +266,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-4f4e475ee4b07f02db47df14.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df14.json",
     "keywords": []
   },
   {
@@ -293,7 +293,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
     "keywords": []
   },
   {
@@ -320,7 +320,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-4f4e475ee4b07f02db47df22.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
     "keywords": []
   },
   {
@@ -347,7 +347,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-4f4e475fe4b07f02db47df7b.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475fe4b07f02db47df7b.json",
     "keywords": []
   },
   {
@@ -374,7 +374,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-4f4e475ee4b07f02db47df1d.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df1d.json",
     "keywords": []
   },
   {
@@ -401,7 +401,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-611d3f2dbfff3461918aba4d.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d3f2dbfff3461918aba4d.json",
     "keywords": []
   },
   {
@@ -428,7 +428,7 @@
     },
     "keywordType": "vocabulary",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-611d213fbfff3461918aba48.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d213fbfff3461918aba48.json",
     "keywords": []
   },
   {
@@ -456,7 +456,7 @@
     "keywordType": "vocabulary",
     "label": "LCC Congressional Districts",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-52df104ce4b0dee2a6cd6b24.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-52df104ce4b0dee2a6cd6b24.json",
     "keywords": []
   },
   {
@@ -484,7 +484,7 @@
     "keywordType": "vocabulary",
     "label": "LCC Project Category",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/sb-52dee7c5e4b0dee2a6cd6b18.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-52dee7c5e4b0dee2a6cd6b18.json",
     "keywords": []
   },
   {
@@ -539,7 +539,7 @@
     "keywordType": "",
     "label": "GCMD Science Keywords",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/gcmd-sciencekeywords.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-sciencekeywords.json",
     "keywords": []
   },
   {
@@ -567,7 +567,7 @@
     "keywordType": "",
     "label": "GCMD Platforms",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@harvester/single-github-action/resources/json/gcmd-platforms.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-platforms.json",
     "keywords": []
   }
 ]
