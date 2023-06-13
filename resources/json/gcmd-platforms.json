@@ -1713,6 +1713,27 @@
         "uuid": "0a184cdc-c074-4946-90a6-02f03c686341"
       },
       {
+        "label": "Multi-sensor Analysis",
+        "children": [
+          {
+            "label": "",
+            "children": [
+              {
+                "label": "IMERG",
+                "children": [
+                  {
+                    "label": "Integrated Multi-satellitE Retrievals for GPM",
+                    "children": [],
+                    "uuid": "95a92849-1a3e-4103-bce7-f35c750e5d66"
+                  }
+                ]
+              }
+            ],
+            "uuid": "afdb5cdb-58da-47c8-87a7-950cc63c53f4"
+          }
+        ]
+      },
+      {
         "label": "NOT APPLICABLE",
         "children": [
           {
@@ -4129,16 +4150,6 @@
                 ]
               },
               {
-                "label": "GRACE-FO",
-                "children": [
-                  {
-                    "label": "Gravity Recovery and Climate Experiment Follow-On",
-                    "children": [],
-                    "uuid": "f75e34e2-ebe7-4a6c-8bf6-da596a36b632"
-                  }
-                ]
-              },
-              {
                 "label": "HYSPIRI",
                 "children": [
                   {
@@ -4188,16 +4199,6 @@
                 "label": "CloudSat",
                 "children": [],
                 "uuid": "f3a724fa-5d0c-4ca1-872b-41ef08ab7b5d"
-              },
-              {
-                "label": "GRACE",
-                "children": [
-                  {
-                    "label": "Gravity Recovery and Climate Experiment",
-                    "children": [],
-                    "uuid": "2e7aa2e6-9d25-4c6e-aef3-6e86d3773bac"
-                  }
-                ]
               }
             ],
             "uuid": "de1e0fd4-d865-4726-9bde-96804cf455b7"

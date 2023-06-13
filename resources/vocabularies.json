@@ -687,7 +687,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "Biological sample collection",
       "title": "Biological Collection",
       "edition": "",
       "onlineResource": [
@@ -715,7 +715,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "Geological sample collection",
       "title": "Geological Collection",
       "edition": "",
       "onlineResource": [
@@ -743,7 +743,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "Paleontological sample collection",
       "title": "Paleontological Collection",
       "edition": "",
       "onlineResource": [
@@ -771,7 +771,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "Water sample collection",
       "title": "Water Collection",
       "edition": "",
       "onlineResource": [

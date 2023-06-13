@@ -18,8 +18,6 @@ const getNode = async (parentId, nodeType) => {
     .then((response) => response.data);
   const total = response.total;
   let list = response.list;
-  console.log('total', total);
-  console.log('list', list.length);
   while (list.length < total) {
     params.offset += 10;
     console.log('fetching next page: params', JSON.stringify(params, null, 2));
@@ -27,8 +25,6 @@ const getNode = async (parentId, nodeType) => {
       .get(`${baseUrl}/categories/get`, { params })
       .then((response) => response.data);
     list = list.concat(nextResponse.list);
-    console.log('total', total);
-    console.log('list', list.length);
     await sleep(1000);
   }
   return { list };
@@ -37,8 +33,6 @@ const getNode = async (parentId, nodeType) => {
 const populateVocabulary = async (list, vocabulary, parentId) => {
   for (const item of list) {
     await sleep(1000);
-    console.log();
-    console.log('populating:', JSON.stringify(item, null, 2));
     if (item.nodeType === 'vocabulary') {
       let terms = [];
       vocabulary.push({
@@ -79,7 +73,6 @@ async function buildTree(baseId) {
 }
 
 async function loadMetadataFromId(id) {
-  console.log('Getting metadata for', id);
   let params = {
     format: 'json',
   };
@@ -98,7 +91,7 @@ function generateCitation(metadata, outputFilename) {
           dateType: '',
         },
       ],
-      description: '',
+      description: metadata.description || '',
       title: metadata.name,
       edition: '',
       onlineResource: [
@@ -112,8 +105,8 @@ function generateCitation(metadata, outputFilename) {
         },
       ],
     },
-    keywordType: metadata.nodeType,
-    label: metadata.label,
+    keywordType: metadata.nodeType || '',
+    label: metadata.label || '',
     dynamicLoad: true,
     keywordsUrl: `${keywordsBaseUrl}${outputFilename}`,
     keywords: [],
@@ -121,11 +114,13 @@ function generateCitation(metadata, outputFilename) {
 }
 
 async function generateKeywordsFile(vocabulary) {
+  console.log('Generating keywords file for', vocabulary);
   const { id: sciencebaseId } = vocabulary;
   const metadata = await loadMetadataFromId(sciencebaseId);
   const keywords = await buildTree(sciencebaseId);
   const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
   writeToLocalFile(keywords, outputFilename);
+  console.log('Wrote keywords to', outputFilename);
   return generateCitation(metadata, outputFilename);
 }
 
