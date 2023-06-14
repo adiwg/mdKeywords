@@ -22,6 +22,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869cf0d1326bc2b4bed8.json",
     "keywords": []
@@ -49,6 +50,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bedc.json",
     "keywords": []
@@ -76,6 +78,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bee0.json",
     "keywords": []
@@ -103,6 +106,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869df0d1326bc2b4bee4.json",
     "keywords": []
@@ -130,6 +134,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4bee9.json",
     "keywords": []
@@ -157,6 +162,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4beed.json",
     "keywords": []
@@ -184,6 +190,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a0f0d1326bc2b4befc.json",
     "keywords": []
@@ -211,6 +218,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a0f0d1326bc2b4bf00.json",
     "keywords": []
@@ -238,6 +246,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a1f0d1326bc2b4bf04.json",
     "keywords": []
@@ -265,6 +274,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df14.json",
     "keywords": []
@@ -292,6 +302,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
     "keywords": []
@@ -319,6 +330,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
     "keywords": []
@@ -346,6 +358,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475fe4b07f02db47df7b.json",
     "keywords": []
@@ -373,6 +386,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df1d.json",
     "keywords": []
@@ -400,6 +414,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d3f2dbfff3461918aba4d.json",
     "keywords": []
@@ -427,6 +442,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d213fbfff3461918aba48.json",
     "keywords": []
@@ -593,6 +609,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-634f1802bcbfb314ddee9d27.json",
     "keywords": []
@@ -620,6 +637,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-633af071bcbfb314ddee9ab3.json",
     "keywords": []
@@ -675,6 +693,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-633af070bcbfb314ddee9aa7.json",
     "keywords": []
@@ -814,6 +833,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869af0d1326bc2b4beca.json",
     "keywords": []
@@ -841,6 +861,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869af0d1326bc2b4becf.json",
     "keywords": []
@@ -868,6 +889,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869bf0d1326bc2b4bed4.json",
     "keywords": []
@@ -895,6 +917,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4bef2.json",
     "keywords": []
@@ -922,6 +945,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ff0d1326bc2b4bef7.json",
     "keywords": []
@@ -934,7 +958,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "DataCite V4.5: The type of contributor of the resource. See https://datacite-metadata-schema.readthedocs.io/en/4.5/properties/recommended_optional/property_contributor.html#a-contributortype\n",
       "title": "Datacite Contributor Type",
       "edition": "",
       "onlineResource": [
@@ -949,6 +973,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6123b2c3bac0c745ec5f2199.json",
     "keywords": []
@@ -961,7 +986,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "DataCite V4.5: A brief description of the resource and the context in which the resource was created. See https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix_1/descriptionType.html",
       "title": "Datacite Description Type",
       "edition": "",
       "onlineResource": [
@@ -976,6 +1001,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6123b286bac0c745ec5f2193.json",
     "keywords": []
@@ -988,7 +1014,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "DataCite V4.5: Description of the relationship of the resource being registered (A) and the related resource (B). See https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix_1/relationType.html",
       "title": "Datacite Relation Type",
       "edition": "",
       "onlineResource": [
@@ -1003,6 +1029,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d428bbfff3461918aba6e.json",
     "keywords": []
@@ -1015,7 +1042,7 @@
           "dateType": ""
         }
       ],
-      "description": "",
+      "description": "DataCite V4.5: A general type of a resource (required). See https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix_1/resourceTypeGeneral.html",
       "title": "Datacite Resource Type General",
       "edition": "",
       "onlineResource": [
@@ -1030,6 +1057,7 @@
       ]
     },
     "keywordType": "vocabulary",
+    "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d4215bfff3461918aba51.json",
     "keywords": []
