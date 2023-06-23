@@ -148,6 +148,34 @@
         }
       ],
       "description": "",
+      "title": "Favret Container Condition (slide)",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/6112869ef0d1326bc2b4beed"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "6112869ef0d1326bc2b4beed"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4beed.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
       "title": "Favret Processing State (dry)",
       "edition": "",
       "onlineResource": [
@@ -232,6 +260,34 @@
         }
       ],
       "description": "",
+      "title": "primaryPurpose",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df14"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "4f4e475ee4b07f02db47df14"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df14.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
       "title": "userGroup",
       "edition": "",
       "onlineResource": [
@@ -249,6 +305,62 @@
     "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "category",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df22"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "4f4e475ee4b07f02db47df22"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "unit",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475fe4b07f02db47df7b"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "4f4e475fe4b07f02db47df7b"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475fe4b07f02db47df7b.json",
     "keywords": []
   },
   {
@@ -367,6 +479,34 @@
     "citation": {
       "date": [
         {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "ProjectCategory",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/52dee7c5e4b0dee2a6cd6b18"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "52dee7c5e4b0dee2a6cd6b18"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "LCC Project Category",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-52dee7c5e4b0dee2a6cd6b18.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
           "date": "2020-01-09",
           "dateType": "revision"
         }
@@ -444,6 +584,62 @@
     "label": "GCMD Platforms",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-platforms.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "Simplelithology",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/634f1802bcbfb314ddee9d27"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "634f1802bcbfb314ddee9d27"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-634f1802bcbfb314ddee9d27.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "Speciation",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/633af071bcbfb314ddee9ab3"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "633af071bcbfb314ddee9ab3"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-633af071bcbfb314ddee9ab3.json",
     "keywords": []
   },
   {
@@ -623,6 +819,34 @@
         }
       ],
       "description": "",
+      "title": "Favret Arrangement Level",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/6112869af0d1326bc2b4beca"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "6112869af0d1326bc2b4beca"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869af0d1326bc2b4beca.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
       "title": "Favret Computerization Level",
       "edition": "",
       "onlineResource": [
@@ -668,6 +892,34 @@
     "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869bf0d1326bc2b4bed4.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "Favret Data Quality",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/6112869ef0d1326bc2b4bef2"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "6112869ef0d1326bc2b4bef2"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4bef2.json",
     "keywords": []
   },
   {
@@ -752,6 +1004,62 @@
     "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6123b286bac0c745ec5f2193.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "DataCite V4.5: Description of the relationship of the resource being registered (A) and the related resource (B). See https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix_1/relationType.html",
+      "title": "Datacite Relation Type",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/611d428bbfff3461918aba6e"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "611d428bbfff3461918aba6e"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d428bbfff3461918aba6e.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "DataCite V4.5: A general type of a resource (required). See https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix_1/resourceTypeGeneral.html",
+      "title": "Datacite Resource Type General",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/611d4215bfff3461918aba51"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "611d4215bfff3461918aba51"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d4215bfff3461918aba51.json",
     "keywords": []
   }
 ]
