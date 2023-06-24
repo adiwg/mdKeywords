@@ -1455,6 +1455,26 @@
             "label": "",
             "children": [
               {
+                "label": "AML",
+                "children": [
+                  {
+                    "label": "Aerodyne Mobile Laboratory",
+                    "children": [],
+                    "uuid": "c2aaedcb-f038-4129-8c06-e0f607fa582f"
+                  }
+                ]
+              },
+              {
+                "label": "CARB MMP",
+                "children": [
+                  {
+                    "label": "California Air Resources Board Mobile Measurement Platform",
+                    "children": [],
+                    "uuid": "84624c7f-ab41-4689-91f4-58d01d05e285"
+                  }
+                ]
+              },
+              {
                 "label": "HAGGLUND",
                 "children": [
                   {
@@ -1481,6 +1501,16 @@
                     "label": "Mobile Integrated Profiling System",
                     "children": [],
                     "uuid": "4576f6dc-d2c6-460b-9001-248043a65765"
+                  }
+                ]
+              },
+              {
+                "label": "NASA MACH-2",
+                "children": [
+                  {
+                    "label": "NASA Mobile Aerosol Characterization laboratory",
+                    "children": [],
+                    "uuid": "389bc2cd-ddff-4d2d-806f-fbead30f3974"
                   }
                 ]
               },
@@ -1711,27 +1741,6 @@
           }
         ],
         "uuid": "0a184cdc-c074-4946-90a6-02f03c686341"
-      },
-      {
-        "label": "Multi-sensor Analysis",
-        "children": [
-          {
-            "label": "",
-            "children": [
-              {
-                "label": "IMERG",
-                "children": [
-                  {
-                    "label": "Integrated Multi-satellitE Retrievals for GPM",
-                    "children": [],
-                    "uuid": "95a92849-1a3e-4103-bce7-f35c750e5d66"
-                  }
-                ]
-              }
-            ],
-            "uuid": "afdb5cdb-58da-47c8-87a7-950cc63c53f4"
-          }
-        ]
       },
       {
         "label": "NOT APPLICABLE",
@@ -7087,6 +7096,16 @@
                     "label": "R/V RONALD H. BROWN",
                     "children": [],
                     "uuid": "c21b5468-c3b6-4da2-bc6e-19d2109474c4"
+                  }
+                ]
+              },
+              {
+                "label": "R/V SERC",
+                "children": [
+                  {
+                    "label": "Research Vessel Smithsonian Environmental Research Center",
+                    "children": [],
+                    "uuid": "10c24d93-c480-42fc-a438-4600e2d14a77"
                   }
                 ]
               },
