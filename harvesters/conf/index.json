@@ -1,5 +1,5 @@
 {
   "outputFilePath": "resources",
-  "profilesListUrl": "https://s3.amazonaws.com/sit-cdn.xentity/mdeditor/profilesList.json",
+  "profilesListUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdProfiles@feature/nggdpp-profiles/resources/profiles-list-nggdpp-dq.json",
   "vocabulariesFilename": "vocabularies-dynamic.json"
 }
