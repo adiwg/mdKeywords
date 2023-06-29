@@ -204,6 +204,90 @@
         }
       ],
       "description": "",
+      "title": "Favret Processing State (fluid)",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/611286a0f0d1326bc2b4bf00"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "611286a0f0d1326bc2b4bf00"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a0f0d1326bc2b4bf00.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "Favret Processing State (slide)",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/611286a1f0d1326bc2b4bf04"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "611286a1f0d1326bc2b4bf04"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611286a1f0d1326bc2b4bf04.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "Type of geoscientific collection.",
+      "title": "Collection Theme",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/58b45852e4b0f974afcf03b4"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "58b45852e4b0f974afcf03b4"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58b45852e4b0f974afcf03b4.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
       "title": "primaryPurpose",
       "edition": "",
       "onlineResource": [
@@ -249,6 +333,34 @@
     "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
+      "title": "category",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df22"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "4f4e475ee4b07f02db47df22"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
     "keywords": []
   },
   {
@@ -316,6 +428,34 @@
         }
       ],
       "description": "",
+      "title": "Known To Contain Types",
+      "edition": "",
+      "onlineResource": [
+        {
+          "uri": "https://www.sciencebase.gov/vocab/category/611d3f2dbfff3461918aba4d"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "611d3f2dbfff3461918aba4d"
+        }
+      ]
+    },
+    "keywordType": "vocabulary",
+    "label": "",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-611d3f2dbfff3461918aba4d.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "",
+          "dateType": ""
+        }
+      ],
+      "description": "",
       "title": "Hazardous Materials",
       "edition": "",
       "onlineResource": [
@@ -343,52 +483,24 @@
           "dateType": ""
         }
       ],
-      "description": "",
-      "title": "CongressionalDistricts",
+      "description": "Terms for tagging ReSciColl information by structure for processing and archiving.",
+      "title": "NGGDPP ReSciColl ScienceBase Type Tags",
       "edition": "",
       "onlineResource": [
         {
-          "uri": "https://www.sciencebase.gov/vocab/category/52df104ce4b0dee2a6cd6b24"
+          "uri": "https://www.sciencebase.gov/vocab/category/5bf3f7bce4b00ce5fb627d57"
         }
       ],
       "identifier": [
         {
-          "identifier": "52df104ce4b0dee2a6cd6b24"
+          "identifier": "5bf3f7bce4b00ce5fb627d57"
         }
       ]
     },
     "keywordType": "vocabulary",
-    "label": "LCC Congressional Districts",
+    "label": "NGGDPP ReSciColl ScienceBase Type Tags",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-52df104ce4b0dee2a6cd6b24.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "ProjectCategory",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/52dee7c5e4b0dee2a6cd6b18"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "52dee7c5e4b0dee2a6cd6b18"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "LCC Project Category",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-52dee7c5e4b0dee2a6cd6b18.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-5bf3f7bce4b00ce5fb627d57.json",
     "keywords": []
   },
   {
@@ -455,359 +567,23 @@
         }
       ],
       "description": "",
-      "title": "GCMD Platforms",
+      "title": "GCMD Chrono Units",
       "edition": "",
       "onlineResource": [
         {
-          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms"
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/chronounits"
         }
       ],
       "identifier": [
         {
-          "identifier": "platforms"
+          "identifier": "chronounits"
         }
       ]
     },
     "keywordType": "",
-    "label": "GCMD Platforms",
+    "label": "GCMD Chrono Units",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-platforms.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "GCMD Instruments",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "instruments"
-        }
-      ]
-    },
-    "keywordType": "",
-    "label": "GCMD Instruments",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-instruments.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "NGGDPPCollectionTheme",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/58fa2280e4b0db4d5416979a"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "58fa2280e4b0db4d5416979a"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "NGGDPP Collection Theme",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58fa2280e4b0db4d5416979a.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "Spatialoffsettype",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/633af070bcbfb314ddee9aa7"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "633af070bcbfb314ddee9aa7"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-633af070bcbfb314ddee9aa7.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "Biological sample collection",
-      "title": "Biological Collection",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/58d424d6e4b0f974afcf03c9"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "58d424d6e4b0f974afcf03c9"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "Biological Collection",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58d424d6e4b0f974afcf03c9.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "Geological sample collection",
-      "title": "Geological Collection",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/58b45872e4b0f974afcf03b5"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "58b45872e4b0f974afcf03b5"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "Geological Collection",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58b45872e4b0f974afcf03b5.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "Paleontological sample collection",
-      "title": "Paleontological Collection",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/58d4255ee4b0f974afcf03cb"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "58d4255ee4b0f974afcf03cb"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "Paleontological Collection",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58d4255ee4b0f974afcf03cb.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "Water sample collection",
-      "title": "Water Collection",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/58d42532e4b0f974afcf03ca"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "58d42532e4b0f974afcf03ca"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "Water Collection",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-58d42532e4b0f974afcf03ca.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "Favret Arrangement Level",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/6112869af0d1326bc2b4beca"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "6112869af0d1326bc2b4beca"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869af0d1326bc2b4beca.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "Favret Computerization Level",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/6112869af0d1326bc2b4becf"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "6112869af0d1326bc2b4becf"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869af0d1326bc2b4becf.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "Favret Data Quality",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/6112869ef0d1326bc2b4bef2"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "6112869ef0d1326bc2b4bef2"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ef0d1326bc2b4bef2.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "Favret Identification Level",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/6112869ff0d1326bc2b4bef7"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "6112869ff0d1326bc2b4bef7"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6112869ff0d1326bc2b4bef7.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "DataCite V4.5: The type of contributor of the resource. See https://datacite-metadata-schema.readthedocs.io/en/4.5/properties/recommended_optional/property_contributor.html#a-contributortype\n",
-      "title": "Datacite Contributor Type",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/6123b2c3bac0c745ec5f2199"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "6123b2c3bac0c745ec5f2199"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-6123b2c3bac0c745ec5f2199.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-chronounits.json",
     "keywords": []
   }
 ]

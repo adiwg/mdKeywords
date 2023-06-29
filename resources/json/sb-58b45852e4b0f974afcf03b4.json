@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "58d424d6e4b0f974afcf03c9",
+    "label": "Biological Collection",
+    "definition": "Biological sample collection",
+    "children": []
+  },
+  {
+    "uuid": "58b45872e4b0f974afcf03b5",
+    "label": "Geological Collection",
+    "definition": "Geological sample collection",
+    "children": []
+  },
+  {
+    "uuid": "58d4255ee4b0f974afcf03cb",
+    "label": "Paleontological Collection",
+    "definition": "Paleontological sample collection",
+    "children": []
+  },
+  {
+    "uuid": "58d42532e4b0f974afcf03ca",
+    "label": "Water Collection",
+    "definition": "Water sample collection",
+    "children": []
+  }
+]
