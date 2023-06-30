@@ -288,34 +288,6 @@
         }
       ],
       "description": "",
-      "title": "primaryPurpose",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df14"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "4f4e475ee4b07f02db47df14"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df14.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
       "title": "userGroup",
       "edition": "",
       "onlineResource": [
@@ -333,34 +305,6 @@
     "label": "",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df0b.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
-      "title": "category",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df22"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "4f4e475ee4b07f02db47df22"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
     "keywords": []
   },
   {
