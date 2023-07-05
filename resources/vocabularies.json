@@ -3,16 +3,16 @@
     "citation": {
       "date": [
         {
-          "date": "",
-          "dateType": ""
+          "date": "2018-12-12",
+          "dateType": "revision"
         }
       ],
       "description": "GCMD Instruments Example Description",
-      "title": "GCMD Instruments Title",
-      "edition": "",
+      "title": "Global Change Master Directory (GCMD) Instruments",
+      "edition": "Version 8.6",
       "onlineResource": [
         {
-          "uri": ""
+          "uri": "https://earthdata.nasa.gov/gcmd-forum"
         }
       ],
       "identifier": [
@@ -21,8 +21,8 @@
         }
       ]
     },
-    "keywordType": "GCMDinstrumentsExample",
-    "label": "GCMD Instruments Example Label",
+    "keywordType": "instrument",
+    "label": "Global Change Master Directory (GCMD) Instruments",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-instruments.json"
   },
@@ -30,16 +30,16 @@
     "citation": {
       "date": [
         {
-          "date": "",
-          "dateType": ""
+          "date": "2018-12-12",
+          "dateType": "revision"
         }
       ],
       "description": "GCMD Platforms Example Description",
-      "title": "GCMD Platforms Title",
-      "edition": "",
+      "title": "Global Change Master Directory (GCMD) Platforms",
+      "edition": "Version 8.6",
       "onlineResource": [
         {
-          "uri": ""
+          "uri": "https://earthdata.nasa.gov/gcmd-forum"
         }
       ],
       "identifier": [
@@ -48,8 +48,8 @@
         }
       ]
     },
-    "keywordType": "GCMDplatformsExample",
-    "label": "GCMD Platforms Example Label",
+    "keywordType": "platform",
+    "label": "Global Change Master Directory (GCMD) Platforms",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-platforms.json"
   },
@@ -57,16 +57,16 @@
     "citation": {
       "date": [
         {
-          "date": "",
-          "dateType": ""
+          "date": "2018-12-12",
+          "dateType": "revision"
         }
       ],
       "description": "GCMD Science Keywords Example Description",
-      "title": "GCMD Science Keywords Title",
-      "edition": "",
+      "title": "Global Change Master Directory (GCMD) Science Keywords",
+      "edition": "Version 8.6",
       "onlineResource": [
         {
-          "uri": ""
+          "uri": "https://earthdata.nasa.gov/gcmd-forum"
         }
       ],
       "identifier": [
@@ -75,8 +75,8 @@
         }
       ]
     },
-    "keywordType": "GCMDsciencekeywordsExample",
-    "label": "GCMD Science Keywords Example Label",
+    "keywordType": "theme",
+    "label": "Global Change Master Directory (GCMD) Science Keywords",
     "dynamicLoad": true,
     "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-sciencekeywords.json"
   },
