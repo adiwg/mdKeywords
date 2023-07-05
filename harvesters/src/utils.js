@@ -6,27 +6,19 @@ const loadConfig = (configFilename) => {
   return JSON.parse(configData);
 };
 
-const KeywordPrototype = {
-  uuid: null,
-  parentId: null,
-  label: null,
-  definition: null,
-  children: [],
-};
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const writeToLocalFile = (
   jsonData,
   filename = 'output.json',
   filepath = 'resources/json'
 ) => {
-  console.log(`Saving to ${filepath}/${filename}`);
+  const outputDestination = `${filepath}/${filename}`;
   fs.writeFileSync(
     `../${filepath}/${filename}`,
     JSON.stringify(jsonData, null, 2)
   );
-  console.log('File saved successfully');
+  console.log('File successfully saved to', outputDestination);
 };
 
-module.exports = { loadConfig, KeywordPrototype, sleep, writeToLocalFile };
+module.exports = { loadConfig, sleep, writeToLocalFile };
