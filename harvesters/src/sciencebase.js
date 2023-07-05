@@ -19,13 +19,12 @@ const getNode = async (parentId, nodeType) => {
   const total = response.total;
   let list = response.list;
   while (list.length < total) {
+    await sleep(1500);
     params.offset += 10;
-    console.log('fetching next page: params', JSON.stringify(params, null, 2));
-    const nextResponse = await axios
-      .get(`${baseUrl}/categories/get`, { params })
-      .then((response) => response.data);
+    const nextResponse = await axios.get(`${baseUrl}/categories/get`, {
+      params,
+    }).data;
     list = list.concat(nextResponse.list);
-    await sleep(1000);
   }
   return { list };
 };
@@ -82,7 +81,7 @@ async function loadMetadataFromId(id) {
   return metadata;
 }
 
-function generateCitation(metadata, outputFilename) {
+function generateCitationInternal(metadata, outputFilename) {
   return {
     citation: {
       date: [
@@ -114,14 +113,17 @@ function generateCitation(metadata, outputFilename) {
 }
 
 async function generateKeywordsFile(vocabulary) {
-  console.log('Generating keywords file for', vocabulary);
   const { id: sciencebaseId } = vocabulary;
-  const metadata = await loadMetadataFromId(sciencebaseId);
   const keywords = await buildTree(sciencebaseId);
   const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
   writeToLocalFile(keywords, outputFilename);
-  console.log('Wrote keywords to', outputFilename);
-  return generateCitation(metadata, outputFilename);
 }
 
-module.exports = { generateKeywordsFile };
+async function generateCitation(vocabulary) {
+  const { id: sciencebaseId } = vocabulary;
+  const metadata = await loadMetadataFromId(sciencebaseId);
+  const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
+  return generateCitationInternal(metadata, outputFilename);
+}
+
+module.exports = { generateCitation, generateKeywordsFile };

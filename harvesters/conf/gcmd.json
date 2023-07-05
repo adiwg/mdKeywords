@@ -1,89 +1,104 @@
 {
   "categoryUrl": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/",
-  "keywordsBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/",
-  "outputFilenamePrefix": "gcmd-",
+  "keywordUrl": "https://gcmd.earthdata.nasa.gov/kms/keyword/",
+  "outputFileBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/",
+  "outputFilePrefix": "gcmd-",
   "categories": [
     {
       "id": "sciencekeywords",
       "label": "Science Keywords",
+      "uuid": "1eb0ea0a-312c-4d74-8d42-6f1ad758f999",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "platforms",
       "label": "Platforms",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "instruments",
       "label": "Instruments",
+      "uuid": "b2140059-b3ca-415c-b0a7-3e142783ffe8",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "providers",
       "label": "Providers",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "projects",
       "label": "Projects",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "locations",
       "label": "Locations",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "horizontalresolutionrange",
       "label": "Horizontal Resolution Range",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "verticalresolutionrange",
       "label": "Vertical Resolution Range",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "temporalresolutionrange",
       "label": "Temporal Resolution Range",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "rucontenttype",
       "label": "RU Content Type",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "DataFormat",
       "label": "Data Format",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "chronounits",
       "label": "Chrono Units",
+      "uuid": "a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "MimeType",
       "label": "Mime Type",
+      "uuid": "",
       "enabled": true,
       "collapseEmptyCells": true
     },
     {
       "id": "MeasurementName",
       "label": "Measurement Name",
+      "uuid": "",
       "enabled": false,
       "collapseEmptyCells": true
     }

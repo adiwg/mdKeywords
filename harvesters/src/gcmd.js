@@ -1,37 +1,21 @@
 const axios = require('axios');
-const {
-  loadConfig,
-  KeywordPrototype,
-  sleep,
-  writeToLocalFile,
-} = require('./utils');
+const { loadConfig, sleep, writeToLocalFile } = require('./utils');
 const { ceil } = require('lodash');
 
 const CONF_JSON = 'conf/gcmd.json';
-const { categoryUrl, keywordsBaseUrl, outputFilenamePrefix } =
+const { categoryUrl, keywordUrl, outputFileBaseUrl, outputFilePrefix } =
   loadConfig(CONF_JSON);
 
-const CategoryPrototype = {
-  id: null,
+const KeywordPrototype = {
+  uuid: null,
+  parentId: null,
   label: null,
-  collapseEmptyCells: null,
-  hits: null,
-  pageNum: null,
-  totalPages: null,
-  pageSize: 2000,
-  version: null,
-  revision: null,
-  timestamp: null,
-  terms: null,
-  xmlUrl: null,
-  caseNative: true,
-  headers: [],
-  keywords: [],
+  definition: null,
+  children: [],
 };
 
-function parseMeta(data) {
-  return data.split(/:(.*)/s)[1].replace('"', '').replace(/ /s, '');
-}
+const parseMeta = (data) =>
+  data.split(/:(.*)/s)[1].replace('"', '').replace(/ /s, '');
 
 // Primary cell is the cell associated with the UUID
 function isPrimaryCell(keyword, headers, headerIndex) {
@@ -51,10 +35,8 @@ function hasError(currentHeader, headerIndex, headersLength) {
 }
 
 async function loadCategoryPage(id, pageNumber) {
-  const categoryPage = Object.create(CategoryPrototype);
-  const { pageSize } = categoryPage;
+  const pageSize = 2000;
   const pageUrl = `${categoryUrl}${id}/?format=csv&page_num=${pageNumber}&page_size=${pageSize}`;
-  console.log('Loading keywords from', pageUrl);
   const response = await axios.get(pageUrl).catch((err) => {
     console.log('Error loading keywords', err);
     return;
@@ -69,29 +51,38 @@ async function loadCategoryPage(id, pageNumber) {
     const categoryHeaders = lines[1].split(',');
     const keywordLinesRaw = lines.slice(2);
     const hits = parseInt(parseMeta(categoryMetaData[0]));
-    categoryPage.hits = hits;
-    categoryPage.pageNum = parseInt(parseMeta(categoryMetaData[1]));
-    categoryPage.totalPages = ceil(hits / pageSize);
-    categoryPage.version = parseMeta(categoryMetaData[3]);
-    categoryPage.revision = parseMeta(categoryMetaData[4]);
-    categoryPage.timestamp = parseMeta(categoryMetaData[5]);
-    categoryPage.terms = parseMeta(categoryMetaData[6]);
-    categoryPage.xmlUrl = parseMeta(categoryMetaData[7]);
-    categoryPage.headers = categoryHeaders;
-    const newKeywords = [];
-    keywordLinesRaw.forEach((line) => {
-      const words = line.split(',');
-      if (words.length > 1) {
+    const pageNum = parseInt(parseMeta(categoryMetaData[1]));
+    const totalPages = ceil(hits / pageSize);
+    const version = parseMeta(categoryMetaData[3]);
+    const revision = parseMeta(categoryMetaData[4]);
+    const timestamp = parseMeta(categoryMetaData[5]);
+    const terms = parseMeta(categoryMetaData[6]);
+    const xmlUrl = parseMeta(categoryMetaData[7]);
+    const headers = categoryHeaders;
+    const keywords = keywordLinesRaw
+      .filter((line) => line.split(',').length > 1)
+      .map((line) => {
+        const words = line.split(',');
         const newLine = {};
         categoryHeaders.forEach((header, i) => {
           newLine[header] = words[i].replace(/"/g, '');
         });
-        newKeywords.push(newLine);
-      }
-    });
-    categoryPage.keywords = newKeywords;
+        return newLine;
+      });
+    return {
+      id,
+      hits,
+      pageNum,
+      totalPages,
+      version,
+      revision,
+      timestamp,
+      terms,
+      xmlUrl,
+      headers,
+      keywords,
+    };
   }
-  return categoryPage;
 }
 
 async function loadCategory(vocabulary) {
@@ -100,7 +91,10 @@ async function loadCategory(vocabulary) {
   const category = await loadCategoryPage(id, pageNumber);
   category.id = id;
   category.label = name;
-  category.collapseEmptyCells = vocabulary.collapseEmptyCells || true;
+  category.collapseEmptyCells =
+    typeof vocabulary.collapseEmptyCells !== 'undefined'
+      ? vocabulary.collapseEmptyCells
+      : true;
   const { totalPages } = category;
   if (totalPages > 1) {
     while (pageNumber < totalPages) {
@@ -188,7 +182,6 @@ async function upsertKeyword(tree, keyword, headers, collapseEmptyCells) {
 
 async function buildKeywordTree(category) {
   const { id, label, collapseEmptyCells, headers, keywords } = category;
-  console.log('Building keyword tree', label);
   const tree = {
     id,
     label,
@@ -204,7 +197,26 @@ async function buildKeywordTree(category) {
   return tree.children;
 }
 
-function generateCitation(vocabulary, filename) {
+async function loadMetadata(vocabulary) {
+  const { id } = vocabulary;
+  const metadataUrl = `${keywordUrl}${id}`;
+  console.log('Loading metadata', metadataUrl);
+  const response = await axios.get(metadataUrl).catch((err) => {
+    console.log('Error loading metadata', err);
+    return;
+  });
+  if (response.error) {
+    console.log('Response Error:', response.error);
+    return;
+  }
+  if (response.data) {
+    const metadata = response.data;
+    return metadata;
+  }
+}
+
+function generateCitationInternal(vocabulary, filename) {
+  console.log('GCMD citation', vocabulary);
   return {
     citation: {
       date: [
@@ -230,7 +242,7 @@ function generateCitation(vocabulary, filename) {
     keywordType: '',
     label: vocabulary.name,
     dynamicLoad: true,
-    keywordsUrl: `${keywordsBaseUrl}${filename}`,
+    keywordsUrl: `${outputFileBaseUrl}${filename}`,
     keywords: [],
   };
 }
@@ -238,9 +250,15 @@ function generateCitation(vocabulary, filename) {
 async function generateKeywordsFile(vocabulary) {
   const category = await loadCategory(vocabulary);
   const keywordsJson = await buildKeywordTree(category);
-  const filename = `${outputFilenamePrefix}${vocabulary.id}.json`;
+  const filename = `${outputFilePrefix}${vocabulary.id}.json`;
   if (keywordsJson) writeToLocalFile(keywordsJson, filename);
-  return generateCitation(vocabulary, filename);
 }
 
-module.exports = { generateKeywordsFile };
+async function generateCitation(vocabulary) {
+  const metadata = await loadMetadata(vocabulary);
+  console.log('metadata', metadata);
+  const filename = `${outputFilePrefix}${vocabulary.id}.json`;
+  return generateCitationInternal(vocabulary, filename);
+}
+
+module.exports = { generateCitation, generateKeywordsFile };

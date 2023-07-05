@@ -66,7 +66,11 @@ async function generateKeywordsFile() {
   const sqlData = await loadSql();
   const tree = buildTree(sqlData);
   writeToLocalFile(tree, outputFilename);
+}
+
+// eslint-disable-next-line no-unused-vars
+function generateCitation(vocabulary) {
   return metadata;
 }
 
-module.exports = { generateKeywordsFile };
+module.exports = { generateCitation, generateKeywordsFile };
