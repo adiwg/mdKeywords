@@ -543,19 +543,19 @@
       "edition": "",
       "onlineResource": [
         {
-          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/1eb0ea0a-312c-4d74-8d42-6f1ad758f999"
         }
       ],
       "identifier": [
         {
-          "identifier": "sciencekeywords"
+          "identifier": "1eb0ea0a-312c-4d74-8d42-6f1ad758f999"
         }
       ]
     },
     "keywordType": "",
     "label": "GCMD Science Keywords",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-sciencekeywords.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json",
     "keywords": []
   },
   {
@@ -571,19 +571,19 @@
       "edition": "",
       "onlineResource": [
         {
-          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/chronounits"
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190"
         }
       ],
       "identifier": [
         {
-          "identifier": "chronounits"
+          "identifier": "a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190"
         }
       ]
     },
     "keywordType": "",
     "label": "GCMD Chrono Units",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-chronounits.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190.json",
     "keywords": []
   }
 ]
