@@ -5,8 +5,12 @@ const gcmd = require('./gcmd');
 const { loadConfig, writeToLocalFile, sleep } = require('./utils');
 
 const CONF_JSON = 'conf/index.json';
-const { outputFilePath, profilesListUrl, vocabulariesFilename } =
-  loadConfig(CONF_JSON);
+const {
+  defaultVocabulariesFilename,
+  outputFilePath,
+  profilesListUrl,
+  vocabulariesFilename,
+} = loadConfig(CONF_JSON);
 
 async function loadProfiles(profilesListUrl) {
   const profilesResponse = await axios.get(profilesListUrl);
@@ -39,10 +43,17 @@ async function generateCitations(vocabularies) {
   const previousCitations = loadConfig(
     `../${outputFilePath}/${vocabulariesFilename}`
   );
-  const citations = [];
+  const citations = loadConfig(`conf/${defaultVocabulariesFilename}`);
   for (const vocabulary of vocabularies) {
     await sleep(500);
-    console.log('Generating citation for', vocabulary.id, vocabulary.name);
+    const defaultCitation = citations.find(
+      (c) => c.citation.identifier[0].identifier === vocabulary.id
+    );
+    if (defaultCitation) {
+      console.log('Using default citation', vocabulary.id, vocabulary.name);
+      continue;
+    }
+    console.log('Generating citation', vocabulary.id, vocabulary.name);
     const { source } = vocabulary;
     const generators = {
       sciencebase: sciencebase.generateCitation,
@@ -105,10 +116,6 @@ async function main() {
   const vocabularies = await compileVocabulariesFromProfiles(profiles);
   const vocabularyCitations = await generateCitations(vocabularies);
   writeToLocalFile(vocabularyCitations, vocabulariesFilename, outputFilePath);
-  console.log(
-    'Citations saved to:',
-    `${outputFilePath}/${vocabulariesFilename}`
-  );
   for (const vocabulary of vocabularies) {
     await processVocabulary(vocabulary);
   }
