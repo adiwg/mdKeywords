@@ -1,4 +1,5 @@
 {
+  "defaultVocabulariesFilename": "default-vocabularies.json",
   "outputFilePath": "resources",
   "profilesListUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdProfiles@feature/nggdpp-profiles/resources/profiles-list-nggdpp-dq.json",
   "vocabulariesFilename": "vocabularies-dynamic.json"
