@@ -88,7 +88,8 @@ async function loadCategoryPage(id, pageNumber) {
 async function loadCategory(vocabulary) {
   const { id, name } = vocabulary;
   let pageNumber = 1;
-  const category = await loadCategoryPage(id, pageNumber);
+  const metadata = await loadMetadata(vocabulary);
+  const category = await loadCategoryPage(metadata.scheme, pageNumber);
   category.id = id;
   category.label = name;
   category.collapseEmptyCells =
@@ -100,7 +101,7 @@ async function loadCategory(vocabulary) {
     while (pageNumber < totalPages) {
       await sleep(1000);
       pageNumber += 1;
-      const nextPage = await loadCategoryPage(vocabulary.id, pageNumber);
+      const nextPage = await loadCategoryPage(metadata.scheme, pageNumber);
       category.keywords.push(...nextPage.keywords);
     }
   }
@@ -200,7 +201,6 @@ async function buildKeywordTree(category) {
 async function loadMetadata(vocabulary) {
   const { id } = vocabulary;
   const metadataUrl = `${keywordUrl}${id}`;
-  console.log('Loading metadata', metadataUrl);
   const response = await axios.get(metadataUrl).catch((err) => {
     console.log('Error loading metadata', err);
     return;
@@ -215,22 +215,21 @@ async function loadMetadata(vocabulary) {
   }
 }
 
-function generateCitationInternal(vocabulary, filename) {
-  console.log('GCMD citation', vocabulary);
+function generateCitationInternal(vocabulary, filename, metadata) {
   return {
     citation: {
       date: [
         {
-          date: '',
-          dateType: '',
+          date: metadata.changeNotes[0].date,
+          dateType: 'revision',
         },
       ],
       description: '',
-      title: vocabulary.name,
-      edition: '',
+      title: `Global Change Master Directory (GCMD) ${metadata.prefLabel}`,
+      edition: `Version ${metadata.version}`,
       onlineResource: [
         {
-          uri: `${categoryUrl}${vocabulary.id}`,
+          uri: `${categoryUrl}${metadata.scheme}`,
         },
       ],
       identifier: [
@@ -239,7 +238,7 @@ function generateCitationInternal(vocabulary, filename) {
         },
       ],
     },
-    keywordType: '',
+    keywordType: metadata.scheme,
     label: vocabulary.name,
     dynamicLoad: true,
     keywordsUrl: `${outputFileBaseUrl}${filename}`,
@@ -248,17 +247,17 @@ function generateCitationInternal(vocabulary, filename) {
 }
 
 async function generateKeywordsFile(vocabulary) {
+  const metadata = await loadMetadata(vocabulary);
   const category = await loadCategory(vocabulary);
   const keywordsJson = await buildKeywordTree(category);
-  const filename = `${outputFilePrefix}${vocabulary.id}.json`;
+  const filename = `${outputFilePrefix}${metadata.scheme}.json`;
   if (keywordsJson) writeToLocalFile(keywordsJson, filename);
 }
 
 async function generateCitation(vocabulary) {
   const metadata = await loadMetadata(vocabulary);
-  console.log('metadata', metadata);
-  const filename = `${outputFilePrefix}${vocabulary.id}.json`;
-  return generateCitationInternal(vocabulary, filename);
+  const filename = `${outputFilePrefix}${metadata.scheme}.json`;
+  return generateCitationInternal(vocabulary, filename, metadata);
 }
 
 module.exports = { generateCitation, generateKeywordsFile };
