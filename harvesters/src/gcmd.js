@@ -92,10 +92,6 @@ async function loadCategory(vocabulary) {
   const category = await loadCategoryPage(metadata.scheme, pageNumber);
   category.id = id;
   category.label = name;
-  category.collapseEmptyCells =
-    typeof vocabulary.collapseEmptyCells !== 'undefined'
-      ? vocabulary.collapseEmptyCells
-      : true;
   const { totalPages } = category;
   if (totalPages > 1) {
     while (pageNumber < totalPages) {
@@ -118,13 +114,8 @@ function findNode(node, keyword, headers, headerIndex) {
   return { node, headerIndex };
 }
 
-function generateChildChain(
-  node,
-  keyword,
-  headers,
-  headerIndex,
-  collapseEmptyCells
-) {
+function generateChildChain(node, keyword, headers, headerIndex) {
+  console.log('Generating child chain', node, keyword, headerIndex);
   const currentHeader = headers[headerIndex];
   const currentLabel = keyword[currentHeader];
   if (hasError(currentHeader, headerIndex, headers.length)) {
@@ -153,13 +144,16 @@ function generateChildChain(
       return null;
     }
   }
-  if (collapseEmptyCells && currentLabel === '') {
+  console.log('currentLabel', currentLabel);
+  if (currentLabel === '') {
+    console.log('No Label: using children of parent node');
     return [...node.children, ...newChildNode.children];
   }
   return [...node.children, newChildNode];
 }
 
-async function upsertKeyword(tree, keyword, headers, collapseEmptyCells) {
+async function upsertKeyword(tree, keyword, headers) {
+  console.log('Upserting keyword', keyword);
   const { node, headerIndex } = findNode(tree, keyword, headers, 0);
   if (
     node.label === keyword[headers[headerIndex - 1]] &&
@@ -171,8 +165,7 @@ async function upsertKeyword(tree, keyword, headers, collapseEmptyCells) {
       node,
       keyword,
       headers,
-      headerIndex,
-      collapseEmptyCells
+      headerIndex
     );
   }
   if (node.children === null) {
@@ -182,7 +175,8 @@ async function upsertKeyword(tree, keyword, headers, collapseEmptyCells) {
 }
 
 async function buildKeywordTree(category) {
-  const { id, label, collapseEmptyCells, headers, keywords } = category;
+  console.log('buildKeywordTree(category)', category);
+  const { id, label, headers, keywords } = category;
   const tree = {
     id,
     label,
@@ -191,7 +185,7 @@ async function buildKeywordTree(category) {
   };
   let status = 'OK';
   for (const keyword of keywords) {
-    status = await upsertKeyword(tree, keyword, headers, collapseEmptyCells);
+    status = await upsertKeyword(tree, keyword, headers);
     if (status === 'ERROR') break;
   }
   if (status === 'ERROR') return null;
@@ -247,6 +241,7 @@ function generateCitationInternal(vocabulary, filename, metadata) {
 }
 
 async function generateKeywordsFile(vocabulary) {
+  console.log('generateKeywordsFile(vocabulary)', vocabulary);
   const metadata = await loadMetadata(vocabulary);
   const category = await loadCategory(vocabulary);
   const keywordsJson = await buildKeywordTree(category);
