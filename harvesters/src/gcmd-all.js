@@ -24,7 +24,7 @@ async function generateCitations(vocabularies) {
 
 async function processVocabulary(vocabulary) {
   await sleep(50);
-  console.log('\nProcessing vocabulary', vocabulary.id, vocabulary.name);
+  console.log('\nProcessing vocabulary', vocabulary.id);
   try {
     return await gcmd.generateKeywordsFile(vocabulary);
   } catch (err) {
