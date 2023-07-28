@@ -10,54 +10,44 @@ function generateFilename(name) {
 
 async function fetchConceptById(id) {
   try {
-    sleep(500);
     const response = await axios.get(`${baseUrl}concept/${id}?format=json`);
     return response.data;
   } catch (error) {
-    console.error('Error fetching data: ', error);
+    console.error('Error fetching concept data', id, error);
     return null;
-    // throw error;
   }
 }
 
-// async function fetchConceptsByScheme(scheme) {
-//   console.log('fetchConceptsByScheme(scheme)', scheme);
-//   try {
-//     const { shortName } = scheme;
-//     const response = await axios.get(
-//       `${baseUrl}concepts/concept_scheme/${shortName}?format=json&scheme=${shortName}`
-//     );
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error fetching data: ', error);
-//     throw error;
-//   }
-// }
-
 async function fetchKeywordById(id) {
   try {
-    sleep(500);
     const response = await axios.get(`${baseUrl}keyword/${id}?format=json`);
     return response.data;
   } catch (error) {
-    console.error('Error fetching data: ', error);
+    console.error('Error fetching keyword data', id, error);
     return null;
-    // throw error;
   }
 }
 
 const loadMetadata = async (vocabulary) => {
-  const { id, name } = vocabulary;
-  console.log('loadMetadata', id, name);
-  sleep(500);
+  await sleep(50);
+  const { id } = vocabulary;
   const conceptData = await fetchConceptById(id);
-  // const schemeData = await fetchConceptsByScheme(conceptData.scheme);
   const keywordData = await fetchKeywordById(id);
-  if (!conceptData || !keywordData) {
-    return null;
-  }
-  return { ...vocabulary, conceptData, /*  schemeData, */ keywordData };
+  return { ...vocabulary, conceptData, keywordData };
 };
+
+function generateNode(metadata) {
+  return {
+    uuid: metadata.conceptData.uuid,
+    label: metadata.conceptData.prefLabel,
+    broader: metadata?.conceptData?.broader[0]?.uuid || null,
+    definition:
+      metadata?.conceptData?.definitions[0]?.text ||
+      metadata?.keywordData?.definition ||
+      'No definition available.',
+    children: [],
+  };
+}
 
 async function buildChildren(metadata) {
   if (metadata.conceptData.isLeaf) {
@@ -70,34 +60,20 @@ async function buildChildren(metadata) {
     const narrowerMetadata = await loadMetadata({
       id: narrower.uuid,
       isLeaf: narrower.isLeaf,
+      name: narrower.prefLabel,
     });
-    if (!narrowerMetadata) {
-      console.log('narrowerMetadata not found', narrower);
-      continue;
-    }
     const narrowerChildren = await buildChildren(narrowerMetadata);
-    children.push({
-      broader: narrowerMetadata?.conceptData?.broader[0]?.uuid || null,
-      label: narrowerMetadata.conceptData.prefLabel,
-      definition: narrowerMetadata.keywordData.definition,
-      children: narrowerChildren,
-    });
+    const node = generateNode(narrowerMetadata);
+    node.children = narrowerChildren;
+    children.push(node);
   }
   return children;
 }
 
 const buildKeywordTree = async (metadata) => {
-  const tree = [
-    {
-      broader: null,
-      uuid: metadata.conceptData.uuid,
-      label: metadata.conceptData.prefLabel,
-      definition:
-        metadata.keywordData.definition || 'No description available.',
-      children: [await buildChildren(metadata)],
-    },
-  ];
-  return tree;
+  const node = generateNode(metadata);
+  node.children = await buildChildren(metadata);
+  return [node];
 };
 
 function buildCitation(metadata) {
@@ -123,22 +99,22 @@ function buildCitation(metadata) {
         },
       ],
     },
-    keywordType: metadata.scheme,
+    keywordType: metadata?.conceptData?.scheme?.shortName,
     label: metadata.conceptData.prefLabel,
     dynamicLoad: true,
     keywordsUrl: `${outputFileBaseUrl}${generateFilename(
       metadata.conceptData.scheme.shortName
-    )}`,
+    )}`.toLowerCase(),
     keywords: [],
   };
 }
 
 async function generateKeywordsFile(vocabulary) {
-  console.log('generateKeywordsFile(vocabulary)', vocabulary);
   const metadata = await loadMetadata(vocabulary);
   const keywordsJson = await buildKeywordTree(metadata);
-  const filename = generateFilename(metadata.conceptData.scheme.shortName);
-  console.log('keywordsJson', keywordsJson);
+  const filename = generateFilename(
+    metadata.conceptData.scheme.shortName
+  ).toLowerCase();
   if (keywordsJson) writeToLocalFile(keywordsJson, filename);
 }
 
