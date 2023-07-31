@@ -1,6 +1,6 @@
 {
   "defaultVocabulariesFilename": "default-vocabularies.json",
   "outputFilePath": "resources",
-  "profilesListUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdProfiles@dev/resources/profiles-list-dev.json",
+  "profilesListUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdProfiles@master/resources/profiles-list.json",
   "vocabulariesFilename": "vocabularies-dynamic.json"
 }
