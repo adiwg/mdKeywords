@@ -1,0 +1,24 @@
+[
+  {
+    "uuid": "0901b01e-447a-45b5-a716-33ac9b8bc27a",
+    "label": "Private",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "66b8d019-a902-47de-b2d8-35e3acede573",
+        "label": "True",
+        "broader": "0901b01e-447a-45b5-a716-33ac9b8bc27a",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "a1e0b99e-b744-4351-b10e-c1641a9274cb",
+        "label": "False",
+        "broader": "0901b01e-447a-45b5-a716-33ac9b8bc27a",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

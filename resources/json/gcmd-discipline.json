@@ -1,0 +1,3205 @@
+[
+  {
+    "uuid": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+    "label": "Disciplines",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "0006b2ee-8605-475d-b96b-9a17fdca1695",
+        "label": "TIME PERIOD STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "010693fd-d944-40dd-9fe9-a696401354d6",
+        "label": "ENVIRONMENTAL SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "01b3534c-8deb-4fcd-bf22-0c5f4a739500",
+        "label": "MECHANICAL ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "02b83a68-ad4a-47dc-91cd-1b8af6f0aa57",
+        "label": "POLITICAL SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "03690eca-5df5-4cc9-bdff-3b4af35e455a",
+        "label": "SPACE PHYSICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "00d66506-d374-46cf-824f-1fd545505c34",
+            "label": "INTERPLANETARY STUDIES",
+            "broader": "03690eca-5df5-4cc9-bdff-3b4af35e455a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7e7a0650-e346-4f57-8207-7dd2a3085302",
+            "label": "IONOSPHERIC SCIENCE",
+            "broader": "03690eca-5df5-4cc9-bdff-3b4af35e455a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9d843697-4cff-4def-ba22-3289139303c3",
+            "label": "MAGNETOSPHERIC SCIENCE",
+            "broader": "03690eca-5df5-4cc9-bdff-3b4af35e455a",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+        "label": "MULTIDISCIPLINARY SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "063850e9-61f6-4493-9c74-dff8ec974d4d",
+            "label": "NATURAL HISTORY",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1023eb1e-7b48-4068-b08d-3a06a713b17d",
+            "label": "INTERNATIONAL RELATIONS",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "136bca2f-b96e-43d1-9188-e060360eddcd",
+            "label": "HUMAN ECOLOGY",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1ca13280-95e1-40d9-aaf7-defa2493c8bd",
+            "label": "GENDER STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1d9680d9-68b0-4344-8f16-4a065fa73556",
+            "label": "BIOENGINEERING",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1fa705fa-c9ee-40db-907a-427dcc3f3e0d",
+            "label": "RELIGIOUS STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "263dd649-c2ae-492d-bb7b-614d9736e11e",
+            "label": "STATISTICS",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3acc8b21-30d9-40f4-9f37-ff9793d0b67c",
+            "label": "POPULATION STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4292d2b6-e0f4-4a87-97c1-5d1333ecff35",
+            "label": "REGIONAL STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "48f5a667-f063-4e86-84d6-3aa6a263e96b",
+            "label": "GEOGRAPHY",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "553b7dfb-47a3-43be-bd3d-a543a0a2ffa4",
+            "label": "ENVIRONMENTAL STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "596225b7-2cd8-4638-bb75-23bfb491aeb1",
+            "label": "ENVIRONMENTAL ENGINEERING",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6df5162a-46fd-435d-9d34-ae6116dd68c4",
+            "label": "INFORMATION SCIENCE",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "74762d82-f315-470c-845d-9a8978870b8e",
+            "label": "DEVELOPMENT STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "76db1692-e095-4c42-ac0e-f23c9f19f1f9",
+            "label": "LIBRARY STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "788f37a3-c0fe-4f7b-b1ed-826e8a13c2ee",
+            "label": "INTERNATIONAL DEVELOPMENT",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "85b32f0e-9286-4a82-af29-020f32554cbf",
+            "label": "PUBLIC POLICY STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b6f64b18-78cd-4dc8-b566-0f5831ff294d",
+            "label": "CULTURAL STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b9d13d2d-7441-42c3-a2fa-be7d011e17da",
+            "label": "URBAN STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c94e9340-2fe5-4254-bcbd-8d8aaed45f6e",
+            "label": "MATHEMATICS",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e153d0b6-e713-4166-95c3-f5e355531ed4",
+            "label": "TIME PERIOD STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e3007192-0662-48e6-837f-501746a6700f",
+            "label": "EARTH SCIENCE",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fb4d9239-17d9-48ea-880a-ad8bc08ea7ca",
+            "label": "AREA STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fc5da23e-45e2-4cb1-9975-7b4e8037c0e6",
+            "label": "INTERNATIONAL STUDIES",
+            "broader": "04170e5e-e23e-4aa4-b3dd-e11959f4e101",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "08b9a904-c3c8-4856-a159-22369259263e",
+        "label": "STATISTICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "0a0c8e49-c3bb-49d3-9587-d5931d78d251",
+        "label": "LITERATURE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "0b087bbb-2823-4259-bc41-134fffaa2282",
+        "label": "ENVIRONMENTAL STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "0f0fde7a-9128-4b3e-9d8a-6faf76b474fb",
+        "label": "PALEONTOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "14472194-52ee-4cbd-a0b4-7555cc195e70",
+        "label": "MANUFACTURING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "1ba6ae94-b9da-4dee-9b14-5799f22d3322",
+        "label": "SEISMOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "1eea93a9-9441-4c76-bb83-3e0c681331c3",
+        "label": "URBAN STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "2020ed86-3dce-4847-ba20-01a543d4b829",
+        "label": "PERFORMING ARTS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "3b6a0359-b03e-4068-82fd-9a2090a3691a",
+            "label": "DANCE",
+            "broader": "2020ed86-3dce-4847-ba20-01a543d4b829",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "61c8d8cb-eca5-4aef-b967-36f23e3013ab",
+            "label": "MUSIC",
+            "broader": "2020ed86-3dce-4847-ba20-01a543d4b829",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d3903e4d-8796-407e-a84d-8e5369ec75db",
+            "label": "SPEECH",
+            "broader": "2020ed86-3dce-4847-ba20-01a543d4b829",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e7c276c8-64a2-40ef-a094-936460abb458",
+            "label": "THEATER",
+            "broader": "2020ed86-3dce-4847-ba20-01a543d4b829",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+        "label": "NEUROSCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "23b959a8-8c8d-4647-99b1-03d024592ddc",
+            "label": "NEUROBIOLOGY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3816f823-8519-4eb2-a343-f83fd744493d",
+            "label": "NEUROCHEMISTRY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5bc760c1-4ae8-45d7-aea2-8f81812c9dac",
+            "label": "NEUROENDOCRINOLOGY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6671da40-6d06-4ad2-a301-ebfa56c2209f",
+            "label": "NEUROPHYSIOLOGY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "76385a5a-bb1b-485b-ad0b-520c3acf0ad4",
+            "label": "NEUROPHARMACOLOGY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8a0bec00-7d45-4386-8571-d144b6f0486c",
+            "label": "NEUROANATOMY",
+            "broader": "23789cde-a808-48f4-b7e4-3531e4d792f1",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "269d1bda-dad1-4b00-8ea2-1fe74d0dc4e4",
+        "label": "SOCIOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "47bdc18a-b0b3-44bc-a020-5594b9f40328",
+            "label": "MEDICAL SOCIOLOGY",
+            "broader": "269d1bda-dad1-4b00-8ea2-1fe74d0dc4e4",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "2a5f2203-e881-42e8-b6b0-86ab0f6b7616",
+        "label": "HISTORY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "b1132418-bf2f-4019-9b4a-6060c3c5c8c3",
+            "label": "ECONOMIC HISTORY",
+            "broader": "2a5f2203-e881-42e8-b6b0-86ab0f6b7616",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "2ff80d72-24ee-484b-8291-85be6f045b03",
+        "label": "HOME ECONOMICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "327a795a-e9ef-417d-bd7b-ead099fa8c03",
+        "label": "INTERNATIONAL STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "329f3057-229e-405b-b28a-0a019d875c9d",
+        "label": "ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0630f37e-80a4-41ee-9eba-77a113844eb6",
+            "label": "COMPUTER ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0a3df22d-7405-48e5-be5e-4fa61503bf5c",
+            "label": "INDUSTRIAL ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "543166b9-d5fb-4274-a71e-c1df25376536",
+            "label": "STRUCTURAL ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "68bd6feb-e2a9-460b-8d8a-7695f5ff56da",
+            "label": "MARINE ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7dce8862-9b1e-440b-af77-662254e6d518",
+            "label": "INFORMATION ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "88c88f8f-760e-40d8-a479-9b125e51257d",
+            "label": "CONTROL ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "af9a813a-c5cd-49eb-9140-51983c6555f6",
+            "label": "SAFETY ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "be62b0b2-63da-4f5d-bd74-50ff5d601dae",
+            "label": "SYSTEMS ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d473bfe3-572b-48f1-8ca1-d16e43429b40",
+            "label": "OPERATIONS ENGINEERING",
+            "broader": "329f3057-229e-405b-b28a-0a019d875c9d",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "340f4643-4137-4985-a649-3d4887545012",
+        "label": "PLANETARY SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "4b196dfe-1996-43a5-b152-e07377e11564",
+            "label": "ATMOSPHERES",
+            "broader": "340f4643-4137-4985-a649-3d4887545012",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7aed7e2f-baf5-472d-9d45-b9dac28f6de5",
+            "label": "GEOSCIENCES",
+            "broader": "340f4643-4137-4985-a649-3d4887545012",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7c237c4f-1974-41e0-83ba-78d009506f4b",
+            "label": "FIELDS AND PARTICLES",
+            "broader": "340f4643-4137-4985-a649-3d4887545012",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ca29081b-ec1a-4ca8-990a-7e40f18dcb14",
+            "label": "SMALL BODIES",
+            "broader": "340f4643-4137-4985-a649-3d4887545012",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "caf71061-bdc0-4659-8a88-2dbf76db517d",
+            "label": "RINGS",
+            "broader": "340f4643-4137-4985-a649-3d4887545012",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+        "label": "ASTRONOMY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "1f485eaf-cbaa-425c-a69d-74cf150239df",
+            "label": "VISIBLE ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3443b817-5454-43e5-8ad7-4b5c33386961",
+            "label": "GAMMA RAY ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "46076af4-a345-4dcc-9b72-c19b262ebda1",
+            "label": "COSMIC RAY ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4ebcb86f-fee5-460e-9a0d-d083917a86f8",
+            "label": "ULTRAVIOLET ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "52db3276-0217-432d-a291-75f10e10967a",
+            "label": "RADIO ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "72d2624d-6c4a-4e09-b8a8-04115b88a492",
+            "label": "INFRARED ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8f2e6214-8356-4450-93d0-46449c49de8c",
+            "label": "X-RAY ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8f82dfe6-3a77-4349-a105-e84d3c32eabf",
+            "label": "MICROWAVE ASTRONOMY",
+            "broader": "35425af0-d8d1-4f63-9237-2ad5f4f178a7",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+        "label": "CHEMISTRY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "06c8dda2-aee6-4ad2-a4d8-223d86c0093e",
+            "label": "INORGANIC CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "08d48baf-ae0c-4ca1-9e13-08aacd1e384b",
+            "label": "ANALYTICAL CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2a46ab6a-535b-4e3b-aed6-47569a8925fe",
+            "label": "BIOCHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "32d1e36a-f049-44fd-87e6-a9257b4856a2",
+            "label": "ORGANIC CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3f155462-0bef-4d4a-b715-f5ca0a040304",
+            "label": "CLINICAL CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7803573b-6788-4b6e-af49-cf3cbdbb9cbe",
+            "label": "AGRICULTURAL CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7b72d33c-5faf-46b9-9c58-8074b900ffd4",
+            "label": "PHARMACEUTICAL CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9f15cd31-6a8c-4cbd-a92e-92c840870b34",
+            "label": "PHYSICAL CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c68650ad-734b-46be-8b8f-3f878238ede1",
+            "label": "ATMOSPHERIC CHEMISTRY",
+            "broader": "3720d245-2e89-4780-9a45-c57ec1fd4d24",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "38b4cdb2-fee5-4378-812c-9717a1c5e3f6",
+        "label": "AEROSPACE ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "3c4cc2ed-793f-4d5a-8621-36d82a57ad52",
+        "label": "TRANSPORTATION",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "3cf2dfd5-3054-4ed3-8373-05761cd3641e",
+        "label": "PHILOSOPHY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "5376035d-fb39-491b-a65d-09e85069f0d6",
+            "label": "ETHICS",
+            "broader": "3cf2dfd5-3054-4ed3-8373-05761cd3641e",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6a4812d2-b2c1-406b-9ce1-decea588e07b",
+            "label": "EPISTEMOLOGY",
+            "broader": "3cf2dfd5-3054-4ed3-8373-05761cd3641e",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c14a180c-67c1-4ace-a6fb-ee66e9595593",
+            "label": "METAPHYSICS",
+            "broader": "3cf2dfd5-3054-4ed3-8373-05761cd3641e",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "3f500b6b-979a-4ea5-893e-4cd05d081def",
+        "label": "ROBOTICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "4008af96-5a7b-4dc7-91b6-adcda7b25d10",
+        "label": "TELECOMMUNICATIONS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+        "label": "PSYCHOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "29820729-ad94-4b42-ba05-ae3d765380e5",
+            "label": "CLINICAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "398bfb35-4c38-40f6-8898-3f15e62b7f2e",
+            "label": "COMPARATIVE PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "47c005c3-5a77-4022-98f8-3b3aa2885f93",
+            "label": "ADOLESCENT PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4aa1d95a-cb6e-4eaa-9dec-627ea42afc96",
+            "label": "INDUSTRIAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5e27c0bb-7543-4fe1-bd2a-8d8715dd4529",
+            "label": "MEDICAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "66543837-1f59-438d-a792-74a032061b1a",
+            "label": "BEHAVIORAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6ac6d4ac-bc79-4489-a2ee-ef647c84b955",
+            "label": "SOCIAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7b2249d5-9a15-414b-98b8-35f7a6ab4907",
+            "label": "ETHNOPSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8330a5e3-1f9f-4b54-adbc-8b4f1654454c",
+            "label": "EDUCATIONAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "989b9e42-b157-4983-a3ff-25a364df080f",
+            "label": "EXPERIMENTAL PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d6752e3f-9c2b-4bdf-8439-433fdb5f241d",
+            "label": "CHILD PSYCHOLOGY",
+            "broader": "405a0647-baf6-4c53-91d7-4bc3fe5a787f",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "45f8d9dd-743c-43c3-8957-f57cb70688c9",
+        "label": "DEMOGRAPHY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "49295af4-7da6-47e0-8cfc-b3c20ba52605",
+        "label": "ELECTRICAL ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+        "label": "APPLIED SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0bf8c8de-1511-4871-b74d-bb5979e57616",
+            "label": "HOME ECONOMICS",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0df201a8-b32a-4ea2-a5c6-8b7a10615bb6",
+            "label": "ELECTRICAL ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "10547653-8aeb-4f5f-8d8d-aff15fa190df",
+            "label": "PUBLIC HEALTH",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "16d331c2-e850-401c-935e-324f5f846f07",
+            "label": "LIBRARY STUDIES",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1b774b3f-8949-4c23-8b00-ba365f6067a7",
+            "label": "TRANSPORTATION",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "26701a1e-aff5-4756-8da1-58c662be467e",
+            "label": "TELECOMMUNICATIONS",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "281ca2ab-68dc-477f-b01f-e71fec17e908",
+            "label": "ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2f2fee6d-bb61-4028-a00e-f37fee9ad9fd",
+            "label": "CLINICAL PSYCHOLOGY",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2f368272-75f4-49f4-b647-b5c1bc5b323d",
+            "label": "ROBOTICS",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2f52c02f-9ddf-4eda-abd1-3bb6de4c0ca3",
+            "label": "ENVIRONMENTAL ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "31fddff0-e8a5-4123-b27e-62d49071019e",
+            "label": "COMMUNICATIONS",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3313e6e9-f59e-4340-bc0b-067afd61bf7d",
+            "label": "MECHANICAL ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4427532f-1947-4b63-a587-f768403911bb",
+            "label": "BIOENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "46cff7ae-18f7-40f1-aba3-5ac61964ae0c",
+            "label": "MANUFACTURING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5f0c45a1-9dfc-4ecb-a0ac-376d53534bdf",
+            "label": "CHEMICAL ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "698cd5c2-3ae7-4a51-a3bb-375850304064",
+            "label": "EDUCATION",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6d42aff8-8862-42a6-825c-25221b75ac7a",
+            "label": "DESIGN ARTS",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "718846b2-0d72-4e08-b45c-d2ae05e1a6b6",
+            "label": "ADMINISTRATIVE SCIENCES",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8380d2ea-4eae-4762-84a7-b30b3849b39d",
+            "label": "FORENSIC SCIENCE",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "84ff12b7-d370-4c6e-b5fb-8de2117efca4",
+            "label": "COMPUTER SCIENCE",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "861faecc-4827-48d6-b567-251cbf3cc1c0",
+            "label": "MILITARY SCIENCE",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "92ce7852-4bb1-4a37-9b31-9982ba1d0e44",
+            "label": "PUBLIC POLICY",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9ae21a88-1ff3-4cbd-aaa9-246d657c6831",
+            "label": "AGRICULTURAL SCIENCES",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c16980b2-b75e-4b0e-b71a-2978970093e6",
+            "label": "CRIMINAL JUSTICE",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d3e19fe8-2d29-47da-92e4-b7e012c320b3",
+            "label": "NUCLEAR ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d99890cc-fd13-412d-aca9-2411513ff9a7",
+            "label": "CIVIL ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e3d20d1e-f50b-4699-b0d2-0d5be82de82e",
+            "label": "JOURNALISM",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f68fcee3-53d1-48b4-892c-0fe8729c3a46",
+            "label": "AEROSPACE ENGINEERING",
+            "broader": "4bd67a6a-f6e6-4d4a-9bf5-5f733accacb2",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "4ee1e89e-217c-4ccb-9ddc-3375204d530a",
+        "label": "PHYSIOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "62943032-2030-4dc4-8636-b664c0db3807",
+            "label": "ENDOCRINOLOGY",
+            "broader": "4ee1e89e-217c-4ccb-9ddc-3375204d530a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8f26c880-bfc8-4b46-8f3f-06d3454a0b1c",
+            "label": "ELECTROPHYSIOLOGY",
+            "broader": "4ee1e89e-217c-4ccb-9ddc-3375204d530a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ae64f7f8-f06f-40ac-ac81-c1a769e6854e",
+            "label": "NEUROPHYSIOLOGY",
+            "broader": "4ee1e89e-217c-4ccb-9ddc-3375204d530a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "dd39e7b9-45e8-4b1c-9f58-da8c0549ded7",
+            "label": "PSYCHOPHYSIOLOGY",
+            "broader": "4ee1e89e-217c-4ccb-9ddc-3375204d530a",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "4f787976-f47c-41f0-b217-c8506459c0ee",
+        "label": "LIFE SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "1676823d-3e47-4716-b629-0e0bf0541621",
+            "label": "MEDICAL SCIENCES",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1a412c28-c2d2-4066-9130-72ca639e608b",
+            "label": "MEDICAL SCIENCE",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "32d3ac29-7e24-4233-a4ef-668055eae574",
+            "label": "BIOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "340df1b0-ef40-4147-8cdf-25889e7752d4",
+            "label": "ENVIRONMENTAL SCIENCE",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "544a02c9-5df8-417d-acf7-fbaf7bb0696e",
+            "label": "PHENOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "591b440a-a8af-4eff-98bd-5d2411954b91",
+            "label": "PSYCHOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5be73515-93bb-4225-9909-e02efe870a71",
+            "label": "HUMAN ECOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5dd5460a-34b7-428d-9876-3d8c30fb4ffc",
+            "label": "BIOSTATISTICS",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "640ecece-2c42-41b5-9b33-a7b5a18be24f",
+            "label": "PHYSIOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7a946b81-8b19-48f3-b4bc-e11590bb9e2f",
+            "label": "LIFE SCIENCES",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7b885928-55e2-48ad-a7fa-dabf01bf9ccc",
+            "label": "CHEMISTRY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bfc2a63b-757f-47c8-afe7-9e9676c77719",
+            "label": "ECOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cc3795a9-506b-40b5-91cb-70c1e5fc1d10",
+            "label": "PUBLIC HEALTH",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d7956d61-bf53-4424-912f-fc302842d24e",
+            "label": "ANATOMY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d9876a44-0d7d-45e8-bd57-6921f2e1f111",
+            "label": "BIOPHYSICS",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e8af6657-2f75-4e24-9515-c58d0689ccdc",
+            "label": "BIOCHEMISTRY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ea4a3a46-e75b-459f-bea4-381620ac13c8",
+            "label": "NEUROSCIENCE",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ee8e806a-fbb0-41d7-88a4-a6c93e0dd548",
+            "label": "PALEONTOLOGY",
+            "broader": "4f787976-f47c-41f0-b217-c8506459c0ee",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "501265b8-6044-48d8-98f6-ab558ed51182",
+        "label": "AGRICULTURAL SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "2a83aaf1-85b1-48de-b723-4b1addf18093",
+            "label": "ENTOMOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "33b4eb84-fbc0-4da6-91d7-57e8ed5f94e4",
+            "label": "PLANT ECOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3ad0103a-d358-4649-ac88-179dfdd9a3b5",
+            "label": "AGROCLIMATOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3f6de712-1c48-48df-83bd-2c0775737f11",
+            "label": "HORTICULTURE",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "41f970c1-0325-4074-b766-9285df63bd49",
+            "label": "PLANT GENETICS",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4e4a0865-ff49-4d6e-8e71-e78140bb1151",
+            "label": "FISHERIES",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4e4a8e3f-bd01-4d68-8b01-b2cff9ae867e",
+            "label": "FERTILIZER CHEMISTRY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "549a9305-9bcd-4775-905e-733fe89d04f1",
+            "label": "AGRICULTURAL ECONOMICS",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "64e8460c-dc66-4ea0-8238-12119be17908",
+            "label": "PLANT PHYSIOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "79da5dc2-a04a-4f77-bcdd-83dad6a3c99a",
+            "label": "AGROFORESTRY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7fe7e13a-97ac-4c07-b891-7ac3ef9d5ac4",
+            "label": "FOOD TECHNOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "982c202d-207a-4daf-b05e-5414a710a023",
+            "label": "AQUACULTURE",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9f50900f-8257-4a1d-bd5a-5de2687b7f88",
+            "label": "ANIMAL SCIENCES",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a6498dd0-5206-44f7-bc4c-ab8694ad63f5",
+            "label": "AGRICULTURAL ENGINEERING",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "aff0cb13-3483-44ba-a772-92003ee7770c",
+            "label": "BOTANY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b7c2b251-3e55-41e0-8212-a24a1cd48b02",
+            "label": "PLANT PATHOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b9189762-42bb-4086-98d9-f051890b9315",
+            "label": "FORESTRY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ba5948f1-24fc-41b3-a60b-825eddabe57b",
+            "label": "AGRONOMY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c6e70916-5aa6-4223-b0fc-b1cc6ca26aa3",
+            "label": "AGROMETEOROLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d24eb728-5023-4b70-8c82-69cc6d7144a1",
+            "label": "PEST MANAGEMENT",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "eba89487-2cd8-41ec-a5fc-3b32a3f7cdec",
+            "label": "BIOTECHNOLOGY",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f4b308d9-e057-4965-996a-1f5a912d8291",
+            "label": "AGRICULTURAL EXTENSION",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f771edf9-9a12-45c2-8f4e-348ac249956b",
+            "label": "CROP SCIENCES",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fb01fd7d-ec70-4d54-9e0f-9b49b93540a8",
+            "label": "GENETICS",
+            "broader": "501265b8-6044-48d8-98f6-ab558ed51182",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "50a78c30-e286-4d97-8915-75fa154c810c",
+        "label": "MATHEMATICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "5330de1f-9bd1-46fc-9cd6-e793509d1389",
+        "label": "CLINICAL PSYCHOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "573b9c42-37dc-4121-b5c7-26777f2cf71f",
+        "label": "ATMOSPHERIC SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+        "label": "PHYSICAL SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0880521e-bd6d-4940-81b1-0142f63d10fd",
+            "label": "ATMOSPHERIC SCIENCES",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "09742123-977b-4d12-82ef-4f172bc34730",
+            "label": "MICROGRAVITY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1d07b34e-8ceb-488c-b06f-881c520a0301",
+            "label": "EARTH SCIENCE",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "50c75e5a-2f73-4276-a962-a39b848548ae",
+            "label": "SOIL SCIENCES",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "74d0c3a7-9c54-4c9e-a9d1-4aaf2bb5aee9",
+            "label": "ASTRONOMY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7517b459-21a5-45dc-a580-c4ea17510b91",
+            "label": "CHEMISTRY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "869110e9-ee07-4ebc-aa10-b7069ce78162",
+            "label": "GEOGRAPHY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8da83cf7-a784-43d4-9ac0-38e61402dbf4",
+            "label": "PLANETARY SCIENCE",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "93a01e26-7caf-4ab4-9f0b-dae7d16ebcbf",
+            "label": "HYDROLOGY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "95c6521b-10dc-4e21-93e8-4341e62502bf",
+            "label": "SEISMOLOGY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a4be9662-1407-4b13-bfc8-345550658641",
+            "label": "PHYSICS",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "abaec825-28e7-439f-82f8-d9ee9d5a45cd",
+            "label": "SOLAR PHYSICS",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cd2b31f2-f58c-438f-9fcf-85c28ef0381f",
+            "label": "OCEANOGRAPHY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d8ed1ce2-50ca-47ad-abc2-4c42739071ab",
+            "label": "GEOMORPHOLOGY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d976b645-a765-4e6b-a83f-65c26a24a577",
+            "label": "GEOLOGY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f12642e6-bb53-4fe1-a2bb-a5ed4884937c",
+            "label": "CLIMATOLOGY",
+            "broader": "5980e88c-a192-4f28-bba1-b86762c9b90c",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "5a81c449-7e1e-4b5e-a5bb-881c25de770b",
+        "label": "CULTURAL STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "5e701473-89f4-43b4-8962-620a1bfe52ea",
+        "label": "MICROGRAVITY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "201c3687-dca1-4ffa-be34-ecdc0d3fac06",
+            "label": "BIOTECHNOLOGY",
+            "broader": "5e701473-89f4-43b4-8962-620a1bfe52ea",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "568e95f8-9bf2-4ecd-8d83-9d9d17735ff3",
+            "label": "FLUID PHYSICS",
+            "broader": "5e701473-89f4-43b4-8962-620a1bfe52ea",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "65bcea27-e937-4c38-88f6-167feb6326b8",
+            "label": "MATERIALS SCIENCES",
+            "broader": "5e701473-89f4-43b4-8962-620a1bfe52ea",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6d334d17-2b54-4bed-9b60-8695773b8b06",
+            "label": "COMBUSTION SCIENCE",
+            "broader": "5e701473-89f4-43b4-8962-620a1bfe52ea",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "5eec6905-2505-432d-8145-c18ce1411e43",
+        "label": "RELIGIOUS STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "6373b0c1-05ca-4d71-86d1-e72cf212cef1",
+        "label": "PUBLIC POLICY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "642714a7-976f-4116-8107-c734c3aa1eff",
+        "label": "CHEMICAL ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "64c0e202-fb6a-4861-bc94-4fb6473ebdf8",
+        "label": "SOIL SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7187a007-8cde-4639-be9f-bf9c4de78dd0",
+        "label": "CARTOGRAPHY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7715ebc1-1e2e-41b0-abf8-244365cdc4a6",
+        "label": "ECONOMICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "5ff4d2af-b9d3-4686-9afb-777f5f2c91b8",
+            "label": "MICROECONOMICS",
+            "broader": "7715ebc1-1e2e-41b0-abf8-244365cdc4a6",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9361cba2-f2b2-4eed-ae18-c16f56290b9c",
+            "label": "ECONOMIC HISTORY",
+            "broader": "7715ebc1-1e2e-41b0-abf8-244365cdc4a6",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ff37b350-85f4-4b52-a7c3-d80511e1421c",
+            "label": "MACROECONOMICS",
+            "broader": "7715ebc1-1e2e-41b0-abf8-244365cdc4a6",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "77270855-c3f3-4d9c-89a9-d38060fa3d85",
+        "label": "PUBLIC POLICY STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7855c497-dcd9-46df-8af6-09584b1001f6",
+        "label": "PHENOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7acbb4be-abfd-488a-8892-7c08ea210815",
+        "label": "NATURAL HISTORY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7b55431b-ec36-4021-8fdd-8da60fd3ba35",
+        "label": "MILITARY SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7f55bd5c-3ab7-4911-9a09-791a2d0a0956",
+        "label": "CRIMINAL JUSTICE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "804265a9-5de6-4ae8-859c-68ff20babc62",
+        "label": "LANGUAGES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "84182ead-aa11-40c3-a54c-73a63a5b1752",
+        "label": "HUMAN ECOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "88ed7697-5673-4b1c-8854-33dbc8d8379c",
+        "label": "EDUCATION",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "8d4b5dc7-fd29-4aa2-9f22-6bd933ce7d7c",
+        "label": "BIOCHEMISTRY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "08c0dadc-8332-4a10-9500-ba1a24a986b0",
+            "label": "NEUROCHEMISTRY",
+            "broader": "8d4b5dc7-fd29-4aa2-9f22-6bd933ce7d7c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "503011aa-5c19-468c-b833-a379102bd567",
+            "label": "IMMUNOCHEMISTRY",
+            "broader": "8d4b5dc7-fd29-4aa2-9f22-6bd933ce7d7c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c0b1e8e5-38d1-40c8-93e1-f577ae0236fd",
+            "label": "HISTOCYTOCHEMISTRY",
+            "broader": "8d4b5dc7-fd29-4aa2-9f22-6bd933ce7d7c",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "9143dba1-5b2c-49a1-84bb-9fae6f1245ac",
+        "label": "COMMUNICATIONS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "92d90b96-03cb-45ae-be83-035c3702e7ef",
+        "label": "LAW",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "8e759a19-c092-4afd-82af-cbf8ae5e5918",
+            "label": "INTERNATIONAL LAW",
+            "broader": "92d90b96-03cb-45ae-be83-035c3702e7ef",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "93609303-ddce-4c51-a6c0-1c85120f30a2",
+        "label": "GEOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "ef9a4b5c-4803-485d-b3ca-9693c921f65d",
+            "label": "GEOPHYSICS",
+            "broader": "93609303-ddce-4c51-a6c0-1c85120f30a2",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "94c7b2e1-2463-4049-b73a-295070ad3a6f",
+        "label": "LIBRARY STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "9bbbfabb-5da7-42b9-a356-9c6be9da9c61",
+        "label": "REGIONAL STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+        "label": "SOCIAL SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "04fcb3be-8379-41e6-b086-61a07f43186a",
+            "label": "HUMAN ECOLOGY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "06ac1da3-794c-43cc-ad43-da4fc55d3ad6",
+            "label": "ECONOMICS",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "18d7d28a-0a04-4639-bb9c-c19824391371",
+            "label": "CARTOGRAPHY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1f0a0b78-41fb-4d91-abc0-43011a5abd4e",
+            "label": "EDUCATION",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1f908362-333d-4485-a8e6-cf40bcc57ed9",
+            "label": "SOCIOLOGY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "22282ac4-97a1-4c21-a096-d813b7a6bc02",
+            "label": "LAW",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2b2a62a6-bceb-440f-a663-2973b119778a",
+            "label": "PSYCHOLOGY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "404969a4-f4c6-4f19-b0a1-b8425d51f1d1",
+            "label": "FINE ARTS",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8046828b-475d-41ec-843b-bfd53e93340c",
+            "label": "POLITICAL SCIENCE",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "813478bb-0fcc-4b9e-a655-46cda4826c90",
+            "label": "GEOGRAPHY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "841b5607-558c-4442-b792-595aa196290b",
+            "label": "LINGUISTICS",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "89ea7131-263f-4642-bbb5-09c65457ef3d",
+            "label": "HISTORY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8ba36739-85c7-4090-8b4a-a714ba143f53",
+            "label": "RELIGIOUS STUDIES",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8e76e6aa-c190-4fd8-9e6e-78a1bda26e32",
+            "label": "LANGUAGES",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "94b52ae4-d496-4b52-a539-eb329f58e99b",
+            "label": "PHILOSOPHY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "95cf46e9-448e-41c4-93c5-e6317816d044",
+            "label": "DEMOGRAPHY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a9251a0f-3144-44fe-8746-71e2b2e68ab4",
+            "label": "ANTHROPOLOGY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b432bd36-e9fd-4d01-92ca-42f72470943d",
+            "label": "LITERATURE",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bf1d7a50-aa40-470c-b883-2c17446a8951",
+            "label": "ARCHAEOLOGY",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c4bcd06a-b466-4b60-bd39-8a35158bb1f6",
+            "label": "CULTURAL STUDIES",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ecc88f58-2dc9-4ec5-9c35-bee3238b3e70",
+            "label": "PERFORMING ARTS",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fb424544-c32d-4c8c-b491-a04ae0ab2de2",
+            "label": "ADMINISTRATIVE SCIENCES",
+            "broader": "a135e49a-6d74-48b6-be7d-5b8aaceec51c",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "abb43da5-6059-41bc-8c4d-9b7f5407ce49",
+        "label": "INTERNATIONAL RELATIONS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "acda63e7-46f3-4238-a25f-327d809a3d26",
+        "label": "PUBLIC HEALTH",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "20b6caa5-e1cf-41ca-acb4-4f4c2d9b8255",
+            "label": "INTERNATIONAL HEALTH",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2861e71f-3c09-42bb-adf9-ab59ff499927",
+            "label": "COMMUNITY MEDICINE",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "40d73b99-f0c2-4520-93ef-782bd6e490f3",
+            "label": "REPRODUCTIVE HEALTH",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "40ef541f-823b-4876-910a-69640636a449",
+            "label": "EPIDEMIOLOGY",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4ce93e1c-ad1f-446b-b178-eb0c49e14eac",
+            "label": "HEALTH BEHAVIOR",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5742f504-2494-4e2b-83fc-b545060499d8",
+            "label": "NUTRITION",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "584acbce-c1b6-41ba-8c82-1e234cfb00d8",
+            "label": "HEALTH MANAGEMENT AND POLICY",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "597d995e-4343-4597-8a65-39a74c2f8a1c",
+            "label": "HEALTH SERVICES ADMINISTRATION",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6c85b664-33e4-4ab2-81f0-e75c0ae0206a",
+            "label": "DEMOGRAPHY",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "862e5ca8-7e13-4e76-b061-585f30bfe3b8",
+            "label": "CHRONIC DISEASE",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "906154cb-327e-4b8e-9f6b-b66fa60cdfe0",
+            "label": "PARASITOLOGY",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9865d776-dbee-4f8f-bd2e-0022fda90e7f",
+            "label": "MATERNAL AND CHILD HEALTH",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a53faa5a-130e-42cb-bb49-a269dd8b189b",
+            "label": "ENVIRONMENTAL HEALTH",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "afda1b8e-3747-4079-823b-f969474affb9",
+            "label": "POPULATION DYNAMICS",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b3df78ea-5607-4e3f-9736-265c0042df99",
+            "label": "BIOSTATISTICS",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "be7ce2e6-f1a7-45fc-b238-27fb0233c197",
+            "label": "CHRONIC DISEASES",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "da72653d-ce4f-4374-a7bd-d2d1c286df94",
+            "label": "HEALTH EDUCATION",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "dc91a731-03d7-4741-a93c-c3799d60d9fe",
+            "label": "OCCUPATIONAL HEALTH",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f62782b5-56d2-4a20-97f0-1a5036174737",
+            "label": "SOCIAL PSYCHOLOGY",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fd4f37f5-efff-4132-b900-3995e41e9875",
+            "label": "COMMUNICABLE DISEASES",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ff81b085-500c-4fd1-8478-ab222f684839",
+            "label": "COMMUNICABLE DISEASE",
+            "broader": "acda63e7-46f3-4238-a25f-327d809a3d26",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+        "label": "MEDICAL SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "06c29fe3-62cd-45f0-8181-e3fe85430f53",
+            "label": "UROLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1af8523d-7c39-4adc-a4f4-f359f878b9ff",
+            "label": "ALLERGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1cc2c87c-7fdf-4290-96d2-d477e11c0b28",
+            "label": "RADIOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1d84c357-258f-4468-b97d-a703fdbf6cb0",
+            "label": "COMMUNICABLE DISEASES",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1edd82c0-79cd-4bd9-a9c5-99c538303a14",
+            "label": "EPIDEMIOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3233c8bb-ccb1-4448-9182-3b72f967797e",
+            "label": "ORTHOPTICS",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3d09e17a-24f6-4bab-9664-6a66d92fdd4d",
+            "label": "OSTEOPATHIC MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3eaca5be-dc90-4fa1-b3d0-65bc0828d386",
+            "label": "CLINICAL MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "40bdd237-8732-4d82-9148-5c6e739cb4a1",
+            "label": "CHRONIC DISEASES",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "44975019-62ed-483a-a57f-dcd851a7e6e1",
+            "label": "DERMATOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "514a14a1-b7cf-4e25-8127-2335aaa35b50",
+            "label": "FORENSIC MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "55fa40f5-d45e-406c-bc46-5a77629048b6",
+            "label": "SEROLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "575b2547-37c1-41bf-a147-b5aec14b7c6d",
+            "label": "OBSTETRICS",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "57dee5cf-7508-4054-b496-c02c7eee3020",
+            "label": "OTOLARYNGOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "611f8a8c-6335-4366-a936-44c3a1179dba",
+            "label": "VENEREOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "69bccadc-1719-4bda-b489-eb4f74901c92",
+            "label": "NUTRITION",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6d204356-6dd8-436e-9f8c-15abf6b9d956",
+            "label": "VETERINARY MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6da1d6a4-1742-42b6-b67a-cc14acd4a73b",
+            "label": "IMMUNOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6e4a7bc1-3b00-4942-8eb1-1d3e42eaef7e",
+            "label": "BEHAVIORAL MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "72fb074c-8de4-4200-a6d8-f17e88249cec",
+            "label": "PODIATRY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "77bc7b0f-38f2-40e2-be1c-856151b4b89d",
+            "label": "ONCOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7e377c1d-9fe8-40d7-832e-d301a55c46c0",
+            "label": "EMERGENCY MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "84dc199f-66b1-4286-a4fd-ab180c2dfe8e",
+            "label": "PSYCHIATRY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8d2a7205-d9ce-4faa-aaa0-0622078979d0",
+            "label": "PATHOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8d8d6ece-2de9-40ee-8828-de66eac05d9f",
+            "label": "PHYSICAL MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9ca8fc70-b0b7-4b57-8894-dc89a69910f4",
+            "label": "HOMEOPATHIC MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9d435b7b-9ed0-4689-8c56-a0b61764489c",
+            "label": "NEONATOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9e5edb2d-6f97-4c24-959b-858611d1a0ef",
+            "label": "PHARMACY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9fc34e8a-bd35-47b1-a10d-356ce403ad4a",
+            "label": "OPTHALMOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a92d05b0-2e37-42e5-8068-ea952c4f26c0",
+            "label": "INTERNAL MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b4595b08-55a2-4325-b5fb-a78ac4a3d0eb",
+            "label": "MEDICAL GENETICS",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bc25baca-cc63-4185-bfa9-ccccb58a7816",
+            "label": "OPTOMETRY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "be9289cb-44b6-4a10-946f-ab4834b1d8a5",
+            "label": "GERONTOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c706e115-31af-4244-8e94-30995ffbdeb3",
+            "label": "ADOLESCENT MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cb91bbe3-53b3-41de-a93f-667d4e450879",
+            "label": "ANESTHESIOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d4ac4081-c707-4c11-a63a-bf75c70bff1d",
+            "label": "SOCIAL MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d9be2471-50f2-411e-a86a-8ef836c88918",
+            "label": "TOXICOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "dd5653dd-c3c6-411e-bd63-4825d83bba66",
+            "label": "NURSING",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "de65c5b9-cfca-46fd-85ea-fa403e78f71c",
+            "label": "NEUROLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "dec1acae-e8b9-4730-9c5f-4070d268c28e",
+            "label": "ORTHOPEDICS",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "eb6ca5e3-f852-4836-9549-bd97b9650fa4",
+            "label": "NUCLEAR MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ec4e5e68-6d22-412b-907b-a1cfa2d59e3d",
+            "label": "COMMUNITY MEDICINE",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f036b4c1-48a7-4461-b525-94ab324c843e",
+            "label": "PHARMACOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f085d262-ce8a-4f29-b57b-b691fc788725",
+            "label": "PSYCHOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f0a69e23-d5a4-4e08-b7d9-8e17cea93d53",
+            "label": "GYNECOLOGY",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fce85670-8d9e-41f1-b863-1dd67829af01",
+            "label": "PEDIATRICS",
+            "broader": "ad11e2b2-db98-4820-b2dc-c075560baca8",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "ae0ade63-4d8b-4908-9821-a2ec0bec85bc",
+        "label": "FINE ARTS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b0c9d66f-18ef-4ad4-9eed-d847fe64b573",
+        "label": "OCEANOGRAPHY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b35fcc05-ea80-4e2b-97cd-168b15182214",
+        "label": "NUCLEAR ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+        "label": "BIOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "1b8b7222-8650-4c37-90b7-9c22cfdaaaf7",
+            "label": "RADIOBIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2ba9ff15-8206-4f74-af8e-af2787c92da2",
+            "label": "MOLECULAR BIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "36407461-1c12-417e-bb60-9002d82a4b96",
+            "label": "AQUATIC SCIENCES",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5b1eb6dd-1c09-4362-a8c4-26e3392c612e",
+            "label": "MICROBIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5e5381a6-955f-41b0-bb27-7411a096bd0e",
+            "label": "ZOOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "665b9671-44c6-48b0-97d0-e3f0c5061612",
+            "label": "IMMUNOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6a6eab7a-49f5-4870-9d77-d80dfcacbc5f",
+            "label": "NEUROBIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "706e5ff5-fb83-4641-ac2a-09d9def132e8",
+            "label": "ANTHROPOMETRY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7dd847a0-47bf-466b-9bc8-c4fbe3dd8d3f",
+            "label": "MARINE BIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "aedf0c0f-4b32-4aa7-93c2-ab417a73c146",
+            "label": "DEVELOPMENTAL BIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d5b90f0c-5fe3-41fb-8c67-5fba5a01afca",
+            "label": "ECOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e258fe3e-029d-4262-9d63-0476aec9927a",
+            "label": "ENTOMOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "eab6ddab-b0a5-4944-baf0-ade965786a95",
+            "label": "PARASITOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ec5f63cf-d6d6-4af9-8b52-52b9450a5df4",
+            "label": "PLANT BIOLOGY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f1672e84-97e0-44e5-b425-8921696775ad",
+            "label": "GENETICS",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "faf5e109-a673-4d69-9c31-8c4597dd10c4",
+            "label": "BOTANY",
+            "broader": "b5272f6c-c5fb-42d7-a77f-0f3630f28d28",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "bc642bd1-d923-47a4-89fa-b99494881768",
+        "label": "AREA STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "bdf633a6-14d2-4405-acf6-f30c804ca4f4",
+        "label": "ANATOMY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "203957a1-dff8-43e7-80cd-c909e48f0786",
+            "label": "NEUROANATOMY",
+            "broader": "bdf633a6-14d2-4405-acf6-f30c804ca4f4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "64c1fa09-8cd2-4b58-8ded-5f63197ed64d",
+            "label": "CYTOLOGY",
+            "broader": "bdf633a6-14d2-4405-acf6-f30c804ca4f4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7e1ae71c-53ce-4a9f-ba97-6de0073da4f5",
+            "label": "EMBRYOLOGY",
+            "broader": "bdf633a6-14d2-4405-acf6-f30c804ca4f4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c0e6d699-b5ba-41b3-ba4a-3108e66b913a",
+            "label": "HISTOLOGY",
+            "broader": "bdf633a6-14d2-4405-acf6-f30c804ca4f4",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "c0a1f5a3-fa2f-44d4-957b-f636139f4022",
+        "label": "GEOMORPHOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "c342953a-dd24-491e-8278-5d68c0de7442",
+        "label": "ARCHAEOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+        "label": "GEOGRAPHY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "185ff107-883a-411d-8e5f-e7a28e6334a3",
+            "label": "HYDROGRAPHY",
+            "broader": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "57d05ad5-78be-4b86-b6e6-9d880cce3028",
+            "label": "CULTURAL GEOGRAPHY",
+            "broader": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8593ea0f-91f5-492e-ad0f-2182b82545d2",
+            "label": "MEDICAL GEOGRAPHY",
+            "broader": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bc7020fb-6bed-46a3-bf0f-1dc60a2afc0b",
+            "label": "HUMAN GEOGRAPHY",
+            "broader": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c8b24e16-500e-4bd2-89d0-bb85206e7af9",
+            "label": "PHYSICAL GEOGRAPHY",
+            "broader": "c545f752-3005-45fd-9ea1-8c6967e7425d",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "cc7499b3-82b7-4e95-b5b4-fbef9a3f408e",
+        "label": "INTERNATIONAL DEVELOPMENT",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "cf15ff96-97d1-4153-bfea-5ddd30320335",
+        "label": "POPULATION STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "cf9be1b6-a094-4a14-918c-69a11864fa92",
+        "label": "FORENSIC SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+        "label": "SOLAR PHYSICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "1a5a7581-0bd6-437c-b629-ad37a8c700dc",
+            "label": "VISIBLE OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3f994d08-ed2f-4913-a17d-01e344f91b23",
+            "label": "ULTRAVIOLET OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "42c38561-0ba9-42f5-9192-2ab85d213b17",
+            "label": "RADIO OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4782aa1a-0458-4e01-b6fb-dd1eebb2aae7",
+            "label": "MICROWAVE OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7612c01f-a059-47c7-a767-937f49d36e03",
+            "label": "X-RAY OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b548c50d-8c19-4f9e-a634-b4f4fa92e7ad",
+            "label": "PHOTOSPHERE",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b95631a4-0d19-40c5-959b-43c15b6dd9f8",
+            "label": "GAMMA-RAY OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c49af52b-3ffa-4be2-962b-fe3ed6777a99",
+            "label": "INFRARED OBSERVATIONS",
+            "broader": "d06090e8-3dbb-401a-b8df-b2409fdcc4ec",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "d2d2001c-f09f-464c-b84a-ce6cadc11fc4",
+        "label": "DEVELOPMENT STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+        "label": "ECOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "02d70f66-1190-4c49-ad0a-f382423a0eab",
+            "label": "PALEOECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1530f853-1e8c-4a92-8a77-abd6f969210e",
+            "label": "AQUATIC ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3779122c-2cce-40a6-9af5-515dd74aad2c",
+            "label": "MARINE ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4a55402f-a922-43fe-a437-647d11be9ef6",
+            "label": "SYSTEMS ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6b3de42c-2e3c-437b-9fac-d1920a980a8c",
+            "label": "TERRESTRIAL ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7209c13f-eee0-4dd0-ada8-732900b58e61",
+            "label": "FRESHWATER ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d45ca303-30a8-4987-ad86-13a5f86be32c",
+            "label": "ESTUARINE ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d8af56d2-e22e-4732-91b2-ec5127448775",
+            "label": "PLANT ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fe420f84-e98c-4b4b-85a9-1bc38160e998",
+            "label": "RADIATION ECOLOGY",
+            "broader": "d4d928d7-099b-4d4a-8f97-c92a09cdf8a7",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "d6d505ba-8e74-4f7f-bc9e-daedfb74987a",
+        "label": "HYDROLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+        "label": "DESIGN ARTS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "1aad53bb-5e9a-4d84-83db-3f473fc006dc",
+            "label": "INTERIOR DESIGN",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2be91e47-1dd0-42d1-8d7a-9f7cea7e4812",
+            "label": "PLANNING",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "680f6094-e8bb-4de8-ab18-c365f700bd96",
+            "label": "LANDSCAPE ARCHITECTURE",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "78c16762-8a24-485a-9a68-e350b2b3c305",
+            "label": "URBAN DESIGN",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cecca60d-b395-4caf-80cd-4f017452fb51",
+            "label": "ARCHITECTURE",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cfb6f274-5a7e-4909-9e70-607f938cbf6b",
+            "label": "ENVIRONMENTAL DESIGN",
+            "broader": "d77c7858-30b3-4ca7-baf4-10d9863bec0a",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "d7e29a07-6529-413e-a022-a8e8cdea382a",
+        "label": "GENDER STUDIES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "ddbfb940-5f69-4dc7-bbd2-6a3dda069499",
+        "label": "COMPUTER SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+        "label": "EARTH SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "2b8cd7ca-5593-4561-a68d-468829da045f",
+            "label": "INTERIOR AND CRUST",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "386b6504-2d13-442d-8ffa-9fab8d82f3a4",
+            "label": "FRESHWATER",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5659bba5-994a-405b-85af-becdc6dc0dd9",
+            "label": "ATMOSPHERE",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8536c591-5b89-468a-977a-aafb76f78405",
+            "label": "OCEAN",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9b356d42-5f3a-49bf-aca7-3ec8f9bcb6ce",
+            "label": "LAND",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c7d47ab1-aed5-4cf0-8d42-12098e8031e1",
+            "label": "BIOSPHERE",
+            "broader": "e0b60b65-5850-4165-ba4b-e68adefd249b",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "e51c7b5e-0700-4d18-b2f5-24526203c4e8",
+        "label": "CLIMATOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0c1e971a-4f16-40a3-aa2e-763c816f5c6f",
+            "label": "METEOROLOGY",
+            "broader": "e51c7b5e-0700-4d18-b2f5-24526203c4e8",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "e53cfcad-d54f-4313-b397-755a4fefbf42",
+        "label": "BIOPHYSICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "325323a2-8cac-48cd-8dbd-bbc31d334c11",
+            "label": "BIONICS",
+            "broader": "e53cfcad-d54f-4313-b397-755a4fefbf42",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7c14bbaf-b618-44b8-a518-80393d74eced",
+            "label": "BIOMECHANICS",
+            "broader": "e53cfcad-d54f-4313-b397-755a4fefbf42",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e8af45ed-e5e6-4bf4-a1ee-e565f0a30313",
+            "label": "ELECTROPHYSIOLOGY",
+            "broader": "e53cfcad-d54f-4313-b397-755a4fefbf42",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+        "label": "PHYSICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "4454e8a5-9b6a-4d1b-9841-be4198d003ee",
+            "label": "RELATIVITY",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "51f49b4f-1830-452b-a4b5-b40271ff155f",
+            "label": "THERMAL DYNAMICS",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "52583e30-f3ea-4029-9056-0d65a9dd6914",
+            "label": "MECHANICS",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6986a6a5-8145-4b48-a1b4-a656d84ab3a2",
+            "label": "QUANTUM PHYSICS",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c7a0a3af-b881-4daf-ae42-e2f5abd69acf",
+            "label": "STATISTICAL PHYSICS",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e36f4497-ca53-4afd-9339-ab0c8310b814",
+            "label": "SOLID STATE PHYSICS",
+            "broader": "e9ec8178-1b67-4e5f-b752-22eb659dddce",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "eb7b16f4-5152-4e58-91fa-94cafecd311b",
+        "label": "ANTHROPOLOGY",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "312e97cb-7e7d-4287-8856-c337c3da9c01",
+            "label": "SOCIO-CULTURAL ANTHROPOLOGY",
+            "broader": "eb7b16f4-5152-4e58-91fa-94cafecd311b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "86f2c8df-5f0c-4a2b-9413-17f4fe6a342a",
+            "label": "PHYSICAL ANTHROPOLOGY",
+            "broader": "eb7b16f4-5152-4e58-91fa-94cafecd311b",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "eec6b7cd-b166-491f-a8bd-e0dba75f0333",
+        "label": "LINGUISTICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f0ce13ec-389e-4bcc-9f4a-b377c118fabf",
+        "label": "INFORMATION SCIENCE",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f4911542-49b9-4933-acfa-af9f8408d052",
+        "label": "JOURNALISM",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f4c369ec-bf1c-48f2-a42b-5227f46817a9",
+        "label": "ENVIRONMENTAL ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+        "label": "ADMINISTRATIVE SCIENCES",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0fde38f8-b9a4-453f-827e-ba161dd12c78",
+            "label": "OPERATIONS RESEARCH",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "15670ee1-eba8-4c7d-a257-b1fa120043f3",
+            "label": "PERSONNEL ADMINISTRATION",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "347e65cb-ec81-4209-ad62-d4bf15d689da",
+            "label": "PUBLIC ADMINISTRATION",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "552badf6-0273-4a11-8615-f31164264c80",
+            "label": "ORGANIZATIONAL BEHAVIOR",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "55662711-e11c-4b85-a166-f6d1ff680c11",
+            "label": "FINANCE",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "57e97512-58d9-4b67-98e7-4ba716a8296f",
+            "label": "INDUSTRIAL RELATIONS",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "70bb10fd-cfbe-4beb-ae27-e81089fbbafc",
+            "label": "ACCOUNTING",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "82151dba-70d2-4ccd-b07b-6b436578079c",
+            "label": "OPERATIONAL MANAGEMENT",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8c5e7b2a-ec9d-4fc7-83ac-c005f46eb2ee",
+            "label": "MARKETING",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "98f4823c-2290-4647-a839-c59b886960fe",
+            "label": "BUSINESS ECONOMICS",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c0b3b343-a7e1-4f83-970c-b64d1a019f44",
+            "label": "INTERNATIONAL BUSINESS",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fc95bce4-fab3-42d2-a7f1-6348a2672829",
+            "label": "BUSINESS ADMINISTRATION",
+            "broader": "fbf13798-2bcd-4ae7-99f9-a4b69dd425c1",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "fbf35f5b-c57b-49c9-bdd6-1db3dfec8a08",
+        "label": "BIOENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "fcd3e011-046a-4feb-a7a2-5da33c4c3027",
+        "label": "CIVIL ENGINEERING",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "fdb29ed9-9a40-4b14-993d-332e53d2a019",
+        "label": "BIOSTATISTICS",
+        "broader": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0c2ccd18-64b6-40ae-b6d0-35a2a5d42df6",
+            "label": "BIOMEDICAL ENGINEERING",
+            "broader": "fdb29ed9-9a40-4b14-993d-332e53d2a019",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
