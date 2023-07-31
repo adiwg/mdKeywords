@@ -127,12 +127,10 @@ async function main() {
   console.log('command line args:', argMap);
   const profiles = await loadProfiles(profilesListUrl);
   let vocabularies = await compileVocabulariesFromProfiles(profiles);
-  console.log('Vocabularies:', vocabularies.length);
   if (argMap.source) {
     console.log('Filtering vocabularies by source:', argMap.source);
     vocabularies = vocabularies.filter((v) => v.source === argMap.source);
   }
-  console.log('Vocabularies:', vocabularies.length);
   const vocabularyCitations = await generateCitations(vocabularies);
   writeToLocalFile(vocabularyCitations, vocabulariesFilename, outputFilePath);
   for (const vocabulary of vocabularies) {
