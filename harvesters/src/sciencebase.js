@@ -90,7 +90,7 @@ function generateCitationInternal(metadata, outputFilename) {
           dateType: '',
         },
       ],
-      description: metadata.description || '',
+      description: metadata.description || 'No description available.',
       title: metadata.name,
       edition: '',
       onlineResource: [
