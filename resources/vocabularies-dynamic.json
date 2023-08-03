@@ -506,34 +506,6 @@
         }
       ],
       "description": "",
-      "title": "category",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df22"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "4f4e475ee4b07f02db47df22"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-4f4e475ee4b07f02db47df22.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "",
       "title": "unit",
       "edition": "",
       "onlineResource": [
@@ -641,34 +613,6 @@
     "citation": {
       "date": [
         {
-          "date": "",
-          "dateType": ""
-        }
-      ],
-      "description": "Terms for tagging ReSciColl information by structure for processing and archiving.",
-      "title": "NGGDPP ReSciColl ScienceBase Type Tags",
-      "edition": "",
-      "onlineResource": [
-        {
-          "uri": "https://www.sciencebase.gov/vocab/category/5bf3f7bce4b00ce5fb627d57"
-        }
-      ],
-      "identifier": [
-        {
-          "identifier": "5bf3f7bce4b00ce5fb627d57"
-        }
-      ]
-    },
-    "keywordType": "vocabulary",
-    "label": "NGGDPP ReSciColl ScienceBase Type Tags",
-    "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/sb-5bf3f7bce4b00ce5fb627d57.json",
-    "keywords": []
-  },
-  {
-    "citation": {
-      "date": [
-        {
           "date": "2020-01-09",
           "dateType": "revision"
         }
@@ -696,16 +640,16 @@
     "citation": {
       "date": [
         {
-          "date": "Aug 19, 2015 9:35:37 AM",
+          "date": "2023-07-07 10:23:58",
           "dateType": "revision"
         }
       ],
-      "description": "",
+      "description": "No description available.",
       "title": "Global Change Master Directory (GCMD) Chronostratigraphic Units",
-      "edition": "Version 16.4",
+      "edition": "Version 16.5",
       "onlineResource": [
         {
-          "uri": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/chronounits"
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190?format=json}"
         }
       ],
       "identifier": [
@@ -715,9 +659,9 @@
       ]
     },
     "keywordType": "chronounits",
-    "label": "GCMD Chrono Units",
+    "label": "Chronostratigraphic Units",
     "dynamicLoad": true,
-    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/gcmd-chronounits.json",
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-chronounits.json",
     "keywords": []
   }
 ]
