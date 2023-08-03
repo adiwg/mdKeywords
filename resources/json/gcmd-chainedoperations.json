@@ -1,0 +1,59 @@
+[
+  {
+    "uuid": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+    "label": "Chained Operations",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "1a4176f6-5253-461c-9ac2-db81929137eb",
+        "label": "Format Conversion",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "4498cfd2-8f94-4fd1-93ae-34947364ce0b",
+        "label": "Reprojection",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "885ca6d6-46c5-444d-88e1-6d933d8636a7",
+        "label": "Variable Aggregation",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "9d0458a2-b179-4b73-b6ab-951beca57784",
+        "label": "Temporal Subsetting",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b98e16a5-d1cb-4744-8810-05c5ade290c0",
+        "label": "Variable Subsetting",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "be356007-ea42-496a-9417-e000bc0d41de",
+        "label": "Regridding",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "eb453edc-11bf-43b2-8f98-febb2af07539",
+        "label": "Spatial Subsetting",
+        "broader": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

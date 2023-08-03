@@ -1,3 +1,4 @@
+/* global process */
 const axios = require('axios');
 const sciencebase = require('./sciencebase');
 const usgs = require('./usgs');
@@ -111,9 +112,25 @@ async function processVocabulary(vocabulary) {
   }
 }
 
+function parseCommandLineArgs() {
+  const args = process.argv.slice(2);
+  const argMap = {};
+  for (const arg of args) {
+    const [key, value] = arg.split('=');
+    argMap[key] = value;
+  }
+  return argMap;
+}
+
 async function main() {
+  const argMap = parseCommandLineArgs();
+  console.log('command line args:', argMap);
   const profiles = await loadProfiles(profilesListUrl);
-  const vocabularies = await compileVocabulariesFromProfiles(profiles);
+  let vocabularies = await compileVocabulariesFromProfiles(profiles);
+  if (argMap.source) {
+    console.log('Filtering vocabularies by source:', argMap.source);
+    vocabularies = vocabularies.filter((v) => v.source === argMap.source);
+  }
   const vocabularyCitations = await generateCitations(vocabularies);
   writeToLocalFile(vocabularyCitations, vocabulariesFilename, outputFilePath);
   for (const vocabulary of vocabularies) {
