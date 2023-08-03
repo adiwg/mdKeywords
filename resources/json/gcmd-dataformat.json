@@ -1,0 +1,892 @@
+[
+  {
+    "uuid": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+    "label": "Data Format",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "0225ee3e-c3b1-4a5d-bd22-b36462330b00",
+        "label": "TIFF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An image file format for storing raster graphics images, popular among graphic artists, the publishing industry, and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing, and page-layout applications.",
+        "children": []
+      },
+      {
+        "uuid": "067315ec-ed74-401f-b828-d568351211d1",
+        "label": "AGF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "AGF files (Atlas Geo Files) are Atlas GIS native binary geodataset files. These store information about the spatial data.",
+        "children": []
+      },
+      {
+        "uuid": "0679d78d-0931-4948-94ec-46ab130785a6",
+        "label": "ICI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A general-purpose programming language that is interpreted and contains several features such as dynamic typing along with the flexible data types is known as ICI (not an acronym) programming language. It is considered to be similar to the Perl language. This ICI language comprises flow control constructs and also contains some operators of the C language. It is not an object-oriented language but some of the features of OOP can be attained by a specific inheritance method known as superstructures. Similar to C, this ICI programming language has the same system interface and a standard library for built-in functions.",
+        "children": []
+      },
+      {
+        "uuid": "08208d5b-1311-4c14-b8c1-5f64f75cb392",
+        "label": "AMES",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The NASA Ames Format for Data Exchange, often referred to as NASA Ames Format, grew out of NASA aircraft campaigns and was first formalised at the Ames Research Centre, California, during the 1987 Stratosphere Troposphere Exchange Project (STEP), when uniform rules to record data were needed to facilitate the data exchange between the participants and allow shared use of a minimised amount of software to analyse and display different datasets.",
+        "children": []
+      },
+      {
+        "uuid": "0e1b63cf-966f-4f42-9575-e6b362de9aaa",
+        "label": "HDF-EOS5",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "There are two main versions of the HDF library: HDF4 and HDF5. These two versions are not compatible and support for both will continue. However, the support for HDF4 will be limited to bug-fixes and building and testing on new platforms; no new features will be added. There are also two main versions of HDF-EOS that are based on the HDF libraries. HDF-EOS2.x versions are based on HDF4 and HDF-EOS5.x versions are based on HDF5.",
+        "children": []
+      },
+      {
+        "uuid": "10de1987-5896-42d6-be7c-506fd7ba1f21",
+        "label": "MAT",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "MATLAB is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.",
+        "children": []
+      },
+      {
+        "uuid": "131c1f06-d827-4b0f-b2cf-d0585f221be1",
+        "label": "PNG",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A PNG (Portable Network Graphics) file is a raster image file format that uses lossless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports lossless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the widely used image file formats.",
+        "children": []
+      },
+      {
+        "uuid": "133c2aee-50f9-4260-b792-6d6694399da3",
+        "label": "IONEX",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The IONosphere-map EXchange format was developed with the purpose of having a common format to exchange TEC maps obtained from the GNSS signals. IONEX format is based on RINEX: it consists of a ASCII file containing a header with global information, placed in the beginning of the file, and a data section, with the TEC map.",
+        "children": []
+      },
+      {
+        "uuid": "1528fc97-9aa0-4417-887b-c746fb0c6d23",
+        "label": "Valeport CTD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A CTD —  an acronym for Conductivity, Temperature, and Depth — is the primary tool for determining essential physical properties of sea water.",
+        "children": []
+      },
+      {
+        "uuid": "181d354f-af90-4aaf-9167-ff3db9f6cb13",
+        "label": "LAS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The LAS (LASer) format is a file format designed for the interchange and archiving of lidar point cloud data. It is an open, binary format specified by the American Society for Photogrammetry and Remote Sensing (ASPRS). The format is widely used and regarded as an industry standard for lidar data.",
+        "children": []
+      },
+      {
+        "uuid": "19139079-41cd-47d5-b581-93bed04ade29",
+        "label": "TAR",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A TAR file is an archive created by tar, a Unix-based utility used to package files together for backup or distribution purposes.",
+        "children": []
+      },
+      {
+        "uuid": "191a9f1d-cfd3-469d-86b8-ce2d2355034a",
+        "label": "DEM",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A file with the DEM file extension is a Shuttle Radar Topography Mission (SRTM) Data file. DEM files contain digital elevation models, which are 3D pictures of a surface, usually a planet, obtained during the Shuttle Radar Topography Mission (SRTM) by NASA and the National Geospatial-Intelligence Agency (NGA).",
+        "children": []
+      },
+      {
+        "uuid": "1aee02b9-bf37-4197-bb7f-bd6f040d26f6",
+        "label": "ASCII Raster",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Esri ASCII raster format can be used to transfer information to or from other cell-based or raster systems. When an existing raster is output to an Esri ASCII-format raster, the file will begin with header information that defines the properties of the raster such as the cell size, the number of rows and columns, and the coordinates of the origin of the raster. The header information is followed by cell value information specified in space-delimited row-major order, with each row separated by a carriage return.",
+        "children": []
+      },
+      {
+        "uuid": "1b5f24f0-a524-4d6b-a20a-6bc685d46c8e",
+        "label": "MDB",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An MDB file is a database file created by Microsoft Access, a widely-used desktop relational database program. It contains the database structure (tables and fields) and database entries (table rows). MDB files may also store data entry forms, queries, stored procedures, reports, and database security settings.",
+        "children": []
+      },
+      {
+        "uuid": "1c406abc-104d-4517-96b8-dbbcf515f00f",
+        "label": "HDF5",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "HDF5 is a high performance data software library and file format to manage, process, and store your heterogeneous data. HDF5 is built for fast I/O processing and storage.",
+        "children": []
+      },
+      {
+        "uuid": "20c82be1-789f-4441-9728-d51cf2704523",
+        "label": "NITF21NCDRD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "NITF data can be added to a mosaic dataset using the NITF (Generic), the NITF (NCDRD) raster type, or the Esri generic raster dataset raster type. When a NITF is added using the NCDRD raster type, the metadata fields specified below will be added and populated in the attribute table. Using the NCDRD raster type allows you to create a mosaic dataset where you can query the mosaic dataset based on a limited set of NITF attributes in the mosaic dataset attribute table regardless of the sensor type (for example, supporting a mixed collection of commercial satellite image products from multiple vendors).",
+        "children": []
+      },
+      {
+        "uuid": "20f86520-af22-4e57-9d83-06a7e2ca5280",
+        "label": "RB5",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The data format for the the Qualcomm Flight RB5 5G platform.",
+        "children": []
+      },
+      {
+        "uuid": "22996c6c-4a7c-4ff3-9782-1fc3c680a88c",
+        "label": "EPS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Encapsulated PostScript (EPS) is a Document Structuring Conventions-conforming (DSC) PostScript document format usable as a graphics file format. EPS files are more-or-less self-contained, reasonably predictable PostScript documents that describe an image or drawing and can be placed within another PostScript document. An EPS file is essentially a PostScript program, saved as a single file that includes a low-resolution preview 'encapsulated' within it, allowing some programs to display a preview on the screen.",
+        "children": []
+      },
+      {
+        "uuid": "23a0f833-fc2b-4922-8998-371a4a18bd17",
+        "label": "COG",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server, with an internal organization that enables more efficient workflows on the cloud. It does this by leveraging the ability of clients issuing HTTP GET range requests to ask for just the parts of a file they need.",
+        "children": []
+      },
+      {
+        "uuid": "23ccdce5-cd51-424e-b82a-67e076a86994",
+        "label": "ICARTT",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The ICARTT file format standards were developed to fulfill the data management needs for the International Consortium for Atmospheric Research on Transport and Transformation (ICARTT) campaign in 2004. The ICARTT study consisted of eleven highly coordinated individual field experiments with over 300 government-agency and university participants from five countries, i.e., US, Canada, UK, Germany, and France. A common and simple-to-use data file format, ICARTT file format was established for this study to primarily facilitate data exchange and to promote collaborations among the science teams for achieving the ICARTT science objectives. The ICARTT file format is text-based and composed of a header section (metadata) with critical data description information (e.g., data source, uncertainties, contact information, and brief overview of measurement technique), and a data section. Although it was primarily designed for airborne data, the ICARTT format proved to be practical for other mobile and ground-based studies and various data types. Upon the success of the ICARTT study, the ICARTT file format has since been widely accepted in the atmospheric composition field study community and used in recent major airborne studies sponsored by NASA, NSF, NOAA and international partners.",
+        "children": []
+      },
+      {
+        "uuid": "2611e09d-5eb2-4159-a917-7e373727a825",
+        "label": "HDF-EOS4",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "There are two main versions of the HDF library: HDF4 and HDF5. These two versions are not compatible and support for both will continue. However, the support for HDF4 will be limited to bug-fixes and building and testing on new platforms; no new features will be added. There are also two main versions of HDF-EOS that are based on the HDF libraries. HDF-EOS2.x versions are based on HDF4 and HDF-EOS5.x versions are based on HDF5.",
+        "children": []
+      },
+      {
+        "uuid": "2648d5e0-a8fd-4cd0-8060-0c63e15d3a67",
+        "label": "GeoJSON",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JavaScript Object Notation (JSON). The features include points (therefore addresses and locations), line strings (therefore streets, highways and boundaries), polygons (countries, provinces, tracts of land), and multi-part collections of these types. GeoJSON features need not represent entities of the physical world only; mobile routing and navigation apps, for example, might describe their service coverage using GeoJSON.",
+        "children": []
+      },
+      {
+        "uuid": "28acdf05-9aed-44e8-a58c-e47291bbc28f",
+        "label": "IIQ",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An IIQ file is a proprietary camera RAW format developed by Phase One.",
+        "children": []
+      },
+      {
+        "uuid": "2a6763f9-0ef9-4879-9b7d-6ce023c75871",
+        "label": "AVI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Audio Video Interleaved is a multimedia container format introduced by Microsoft in November 1992 as part of its Video for Windows software. AVI files can contain both audio and video data in a file container that allows synchronous audio-with-video playback. Like the DVD video format, AVI files support multiple streaming audio and video, although these features are seldom used.",
+        "children": []
+      },
+      {
+        "uuid": "2c37a52f-c159-4d16-a5c1-36ca833863e1",
+        "label": "HGT",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A file with the HGT file extension is a Shuttle Radar Topography Mission (SRTM) Data file. HGT files contain digital elevation models, which are 3D pictures of a surface, usually a planet, obtained during the Shuttle Radar Topography Mission (SRTM) by NASA and the National Geospatial-Intelligence Agency (NGA).",
+        "children": []
+      },
+      {
+        "uuid": "2da9aa88-c3d4-4307-a86f-e048b6297899",
+        "label": "CCSDS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Consultative Committee for Space Data Systems (CCSDS) was formed in 1982 by the major space agencies of the world to provide a forum for discussion of common problems in the development and operation of space data systems. It is currently composed of eleven member agencies, twenty-eight observer agencies, and over 140 industrial associates. Since its establishment, it has been actively developing Recommendations for data- and information-systems standards to promote interoperability and cross support among cooperating space agencies, to enable multi-agency spaceflight collaboration (both planned and contingency) and new capabilities for future missions. Additionally, CCSDS standardization reduces the cost burden of spaceflight missions by allowing cost sharing between agencies and cost-effective commercialization.",
+        "children": []
+      },
+      {
+        "uuid": "30ea4e9a-4741-42c9-ad8f-f10930b35294",
+        "label": "netCDF-4",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The purpose of the Network Common Data Form (netCDF) interface is to allow you to create, access, and share array-oriented data in a form that is self-describing and portable. 'Self-describing' means that a dataset includes information defining the data it contains. 'Portable' means that the data in a dataset is represented in a form that can be accessed by computers with different ways of storing integers, characters, and floating-point numbers.",
+        "children": []
+      },
+      {
+        "uuid": "31aab472-99df-43a4-a4bb-09cd087af860",
+        "label": "LAZ",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "LAZ is a compressed light detection and ranging (lidar) data format that is often used to transfer large amounts of lidar data.",
+        "children": []
+      },
+      {
+        "uuid": "378d394c-8230-49f1-8ba0-8ee7e7abe316",
+        "label": "ACCDB",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An ACCDB file is a database created with Microsoft Access 2007 or later. It typically contains data organized into tables and fields and may also include custom forms, SQL queries, and other data. ACCDB files replaced .MDB files.",
+        "children": []
+      },
+      {
+        "uuid": "37adee23-d239-4e1d-8ac8-1c7e26f36dc6",
+        "label": "SQLite",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "SQLite, version 3, is the file format used as the publicly documented native format for the SQLite database engine since June 2004. Software and associated documentation are available at https://www.sqlite.org/. The code, software, and accompanying documentation have been dedicated to the public domain. SQLite is an embedded SQL database engine that requires no configuration and reads and writes directly to ordinary disk files. A complete SQL database with tables, indexes, triggers, and views, is contained in a single disk file. The engine, and thus the file format, support a full-featured SQL implementation. The database file format, referred to here as 'SQLite_3', is cross-platform, transferable between 32-bit and 64-bit systems or between big-endian and little-endian architectures. These features make SQLite_3 a popular choice as an application file format. See Adoption under Sustainability Factors below for examples of the many operating systems and software applications in which it is distributed or used.\n\nSQLite is not directly comparable to client/server SQL database engines such as MySQL, Oracle, PostgreSQL, or SQL Server. They are designed to implement a shared repository of enterprise data; SQLite is designed to provide local data storage for individual applications. See Appropriate Uses For SQLite for more detail on when SQLite is appropriate and examples of when a client/server SQL database engine would be more appropriate.\n\nThe main SQLite_3 database file consists of one or more pages. All pages within the same database are the same size. The size of a page in bytes is a power of two between 512 and 65536 inclusive. The page size for a database file is indicated by the 2-byte integer located at an offset of 16 bytes from the beginning of the database file. The theoretical maximum size for an SQLite_3 database file is about 140 terabytes; typically, the file size limit of the underlying filesystem or hardware is the practical constraint. The smallest SQLite_3 database is a single 512-byte page.",
+        "children": []
+      },
+      {
+        "uuid": "3a3d2a90-5cf6-4ddd-a3c4-c88fa0c6941d",
+        "label": "Binary",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A binary file is a computer file that is not a text file. The term 'binary file' is often used as a term meaning 'non-text file'. Many binary file formats contain parts that can be interpreted as text; for example, some computer document files containing formatted text, such as older Microsoft Word document files, contain the text of the document but also contain formatting information in binary form.",
+        "children": []
+      },
+      {
+        "uuid": "3b7e3e2e-8f14-4e07-a84c-00dc9750cc10",
+        "label": "miniSEED",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "MiniSEED is the subset of the SEED standard that is used for time series data. Very limited metadata for the time series is included in miniSEED beyond time series identification and simple state-of-health flags. In particular, geographic coordinates, response/scaling information and other information needed to interpret the data values are not included. Time series are stored as generally independent, fixed length data records which each contain a small segment of contiguous series values. A reader of miniSEED is required to reconstruct longer, contiguous time series from the data record segments. Common record lengths are 512-byte (for real time streams) and 4096-byte (for archiving), other record lengths are used for special scenarios. A “file” or “stream” of miniSEED is simply a concatenation of data records. Depending on the capabilities of the intended reader the data records for multiple channels of data may be multiplexed together.",
+        "children": []
+      },
+      {
+        "uuid": "3bcc2483-169c-4dc3-a29c-c4c2dbab6926",
+        "label": "SIARD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "SIARD is a set of tools to convert some proprietary databases into standard SQL (non-proprietary), capturing both data and schema (database structure), and storing them in a single .siard format file. The tools also enable converting the .siard file back into some 5 proprietary database formats. The SIARD format v1 was adopted as an eCH standard in 2013. eCH is an organisation administering Swiss eGovernment data standards. SIARD v2 of the eCH standard was drafted in 2015.",
+        "children": []
+      },
+      {
+        "uuid": "3be6e181-085f-4a53-b7ed-851f1980dc71",
+        "label": "GIF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Graphics Interchange Format is a bitmap image format that was developed by a team at the online services provider CompuServe led by American computer scientist Steve Wilhite on June 15, 1987. It has since come into widespread usage on the World Wide Web due to its wide support and portability between applications and operating systems.",
+        "children": []
+      },
+      {
+        "uuid": "43e7a701-2ce2-41e8-8893-6b75963fcfe0",
+        "label": "ISI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "In the twilight years of British rule in India, when the country was faced with the gigantic task of building up the industrial infrastructure, it was the Institution of Engineers (India), which prepared the first draft of the Constitution of an Institution which could take up the task of formulation of National Standards. This led to the Department of Industries and Supplies issuing a memorandum on 03 September 1946, formally announcing the setting of an organization called the “Indian Standards Institution”. The Indian Standards Institution (ISI) came into being on the 06 January 1947 and in June 1947 Dr. Lal C. Verman took over as its first Director.\n\nIn the initial years, the organization concentrated on standardization activity. To provide the advantages of standardization to common consumers, the Indian Standards Institution started operating the Certification Marks Scheme under the Indian Standards Institution (Certification Marks) Act, 1952. The Scheme, which was formally launched by ISI in 1955-56, enabled it to grant licences to manufacturers producing goods in conformity with Indian Standards and to apply ISI Mark on their products. To meet the requirements of the Certification Marks Scheme, the nucleus of a laboratory was started in 1963. While the product certification wasbeing operated under the Indian Standards Institution (Certification Marks) Act, 1952, the formulation of standards and other related work were not governed by any legislation. A Bill with this objective was therefore introduced in the Parliament of 26 Nov 1986.\n\nBureau of Indian standards (BIS) came into existence, through an act of parliament dated 26 November 1986, on 1 April 1987, with a broadened scope and more powers taking over the staff, assets, liabilities and functions of erstwhile ISI. Through this change over, the government envisaged building a climate for quality culture and consciousness and greater participation of consumers in formulation and implementation of national standards.\n\nThe Bureau is a Body Corporate consisting of 25 members representing both Central and State governments, Members of Parliament, industry, scientific and research institutions, consumer organizations and professional bodies; with Union Minister of Consumer Affairs, Food and Public Distribution as its President and with Minister of State for Consumer Affairs, Food and Public Distribution as its Vice-President.",
+        "children": []
+      },
+      {
+        "uuid": "465809cc-e76c-4630-8594-bb8bd7a1a380",
+        "label": "CSV",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. A CSV file typically stores tabular data (numbers and text) in plain text, in which case each line will have the same number of fields.",
+        "children": []
+      },
+      {
+        "uuid": "48571017-0cc3-4ac7-b9ab-d0df8ed99a6c",
+        "label": "RINEX",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A data interchange format for raw satellite navigation system data. This allows the user to post-process the received data to produce a more accurate result — usually with other data unknown to the original receiver, such as better models of the atmospheric conditions at time of measurement. The final output of a navigation receiver is usually its position, speed or other related physical quantities. However, the calculation of these quantities are based on a series of measurements from one or more satellite constellations. Although receivers calculate positions in real time, in many cases it is interesting to store intermediate measures for later use. RINEX is the standard format that allows the management and disposal of the measures generated by a receiver, as well as their off-line processing by a multitude of applications, whatever the manufacturer of both the receiver and the computer application.",
+        "children": []
+      },
+      {
+        "uuid": "49028622-39d1-46b1-b89f-0fc2b4923882",
+        "label": "CRD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Consolidated Laser Ranging Data Format (CRD) provides a flexible, extensible format for the ILRS full-rate, sampled engineering, and normal point data. This format is based on the same features found in the ILRS Consolidated Prediction Format (CPF), including separate header and data record types assembled in a building block fashion as required for a particular target.",
+        "children": []
+      },
+      {
+        "uuid": "4dc86020-d8e0-49d2-b217-a48c18111b51",
+        "label": "BIL",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Band interleaved by line (BIL) is is one of three primary methods for encoding image data for multiband raster images in the geospatial domain, such as images obtained from satellites. BIL is not in itself an image format, but is a scheme for storing the actual pixel values of an image in a file band by band for each line, or row, of the image. For example, given a three-band image, all three bands of data are written for row one, all three bands of data are written for row two, and so on. The BIL encoding is a compromise format, allowing fairly easy access to both spatial and spectral information. The BIL data organization can handle any number of bands, and thus accommodates black and white, grayscale, pseudocolor, true color, and multi-spectral image data. Additional information is needed to interpret the image data, such as the numbers of rows, columns, and bands, and relate the image to geospatial locations. This information may be supplied in a file header (typical on the tapes originally used for satellite image data) or in files associated with a raw image data file.",
+        "children": []
+      },
+      {
+        "uuid": "53ce2fee-84fe-40c4-bd26-b2dcce86021a",
+        "label": "RData",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The RData format (usually with extension .rdata or .rda) is a format designed for use with R, a system for statistical computation and related graphics, for storing a complete R workspace or selected 'objects' from a workspace in a form that can be loaded back by R. The save function in R has options that result in significantly different variants of the format. This description is for the family of formats created by save and closely related functions. A workspace in R is a collection of typed 'objects' and may include much more than the typical tabular data that might be considered a 'dataset,' including, for example, results of intermediate calculations and scripts in the R programming language. A workspace may also contain several datasets, which are termed 'data frames' in R.",
+        "children": []
+      },
+      {
+        "uuid": "5513aef2-5676-4a19-9652-edda4d753c2e",
+        "label": "IFC",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Industry Foundation Classes, IFC, are an open international standard for Building Information Model (BIM) data that are exchanged and shared among software applications used by the various participants in the construction or facility management industry sector.",
+        "children": []
+      },
+      {
+        "uuid": "5782afb9-caa8-44c4-8dec-e793d990b75d",
+        "label": "ENVI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The ENVI image format is a flat-binary raster file with an accompanying ASCII header file. The data are stored as a binary stream of bytes in one of the following formats, often referred to as the interleave type.",
+        "children": []
+      },
+      {
+        "uuid": "58fdfa0e-ca66-4534-948e-0cc0dbc219dd",
+        "label": "BIP",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Band interleaved by pixel (BIP) is one of three primary methods for encoding image data for multiband raster images in the geospatial domain, such as images obtained from satellites. BIP is not in itself an image format, but is a method for encoding the actual pixel values of an image in a file. Images stored in BIP format have the first pixel for all bands in sequential order, followed by the second pixel for all bands, followed by the third pixel for all bands, etc., interleaved up to the number of pixels. The BIP data organization can handle any number of bands, and thus accommodates black and white, grayscale, pseudocolor, true color, and multi-spectral image data. Additional information is needed to interpret the image data, such as the numbers of rows, columns, and bands, and relate the image to geospatial locations. This information may be supplied in a file header (typical on the tapes originally used for satellite image data) or in files associated with a raw image data file.",
+        "children": []
+      },
+      {
+        "uuid": "59928592-b670-47dc-b025-3ac040ae679e",
+        "label": "GTE",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The GTE Data Archive Format is intended to satisfy both the data archive and data exchange requirements of the GTE field expeditions.",
+        "children": []
+      },
+      {
+        "uuid": "5a94a0c5-093d-4c9e-bd48-f2ddf1c4daa6",
+        "label": "ArcInfo Interchange",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The ArcInfo interchange file format, also known as an export file (.e00), is used to enable a coverage, grid to TIN, and associated INFO tables to be transferred between different machines that are not connected by any type of file sharing network. ArcInfo interchange files have an .e00 extension, which increases incrementally to .e01, .e02, and so on, if the interchange file is composed of several separate files.",
+        "children": []
+      },
+      {
+        "uuid": "5aedf9cd-c6cb-4c62-b54f-050549e4a270",
+        "label": "WKT",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Well Known Text (WKT) is an Open Geospatial Consortium (OGC) standard that is used to represent spatial data in a textual format. Most OGC-compliant systems support Well Known Text. Spatial functionality in SQL Server 2008, 2012, and SQL Azure can easily convert between a spatial object in the database and WKT. A WKT can only store the information for a single spatial object and this spatial data format is usually used as part of a larger file format or web service response. The following are examples of each of the geometry types represented as Well Known Text and the equivalent Bing Maps class that is generated when parsing a Well Known Text string.",
+        "children": []
+      },
+      {
+        "uuid": "5c71f6b1-6978-416d-a213-f42a7d2728e3",
+        "label": "NBJ",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The NBJ data files are related to U.S. Military Campgrounds Directory Software. NBJ file is an U.S. Military Campgrounds Directory Software Data.",
+        "children": []
+      },
+      {
+        "uuid": "5cd15e09-8082-4049-98ae-f402e54929a4",
+        "label": "Little-Endian",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Little Endian is a data storage format where the ordering or sequencing of bytes is such that the least significant byte is stored at the smallest memory address, while the most significant byte is stored at the largest memory address.",
+        "children": []
+      },
+      {
+        "uuid": "5d95e94b-95f7-4db3-a555-a1363fc23df0",
+        "label": "WKI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Lotus 1-2-3 is a discontinued spreadsheet program from Lotus Software (later part of IBM). It was the first killer application of the IBM PC, was hugely popular in the 1980s, and significantly contributed to the success of IBM PC-compatibles. The first spreadsheet, VisiCalc, had helped launch the Apple II as one of the earliest personal computers in business use. With IBM's entry into the market, VisiCalc was slow to respond, and when they did, they launched what was essentially a straight port of their existing system despite the greatly expanded hardware capabilities. Lotus's solution was marketed as a three-in-one integrated solution: it handled spreadsheet calculations, database functionality, and graphical charts, hence the name '1-2-3', though how much database capability the product actually had was debatable, given the sparse memory left over after launching 1-2-3. It quickly overtook VisiCalc, as well as Multiplan and SuperCalc, the two VisiCalc competitors.",
+        "children": []
+      },
+      {
+        "uuid": "5e17145e-b1c9-473b-9e5e-7680c286c64a",
+        "label": "PSD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Photoshop format (PSD) is the default file format and the only format, besides the Large Document Format (PSB), that supports all Photoshop features. Because of the tight integration between Adobe products, other Adobe applications, such as Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe After Effects, and Adobe GoLive, can directly import PSD files and preserve many Photoshop features.",
+        "children": []
+      },
+      {
+        "uuid": "600ef75c-9c03-41ba-a57d-4c913acd4cb5",
+        "label": "GRIDFloat",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Output format created by the GRIDFLOAT command (from ArcInfo Workstation) and by the Raster to Float tool in ArcGIS for Desktop. ESRI_GridFloat is an interchange format, used primarily for exchange with other programs. The semantics of ESRI_GridFloat are identical to those of ESRI_ASCII_Grid. In terms of format structure, however, there are two differences. First, in ESRI_GridFloat the gridded data values are in binary form, typically resulting in smaller files. Second, ESRI_GridFloat is a pair of files: a simple text file with extension .hdr that contains the same information as the first six lines of the equivalent ESRI_ASCII_Grid with one additional line; and the primary content of numeric values in binary form in a file with extension .flt.",
+        "children": []
+      },
+      {
+        "uuid": "60d4013b-f58c-42f6-8680-d41d8e6ee90f",
+        "label": "SIGMET IRIS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "This read-only GDAL driver is designed to provide access to the products generated by the IRIS weather radar software.",
+        "children": []
+      },
+      {
+        "uuid": "61225045-76c9-439f-a44b-b5c1a26635f1",
+        "label": "DTA",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "State data type is applied to data that uses the full names or the two-letter abbreviations for states in the United States.",
+        "children": []
+      },
+      {
+        "uuid": "6231402a-7e4c-42d9-802d-7184eb812f46",
+        "label": "SAS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "SAS transport data set files are machine-independent files that let you move SAS data sets between computers running different operating systems. You can directly read SAS transport data set files with several statistical software packages (e.g., SPSS and BMDP).",
+        "children": []
+      },
+      {
+        "uuid": "6616fd27-7c2a-4d3f-b361-20ad423e31a2",
+        "label": "ArcInfo Coverage",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An ESRI ArcInfo Coverage is a georelational data model that stores vector data;  i.e., both the spatial (location) and the attribute (descriptive) data for geographic features. ArcInfo_Coverages use a set of feature classes to represent geographic features. Each feature class stores a set of points, lines (arcs), polygons, or annotation (text). Feature attributes are stored in the ArcInfo_Coverage's .adf files. Other attributes can be stored in INFO tables or tables in an RDBMS, then joined to features with a layer or a relationship class.  ArcInfo_Coverages can have topology, which determines the relationships between features.",
+        "children": []
+      },
+      {
+        "uuid": "668db73b-2a1c-4e92-8e0e-fda3131b4aac",
+        "label": "GeoTIFF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and everything else necessary to establish the exact spatial reference for the file. The GeoTIFF format is fully compliant with TIFF 6.0, so software incapable of reading and interpreting the specialized metadata will still be able to open a GeoTIFF format file.",
+        "children": []
+      },
+      {
+        "uuid": "6a602f95-1d4d-483f-90e6-674dec7bc01b",
+        "label": "JSON",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.",
+        "children": []
+      },
+      {
+        "uuid": "71467c5c-c54c-48b6-8420-0d19e272d1c9",
+        "label": "Open XML Spreadsheet",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Office Open XML (also informally known as OOXML)[3] is a zipped, XML-based file format developed by Microsoft for representing spreadsheets, charts, presentations and word processing documents. Ecma International standardized the initial version as ECMA-376. ISO and IEC standardized later versions as ISO/IEC 29500.",
+        "children": []
+      },
+      {
+        "uuid": "7443bb2d-1dbb-44d1-bd29-0241d30fbc57",
+        "label": "JPEG",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "JPEG is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality. Since its introduction in 1992, JPEG has been the most widely used image compression standard in the world and the most widely used digital image format, with several billion JPEG images produced every day as of 2015.",
+        "children": []
+      },
+      {
+        "uuid": "75ce5e67-f1c3-4a53-bad3-34ba6f104a8c",
+        "label": "VPF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Vector Product Format (VPF) is a standard data structure developed in 1996 as a U.S. Military Standard for geospatial data based on a georelational data model. It is designed to be compatible with a widevariety of applications and products and to allow application software to read data directly from computer-readable media without prior conversion to an intermediate form. VPF uses tables and indexes that permit direct access by spatial location and thematic content and is designed to be used with any digital geographic data in vector format that can be represented using nodes, edges, and faces. A VPF-compliant database product must include all mandatory tables and columns described in section 5 of the specification. The VPF data model may be considered to be layered into four structural levels. At the lowest level, a VPF database consists of feature classes. In the database, these feature classes are defined using VPF primitive and attribute tables. Feature classes make up coverages, which in turn make up libraries; and finally, a database is made up of libraries.",
+        "children": []
+      },
+      {
+        "uuid": "77f3bc44-4f05-432d-9ee3-2e6859ca2896",
+        "label": "McIDAS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The McIDAS-X data format involves images that are stored in binary files called areas. Each area file is a collection of information that defines the image and its associated ancillary data.",
+        "children": []
+      },
+      {
+        "uuid": "789d230c-8557-493b-8bdc-4e810f4f7968",
+        "label": "SLPK",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A Scene Layer Package (SLPK) file is an openly published file format for 3D geospatial data, designed as a package for storage or exchange that captures all resources for a 'scene layer' structured according to the Indexed 3D Scene Layer (I3S) specification. The I3S/SLPK specification originates from Esri ( formerly known as Environmental Systems Research Institute, Inc.). It has been in use in products in Esri's ArcGIS range since 2016. In September 2017, it was approved by the Open Geospatial Consortium (OGC) as a community standard.",
+        "children": []
+      },
+      {
+        "uuid": "78fe04cb-d68f-4b4f-a6b5-3b59660d3f95",
+        "label": "DLG",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Digital Line Graphs (DLGs) are digital vector representations of cartographic information derived from USGS maps and related sources.",
+        "children": []
+      },
+      {
+        "uuid": "7aafe1ad-b785-4805-ac76-2aa102cdb7e4",
+        "label": "BMP",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Bitmap Image File is a raster graphics image file format used to store bitmap digital images, independently of the display device (such as a graphics adapter), especially on Microsoft Windows and OS/2 operating systems. The BMP file format is capable of storing two-dimensional digital images both monochrome and color, in various color depths, and optionally with data compression, alpha channels, and color profiles. The Windows Metafile (WMF) specification covers the BMP file format.",
+        "children": []
+      },
+      {
+        "uuid": "7de32ba8-eb3a-4e02-add3-3d828e46bd57",
+        "label": "Text File",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A standard text document that contains plain text. It can be opened and edited in any text-editing or word-processing program. TXT files are most often created by Microsoft Notepad and Apple TextEdit, which are basic text editors that come bundled with Windows and macOS, respectively.",
+        "children": []
+      },
+      {
+        "uuid": "7f6d6202-7fb2-4ad5-bbfe-114803316b63",
+        "label": "ODB",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Defines an XML schema for office applications and its semantics. The schema is suitable for office documents, including text documents, spreadsheets, charts and graphical documents like drawings or presentations, but is not restricted to these kinds of documents.",
+        "children": []
+      },
+      {
+        "uuid": "80323a44-3233-4472-b0d9-158cb9371719",
+        "label": "TimeseriesML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "TimeseriesML 1.0 defines an XML encoding that implements the OGC Timeseries Profile of Observations and Measurements [OGC 15-043r3], with the intent of allowing the exchange of such data sets across information systems. Through the use of existing OGC standards, it aims at being an interoperable exchange format that may be re-used to address a range of data exchange requirements.",
+        "children": []
+      },
+      {
+        "uuid": "809da52c-3147-403c-8d4e-e06119ef89f9",
+        "label": "KML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "KML is a file format used to display geographic data in an Earth browser such as Google Earth. You can create KML files to pinpoint locations, add image overlays, and expose rich data in new ways. KML is an international standard maintained by the Open Geospatial Consortium, Inc. (OGC).",
+        "children": []
+      },
+      {
+        "uuid": "81782805-cc0d-4325-8f35-aa0c8e439b16",
+        "label": "ADF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Arc/Info Binary Grid format is the internal working format of the Arc/Info Grid product. It is also usable and creatable within the spatial analyst component of ArcView. It is a tiled (blocked) format with run length compression capable of holding raster data of up to 4 byte integers or 4 byte floating data.",
+        "children": []
+      },
+      {
+        "uuid": "832bfe62-e5c3-4c89-bee9-4c1b6e80dc9f",
+        "label": "BigTIFF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The TIFF file format uses 32bit offsets and, as such, is limited to 4 gigabytes. This has been quite sufficient for many years. Today however, there is a need for a good multi-purpose open image file format that can handle huge images, or very large collections of images, breaking the 4 gig boundary.\n\nThere is currently an ongoing attempt to launch a new variant of TIFF, called BigTIFF, that closely resembles TIFF, but uses 64bit offsets instead. The benefits of closely resembling TIFF are huge. For instance, existing TIFF libraries can quite easily extend their support for TIFF to also include this new variant. Documentation needs are minimal. All the much appreciated properties of a file format that has been around and has been extended for more then a decade are inherited. All properly known tags are being reused, all supported bitdepths and datatypes remain valid. The arbitrary number of 'extra channels', the tiling and striping schemes, the multitude of compression schemes, and the private tag scheme, that made TIFF very useful in pre-press as well as for storing scientific data, and many other applications, all remain intact. Yet, the offset bitdepth changes, and BigTIFF files are no longer restrained by the 4 gigabyte limitation from which classic TIFF suffers.",
+        "children": []
+      },
+      {
+        "uuid": "83698059-cf52-4267-9b2c-599f671d1bd6",
+        "label": "XTDR",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The eXternal Data Representation (XDR) is a standard for the description and encoding of data. XDR uses a language to describe data formats, but the language is used only for describing data and is not a programming language. Protocols such as Remote Procedure Call (RPC) and the Network File System (NFS) use XDR to describe their data formats.",
+        "children": []
+      },
+      {
+        "uuid": "868fc5dc-21fa-4356-a3de-f4c3c9559a21",
+        "label": "netCDF-3",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The purpose of the Network Common Data Form (netCDF) interface is to allow you to create, access, and share array-oriented data in a form that is self-describing and portable. 'Self-describing' means that a dataset includes information defining the data it contains. 'Portable' means that the data in a dataset is represented in a form that can be accessed by computers with different ways of storing integers, characters, and floating-point numbers.",
+        "children": []
+      },
+      {
+        "uuid": "87ae4923-1a96-4fa2-a560-ddf27de4fcba",
+        "label": "CR2",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A CR2 file is a RAW digital photography file format developed by Canon.",
+        "children": []
+      },
+      {
+        "uuid": "87eddebb-2ef4-4597-bfac-1b97e9f54440",
+        "label": "SAFE",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "SAFE, the Standard Archive Format for Europe, is designed to act as a standard format for archiving and conveying Earth observation data within the European Space Agency (ESA) archiving facilities and, potentially, within the archiving facilities of cooperating agencies. SAFE benefits from experiences gathered during developments of several existing archiving standards and copes with the major constraints defined (in the OAIS-RM, see next paragraph) for the packaging and long term preservation of Earth observation data. SAFE has been designed to be used in an archive system compliant with the Open Archival Information System (OAIS) standard. Therefore, the OAIS reference model is a major input to its design. In fact, SAFE provides features that facilitate the archive compliance with OAIS and at the same time ensures that this compliance is not hampered by it.",
+        "children": []
+      },
+      {
+        "uuid": "8b3ff8b7-92b4-48ba-97dd-29e925069745",
+        "label": "WaterML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "WaterML 2.0 is a standard information model for the representation of water observations data, with the intent of allowing the exchange of such data sets across information systems. Through the use of existing OGC standards, it aims at being an interoperable exchange format that may be re-used to address a range of exchange requirements.",
+        "children": []
+      },
+      {
+        "uuid": "8b7ff128-106e-4a40-9de9-5bf3b6404fc2",
+        "label": "SonTek Castaway CTD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A CTD —  an acronym for Conductivity, Temperature, and Depth — is the primary tool for determining essential physical properties of sea water.",
+        "children": []
+      },
+      {
+        "uuid": "8e128326-b9cb-44c7-9e6b-4bd950a08753",
+        "label": "ASCII",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "ASCII is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters.",
+        "children": []
+      },
+      {
+        "uuid": "8f05ce85-385b-491a-abe5-a39f426e4832",
+        "label": "MOV",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "QuickTime is an extensible multimedia framework developed by Apple Inc., capable of handling various formats of digital video, picture, sound, panoramic images, and interactivity.",
+        "children": []
+      },
+      {
+        "uuid": "94961648-292b-46d9-bc9d-502bc19f0d55",
+        "label": "GRIB2",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A concise data format commonly used in meteorology to store historical and forecast weather data.",
+        "children": []
+      },
+      {
+        "uuid": "9efbc54a-b45c-47af-bac7-20e504483dc4",
+        "label": "XML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Extensible Markup Language (XML) is a simple, very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere.",
+        "children": []
+      },
+      {
+        "uuid": "a1d1fbdd-98f4-41e9-9aeb-a369a3b466a4",
+        "label": "Shapefile",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A shapefile is a simple, nontopological format for storing the geometric location and attribute information of geographic features. Geographic features in a shapefile can be represented by points, lines, or polygons (areas). The workspace containing shapefiles may also contain dBASE tables, which can store additional attributes that can be joined to a shapefile's features.",
+        "children": []
+      },
+      {
+        "uuid": "a1edd41d-50e1-4d1f-9062-7d2649605e38",
+        "label": "MSR",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "MetaSensing adds a state-of-the-art operational multimode Synthetic Aperture Radar (SAR) ground processor for satellite SAR sensors to its family of space products. MSR is the data format that supports the MetaSensing system.",
+        "children": []
+      },
+      {
+        "uuid": "a2904083-1e32-4086-b028-a2afc2ffd443",
+        "label": "ODS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Open Document Format (ODF) is an XML-based open source file format for saving and exchanging text, spreadsheets, charts, and presentations. Files saved under ODF, termed 'OpenDocuments,' have easily recognizable extensions, similar to Microsoft's proprietary .doc or .xls.",
+        "children": []
+      },
+      {
+        "uuid": "a593731a-ff49-47d8-bed0-7f3f9d3a9e33",
+        "label": "MP4",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "MPEG-4 is a method of defining compression of audio and visual digital data. It was introduced in late 1998 and designated a standard for a group of audio and video coding formats and related technology.",
+        "children": []
+      },
+      {
+        "uuid": "a82ccef5-a7bf-416c-8ef6-704e62564901",
+        "label": "NIDS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The National Indicator Data Set (NIDS) is a minimum group of indicators introduced by the National Department of Health that every public health facility is expected to collect, use and report on. Facilities are required to report only on indicators in which they render the service according to their service package. The NIDS is use for monitoring and tracking progress with the implementation of national strategic goals, objectives and priority health programmes. The NIDS will help the Department of Health to identify the needs in the healthcare system and provide managers with information to guide programme development and budgeting, provide support to improve the healthcare system, and demonstrate national commitment to globally accepted measures of care.",
+        "children": []
+      },
+      {
+        "uuid": "ac33b396-4ab5-4873-89c6-e248621961d4",
+        "label": "GeoPackage",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "GeoPackage (GPKG) is an open, non-proprietary, platform-independent and standards-based data format for geographic information system implemented as a SQLite database container. Defined by the Open Geospatial Consortium (OGC) with the backing of the US military and published in 2014, GeoPackage has seen wide widespread support from various government, commercial, and open source organizations.",
+        "children": []
+      },
+      {
+        "uuid": "ac392872-1571-4bfd-94dd-81f93d9f1fd0",
+        "label": "PDF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A file format developed by Adobe in 1992 to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems. Based on the PostScript language, each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, vector graphics, raster images and other information needed to display it.",
+        "children": []
+      },
+      {
+        "uuid": "ac8d1b01-34f9-477a-a17d-21866b862ee1",
+        "label": "EDI",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An Electrical Data Interchange (EDI) file is a standard structured file format used to share data in the electromagnetic geophysics community. The data interchange file is stored as text (ASCII). Data values may be stored in a parallel binary data file and referenced in the data interchange file. EDI files are commonly used for geophysical techniques such as magnetotelluric (MT) and electromagnetic array profiling (EMAP).",
+        "children": []
+      },
+      {
+        "uuid": "adc9dbd1-13ec-4f36-aa3a-378af76ba34b",
+        "label": "JSON-LD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as Apache CouchDB and MongoDB.",
+        "children": []
+      },
+      {
+        "uuid": "b46bb83e-736e-4189-b1d8-6f0570fdfa6c",
+        "label": "FITS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Flexible Image Transport System (FITS) is an open standard defining a digital file format useful for storage, transmission and processing of data: formatted as multi-dimensional arrays (for example a 2D image), or tables. FITS is the most commonly used digital file format in astronomy. The FITS standard was designed specifically for astronomical data, and includes provisions such as describing photometric and spatial calibration information, together with image origin metadata.",
+        "children": []
+      },
+      {
+        "uuid": "b5849782-087e-4580-8d39-19777a96d736",
+        "label": "BNA",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Atlas Boundary File .BNA is an ASCII format file used to store spatial information including areas, curves, ellipses and points. Spatial information is only concerned with the location of objects in space (i.e., their coordinates) and not with their attributes (such as line or fill style, marker symbol used, text labels, etc.).",
+        "children": []
+      },
+      {
+        "uuid": "b62836b1-87f6-49fe-92e6-cd481c6d8456",
+        "label": "netCDF-2",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The purpose of the Network Common Data Form (netCDF) interface is to allow you to create, access, and share array-oriented data in a form that is self-describing and portable. 'Self-describing' means that a dataset includes information defining the data it contains. 'Portable' means that the data in a dataset is represented in a form that can be accessed by computers with different ways of storing integers, characters, and floating-point numbers.",
+        "children": []
+      },
+      {
+        "uuid": "bb6184eb-1ced-44fb-9668-d57cf1baa2e3",
+        "label": "Grid",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "An Esri grid is a raster GIS file format developed by Esri, which has two formats: A proprietary binary format, also known as an ARC/INFO GRID, ARC GRID and many other variations. A non-proprietary ASCII format, also known as an ARC/INFO ASCII GRID.",
+        "children": []
+      },
+      {
+        "uuid": "bd2ced35-e9f5-4ab6-a85d-0f45fac62c00",
+        "label": "BSQ",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Band sequential (BSQ) is one of three primary methods for encoding image data for multiband raster images in the geospatial domain, such as images obtained from satellites. BSQ is not in itself an image format, but is a method for encoding the actual pixel values of an image in a file. BSQ format is a very simple format, where each line of the data is followed immediately by the next line in the same spectral band. This format is optimal for spatial (x,y) access of any part of a single spectral band. The BSQ data organization can handle any number of bands, and thus accommodates black and white, grayscale, pseudocolor, true color, and multi-spectral image data. Additional information is needed to interpret the image data, such as the numbers of rows, columns, and bands, and relate the image to geospatial locations. This information may be supplied in a file header (typical on the tapes originally used for satellite image data) or in files associated with a raw image data file.",
+        "children": []
+      },
+      {
+        "uuid": "be0d9b66-445d-4109-8784-63f1ea80e729",
+        "label": "SeaBASS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Satellite ocean color missions require an abundance of high-quality in situ measurements for bio-optical and atmospheric algorithm development and post-launch product validation and sensor calibration. To facilitate the assembly of a global data set, the NASA Sea-viewing Wide Field-of-view (SeaWiFS) Project developed the Seafaring Bio-optical Archive and Storage System (SeaBASS), a local repository for in situ data regularly used in their scientific analyses. The system has since been expanded to contain data sets collected by the NASA Sensor Intercalibration and Merger for Biological and Interdisciplinary Oceanic Studies (SIMBIOS) Project, as part of NASA Research Announcements NRA-96-MTPE-04 and NRA-99-OES-99. SeaBASS is a well moderated and documented hive for bio-optical data with a simple, secure mechanism for locating and extracting data based on user inputs. Its holdings are available to the general public with the exception of the most recently collected data sets. Extensive quality assurance protocols, comprehensive data and system documentation, and the continuation of an archive and relational database management system (RDBMS) suitable for bio-optical data all contribute to the continued success of SeaBASS. This document provides an overview of the current operational SeaBASS system.",
+        "children": []
+      },
+      {
+        "uuid": "c0158436-501c-47e5-9a92-6416ef81d0b9",
+        "label": "CEOS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "CEOS has various data formats. The mission of CEOS is to ensures international coordination of civil space-based Earth observation programs and promotes exchange of data to optimize societal benefit and inform decision making for securing a prosperous and sustainable future for humankind.",
+        "children": []
+      },
+      {
+        "uuid": "c087e039-7d05-4067-a0e3-150e0ff19aa3",
+        "label": "DBF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "DBF is a file format typically used by database software. DBF stands for DataBase File. DBF files were originally used in dBase II and continued through to dBase Version IV. The DBF file format originated by Ashton-Tate, but is understood by Act!, Clipper,FoxPro, Arago, Wordtech, xBase, and similar database ordatabase-related products.",
+        "children": []
+      },
+      {
+        "uuid": "c142d352-cfc0-493a-a0f1-167ad22530c4",
+        "label": "SPC",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Thermo Scientific SPC file format is a generic format used in all of Thermo Scientific's software products. In addition, many spectrometer vendors' software packages offer capabilities to export spectral data to the Thermo Scientific SPC format or use it as their native file format. All the converters and translators used on this site create Thermo Scientific SPC files from the submitted spectral data files before presenting them to the library search engine on this site. Submitting data files in the Thermo Scientific SPC format is the most reliable way to guarantee that your data is interpreted correctly for searching against the databases.",
+        "children": []
+      },
+      {
+        "uuid": "c7c7819e-4805-4b0a-819e-82b453e8fdd0",
+        "label": "Not Provided",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "cbcdfa99-4403-4370-a8d1-03b2327a51aa",
+        "label": "Parquet",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc.",
+        "children": []
+      },
+      {
+        "uuid": "ceb2056a-ab97-441b-9491-62df68970205",
+        "label": "PowerPoint",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "PPT and PPTX file formats are Microsoft PowerPoint Presentation formats that are supported in the Document/Medical products. PPTX/PPT files store collections of records and structures that specify slides, shapes, pictures, audio, video, text, and other presentation content. This content can then be shown to an audience as a slide show.",
+        "children": []
+      },
+      {
+        "uuid": "cfe55cb7-b9db-4e56-801e-0c7c605c887c",
+        "label": "SDTS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Spatial Data Transfer Standard, or SDTS, is a standard used to describe earth-referenced spatial data. It was designed to easily transfer and use spatial data on different computer platforms. The FGDC has proposed to withdraw the standard. The USGS made an effort to promulgate the standard by making a large volume of data available at no cost and many companies supported the standard by writing translators to transform the data into different formats.",
+        "children": []
+      },
+      {
+        "uuid": "d0b3505e-77bb-45a0-83fe-787bc3812b67",
+        "label": "Geodatabase",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The native data structure for ArcGIS and is the primary data format used for editing and data management. While ArcGIS works with geographic information in numerous geographic information system (GIS) file formats, it is designed to work with and leverage the capabilities of the geodatabase.",
+        "children": []
+      },
+      {
+        "uuid": "d40b49ce-c201-431c-9fdf-4db38f9b97b2",
+        "label": "BUFR",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Binary Universal Form for the Representation of meteorological data (BUFR) is a binary data format maintained by the World Meteorological Organization (WMO). The latest version is BUFR Edition 4. BUFR Edition 3 is also considered current for operational use. BUFR was created in 1988 with the goal of replacing the WMO's dozens of character-based, position-driven meteorological codes, such as SYNOP (surface observations), TEMP (upper air soundings) and CLIMAT (monthly climatological data). BUFR was designed to be portable, compact, and universal. Any kind of data can be represented, along with its specific spatial/temporal context and any other associated metadata. In the WMO terminology, BUFR belongs to the category of table-driven code forms, where the meaning of data elements is determined by referring to a set of tables that are kept and maintained separately from the message itself",
+        "children": []
+      },
+      {
+        "uuid": "d7d5b771-8c3e-44d5-ba14-8a3757cecbaf",
+        "label": "ASCII Grid",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Esri ASCII Grid files are raster files containing elevation data, and each elevation sample in the file is a point in a single FME raster feature. Esri ASCII Grid is a very simple format. It has a very short header that precedes the raster data. This header provides the location and size of the raster to follow. The raster is written as a series of rows, which contain one ASCII integer or floating point value per column in the raster. The first element of the raster corresponds to the upper left-hand corner of the raster. For each raster, there is only a single feature returned, since this feature will contain the entire raster.",
+        "children": []
+      },
+      {
+        "uuid": "d896a8cc-4fce-4a8d-86bc-185b324fab2b",
+        "label": "HTML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
+        "children": []
+      },
+      {
+        "uuid": "db86a588-b3e3-46fe-98b0-9f0699e918a5",
+        "label": "HDF-EOS2",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The HDF-EOS2 is a software library designed built on HDF4* to support EOS-specific data structures, namely Grid, Point, and Swath. The new data structures are constructed from standard HDF data objects, using EOS conventions, through the use of a software library. A key feature of HDF-EOS files is that instrument-independent services, such as subsetting by geolocation, can be applied to the files across a wide variety of data products.",
+        "children": []
+      },
+      {
+        "uuid": "dd61ff8e-5257-4018-8d99-3e8bdec58837",
+        "label": "SYLK",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Symbolic link file created by Microsoft spreadsheet programs; stores lines of text that specify the cell row, column, formatting, and other content from the spreadsheet; used for transferring data between spreadsheet applications and other databases.",
+        "children": []
+      },
+      {
+        "uuid": "ddcd5941-9ba8-4c39-a498-1e214d1bfa6e",
+        "label": "Sea-Bird CTD",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A CTD —  an acronym for Conductivity, Temperature, and Depth — is the primary tool for determining essential physical properties of sea water.",
+        "children": []
+      },
+      {
+        "uuid": "de132e9b-fc00-4c79-8a65-57f774d9a673",
+        "label": "YAML",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "YAML file consists of a language YAML (YAML Ain’t Markup Language) which is a Unicode based data-serialization language; used for configuration files, internet messaging, object persistence, etc. YAML uses the .yaml extension for its files. Its syntax is independent of a specific programming language. Basically, the YAML is designed for human interaction and to work well with modern programming languages. Support for serializing arbitrary native data structures increased the readability of the YAML files, but it has made the parsing and file generation process complicated a little.",
+        "children": []
+      },
+      {
+        "uuid": "e1544d27-a3b8-4b14-95aa-e25b21bcce1f",
+        "label": "JPEG2000",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "JPEG 2000 (JP2) is an image compression standard and coding system. It was developed from 1997 to 2000 by a Joint Photographic Experts Group committee chaired by Touradj Ebrahimi (later the JPEG president),[1] with the intention of superseding their original discrete cosine transform (DCT) based JPEG standard (created in 1992) with a newly designed, wavelet-based method. The standardized filename extension is .jp2 for ISO/IEC 15444-1 conforming files and .jpx for the extended part-2 specifications, published as ISO/IEC 15444-2.",
+        "children": []
+      },
+      {
+        "uuid": "e1b78739-ebcf-43c9-8181-3d4e79003f72",
+        "label": "DXF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "DXF (Drawing Interchange Format) is one of the most widely used CAD/CAM/CAE applications in the world. DXF is very popular and is supported by most 3D formats on PC platforms. A DXF file is an ASCII file containing 2D and 3D components representing a drawing. Those components are known as Entities. The DXF file can represent almost any CAD drawing using those entities, and can connect a group of entities together (such as windows, doors, etc.) and use them later in the file. The DXF file has seen many changes through the years, from version 2.6 to the latest release version 14. However, the latest release of AutoCAD still manages to open files created with any of the earlier versions.",
+        "children": []
+      },
+      {
+        "uuid": "e1c88c22-0bf2-4798-89fd-fa7d875e4b6c",
+        "label": "IWRF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Integrated Weather Radar Format (IWRF) was developed to provide an efficient binary, platform-independend data exchange format for time series data.",
+        "children": []
+      },
+      {
+        "uuid": "e2d8208a-e202-480d-bf3a-01ee96b0642f",
+        "label": "MTH5",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "MTH5 is a self-describing hierarchical file format used to archive and share magnetotelluric time series data and transfer functions. All metadata within an MTH5 file follows the mt_metadata standard proposed by the IRIS-PASSCAL MT Software working group and documented in MT Metadata Standards.",
+        "children": []
+      },
+      {
+        "uuid": "e3b8b3e3-3dd0-41c2-a784-9697ba934d2d",
+        "label": "SPSS",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The SPSS Statistics File Format is a proprietary binary format, developed and maintained as the native format for the SPSS statistical software application. SPSS, which originally stood for 'Statistical Package for the Social Sciences,' is a widely used statistical software system, first released in 1968. SPSS has been owned by IBM since 2009 and is now known as IBM SPSS Statistics. When an SPSS Statistics data file is saved from SPSS, the file extension .sav is used.",
+        "children": []
+      },
+      {
+        "uuid": "e5c126f8-0435-4cef-880f-72a1d2d792f2",
+        "label": "HDF4",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "HDF4 is a library and multi-object file format for storing and managing data between machines. HDF4 is a very different technology than HDF5. The HDF Group recommends that, other than for working with existing HDF4 data, new applications use HDF5 since HDF5 addresses important deficiencies of HDF4.",
+        "children": []
+      },
+      {
+        "uuid": "e6ab1f01-1c2c-46a5-97fa-5b8bb874fc31",
+        "label": "KMZ",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A KMZ file consists of a main KML file and zero or more supporting files that are packaged using a Zip utility into one unit, called an archive. The KMZ file can then be stored and emailed as a single entity. A NetworkLink can fetch a KMZ file from a web server. When the KMZ file is unzipped, the main .kml file and its supporting files are separated into their original formats and directory structure, with their original filenames and extensions. In addition to being an archive format, the Zip format is also compressed, so an archive can include only a single large KML file",
+        "children": []
+      },
+      {
+        "uuid": "e807acba-457e-4f7e-be44-da5f93f4118b",
+        "label": "Excel",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation or computation capabilities, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications. Excel forms part of the Microsoft Office suite of software.",
+        "children": []
+      },
+      {
+        "uuid": "ebe6f3c4-a78f-4152-977c-296d42e4e9e8",
+        "label": "AREA",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "AREA is a GIS/geospatial file extension.",
+        "children": []
+      },
+      {
+        "uuid": "ed9804d8-e1ad-4209-8fea-30fba3d47ed7",
+        "label": "Zarr",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Zarr is a format for the storage of chunked, compressed, N-dimensional arrays.",
+        "children": []
+      },
+      {
+        "uuid": "ee05a43b-abfa-4955-847b-86cb590fba53",
+        "label": "SEG-Y",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The SEG-Y file format is one of several data standards developed by the Society of Exploration Geophysicists (SEG) for the exchange of geophysical data. It is an open standard, and is controlled by the SEG Technical Standards Committee, a non-profit organization. The format was originally developed in 1973 to store single-line seismic reflection digital data on magnetic tapes. The specification was published in 1975. The format and its name evolved from the SEG 'Ex' or Exchange Tape Format. However, since its release, there have been significant advancements in geophysical data acquisition, such as 3-dimensional seismic techniques and high speed, high capacity recording.",
+        "children": []
+      },
+      {
+        "uuid": "f1736125-bd43-47d3-9125-262baa182f99",
+        "label": "GMT",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "Generic Mapping Tools are an open-source collection of computer software tools for processing and displaying xy and xyz datasets, including rasterization, filtering and other image processing operations, and various kinds of map projections.",
+        "children": []
+      },
+      {
+        "uuid": "f4930ca9-6b68-4bb8-adb0-81a571e20a53",
+        "label": "GRIB1",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "A concise data format commonly used in meteorology to store historical and forecast weather data.",
+        "children": []
+      },
+      {
+        "uuid": "f49d1197-2ed0-4f88-98ce-fbb86bbb03e1",
+        "label": "Word",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The data format used for Microsoft Word documents, part of the Microsoft Office Suite of software. DOCX/DOC files are used to store word processing data. DOCX is part of Microsoft Office Open XML specification (also known as OOXML or OpenXML) and was introduced with Office 2007.",
+        "children": []
+      },
+      {
+        "uuid": "f8c1fd07-20b6-47fe-a420-f01679c523d1",
+        "label": "UF",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The Common Doppler Radar Exchange Format, more commonly referred to as Universal Format (UF). Designed primarily to accomodate data for a single ground-based radar, it lacks some of the descriptor information needed to fully describe ELDORA data.",
+        "children": []
+      },
+      {
+        "uuid": "fa52494f-c855-4d6c-a4dc-46b3090cc6e3",
+        "label": "netCDF-4 classic",
+        "broader": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+        "definition": "The purpose of the Network Common Data Form (netCDF) interface is to allow you to create, access, and share array-oriented data in a form that is self-describing and portable. 'Self-describing' means that a dataset includes information defining the data it contains. 'Portable' means that the data in a dataset is represented in a form that can be accessed by computers with different ways of storing integers, characters, and floating-point numbers.",
+        "children": []
+      }
+    ]
+  }
+]

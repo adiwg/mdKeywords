@@ -1,0 +1,73 @@
+[
+  {
+    "uuid": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+    "label": "Phone Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "1c30abd2-3284-4fb5-9234-f96255c06d5a",
+        "label": "U.S. toll free",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "6955016a-4764-4ce9-9952-3e326280054e",
+        "label": "Telephone",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "783bc4eb-6614-4eb1-b0fd-cc69847e165f",
+        "label": "Mobile",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7f8041cd-489d-4bdd-a971-260a15c3c442",
+        "label": "Fax",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "80ac3cee-85af-4b80-a058-dbbbf8d36455",
+        "label": "Other",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "923ed6bf-e8d7-48be-8611-ff9a5b6aff85",
+        "label": "Primary",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "c79c855c-11fe-45aa-b2c0-9737e31ce42e",
+        "label": "Modem",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "cc1af044-bcae-4551-a081-85d7f2f83380",
+        "label": "TDD/TTY Phone",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e88d4800-0e1c-4068-a6e8-43818b0952ce",
+        "label": "Direct Line",
+        "broader": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

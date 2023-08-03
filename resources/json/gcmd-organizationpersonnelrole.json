@@ -1,0 +1,17 @@
+[
+  {
+    "uuid": "d6cd58e1-e83e-4718-b48d-08de1aba2f40",
+    "label": "Organization Personnel Role",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "bc1d685a-1f45-42d9-a44e-732e92cde32d",
+        "label": "DATA CENTER CONTACT",
+        "broader": "d6cd58e1-e83e-4718-b48d-08de1aba2f40",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

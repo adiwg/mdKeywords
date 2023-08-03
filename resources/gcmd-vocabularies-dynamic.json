@@ -1,0 +1,1178 @@
+[
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:23:58",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Chronostratigraphic Units",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190"
+        }
+      ]
+    },
+    "keywordType": "chronounits",
+    "label": "Chronostratigraphic Units",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-chronounits.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-21 12:25:45",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Platforms",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/f3261de5-34c1-4980-af22-f9d7e7206d12?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "f3261de5-34c1-4980-af22-f9d7e7206d12"
+        }
+      ]
+    },
+    "keywordType": "platforms",
+    "label": "Platforms",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-platforms.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:26",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Disciplines",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/5b98265f-7cd1-4976-bc78-1ac1e6b9b90f?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f"
+        }
+      ]
+    },
+    "keywordType": "discipline",
+    "label": "Disciplines",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-discipline.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:36",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) IDN Nodes",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/118d366b-c4c7-432c-bd96-4cee2263a541?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "118d366b-c4c7-432c-bd96-4cee2263a541"
+        }
+      ]
+    },
+    "keywordType": "idnnode",
+    "label": "IDN Nodes",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-idnnode.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:40",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) ISO Topic Categories",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/27fa831b-f131-4f6d-8020-cc4ab0896249?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "27fa831b-f131-4f6d-8020-cc4ab0896249"
+        }
+      ]
+    },
+    "keywordType": "isotopiccategory",
+    "label": "ISO Topic Categories",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-isotopiccategory.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:40",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Horizontal Resolution Ranges",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/1499785c-8b74-45f4-bbf7-19d2d4e43b2f?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "1499785c-8b74-45f4-bbf7-19d2d4e43b2f"
+        }
+      ]
+    },
+    "keywordType": "horizontalresolutionrange",
+    "label": "Horizontal Resolution Ranges",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-horizontalresolutionrange.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:40",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Vertical Resolution Ranges",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/9728ca44-7bb3-40a4-9dd2-49470ad47fa5?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "9728ca44-7bb3-40a4-9dd2-49470ad47fa5"
+        }
+      ]
+    },
+    "keywordType": "verticalresolutionrange",
+    "label": "Vertical Resolution Ranges",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-verticalresolutionrange.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:28:41",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Temporal Resolution Ranges",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "502ad03c-dba8-4b32-8af5-13fa947c3988"
+        }
+      ]
+    },
+    "keywordType": "temporalresolutionrange",
+    "label": "Temporal Resolution Ranges",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-temporalresolutionrange.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-13 07:36:24",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Trash Can",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/7e70bdb4-dbd0-4e35-b715-3a8e843a7805?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805"
+        }
+      ]
+    },
+    "keywordType": "Trash",
+    "label": "Trash Can",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-trash.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-21 11:51:26",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Instruments",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/b2140059-b3ca-415c-b0a7-3e142783ffe8?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "b2140059-b3ca-415c-b0a7-3e142783ffe8"
+        }
+      ]
+    },
+    "keywordType": "instruments",
+    "label": "Instruments",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-instruments.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-21 12:56:51",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Projects",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/fb0b9fcd-5c96-4989-8c64-a479bbed83ab?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "fb0b9fcd-5c96-4989-8c64-a479bbed83ab"
+        }
+      ]
+    },
+    "keywordType": "projects",
+    "label": "Projects",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-projects.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:21",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Persistent Identifier",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/a4632db2-ea6b-45b3-9a3c-17032b07af67?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "a4632db2-ea6b-45b3-9a3c-17032b07af67"
+        }
+      ]
+    },
+    "keywordType": "PersistentIdentifier",
+    "label": "Persistent Identifier",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-persistentidentifier.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:21",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Private",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/0901b01e-447a-45b5-a716-33ac9b8bc27a?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "0901b01e-447a-45b5-a716-33ac9b8bc27a"
+        }
+      ]
+    },
+    "keywordType": "Private",
+    "label": "Private",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-private.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:21",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Phone Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9"
+        }
+      ]
+    },
+    "keywordType": "PhoneType",
+    "label": "Phone Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-phonetype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:21",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Product Flag",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/54cfb555-6e95-4e89-96b9-57863cbf732f?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "54cfb555-6e95-4e89-96b9-57863cbf732f"
+        }
+      ]
+    },
+    "keywordType": "ProductFlag",
+    "label": "Product Flag",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-productflag.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:22",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Dataset Progress",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/1638caf0-d46c-4858-8916-ec14d82cb44c?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "1638caf0-d46c-4858-8916-ec14d82cb44c"
+        }
+      ]
+    },
+    "keywordType": "DatasetProgress",
+    "label": "Dataset Progress",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-datasetprogress.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:22",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Dataset Language",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/79ec7ee3-0013-4ef7-a439-bbfcce88fb38?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "79ec7ee3-0013-4ef7-a439-bbfcce88fb38"
+        }
+      ]
+    },
+    "keywordType": "DatasetLanguage",
+    "label": "Dataset Language",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-datasetlanguage.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:23",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Metadata Association Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/9d03a2d8-132d-49ea-95d5-6dea6d769053?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "9d03a2d8-132d-49ea-95d5-6dea6d769053"
+        }
+      ]
+    },
+    "keywordType": "MetadataAssociationType",
+    "label": "Metadata Association Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-metadataassociationtype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:23",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Organization Personnel Role",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/d6cd58e1-e83e-4718-b48d-08de1aba2f40?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "d6cd58e1-e83e-4718-b48d-08de1aba2f40"
+        }
+      ]
+    },
+    "keywordType": "OrganizationPersonnelRole",
+    "label": "Organization Personnel Role",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-organizationpersonnelrole.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:23",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Personnel Role",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/5c07062e-1ad1-4721-bc0f-f2d51352c2c1?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "5c07062e-1ad1-4721-bc0f-f2d51352c2c1"
+        }
+      ]
+    },
+    "keywordType": "PersonnelRole",
+    "label": "Personnel Role",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-personnelrole.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:24",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Organization Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18"
+        }
+      ]
+    },
+    "keywordType": "OrganizationType",
+    "label": "Organization Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-organizationtype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:24",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Duration Unit",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e496c2bf-7f1c-461b-93b1-0248e4a5e932?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "e496c2bf-7f1c-461b-93b1-0248e4a5e932"
+        }
+      ]
+    },
+    "keywordType": "DurationUnit",
+    "label": "Duration Unit",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-durationunit.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:24",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Platform Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/0cde2885-d08e-4539-9055-99d9a4754df0?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "0cde2885-d08e-4539-9055-99d9a4754df0"
+        }
+      ]
+    },
+    "keywordType": "PlatformType",
+    "label": "Platform Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-platformtype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:25",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Collection Data Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/62a5777d-3582-498a-b900-54110baf8eb4?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "62a5777d-3582-498a-b900-54110baf8eb4"
+        }
+      ]
+    },
+    "keywordType": "CollectionDataType",
+    "label": "Collection Data Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-collectiondatatype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:25",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Coordinate System",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd"
+        }
+      ]
+    },
+    "keywordType": "CoordinateSystem",
+    "label": "Coordinate System",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-coordinatesystem.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:25",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Granule Spatial Representation",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/d48348ea-bf06-4f04-91bd-647f3839aefd?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "d48348ea-bf06-4f04-91bd-647f3839aefd"
+        }
+      ]
+    },
+    "keywordType": "GranuleSpatialRepresentation",
+    "label": "Granule Spatial Representation",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-granulespatialrepresentation.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:25",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Product Level Id",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/6eb7a3bb-2330-4086-9a77-79e46470f1e6?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "6eb7a3bb-2330-4086-9a77-79e46470f1e6"
+        }
+      ]
+    },
+    "keywordType": "ProductLevelId",
+    "label": "Product Level Id",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-productlevelid.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:26",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Spatial Coverage Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/26a99b0d-1f56-4969-844e-4b213a036873?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "26a99b0d-1f56-4969-844e-4b213a036873"
+        }
+      ]
+    },
+    "keywordType": "SpatialCoverageType",
+    "label": "Spatial Coverage Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-spatialcoveragetype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:26",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Multimedia Format",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e2ad33dc-e1e4-45e3-be83-2efca11e451b?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "e2ad33dc-e1e4-45e3-be83-2efca11e451b"
+        }
+      ]
+    },
+    "keywordType": "MultimediaFormat",
+    "label": "Multimedia Format",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-multimediaformat.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:27",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Metadata Language",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/475934c7-e05f-4547-aaa3-b0cf01afff06?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "475934c7-e05f-4547-aaa3-b0cf01afff06"
+        }
+      ]
+    },
+    "keywordType": "MetadataLanguage",
+    "label": "Metadata Language",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-metadatalanguage.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:27",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Contact Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/8c84f591-ec2b-4dc4-8002-7fc9586ffcca?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "8c84f591-ec2b-4dc4-8002-7fc9586ffcca"
+        }
+      ]
+    },
+    "keywordType": "ContactType",
+    "label": "Contact Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-contacttype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:27",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Mime Type",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/ec1a1350-be24-42e6-a5cc-ccb806793def?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "ec1a1350-be24-42e6-a5cc-ccb806793def"
+        }
+      ]
+    },
+    "keywordType": "MimeType",
+    "label": "Mime Type",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-mimetype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:30",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Distribution Size Unit",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e0e6f883-9dee-4908-bb76-20adae968df1?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "e0e6f883-9dee-4908-bb76-20adae968df1"
+        }
+      ]
+    },
+    "keywordType": "DistributionSizeUnit",
+    "label": "Distribution Size Unit",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-distributionsizeunit.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-13 07:36:21",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Related URL Content Types",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/8759ab63-ac04-4136-bc25-0c00eece1096?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "8759ab63-ac04-4136-bc25-0c00eece1096"
+        }
+      ]
+    },
+    "keywordType": "rucontenttype",
+    "label": "Related URL Content Types",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-rucontenttype.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:37",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Data Format",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/8e770fe1-6e82-43aa-9f8a-75d217d7e6cb?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb"
+        }
+      ]
+    },
+    "keywordType": "DataFormat",
+    "label": "Data Format",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-dataformat.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:29:46",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Measurement Name",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/2bc6e372-93d8-4672-96b1-ec159aff2e19?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "2bc6e372-93d8-4672-96b1-ec159aff2e19"
+        }
+      ]
+    },
+    "keywordType": "MeasurementName",
+    "label": "Measurement Name",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-measurementname.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:03",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Projection Name",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/9d37b0bc-31fa-4b2e-b39d-1e19ceefa103?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "9d37b0bc-31fa-4b2e-b39d-1e19ceefa103"
+        }
+      ]
+    },
+    "keywordType": "ProjectionName",
+    "label": "Projection Name",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-projectionname.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:05",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Projection Authority",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/0cffc8cf-f913-43c8-9c7b-179eb6749c4f?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "0cffc8cf-f913-43c8-9c7b-179eb6749c4f"
+        }
+      ]
+    },
+    "keywordType": "ProjectionAuthority",
+    "label": "Projection Authority",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-projectionauthority.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:06",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Chained Operations",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/ee18f758-071a-4ac8-8cd6-b217270243ea?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "ee18f758-071a-4ac8-8cd6-b217270243ea"
+        }
+      ]
+    },
+    "keywordType": "ChainedOperations",
+    "label": "Chained Operations",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-chainedoperations.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:07",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Operations",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e97d2b88-a545-4882-801b-40964a2bc723?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "e97d2b88-a545-4882-801b-40964a2bc723"
+        }
+      ]
+    },
+    "keywordType": "Operations",
+    "label": "Operations",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-operations.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:09",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Projection Datum Names",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/7e8086f8-a35a-433d-ba29-9bc948511cd1?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "7e8086f8-a35a-433d-ba29-9bc948511cd1"
+        }
+      ]
+    },
+    "keywordType": "ProjectionDatumNames",
+    "label": "Projection Datum Names",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-projectiondatumnames.json",
+    "keywords": []
+  },
+  {
+    "citation": {
+      "date": [
+        {
+          "date": "2023-07-07 10:30:09",
+          "dateType": "revision"
+        }
+      ],
+      "description": "No description available.",
+      "title": "Global Change Master Directory (GCMD) Science Keywords",
+      "edition": "Version 16.5",
+      "onlineResource": [
+        {
+          "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/1eb0ea0a-312c-4d74-8d42-6f1ad758f999?format=json}"
+        }
+      ],
+      "identifier": [
+        {
+          "identifier": "1eb0ea0a-312c-4d74-8d42-6f1ad758f999"
+        }
+      ]
+    },
+    "keywordType": "sciencekeywords",
+    "label": "Science Keywords",
+    "dynamicLoad": true,
+    "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdkeywords@master/resources/json/gcmd-sciencekeywords.json",
+    "keywords": []
+  }
+]
