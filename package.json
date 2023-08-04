@@ -1,6 +1,6 @@
 {
   "name": "mdkeywords",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Keywords for metadata",
   "main": "index.js",
   "module": "src/main.js",
