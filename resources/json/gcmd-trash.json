@@ -1,0 +1,2635 @@
+[
+  {
+    "uuid": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+    "label": "Trash Can",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+        "label": "Trash Can/Projects",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0e2a7c38-29a3-429f-8653-e959e3ef30c6",
+            "label": "ABC",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "117b0ab7-e79a-4b6a-852a-f95bb346a2e9",
+            "label": "ArCS",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "15b14df3-ffeb-4675-99fb-8382c0b0c70e",
+            "label": "TEST",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "248731e2-8538-46d8-b4eb-5f83424a527e",
+            "label": "CIESIN/MEC",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2b6055ff-6578-4279-8cdc-cddf53fc9382",
+            "label": "Delta-X",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "31f625fb-ef43-412c-b394-93e9d9a2f4dc",
+            "label": "MetOp",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4304b431-1cea-4c7c-b94e-762d66bccd2b",
+            "label": "EMIT",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "The NASA Earth Surface Mineral Dust Source Investigation (EMIT) mission will comprehensively measure the mineral composition of Earth’s dust source regions to help scientists understand how they heat\nor cool our planet. EMIT’s science objectives are specifically focused on better understanding this heating and cooling effect, which is called radiative forcing. The first objective is to deliver a new improved assessment of the heating and cooling effects\nof mineral dust in the Earth’s atmosphere. The second objective is to predict how future climate scenarios might change the amount and type of mineral dust emitted into the Earth’s atmosphere.",
+            "children": []
+          },
+          {
+            "uuid": "4964db9e-ec5b-4758-8ac2-532781a93992",
+            "label": "S-MODE",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "543c2bc0-b081-46b7-a836-1cb1736fe0b2",
+            "label": "GloSSAC",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5cd35e66-021f-40b1-910a-944b31f12671",
+            "label": "ADCC",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "[from Arctic System Science Data Coordination Center home page,\n'http://nsidc.org/arcss/']\n\nThe Arctic System Science (ARCSS) Data Coordination Center (ADCC) at\nthe National Snow and Ice Data Center, University of Colorado at\nBoulder, is the permanent data archive for all components of the ARCSS\nProgram. Funded by the National Science Foundation's Office of Polar\nPrograms, the project's focus is to archive and provide access to\nARCSS-funded data.",
+            "children": []
+          },
+          {
+            "uuid": "600500b8-3ffb-43ff-9072-f08995d88d3f",
+            "label": "MTEST",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "623d817a-a517-455e-86c8-69adca3a02c1",
+            "label": "SnowEx",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "753332de-5c67-4717-b1b8-092d96c0e766",
+            "label": "HAQES",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "The Hazardous Air Quality Ensemble System (HAQES) is a real-time ensemble forecast of hazardous air quality events, such as wildfires, dust storms, and Volcanic eruptions. Both regional and global models from multiple agencies are used to create the ensemble, including the Goddard Earth Observing System (GEOS) from the National Aeronautics and Space Administration (NASA), the Navy Aerosol Analysis and Prediction System (NAAPS) from Naval Research Laboratory, the Global Ensemble Forecast System Aerosols (GEFS), High-Resolution Rapid Refresh (HRRR), and National Oceanic and Atmospheric Administration-U.S. Environmental Protection Agency (NOAA-EPA) Atmosphere-Chemistry Coupler-Community Multiscale Air Quality model (NACC-CMAQ) from NOAA. The HAQES provides the forecast of surface PM2.5 (PM25_TOT), PM2.5 organic carbon (PM25_OC), and PM2.5 black carbon (PM25_BC) every 3 hours. The prototypes of HAQES products were developed by the George Mason University Air Quality Laboratory as part of the NASA Health Air Quality Applied Science Team (HAQAST).",
+            "children": []
+          },
+          {
+            "uuid": "7868b0d7-ce77-44c0-83cb-40b036d77462",
+            "label": "CIOOS",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "CIOSS is a cooperative (federal-academic) center of excellence for research and education, which involves satellite remote sensing of the ocean and its air-sea interface, along with models of the ocean and overlying atmosphere. CIOSS provides a mechanism to bring together the resources of a research-oriented university (OSU), NESDIS and other NOAA line offices, with additional partners at other universities, government and private agencies. With these partners, CIOSS conducts research of mutual interest to CIOSS/COAS and NOAA. This research helps NOAA to accomplish its Mission Goals and helps NESDIS to fulfill its role in providing the remote sensing component of the 'national backbone' for the Integrated Ocean Observing System (IOOS), which includes operational and research components within NOAA, ONR, NSF and NASA. CIOSS contributes to the development of ocean observing and modeling systems, along with public understanding of those systems, through:\n\n- Research that helps to develop and improve our understanding of, and operational products related to, the upper ocean and air-sea interface. It does this by using data from present and past satellites and by helping to plan future satellite sensors;\n\n- Research that helps to incorporate and assimilate those products and understanding into ocean and atmosphere circulation models; and\n\n- Education and training in the same topics, reaching a wide range of 'audiences' in formal education (K-16 education, graduate school, ongoing professional training) and informal education (public outreach).\n\nCIOSS Mission, Goals and Objectives: The CIOSS mission is to enhance and improve the use of satellite remote sensing for oceanographic research, operational applications and education/outreach. To do this, CIOSS has the following broad goals and objectives:\n\n- Foster and provide a focus for research related to NOAA's mission responsibilities and strategic objectives in the coastal and open ocean, emphasizing those aspects of oceanography and air-sea interaction that utilize satellite data, along with models of oceanic and atmospheric circulation;\n\n- Collaborate with NOAA research scientists in using satellite ocean remote sensing through: evaluation, validation, and improvement of data products from existing and planned instruments; development of new multi-sensor products, models, and assimilation techniques; and investigation and creation of new approaches for satellite data production, distribution, and management;\n\n- Improve the effectiveness of graduate-level education and expand the scientific training and research experiences available to graduate students, postdoctoral fellows and scientists from NOAA and other governmental laboratories and facilities; and\n\n- Educate and train research scientists, students, policy makers and the public to use, and appreciate the use of, satellite data in research that improves our understanding of the ocean and overlying atmosphere.",
+            "children": []
+          },
+          {
+            "uuid": "7dbdaf29-c395-40ba-8216-69f2f76cf89a",
+            "label": "ArCS",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "94738719-014b-4d35-91c6-e63b8aa15ada",
+            "label": "HABSOS",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9c54f8c2-e1a8-4ccd-87b9-c268615f6de8",
+            "label": "ANDRILL",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a2fb9077-adf3-4211-9b84-ab0cb6c67232",
+            "label": "CGL2004-01348-E/ANT",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "baec19d6-5d2c-4eb9-89cb-238786ac308b",
+            "label": "ArCS",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d1aa0691-8ce5-4252-a8af-5bdbb7645e08",
+            "label": "AAA",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d374d7b7-9e20-481d-b08b-a04bba6ee638",
+            "label": "WAISDIVIDE",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "da94175c-8039-4844-8329-4c7f8c55b966",
+            "label": "SWOT",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e39da245-a9db-4e65-b6cc-fe8472fd21a3",
+            "label": "ABC",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "Short Title: ABC 72* North\nProposal URL: http://classic.ipy.org/development/eoi/proposal-details.php?id=282\n\nArctic Base Camp (ABC)\nLocation: 72*42 North 77*57 West\n\nEstablished in 1989, award-winning Arctic adventure company, Polar Sea Adventures (PSA) is based in Pond Inlet on the northern tip of Baffin Island in Canada's high Arctic. PSA offers a wide range of safe, high quality scheduled and custom-made adventure trips, expeditions and services. Each one professionally designed, in close consultation with clients, carefully promoting environmental awareness, exploration and respect for nature. One of the most northerly tour operators in the world - Polar Sea's trips, expeditions and projects are planned and delivered with the intention of being environmentally, socially and economically responsible. Polar Sea is sensitive to the effects of travel on the areas we visit. We live, and are based in the Arctic, therefore have a vital and vested interest in ensuring the areas we journey to and explore are respected and protected. Group sizes are kept small to avoid impacting the things that attract people to visit in the first place. We are actively dedicated to the protection of the Arctic and strive to play a role in encouraging and promoting the responsible and ethical development of this incredible, unique and important part of our planet.\n\nThe Arctic Base Camp (ABC) project involves PSA and a number of other related companies, individuals and organizations. The ABC will be the creation of a science based research facility that in addition will cater for a number of equally important activities and projects. In collaboration with outdoor equipment manufacturer Mountain Hard Wear, the ABC will consist of three Space Stations (kitchen, dining room and recreation room) twelve Satellite tents (for guests and staff accommodation) and two Stronghold (for workshops and laboratories) The Nunavut Territorial Government, Nunavut Tourism, the local hamlet council and local businesses have already expresses interest in the project\n\nUses for the ABC include: \nScience/research laboratory, training facility for young scientists and researchers, Inuit Elders & Youth retreat, camp for schools, colleges and universities, training facility for young Inuit interested in a career in the sustainable tourism industry and as a defined destination for people from around the world interested in the Arctic environment.\n\nThe science and research part of the ABC would be set up similar to an Earthwatch program (earthwatch.org) Paying clients would be invited to join scientists and researchers in the field to help and assist with the work being done. The ABC season will start in early April and run until late September. Being located on the sea ice during the spring months, the camp will represent and illustrate low-impact and sustainable use of the Arctic environment. In late June the 'land' on which it is located will cease to exist, therefore no trace of the camp ever being there will exist. The ABC will be seasonal yet prove to have year round benefits to all those involved.\n\nThe ABC will be created to be an on-going research and training facility. We believe that the long term benefits of the camp will be significant. Good science will be conducted and a sustainable project for the Inuit of the North Baffin region (and beyond) will be started and built upon.",
+            "children": []
+          },
+          {
+            "uuid": "f245e694-6d15-4993-8ba2-8d6b699abb66",
+            "label": "IMBER/AMT",
+            "broader": "0d2016ae-49b9-4117-b4f4-1bbc3514da59",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "117c4595-d924-414c-a565-91701e0c3e7d",
+        "label": "Trash Can/Related URL Content Types",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "2ecda1d7-2f7f-498d-904b-dada2ccb2798",
+            "label": "COOKBOOK",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4781987b-6ad7-4d99-b55a-25ede65c376e",
+            "label": "UAT TEST",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bf3bf666-12c6-4981-9799-9a92d5c907df",
+            "label": "BROWSE",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "The URL for accessing a granule browse image.",
+            "children": []
+          },
+          {
+            "uuid": "bfb16010-1ac6-4330-873a-3b225334e890",
+            "label": "HOW-TO",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "da072026-03d8-41ef-9a93-ff34c420612c",
+            "label": "DISCLAIMER",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "A disclaimer is generally any statement intended to specify or delimit the scope of rights and obligations that may be exercised and enforced by parties in a legally recognized relationship. In contrast to other terms for legally operative language, the term disclaimer usually implies situations that involve some level of uncertainty, waiver, or risk.",
+            "children": []
+          },
+          {
+            "uuid": "06601fb9-f365-4d6d-b9bc-722cc371201b",
+            "label": "Zarr Store Documentation",
+            "broader": "117c4595-d924-414c-a565-91701e0c3e7d",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "25383497-5925-4580-9b01-9031f508ee45",
+        "label": "Trash Can/Contact Type",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "6d315dc4-4517-4eff-9eaa-fa079bd54311",
+            "label": "Rosy",
+            "broader": "25383497-5925-4580-9b01-9031f508ee45",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+        "label": "Trash Can/Instruments",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0ea7afd3-6e3d-4a4d-a3fa-fd1e8cd06873",
+            "label": "VSWIR",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "The Hyperspectral Infrared Imager or HyspIRI mission will study the world’s ecosystems and provide critical information on natural disasters such as volcanoes, wildfires and drought. HyspIRI will be able to identify the type of vegetation that is present and whether the vegetation is healthy. The mission will provide a benchmark on the state of the worlds ecosystems against which future changes can be assessed. The mission will also assess the pre-eruptive behavior of volcanoes and the likelihood of future eruptions as well as the carbon and other gases released from wildfires.\n\nThe HyspIRI mission includes two instruments mounted on a satellite in Low Earth Orbit. There is an imaging spectrometer measuring from the visible to short wave infrared (VSWIR: 380 nm - 2500 nm) in 10 nm contiguous bands and a multispectral imager measuring from 3 to 12 um in the mid and thermal infrared (TIR). The VSWIR and TIR instruments both have a spatial resolution of 60 m at nadir. The VSWIR will have a revisit of of 19 days and the TIR will have a revisit of 5 days. HyspIRI also includes an Intelligent Payload Module (IPM) which will enable direct broadcast of a subset of the data.\n\nNASA will conduct airborne campaigns for the HyspIRI mission.  For these campaigns, NASA will fly the Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) and the MODIS/ASTER Airborne Simulator (MASTER) instruments on a NASA ER-2 aircraft  to collect precursor datasets in advance of the Hyperspectral Infrared Imager (HyspIRI) mission. The primary goal of this activity is to demonstrate important science and applications research that is uniquely enabled by HyspIRI like data, taking advantage of the contiguous spectroscopic measurements of the AVIRIS, the full suite of MASTER TIR bands, or combinations of measurements from both instruments.",
+            "children": []
+          },
+          {
+            "uuid": "126c0c35-2a07-4620-9397-c3a674570495",
+            "label": "SENTINEL-1 C-SAR",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "137c2486-95ec-4bb9-9ac9-da5a2b2c30ab",
+            "label": "MRR - rosy",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "164735a4-4034-4067-b4a0-75e3c0a7bbec",
+            "label": "DPG",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2671d26f-0624-466d-8b22-d0e4b1cf8b4b",
+            "label": "SAPHIR",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "SAPHIR (Sondeur Atmosphérique du Profil d'Humidité Intertropicale par Radiométrie) is a sounding instrument with 6 channels near the absorption band of water vapor at 183 Ghz. These channels provide relatively narrow weighting functions from the surface to about 10 km, allowing retrieving water vapor profiles in the cloud free troposphere. The scanning is cross-track, up to an incidence angle of 50°. The resolution at nadir is of 10 km.",
+            "children": []
+          },
+          {
+            "uuid": "280ef569-f354-4af4-aae2-0d03f9a46774",
+            "label": "FIA",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "33f06e92-f896-4168-87ca-5936439f55aa",
+            "label": "FISH",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "A new set of hygrometers based on the Lyman α photofragment fluorescence technique has been developed for operation on aircraft and balloons in the stratosphere and upper troposphere. They combine technical details from existing fluorescence hygrometers with several improvements in order to achieve the highest data quality and to minimize maintenance and operational procedures. With these instruments, stratospheric H2O measurements can be accomplished with a precision of < 0.2 ppmv at 1 s integration time, as has been demonstrated both in the laboratory and under field deployment. The design enables a rapid exchange of the air sample of the order of 1 s for fast measurements of small-scale variations of the H2O mixing ratio in the atmosphere. The hygrometer is calibrated using a laboratory calibration bench with approximately 4% accuracy. Measurements made by the hygrometer are compared with a frost point hygrometer during an aircraft mission at H2O mixing ratios from 280 to 8 ppmv, yielding an agreement between both techniques within the instrumental errors.",
+            "children": []
+          },
+          {
+            "uuid": "458148e8-2e83-4855-90ce-d9e944e58ab6",
+            "label": "POLDER-2",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4cc79398-327b-4301-b81c-4edf718da8d3",
+            "label": "MCoRDS",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5089b16c-8967-4da2-b672-9a16c467c8bc",
+            "label": "Biopsy",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "Removal of tissue, cells, or fluid from the body for pathology, toxicology, genetics, genomics, stable isotope, endocrine and/or other analysis and tests.",
+            "children": []
+          },
+          {
+            "uuid": "5c1f5aa6-3ea5-4eab-9469-35f2cf43d71c",
+            "label": "TANSO-CAI",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6bc455d3-c4bc-4fde-8355-12bb06ccfcf7",
+            "label": "Biological Sampling",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "799e3dc3-1705-497a-9bbb-3f23c3a192ec",
+            "label": "AMSR2",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) onboard the GCOM-W1 satellite is a remote sensing instrument for measuring weak microwave emission from the surface and the atmosphere of the Earth. From about 700 km above the Earth, AMSR2 will provide us highly accurate measurements of the intensity of microwave emission and scattering.\nThe antenna of AMSR2 rotates once per 1.5 seconds and obtains data over a 1450 km swath. This conical scan mechanism enables AMSR2 to acquire a set of daytime and nighttime data with more than 99% coverage of the Earth every 2 days.\n\n\nGroup: Instrument_Details\n   Entry_ID: AMSR2\n   Group: Instrument_Identification\n      Instrument_Category: Earth Remote Sensing Instruments\n      Instrument_Class: Passive Remote Sensing\n      Instrument_Type: Spectrometers/Radiometers\n      Instrument_Subtype: Imaging Spectrometers/Radiometers\n      Short_Name: AMSR2\n      Long_Name: Advanced Microwave Scanning Radiometer 2\n   End_Group\n   Creation_Date: 2012-08-31\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "9412325f-c7a2-4a14-96a8-eab53e555084",
+            "label": "LLR",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a9057d4b-0cbe-4ceb-9bcb-1b5323a7fe80",
+            "label": "ATLAS",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ab8905ed-90e2-4b71-8252-f859fc9e9d56",
+            "label": "WISE",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b45b2069-5e00-43df-b8f4-8193a5ddc8b2",
+            "label": "AVAPS",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d840d468-4709-418d-b56c-3ea66b5fe1fd",
+            "label": "HiCARS1",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d9c4f60d-3237-4e93-b2f7-e37bca3bebb0",
+            "label": "CIPS",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "The Cloud Imaging Probe (CIP) is a single-particle optical array probe complemented with sensors for air temperature, relative humidity, liquid water content, and air speed. It i developed by Droplet Measurement Technologies, Inc.",
+            "children": []
+          },
+          {
+            "uuid": "de28d1a0-160d-4fa8-9b04-cdb50acc9fec",
+            "label": "DLH",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e30f4e77-ece5-40d1-86b1-47d25dbec3e1",
+            "label": "EMIT Imaging Spectrometer",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "The Earth Surface Mineral Dust Source Investigation (EMIT) Imaging Spectrometer is a NASA Earth Venture Instrument (EVI-4) mounted to the exterior of the International Space Station (ISS). EMIT will be the first instrument to use NASA invented imaging\nspectroscopy technology to comprehensively measure the different wavelengths of light emitted by minerals on the surface of deserts and other dust sources to determine their composition.",
+            "children": []
+          },
+          {
+            "uuid": "eaab0199-2efd-4c73-bbd5-84d76b9e6482",
+            "label": "ToF-AMS",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "eaf50414-f5a1-4a68-aa5c-f06d8b2493b5",
+            "label": "STR",
+            "broader": "4b2630a8-2630-42f1-852f-772e9a62efe7",
+            "definition": "The Swarm STR (Star Tracker) assembly provides the attitude of the VFM. Both instruments are co-mounted in a common optical bench to ensure proper alignment for the determination of the highly accurate magnetic field components.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "5090b25d-b962-42dd-8e8c-0b398fbdbb94",
+        "label": "Trash Can/Granule Data Format",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "de1542d1-3d67-4044-a4b4-c8fb57636213",
+            "label": "Georeferenced JPEG",
+            "broader": "5090b25d-b962-42dd-8e8c-0b398fbdbb94",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+        "label": "Trash Can/Platforms",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "033d5136-ed48-4ef0-9000-d657ded62cba",
+            "label": "Reanalysis",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "04dae41e-7a74-4750-89b6-1ea717cce9d2",
+            "label": "AES",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Atmospheric Environment Service:\n\n\n\nCertain ships of Canadian registry are fitted with this equipment\non a loan basis. The cup wheel and wind vane are mounted on\neither end of a U - shaped arm. This U - arm is mounted as high\nand as forward on the ship as possible, so that the unit is in a\nflow of air relatively undisturbed by the ship's\nsuperstructure. The instrument requires 115 volt, 60 cycle power\nto operate the direction unit. The speed unit supplies its own\npower by means of a small permanent magnet generator which is\noperated by the rotating cup wheel.\n\nThe wind speed and direction dials are mounted in a small\ncabinet located conveniently in the chart room or wheel\nhouse. The wind speed dial is calibrated in nautical miles per\nhour, from 0 to 1 00 knots. The wind direction dial is\ncalibrated in tens of degrees from 01 0? to 360?. The direction\nindicated by the dial will be the direction of the apparent wind\nin relation to the heading of the ship, and not to north. Thus\nan indication of 360? represents an apparent wind from dead\nahead; 090?, a wind on the starboard beam; 180?, a wind from\ndead astern; and 270?, a wind from the port beam.\n\n[Source: MID]",
+            "children": []
+          },
+          {
+            "uuid": "079610fb-e4cf-4e2c-9a92-86a9b798a7d5",
+            "label": "Environmental Modeling",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0c61b045-d8aa-4062-8b09-788b4ed32972",
+            "label": "ROPOS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "113ecbc2-ab36-4d58-a96c-a6ce0106e749",
+            "label": "Models/Analyses",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "A schematic description of a system, theory, or phenomenon that accounts \nfor its known or inferred properties and may be used for further study \nof its characteristics\n\n[Source: The Free Dictionary]\n\n\nGroup: Platform_Details\n   Entry_ID: Models/Analyses\n   Group: Platform_Identification\n      Platform_Category: Models/Analyses\n      Short_Name: Models/Analyses\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "1468d86c-f2b8-4fbf-8e8b-8831fd598801",
+            "label": "MOORINGS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1af8c9c7-d980-43a0-9685-b2fbd3a10d0c",
+            "label": "PML",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The Plymouth Marine Laboratory (PML) provides capability for observing, modelling, understanding and forecasting marine ecosystems, to underpin evidence-based environmental solutions to societal challenges. PML do so by applying world-leading, integrated, scientific understanding, focused on the interactions between the marine environment and society, in estuarine, coastal and shelf waters, as well as the upper layers of the global ocean.\n\nPML’s science is concerned with:\n\n- increasing knowledge and understanding of the marine environment and\n- designing tools and evidence based solutions for its practical management.\n\n\nGroup: Platform_Details\n   Entry_ID: PML\n   Group: Platform_Identification\n      Platform_Category: In Situ Land-based Platforms\n      Short_Name: PML\n      Long_Name: Plymouth Marine Laboratory\n   End_Group\n   Creation_Date: 2012-07-18\n   Online_Resource: www.pml.ac.uk/default.aspx\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "20de05fc-7088-4cf5-87aa-a8e2ceb3abd6",
+            "label": "SWOT",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The Surface Water & Ocean Topography (SWOT) mission brings together two communities focused on a better understanding of the world's oceans and its terrestrial surface waters. U.S. and French oceanographers and hydrologists and international partners have joined forces to develop this new space mission to make the first global survey of Earth's surface water, observe the fine details of the ocean's surface topography, and measure how water bodies change over time. SWOT was one of 15 missions listed in the 2007 National Research Council Decadal Survey of Earth science as missions that NASA should implement in the coming decade.",
+            "children": []
+          },
+          {
+            "uuid": "2196cc92-a5da-4233-9509-5523385da1d7",
+            "label": "Rockets",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Balloons : a nonporous bag of light material that can be inflated especially\nwith air or gas.  A bag that is filled with heated air or a \ngas lighter than air\nso as to rise and float in the atmosphere and that usually \ncarries a suspended\nload (as a gondola with passengers).\n\nRockets:  A jet engine that operates on the same principle \nas the firework\nrocket, consists essentially of a combustion chamber and an \nexhaust nozzle,\ncarries either liquid or solid propellants which provide the \nfuel and oxygen\nneeded for combustion and thus make the engine independent \nof the oxygen of the\nair, and is used especially for the propulsion of a missile \n(as a bomb or shell)\nor a vehicle (as an airplane).  A rocket-propelled bomb, \nmissile, projectile, or\nvehicle.\n\n\nGroup: Platform_Details\n   Entry_ID: Balloons/Rockets\n   Group: Platform_Identification\n      Platform_Category: Balloons/Rockets\n      Short_Name: Balloons/Rockets\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "227d9c3d-f631-402d-84ed-b8c5a562fc27",
+            "label": "Aircraft",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "233e419e-e318-4c83-8258-259dbcea821d",
+            "label": "SHIPS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "236e1d7c-7500-4100-b547-9b92ff8d7acc",
+            "label": "GACM",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA Earth Science Decadal Survey Studies, \nhttp://decadal.gsfc.nasa.gov/gacm.html ]\n\nGACM will enable scientists to better understand the relationship between atmospheric ozone distribution and the factors that alter it. \n\nMission objectives:\n\n    * Ozone and related gases for intercontinental air quality and stratospheric ozone layer prediction\n\n\nGroup: Platform_Details\n   Entry_ID: GACM\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Decadal Survey\n      Short_Name: GACM\n      Long_Name: Global Atmospheric Composition Mission\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: MLS\n      Short_Name: UV SPECTROMETER\n   End_Group\n   Group: Orbit\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Creation_Date: 2010-05-04\n   Online_Resource: http://decadal.gsfc.nasa.gov/gacm.html\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "252a24e5-6f62-40df-86b3-59ef0d38283f",
+            "label": "Soil Characteristics",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2c9f1fcc-d9c8-4c6d-b701-45c97cee511f",
+            "label": "Sentinel GMES",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "313328db-116d-4b5c-9193-63fdac23af7e",
+            "label": "SCLP",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA Earth Science Decadal Survey Studies, http://decadal.gsfc.nasa.gov/sclp.html ]\n\nMission objectives:\n\n* Snow accumulation for fresh water availability\n\n\nGroup: Platform_Details\n   Entry_ID: SCLP\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Decadal Survey\n      Short_Name: SCLP\n      Long_Name: Snow and Cold Land Processes\n   End_Group\n   Group: Orbit\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Creation_Date: 2010-05-07\n   Online_Resource: http://decadal.gsfc.nasa.gov/sclp.html\n   Sample_Image: http://decadal.gsfc.nasa.gov/images/missions/SCLP1.jpg\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "331632bf-01fa-4ba9-a4e1-11e07992eee3",
+            "label": "PAZ SAR",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3821bbd9-789b-4263-aee9-395968bc7d77",
+            "label": "Seirios",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3cc1c6b0-cdfa-49d4-b32b-9c14fe5ffe92",
+            "label": "TEST",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "40c9a3e3-88ac-498f-bb23-fe8c71a27c60",
+            "label": "Non Platforms",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "41d72eb0-9554-48a7-8821-dec569503da3",
+            "label": "NOT APPLICABLE",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4ce2e520-9a55-44fe-8f2c-93d64f4eef63",
+            "label": "GEOPHYSICAL STATIONS/NETWORKS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4e4a81c4-4863-45ae-b3f6-ec6d580ddc59",
+            "label": "Argus",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4f396ff6-7bea-4ba4-afa3-198ebd914a4a",
+            "label": "In Situ Land-based Platforms",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Fixed and mobile land-based platforms.\n\n\nGroup: Platform_Details\n   Entry_ID: In Situ Land-based Platforms\n   Group: Platform_Identification\n      Platform_Category: In Situ Land-based Platforms\n      Short_Name: In Situ Land-based Platforms\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "53a12afa-40dc-473c-9d85-32b42f138099",
+            "label": "Analytical Lab",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "53f3539c-238d-4e95-838c-d434238d7a10",
+            "label": "EOS (Earth Observing System)",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "552df6fd-fc4c-43d5-ba61-1f77657680dd",
+            "label": "Gulfstream III",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The NASA Langley Research Center received authorization from NASA Headquarters on September 18, 2017 to acquire three excess C-20B Gulfstream III aircraft from the U.S. Air Force. Two of these aircraft will be used as parts support for the Agency, and the third aircraft will be used for research. The research G-III (C-20B) aircraft, designated NASA 520, will replace the Dassault HU-25A Guardian aircraft (NASA 524) as soon as practical. The research aircraft arrived at NASA Langley on December 7, 2017.  NASA Langley has installed an engine hush kit and  two nadir portals in the fuselage. The hush kit enables the aircraft to be Stage III noise compliant, allowing the aircraft to deploy nationwide and worldwide without requiring engine noise waivers. The nadir portals allow the aircraft to install earth science sensors, as is currently possible with the Center’s two King Air aircraft and the HU-25A aircraft. The NASA Langley G-III aircraft will ready for research at NASA Langley in January 2020.",
+            "children": []
+          },
+          {
+            "uuid": "57b7373d-5c21-4abb-8097-a410adc2a074",
+            "label": "WEATHER STATIONS/NETWORKS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "62e9613a-6e40-41cf-838a-ed6ac0d4871b",
+            "label": "OCEAN PLATFORM/OCEAN STATIONS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6314fc1f-507f-4a59-a8f2-0d3cdc9c59a2",
+            "label": "GCOM-W1",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The GCOM-W mission aims to establish the global and long-term observation system to collect data, which is needed to understand mechanisms of climate and water cycle variations, and demonstrate its utilization. AMSR2 onboard the first generation of the GCOM-W satellite will continue Aqua/AMSR-E observations of water vapor, cloud liquid water, precipitation, SST, sea surface wind speed, sea ice concentration, snow depth, and soil moisture.\n\nGCOM-W1/AMSR2 characteristics\nScan and rate  : Conical scan at 40 rpm\nAntenna        : Offset parabola with 2.0m dia.\nSwath width    : 1450km\nIncidence angle: Nominal 55 degrees\nDigitization   : 12bits\nDynamic range  : 2.7-340K\nPolarization   : Vertical and horizontal\n\n\nGroup: Platform_Details\n   Entry_ID: GCOM-W1\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Short_Name: GCOM-W1\n      Long_Name: Global Change Observation Mission 1st-Water\n   End_Group\n   Creation_Date: 2012-08-31\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "63c8aa1d-6efc-4943-8891-3a1cd520dde0",
+            "label": "HOV",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6652cc13-663c-4772-b6a2-0ecb13a9310e",
+            "label": "NPP",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "66c23b2e-7a41-4b54-8cc8-fcaff3e90053",
+            "label": "DMSP 5D-3/F18",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "66d14514-c38f-4a5e-a2aa-18ed7a07efe1",
+            "label": "TEST",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6a8c37b7-88f2-453c-a5b7-a7bc2a49db40",
+            "label": "AQUARIUS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA AQUARIUS mission web site http://aquarius.nasa.gov/ ]\n\n[10-Jun-11] Aquarius/SAC-D rocketed into space at 7:20:13 AM PDT. Less than 57 minutes later it separated from the rocket's second stage and began communicating with ground controllers and unfurling its solar arrays.\n\nAquarius is a focused satellite mission to measure global Sea Surface Salinity (SSS). Scientific progress is limited because conventional in situ SSS sampling is too sparse to give the global view of salinity variability that only a satellite can provide. Aquarius will resolve missing physical processes that link the water cycle, the climate, and the ocean. Aquarius is planning to launch in 2011.  Aquarius/SAC-D is a space mission developed by NASA and the Space Agency of Argentina (Comisión Nacional de Actividades Espaciales, CONAE.)\n\n\nGroup: Platform_Details\n   Entry_ID: AQUARIUS\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Earth System Science Pathfinder\n      Short_Name: AQUARIUS\n   End_Group\n   Group: Synonymous_Platform_Names\n      Short_Name: SAC-D\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: PALS\n   End_Group\n   Group: Orbit\n      Orbit_Altitude: 657 km\n      Orbit_Inclination: 98.01 degrees\n      Equator_Crossing: 6 a.m.\n      Period: 97.74 minutes\n      Repeat_Cycle: 7 days (103 orbits)\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Creation_Date: 2007-09-17\n   Online_Resource: http://aquarius.nasa.gov/\n   Online_Resource: http://aquarius.gsfc.nasa.gov/\n   Online_Resource: http://nasascience.nasa.gov/missions/aquarius\n   Sample_Image: http://aquarius.nasa.gov/images/gallery/sat_earth-s.jpg\n   Group: Platform_Logistics\n      Launch_Date: 2011-06-10\n      Launch_Site: VANDENBERG AIR FORCE BASE, USA\n      Design_Life: 3 years\n      Primary_Sponsor: USA/NASA\n      Primary_Sponsor: ARGENTINA/CONAE\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "6bccb1de-b846-4fb5-9fc1-58ea90ccaaf7",
+            "label": "Ships",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6e59f4bf-41dd-4ade-9070-4efcae4628fb",
+            "label": "FLOATS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6ee1cf85-aa14-4fe9-a915-a8022830d8a7",
+            "label": "OCEAN PLATFORM/OCEAN STATIONS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "702d7d3a-eea8-4011-864d-7e78075db879",
+            "label": "TEST2",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "733fa864-17c7-4220-aa32-2e6ff11f42dd",
+            "label": "Little Hercules",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "73d106f1-2ba9-47db-ae92-6550a024744c",
+            "label": "HYDROLOGICAL STATIONS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7599828f-8793-4a17-b845-b0341729507e",
+            "label": "GCOM-W1",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "76ba9890-0da6-4567-8b8b-0deff9108ef2",
+            "label": "AIR MONITORING STATIONS/NETWORKS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7b07ea0a-714f-4883-b202-898dfa0d4a69",
+            "label": "FY-1A",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "FY-1 is China's meteorological satellite. Multichannel Visible\nand IR Scan Radiometer (MVISR) is the major sensor of FY- 1. The\ntotal number of channels of the sensor is increased from 5\nchannels in FY-1 A and B to 10 channels in FY-1 C and D. These\nchannels include 4 VIS channels, 3 near IR channels, 1 short\nwave IR channel and 2 long wave IR channels.\n\nThe instantaneous field of view of the sensor is 1.2 microrad\nand the resolution at subpoint is 1.1 Km. The scan rate of MVISR\nis still 6 lines/second and total pixel of every scan line is\n20480.\n\nThe High Resolution Picture Transmission of FY-1 C and D is\nnamed CHRPT. It is considered that the system which receives and\nprocesses HRPT/NOAA- Now data can receive and process CHRPT with\nupdating as few as possible.\n\nThe scan rate of MVISR is 6 lines/second. The words of every\nchannel are 2048 and the total words of 10 channels are\n20480. Plus the sync and auxiliary information there are 22180\nwords every scan line and 10 bits every word. The bit rate is\n1.3308 Mbps, just twice as many as the bit rate of\nHRPT/NOAA-Now. The modulation of CHRPT data is PSK and bit\nformat is split phase. The transmission frequency of CHRPT will\nbe 1700.5MHz and the data format will be similar to the\nHRPT/NOAA-Now data format. Therefore, it will to be easy to\nprocess CHRPT data with HRPT/NOAA-Now data processing system.\n\nAdditional information available at\n'http://nsmc.cma.gov.cn/fy1e.html'\n\n[Summary provided by China's National Satellite Meteorological Center]\n\n\nGroup: Platform_Details\n   Entry_ID: FY-1\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: FY (Feng-Yun)\n      Short_Name: FY-1\n      Long_Name: China's Meteorological Satellite-1\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: MVISR - Multichannel Visible and Infrared Scan Radiometer\n      Short_Name: CHRPT - The High Resolution Picture Transmission of FY-1 C\n   End_Group\n   Group: Orbit\n      Orbit_Altitude: 863 km\n      Orbit_Inclination: 98.8 degrees\n      Equator_Crossing: 8:53 AM\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Online_Resource: http://nsmc.cma.gov.cn/item/fy_demo2.asp\n   Group: Platform_Logistics\n      Launch_Date: 1988-09-06\n      Launch_Site: Taiyuan Space Launch Center, China\n      Primary_Sponsor: China National Meteorology Center\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "7ca187b6-1aa8-4812-91f4-06251e7c5f11",
+            "label": "TEST3",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "82a67b12-e99d-4c90-8a6a-a6f79d4c3c7b",
+            "label": "SHIPS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8bce0691-74e9-4363-8d1f-d453a318c62b",
+            "label": "AIRCRAFT",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "An AIRCRAFT is a machine or device, such as an airplane, helicopter, glider, or dirigible, that is capable of atmospheric flight. \n\n\nGroup: Platform_Details\n   Entry_ID: AIRCRAFT\n   Group: Platform_Identification\n      Platform_Category: Aircraft\n      Short_Name: AIRCRAFT\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: ROSEMOUNT PROBES\n      Short_Name: PRESSURE TRANSDUCERS\n      Short_Name: TEMPERATURE PROBES\n      Short_Name: PITOT-STATIC SYSTEM\n      Short_Name: INS\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "8e6f026c-352d-4f51-b756-d32ab75032d5",
+            "label": "Explorer",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8f3ab728-820e-4723-8807-c1f1e6e4a1b0",
+            "label": "NASA GLOBAL HAWK 872 AIRCRAFT",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Owner/Operator: \nNASA Armstrong (Dryden) Flight Research Center\n\nType: \nUAS\n\nDuration: \n30 hours (payload and weather dependent)\n\nUseful Payload: \n1,900 lbs\n\nGross Take-off Weight: \n25,600 lbs\n\nOnboard Operators: \n0\n\nMax Altitude: \n65,000 ft\n\nAir Speed: \n345 knots\n\nRange: \n11,000 Nmi\n\nPower: \nRolls-Royce AE3007H turbofan\n\nNASA SMD User Fee: \n$60K/week or $250K/month for access $1800/Flt hour up to 150hrs/month",
+            "children": []
+          },
+          {
+            "uuid": "92d903c9-147b-462e-8c21-68604bf19251",
+            "label": "NDBC MOORED BUOY",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "944bdc0a-f753-425c-9ac7-1494c9b9d299",
+            "label": "METOP-B",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "MetOp is a series of three polar orbiting meteorological satellites operated by the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). The satellites form the space segment component of the overall EUMETSAT Polar System (EPS), which in turn is the European half of the EUMETSAT/NOAA Initial Joint Polar System (IJPS). The satellites carry a payload comprising 11 scientific instruments and two which support Search and Rescue services. In order to provide data continuity between MetOp and NOAA Polar Operational Satellites (POES), several instruments are carried on both fleets of satellites.",
+            "children": []
+          },
+          {
+            "uuid": "95a92849-1a3e-4103-bce7-f35c750e5d66",
+            "label": "IMERG",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The Integrated Multi-satellitE Retrievals for GPM (IMERG) algorithm combines information from the GPM satellite constellation to estimate precipitation over the majority of the Earth's surface.  This algorithm is particularly valuable over the majority of the Earth's surface that lacks precipitation-measuring instruments on the ground.",
+            "children": []
+          },
+          {
+            "uuid": "a143e5f5-4e4c-45cb-8053-5c9f6a099784",
+            "label": "SOLAR/SPACE MONITORING STATIONS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a805fcaf-f9c2-4bca-8496-4b0dc032c016",
+            "label": "KINGAIR",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a861a0cb-a973-4c20-939b-1d8019e32cb7",
+            "label": "TEST",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a9de39df-2409-49c6-9d99-da9db2e00215",
+            "label": "In-Situ Ocean-based Platforms",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "aacf1f4c-2d79-4946-bc18-6157262d7039",
+            "label": "DC-8",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "When the world's first jet airliner, the De Havilland Comet, was introduced in 1949, Douglas held a commanding position in the aircraft market. Although Boeing had pointed the way to the modern all-metal airliner in 1933 with the 247, it was Douglas that, more than any other company, made the promise a reality. Douglas produced a succession of piston-engined commercial aircraft through the 1930s, 1940s and 1950s: 138 DC-2s, 10,928 DC-3s (mostly for military service in World War II), 1453 DC-4s, 537 DC-6s and 226 DC-7s.\n\nGiven the success of their designs, Douglas took the view that there was no reason to rush into anything new, as did their rivals Lockheed and Convair. Most air transport manufacturers expected that there would be a gradual switch, from piston engines to turbines and that it would be to the more fuel-efficient turboprop engines rather than pure jets.\n\nIn contrast, Boeing took the bold step of starting to plan a pure jet airliner as early as 1949. Boeing's military arm had gained extensive experience with large, long-range jets through the B-47 Stratojet (first flight 1947) and the B-52 Stratofortress (1952). With thousands of their big jet bombers on order or in service, Boeing had developed a close relationship with the U.S. Air Force Strategic Air Command (SAC), and could count on having preference when the time came to replace SAC's fleet of piston-engined KC-97 Stratotankers. For Boeing, this was an opportunity to build a jet aircraft for air-to-air refueling that could be turned into a commercial transport.\n\n[Text provided by: http://en.wikipedia.org/wiki/Douglas_DC-8 ]\n\n[Photo provided by: http://www.aerospaceweb.org/ ]\n\n\nGroup: Platform_Details\n   Entry_ID: DC-8\n   Group: Platform_Identification\n      Platform_Category: Aircraft\n      Short_Name: DC-8\n      Long_Name: Douglas DC-8\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: CAPS\n      Short_Name: PRESSURE TRANSDUCERS\n      Short_Name: TEMPERATURE PROBES\n      Short_Name: PITOT-STATIC SYSTEM\n      Short_Name: INS\n      Short_Name: ROSEMOUNT PROBES\n      Short_Name: CDP\n      Short_Name: PIP\n      Short_Name: DC8 DROPSONDES\n      Short_Name: DROPSONDES\n   End_Group\n   Creation_Date: 2008-07-14\n   Online_Resource: http://www1.nasa.gov/centers/dryden/news/FactSheets/FS-050-DFRC.html\n   Sample_Image: http://www.aerospaceweb.org/aircraft/jetliner/dc8/dc8_06.jpg\n   Group: Platform_Logistics\n      Primary_Sponsor: NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "aad5bad0-f116-4c97-bb3f-64a1da94697f",
+            "label": "CALET",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "af11dd2a-e514-4329-bbc5-0f36f2776a26",
+            "label": "Maps/Charts/Photographs",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Map: Visual representations of an area – a symbolic depiction \nhighlighting relationships between elements of that space such as \nobjects, regions, and themes.\n\n[Source: Wikipedia, http://en.wikipedia.org/wiki/Map ]\n\nChart: A sheet of information in the form of a table, graph, or diagram.\n\n[Source: Merriam Webster, http://www.merriam-webster.com/dictionary/charts\n\nPhotograph: a picture or likeness obtained by photography.\n\n[Source: Merriam Webster, \nhttp://www.merriam-webster.com/dictionary/photographs ]\n\n\nGroup: Platform_Details\n   Entry_ID: Maps/Charts/Photographs\n   Group: Platform_Identification\n      Platform_Category: Maps/Charts/Photographs\n      Short_Name: Maps/Charts/Photographs\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "b7185a12-a008-4262-bf33-b09a2d02bfc1",
+            "label": "Sentinel-5P",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bf17bbac-0fc9-48b3-9b03-bd780ffe1eb0",
+            "label": "USV",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Unmanned surface vehicles (USV) or autonomous surface vehicles (ASV) are vehicles that operate on the surface of the water (watercraft) without a crew.",
+            "children": []
+          },
+          {
+            "uuid": "c1ef6ce3-5640-4e4a-bd2f-02b0a25e60d3",
+            "label": "Rockets",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c76b3744-6047-4ba9-9364-ebe1a0e3c502",
+            "label": "MOBILE STATIONS/VEHICLES",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c76f142e-ee8d-47b5-96fc-6f9a892b8891",
+            "label": "Gulfstream V",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The Gulfstream V is a long-range, large business jet aircraft produced by Gulfstream Aerospace, derived from the previous Gulfstream IV. It flies up to Mach 0.885, up to 51,000 feet and has a 6,500 nmi range. It typically accommodates four crew and 14 passengers.",
+            "children": []
+          },
+          {
+            "uuid": "caa8300a-560a-4190-b257-6f8d33f6f134",
+            "label": "DeepWorker 2000",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "The one-atmosphere DeepWorker 2000 submersible allows a pilot to go deeper and spend more time below the surface than traditional diving methods. The compact and lightweight DeepWorker 2000 is easy to operate and can be piloted with minimal training. Horizontal and vertical thrusters give unparalleled manoeuvrability; the DeepWorker 2000 can hover and ‘fly’ underwater.\n\nDeepWorker 2000 is also available in a 3300ft (1000m) configuration as a DeepWorker 3000.",
+            "children": []
+          },
+          {
+            "uuid": "d14286d5-f62f-4be2-ba20-2c0fdee614df",
+            "label": "DESDYNI",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Text Source: NASA Science Mission Directorate Homepage, https://science.nasa.gov/ ]\n\n[Mission Canceled]\n\nSurface deformation is linked directly to earthquakes, volcanic eruptions, and landslides. Observations of surface deformation are used to forecast the likelihood of earthquakes occurring as a function of location, as well as predicting both the place and time that volcanic eruptions and landslides are likely. Advances in earthquake science leading to improved time-dependent probabilities would be significantly facilitated by global observations of surface deformation, and could result in significant increases in the health and safety of the public due to decreased exposure to tectonic hazards. Monitoring surface deformation is also important for improving the safety and efficiency of extraction of hydrocarbons, for managing our ground water resources, and, in the future, providing information for managing CO2 sequestration.\n\nMission Objectives\n\n- Determine the likelihood of earthquakes, volcanic eruptions, and landslides.\n- Predict the response of ice sheets to climate change and impact on the sea level.\n- Characterize the effects of changing climate and land use on species habitats and carbon budget.\n- Monitor the migration of fluids associated with hydrocarbon production and groundwater resources.\n\nThis mission combines two sensors that, taken together, provide observations important for solid-Earth (surface deformation), ecosystems (terrestrial biomass structure) and climate (ice dynamics). The sensors are: 1) an L-band Interferometric Synthetic Aperture Radar (InSAR) system with multiple polarization, and 2) a multiple beam lidar operating in the infrared (~ 1064 nm) with ~ 25 m spatial resolution and 1 m vertical accuracy. The mission using InSAR to meet the science measurement objectives for surface deformation, ice sheet dynamics, and ecosystem structure has been extensively studied. It requires a satellite in 700-800 km sun-synchronous orbit in order to maximize available power from the solar arrays. An eight day revisit frequency balances temporal de-correlation with required coverage. Onboard GPS achieves cm-level orbit and baseline knowledge to improve calibration. The mission should have a 5 year life time to capture time-variable processes and achieve measurement accuracy.\n\n\nGroup: Platform_Details\n   Entry_ID: DESDYNI\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Short_Name: DESDYNI\n      Long_Name: Deformation, Ecosystem Structure and Dynamics of Ice\n   End_Group\n   Creation_Date: 2009-02-25\n   Online_Resource: https://science.nasa.gov/\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "d1b7fdfe-dfaa-4ca3-b1da-e5d9450df84e",
+            "label": "LANDSAT-10a",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d301492d-0514-4b1f-bae7-15ce6f2776c1",
+            "label": "OWEN CESSNA SKYCAT",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d48c7bce-ce00-42f3-8afd-82a9d45615e6",
+            "label": "FY-2",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "China began its geostationary meteorological satellite FY-2\nprogram in 1980. Through hard work for more than ten years, the\nfirst FY-2 satellite was launched on June 10, 1997 and located\nin the geostationary orbit at an altitude of 35800 kilometers\nover 105 degrees E. The satellite is a cylinder of 2.1 m by\n1.6 m. The attitude of the satellite is spin stabilized with a\nspeed of 100 rotation/min.\n\nFY-2A is the first geostationary meteorological satellite in\nChina. It is a spin-stabilized satellite. The main function of\nFY-2A is observation. It takes visible, infrared and water vapor\ndisk images of the Earth hourly. The main payload of FY-2A is a\nVisible and Infrared Spin Scan Radiometer (VISSR).\n\nThe VISSR takes the Earth and cloud images from the space. A\ncomplete 20° x20° scan covering the full Earth disk can be\naccomplished every 30 minutes by means of combination of\nsatellite spin motion (100 rpm from the west to east) and step\naction of the scan mirror (2500 steps from north to south). The\nS-VISSR data are retransmitted to user stations via FY-2A during\nthe VISSR observation.  The stretched VISSR (S-VISSR) data are\nthe digital image data originated by VISSR on board and\nstretched on the Command and Data Acquisition Station (CDAS) in\ntime. After stretching, the transmission rate of S-VISSR data is\nreduced and can be easily received by the users. \n\nAdditional information available at\nhttp://nsmc.cma.gov.cn/fy2e.html\n\n[Summary provided by China's National Satellite Meteorological Center]\n\n\nGroup: Platform_Details\n   Entry_ID: FY-2\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: FY (Feng-Yun)\n      Short_Name: FY-2\n      Long_Name: China's  Meteorological Satellite-2\n   End_Group\n   Group: Synonymous_Platform_Names\n      Short_Name: Feng Yun 2\n   End_Group\n   Group: Platform_Associated_Instruments\n      Short_Name: VISSR\n   End_Group\n   Group: Orbit\n      Orbit_Altitude: 35,800 km\n      Orbit_Type: GEO > Geosynchronous > Geostationary\n   End_Group\n   Creation_Date: 2007-09-26\n   Online_Resource: http://www.fas.org/spp/guide/china/earth/fy-2.htm\n   Sample_Image: http://www.fas.org/spp/guide/china/earth/fy2-s.jpg\n   Group: Platform_Logistics\n      Launch_Date: 1997-06-10\n      Launch_Site: Xichang Space Launch Center, China\n      Primary_Sponsor: CHINA/CMA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "da6420b6-48ec-4ae2-98c7-0ef0538815a0",
+            "label": "ROV",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Remotely operated underwater vehicles (ROVs) are unoccupied, highly maneuverable underwater robots operated by a person aboard a surface vessel. They are linked to the ship by a group of cables that carry electrical signals back and forth between the operator and the vehicle. Most are equipped with at least a video camera and lights. Additional equipment is commonly added to expand the vehicle's capabilities. These may include a still camera, a manipulator or cutting arm, water samplers, and instruments that measure water clarity, light penetration, and temperature. First developed for industrial purposes, such as internal and external inspections of pipelines and the structural testing of offshore platforms, ROVs are now used for many applications, many of them scientific. They have proven extremely valuable in ocean exploration, and are also used for educational programs at aquaria and to link to scientific expeditions live via the internet.\n\n[Information obtained from http://www.oceanexplorer.noaa.gov/technology/subs/rov/rov.html ]\n\n\nGroup: Platform_Details\n   Entry_ID: ROV\n   Group: Platform_Identification\n      Platform_Category: In Situ Ocean-based Platforms\n      Short_Name: ROV\n      Long_Name: Remotely Operated Vehicles\n   End_Group\n   Group: Synonymous_Platform_Names\n      Short_Name: ROV\n   End_Group\n   Creation_Date: 2007-12-13\n   Online_Resource: http://www.oceanexplorer.noaa.gov/technology/subs/rov/rov.html\n   Sample_Image: http://upload.wikimedia.org/wikipedia/en/thumb/9/99/ROV_working_on_a_subsea_structure.jpg/400px-ROV_working_on_a_subsea_structure.jpg\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "db03fbe5-ad2d-498b-8a3d-9aa3259fdfeb",
+            "label": "TEST4",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "db4bd90e-ec8c-449d-9113-495133403406",
+            "label": "Physical Models",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "df8ca548-ee15-450c-9448-9289150aaa9a",
+            "label": "PATH",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA Earth Science Decadal Survey Studies, http://decadal.gsfc.nasa.gov/path.html ]\n\nMission objectives:\n\n* High frequency, all-weather temperature and humidity soundings for weather forecasting and SST\n\n\nGroup: Platform_Details\n   Entry_ID: PATH\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Decadal Survey\n      Short_Name: PATH\n      Long_Name: Precision and All-Weather Temperature and Humidity\n   End_Group\n   Group: Orbit\n      Orbit_Type: GEO > Geosynchronous > Geostationary\n   End_Group\n   Creation_Date: 2010-05-07\n   Online_Resource: http://decadal.gsfc.nasa.gov/path.html\n   Sample_Image: http://decadal.gsfc.nasa.gov/images/missions/path1.jpg\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "e36481f3-5507-428b-a870-67f6d96ae389",
+            "label": "BUOYS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e4f5ffb4-0708-4619-9fe2-6adbb33f05b3",
+            "label": "TEST",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e50b2a1a-7d9d-4c09-ac7e-dc29f0c08fc7",
+            "label": "In Situ Ocean-based Platforms",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "Fixed and mobile ocean-based platforms.\n\n\nGroup: Platform_Details\n   Entry_ID: In Situ Ocean-based Platforms\n   Group: Platform_Identification\n      Platform_Category: In Situ Ocean-based Platforms\n      Short_Name: In Situ Ocean-based Platforms\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "e6d3a1a1-6774-4be2-8456-40025d745e08",
+            "label": "ARAON (Icebreaker Research Vessel",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e798b5b2-e34b-41bf-97f8-f1efd6a93300",
+            "label": "CONUS-Soil",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e7cea2b9-02df-4ea3-845a-0ff123605983",
+            "label": "NASA Mobile Aerosol Characterization laboratory",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ed45c0fe-b3b4-425e-b321-1cfe129c9a48",
+            "label": "MITgcm",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f10c1ccb-5e83-4646-a5ed-b59121acd13b",
+            "label": "LIST",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA Earth Science Decadal Survey Studies, http://decadal.gsfc.nasa.gov/list.html ]\n\nThis global set of data will serve users and researchers from a wide array of disciplines that need elevation and terrain information. \n\n\nGroup: Platform_Details\n   Entry_ID: LIST\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Decadal Survey\n      Short_Name: LIST\n      Long_Name: Lidar Surface Topography\n   End_Group\n   Group: Orbit\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Creation_Date: 2010-05-07\n   Online_Resource: http://decadal.gsfc.nasa.gov/list.html\n   Sample_Image: http://decadal.gsfc.nasa.gov/images/missions/list1.jpg\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "f875bfd2-1712-4cd4-99dd-058aada97f91",
+            "label": "ATLAS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "A series of Space Shuttle-Spacelab missions, designated the Atmospheric Laboratory for Applications and Science (ATLAS), is part of NASA's Mission to Planet Earth.  The series, originally planned to acquire data throughout the Sun's 11-year active cycle, investigated how Earth's atmosphere and climate are affected by the Sun, and by the products of industrial complexes and agricultural activities.  ATLAS 1, the first spacecraft in this series conducted 14 investigations in atmospheric science, solar physics, space plasma physics, and astrophysics.\n\nThe 14 ATLAS 1 experiments included:\n(1) Atmospheric Lyman-Alpha Emissions (ALAE)\n(2) Atmospheric Trace Molecule Spectroscopy (ATMOS)\n(3) Grille Spectrometer (GRILLE)\n(4) Imaging Spectrometric Observatory (ISO)\n(5) Millimeter-wave Atmospheric Sounder (MAS)\n(6) Shuttle Solar Backscatter Ultraviolet Spectrometer (SSBUV-4) -\ntechnically, this instrument was seperate from the ATLAS payload and\nwas a co-manifested payload\n(7) Active Cavity Radiometer Irradiance Monitor (ACRIM)\n(8) Solar Spectrum Measurement (SOLSPEC)\n(9) Solar Ultraviolet Spectral Irradiance Monitor (SUSIM)\n(10) Measurement of the Solar Constant (SOLCON)\n(11) Atmospheric Emissions Photometric Imaging (AEPI)\n(12) Space Experiments with Particle Accelerators (SEPAC)\n(13) Energetic Neutral Atom Precipitation (ENAP). ENAP was not a\nseperate instrument but used the ISO instrument measurements\n(14) Far Ultraviolet Space Telescope (FAUST)\n\nATLAS 2 was flown on the STS-56 in April 1993 and consisted of seven of the ATLAS 1 instruments: ATMOS, MAS, SSBUV-5, ACRIM, SOLSPEC, SUSIM, AND SOLCON.\n\nATLAS 3 was flown on the STS-66 in November 1993 and consisted of the same instruments as ATLAS 2.\n\nThese investigations studied the chemical makeup of the atmosphere between approximately 15 and 600 kilometers (8.3 to 330 miles) above the Earth's surface, measured the total energy contained in sunlight and energy variations, investigated how Earth's electric and magnetic fields and atmosphere influence each other, and examined sources of ultraviolet light in the Universe.  The instruments were mounted on two Spacelab pallets in the Shuttle payload bay.  The Shuttle's changing orientation to Earth placed the experiments in advantageous orbiting locations, to observe the atmosphere, the Sun, and astronomical targets.  Specifically, the orbiter orientation was either inertially fixed so that selected instruments were pointed at the sun, or nadir pointed for observations of the Earth's atmosphere. Crew members were in consultation with the investigators while controlling and monitoring the experiments. The atmospheric and solar instruments provided correlative measurements with the Upper Atmosphere Research Satellite (UARS).\n\n\nGroup: Platform_Details\n   Entry_ID: ATLAS\n   Group: Platform_Identification\n      Platform_Category: Space Stations/Manned Spacecraft\n      Platform_Series_or_Entity: SPACE SHUTTLE\n      Short_Name: ATLAS\n      Long_Name: Atmospheric Laboratory for Applications and Science\n   End_Group\n   Group: Synonymous_Platform_Names\n      Short_Name: ATLAS\n   End_Group\n   Creation_Date: 2008-01-24\n   Online_Resource: http://www.nasa.gov/audience/formedia/factsheet/Atlas-1_factsheet_prt.htm\n   Sample_Image: http://www.ghcc.msfc.nasa.gov/images/atlas/atlaslogo.gif\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "fb33c206-114a-45ce-8d27-e5db3df9703c",
+            "label": "3D-WINDS",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "[Source: NASA Earth Science Decadal Survey Studies,  https://eospso.nasa.gov/future-missions ] \n\nMission objectives:\n\n    * More accurate, longer-term weather forecasts\n    * Improved storm track prediction and evacuation planning\n    * Improved planting and harvesting schedules and outlook\n\n3D-Winds will study tropospheric winds for weather forecasting and pollution transport.\n\n\nGroup: Platform_Details\n   Entry_ID: 3D-WINDS\n   Group: Platform_Identification\n      Platform_Category: Earth Observation Satellites\n      Platform_Series_or_Entity: NASA Decadal Survey\n      Short_Name: 3D-WINDS\n      Long_Name: Three-Dimensional Tropospheric Winds from Space-based Lidar\n   End_Group\n   Group: Orbit\n      Orbit_Type: LEO > Low Earth Orbit > Polar Sun-Synchronous\n   End_Group\n   Creation_Date: 2010-05-07\n   Online_Resource: https://eospso.nasa.gov/future-missions\n   Group: Platform_Logistics\n      Primary_Sponsor: USA/NASA\n   End_Group\nEnd_Group",
+            "children": []
+          },
+          {
+            "uuid": "fbc0ccf8-81ef-4f9d-9714-155032271cf2",
+            "label": "Jason-class Altimeter",
+            "broader": "6089b3e5-7db9-46e1-b73b-2d679f34abb4",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "853683e4-066c-41ad-9151-ce43d71ff046",
+        "label": "Trash Can/Mime Type",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "3a181b73-10e4-4cad-95b2-46c585bc11a4",
+            "label": "application/opensearchdescription+xml",
+            "broader": "853683e4-066c-41ad-9151-ce43d71ff046",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3f863984-3132-465f-ab5e-8754f867bdad",
+            "label": "text/htm",
+            "broader": "853683e4-066c-41ad-9151-ce43d71ff046",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "93930438-1b0c-422a-aa12-3064329da9ee",
+        "label": "Trash Can/Horizontal Resolution Ranges",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b0c8dbc9-3f8d-4426-9302-c1f9cfcbcc5b",
+        "label": "Trash Can/Measurement Name",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "225efa99-b674-44bd-9aa7-33d6f1e2ae02",
+            "label": "ambient_aerosol_black_carbon",
+            "broader": "b0c8dbc9-3f8d-4426-9302-c1f9cfcbcc5b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "36e91f31-8af4-4421-ac27-484b21fd9572",
+            "label": "startiform_precipitation",
+            "broader": "b0c8dbc9-3f8d-4426-9302-c1f9cfcbcc5b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9195a94c-91e8-4dbf-977a-3099cfccf21a",
+            "label": "atmosphere-at_550nm",
+            "broader": "b0c8dbc9-3f8d-4426-9302-c1f9cfcbcc5b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9725e81d-6706-421c-92a1-bae0a542b8c4",
+            "label": "extinction_optical_thickness",
+            "broader": "b0c8dbc9-3f8d-4426-9302-c1f9cfcbcc5b",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "bb3f8975-7b0b-4a38-8cde-bb291ffca33b",
+        "label": "Trash Can/Chronostratigraphic Units",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0602206c-c213-4109-a86d-4351df95ff61",
+            "label": "test2",
+            "broader": "bb3f8975-7b0b-4a38-8cde-bb291ffca33b",
+            "definition": "test",
+            "children": []
+          },
+          {
+            "uuid": "25223fe0-e790-47b1-9eac-e114d73bbf75",
+            "label": "PRECAMBRIAN",
+            "broader": "bb3f8975-7b0b-4a38-8cde-bb291ffca33b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2b22ec46-e2af-4118-af52-6b58d49a300d",
+            "label": "LOWER",
+            "broader": "bb3f8975-7b0b-4a38-8cde-bb291ffca33b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4d48e427-fb9d-4c7f-b6ee-0acb0e07a95c",
+            "label": "Test2323",
+            "broader": "bb3f8975-7b0b-4a38-8cde-bb291ffca33b",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+        "label": "Trash Can/Science Keywords",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "01e19b5d-8849-4196-afb8-9f8656e3a8f3",
+            "label": "GAMMA RAY BURST",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "053decc4-22e0-4ce1-89eb-ffd23d0708df",
+            "label": "COSMIC RAY MUON COMPONENT",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0559367d-362a-4e08-9940-ed68722c5e32",
+            "label": "WIND AND CIRCULATION INDICES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "Wind and circulation indices measure the magnitude of one of several aspects of\nlarge-scale atmospheric circulation patterns. Indices most frequently measured\nrepresent the streangth of the zonal (east-west) or meridional (north-south)\ncomponents of the wind, at the surface, or at the upper levels.",
+            "children": []
+          },
+          {
+            "uuid": "087bffd1-f4f5-49ef-98d8-8e7d1169bfe8",
+            "label": "MEI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "08b09276-b8b2-403b-a032-97d0743fd68a",
+            "label": "TEST",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0916afef-a0b7-4ecd-85ba-cc24070470a7",
+            "label": "TEST",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0ab9695a-de5e-4a56-8df3-bf3531ee707d",
+            "label": "ACETYLENE",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "Acetylene appears as a colorless gas with a faint garlic-like odor. Easily ignited and burns with a sooty flame. Gas is lighter than air. Flame may flash back to the source of a leak very easily. Under prolonged exposure to fire or heat the containers may rupture violently and rocket.",
+            "children": []
+          },
+          {
+            "uuid": "0b42b741-1e7d-4ad8-bcc7-124172240b7f",
+            "label": "TAU",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "119883be-37a3-4638-b990-fd4b124953ae",
+            "label": "RADIOACTIVE ELEMENTS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "15709489-1603-4f60-80ad-4b725bca59e1",
+            "label": "ENGINEERING",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "15f42cd5-9822-4769-be88-3efe64205ce0",
+            "label": "PT",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "The Pacific Transition (PT) pattern is a leading mode during August and September. This pattern captures anomalous wave-train of 500-hPa heights extending from the central subtropical North Pacific to the eastern United States. The positive phase of the PT pattern features above-average heights west of Hawaii and across western North America, and below-average heights in the Gulf of Alaska and over the southeastern United States.\n\nThe PT pattern is associated with above-average surface temperatures in the western subtropical North Pacific, the subtropical North Atlantic, and throughout western North America, and with below-average temperatures over the eastern half of the United States. The main precipitation departures associated with the PT pattern include above-average precipitation in the southeastern U.S., and below-average precipitation near Hawaii and across the northern tier of the United States.",
+            "children": []
+          },
+          {
+            "uuid": "1746a218-89e0-4c56-a1d6-6d2620f56561",
+            "label": "EXTREME HIGH ENERGY",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "19631138-70c8-4922-8052-821ec5ce093b",
+            "label": "NAO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1bbb19ba-49b7-47c2-b8c8-fa61bb615fb3",
+            "label": "WHWP",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1dd9be28-df7b-434f-bea1-5b171d09312b",
+            "label": "MARINE GEOCHEMICAL PROCESSES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "Processes affecting the amount, distribution, or structure of chemical elements in marine environments.",
+            "children": []
+          },
+          {
+            "uuid": "25be5748-b82d-4779-9764-7052d06e6e60",
+            "label": "STRATUS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "267a0108-6ccc-45c6-b7e2-9094c6b3250b",
+            "label": "MOON SHADOW",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "26e61e5f-b9c2-4549-a08e-4d8416c88d1c",
+            "label": "ASTROPHYSICS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2953da71-fe1d-4506-9bd6-445b92e2b443",
+            "label": "MJO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2bff6b6c-2b9d-4c83-931d-d8459d2e4745",
+            "label": "CARBONATE FORMATION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3055774e-8931-4b5d-a131-5ef5911839e4",
+            "label": "NEUTRINOS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "334d9428-a178-4a5e-b758-a3675a122bef",
+            "label": "EP/NP",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "34b92cc2-7708-4e44-8c3f-4c23f62be944",
+            "label": "NP",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "37df8b8b-30d6-489f-a733-5a1d80d358e9",
+            "label": "GALACTIC PLANE",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "45dd0a01-d428-4407-ba18-c074d3172b41",
+            "label": "EA-JET",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "49212b14-17db-4652-9d16-8ec1716f06c5",
+            "label": "COMPOSITION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4dddd6fa-be86-44a0-8135-6e2041af7578",
+            "label": "COSMOLOGY",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "50fc0919-092a-4908-afa5-f3c4d36e3348",
+            "label": "SUPERNOVA",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "54330626-f9b4-4c34-949a-9be427fdf51b",
+            "label": "ENSO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "545d2b24-4337-4f43-b359-ad502de7626d",
+            "label": "CASCADES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "567ebb6c-cc6f-4b3e-9853-6f76a4086bc5",
+            "label": "ENSO PRECIPITATION INDEX",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5b42e474-2917-4fa3-852d-8b0f91acf0b3",
+            "label": "DROUGHT/PRECIPITATION INDICES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "A drought index is a computed value related to some of the cumulative effects\nof a prolonged and abnormal moisture deficiency. Other definitions: an index of\nhydrological drought corresponding to levels below the mean in streams, lakes,\nreservoirs, etc. A common drought index is the Palmer Drought Severity Index.",
+            "children": []
+          },
+          {
+            "uuid": "5b608686-a176-4c15-8980-e6e086f91601",
+            "label": "ATLANTIC MULTIDECADAL OSCILLATION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "The timeseries are calculated from the Kaplan SST dataset which is updated monthly. It is basically an index of the N Atlantic temperatures. Time time series are created; a smoothed version and an unsmoothed version. In addition, two files starting at 1948 are produced to be used in the Correlation webpages.",
+            "children": []
+          },
+          {
+            "uuid": "645a25c8-3340-42af-9b43-a804b20be71d",
+            "label": "AIR TEMPERATURE INDICES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "A measure or indicator of some aspect of atmospheric temperature.",
+            "children": []
+          },
+          {
+            "uuid": "690be4e9-c48c-4442-8b86-3d0a51abb0c1",
+            "label": "AAO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6ede7dcc-8252-4462-a149-1f032e15ba63",
+            "label": "SENSOR CHARACTERISTICS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "739f9b7e-3ca7-4f0b-8ce2-68753fc0a6d9",
+            "label": "EATL",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "85586d78-1819-4ba7-ab5f-9f684640d730",
+            "label": "NTA",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "87e52017-9062-48cd-83ce-65be4542c439",
+            "label": "PHOTOMULTIPLIER TUBES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "88841897-1e84-4df0-a677-2da7adc3ce37",
+            "label": "TNA",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8a31313b-e60e-47e8-b7bd-df0503e7c868",
+            "label": "PDO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "8eac6c91-8af5-4b1b-8dc3-89cd4871915f",
+            "label": "TNH",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9130e78a-882c-4a69-b1ae-0b775869c3de",
+            "label": "THI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "91dea76a-1f9a-4c3d-9791-1806b3a04f42",
+            "label": "SEA ICE STRENGTH",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "94ecf3ab-aa20-4756-8e3b-629795b3d5b5",
+            "label": "BEST",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9a43235b-a7b7-4c76-b296-c01799b1f278",
+            "label": "NOI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "The NOI (extratropical-based Northern Oscillation Index) and its analog, the SOI* (extratropical-bassed Southern Oscillation Index) are new indices of midlatitude climate fluctuations that show interesting relationships with fluctuations in marine ecosystems and populations. They reflect the variability in equatorial and extratropical teleconnections and represent a wide range of local and remote climate signals. The indices are counterparts to the traditional SOI (Southern Oscillation Index) that relate variability in the atmospheric forcing of climate change in northern and southern midlatitude hemisphere regions.",
+            "children": []
+          },
+          {
+            "uuid": "9d5411ef-d934-4515-b9fd-c9fd54c21d1b",
+            "label": "COSMIC RAY MUONS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9eb9029c-fe64-415a-950f-a1baad014572",
+            "label": "SEA ICE VOLUME BUDGET",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a135fceb-cf13-4186-9ad3-8d5db82312c9",
+            "label": "AO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a5b7dd6d-55b1-4f4b-820b-e95b6a73ba54",
+            "label": "DIFFUSE SOURCE",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a71861c1-f007-4dd8-93d9-5c4f00517314",
+            "label": "METAMORPHIC ROCK FORMATION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "aa192fc0-7dd7-4cfd-80c5-a01d6ec1374b",
+            "label": "EXTRAGALACTIC ASTRONOMY",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "aaa9c9eb-9d46-4015-a735-8938e0ed4506",
+            "label": "TNI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ab9302c6-24c5-47ac-baca-f083e70630a8",
+            "label": "METAMORPHIC ROCK FORMATION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "abfdf12c-858d-4b49-a23e-7b1a68ca9d78",
+            "label": "SPACE SCIENCE",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ac02751f-4020-4487-b8ab-2849adcdb866",
+            "label": "CROP MOISTURE INDEX",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "The Crop Moisture Index (CMI) was developed by Palmer (1968) to assess short-term crop water conditions and needs across major crop-producing regions. It is based on the concept of abnormal evapotranspiration deficit, calculated as the difference between computed actual evapotranspiration (ET) and computed potential evapotranspiration.",
+            "children": []
+          },
+          {
+            "uuid": "ae2f63e3-2345-491e-b49d-593e03db09c2",
+            "label": "SEA ICE STRAIN RATES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b18f322e-2097-4058-af0d-20f259ff3e9f",
+            "label": "AIR SHOWER",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b362dfd4-3901-4db9-9e39-bb29b6dad621",
+            "label": "NPO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b625d811-6c7e-4204-abc8-2c72d07aba02",
+            "label": "TSA",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b7ad62e0-f904-4429-b6db-6cc50b2281bc",
+            "label": "CAR",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bae01a02-ff03-4ad8-9080-3a4f89fa0dc6",
+            "label": "EATL/WRUS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bcd11fd2-ddf4-4cd3-8507-c3bf6f40a934",
+            "label": "WTVI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "be39b5e9-0dad-4c6c-97a6-46e863b17d7e",
+            "label": "RADIATION FOG",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bf1c1225-c3de-4c37-92bb-7a9e9e06c030",
+            "label": "Spectrum Width",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "c96e1137-56a7-4a1f-b5f9-45e273ff9acd",
+            "label": "CENTRAL INDIAN PRECIPITATION INDEX",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "The Indian rainfall data set was derived from 306 almost uniformly distributed stations for which rainfall data are available from 1871. The hilly regions consisting of four meteorological subdivisions of India which are parallel to Himalayan mountain range have not been considered in view of the meagre rain-gauge network and low areal representation of a rain-gauge in a hilly area. Two island subdivisions far away from mainland have also not been included. Thus, the contiguous area having network of 306 stations over 30 meteorological subdivisions measures about 2,880,000 sq.km., which is about 90 percent of the total area of the country.",
+            "children": []
+          },
+          {
+            "uuid": "cafeff8b-c583-40e3-9a43-2b2b069b1df8",
+            "label": "SOI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cc579f1f-6a72-425b-84c3-aa8070d4a0ec",
+            "label": "AMO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d16b4f44-27df-4dcc-a083-ff057a5f6263",
+            "label": "HYDROLOGIC/OCEAN INDICES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d17151a9-e03f-49ee-8d3a-d653ac84c071",
+            "label": "SEA LEVEL",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d50297e0-37e7-41e4-a89e-e2aa4b96b7c2",
+            "label": "COSMIC RAYS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d53f199e-938c-42ec-a74f-4806f3809fdc",
+            "label": "DECOMPOSITION",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d72ccd5b-d662-4be0-a012-8fdd8a40a6fb",
+            "label": "OCEAN/SST INDICES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "Hydrologic indices are related to surface water levels, flood conditions, river\nstages, aquifer levels, precipitation. Ocean indices are related to sea surface\ntemperature indices, ocean surface winds, upwelling, sea level pressure, etc.",
+            "children": []
+          },
+          {
+            "uuid": "db8eb32d-2f86-40ab-82af-b615b5a30db9",
+            "label": "CUI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ddcc55bd-2047-4aa2-996c-409f940fbba9",
+            "label": "AMM",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e1066b27-d90b-49a2-b7aa-2b9935a470af",
+            "label": "METEOROLOGICAL HAZARDS MAPPING",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e1176d1c-8452-4d85-8ab5-060736618b48",
+            "label": "ROCKS/MINERALS/CRYSTALS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e2ca81d1-995e-4f09-8e86-0cd71a4a6577",
+            "label": "SULFATE AEROSOLS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e932c1de-a7b5-4cbc-9f56-a40234334b2e",
+            "label": "QBO",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e97143bb-25e1-451f-abaf-b72f66d88087",
+            "label": "TEST",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "eab3ecb1-e30a-47e5-a4d3-f3f3c76e89bc",
+            "label": "EXTRATERRESTRIAL POINT SOURCE",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ebddda06-097f-4454-9751-bb27c41aca37",
+            "label": "PNA",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ef08dc97-f859-4939-ac79-0b3aafee1d4f",
+            "label": "SULFATE AEROSOLS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f8cdb3d9-99ba-4bfa-bb1c-772d88078a60",
+            "label": "WIMPS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fa145983-a569-414d-bd1d-c68f4f6291ae",
+            "label": "NITRATE AEROSOLS",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fb1e4438-d142-4750-a3c8-24b10c5bc3b5",
+            "label": "ATMOSPHERIC",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fbae11f2-f8db-44b8-bcb6-55471dca13a2",
+            "label": "ONI",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fe25c265-296d-4671-9e66-9b752b78bb60",
+            "label": "WP",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "fe82ad9e-1908-4f64-b96a-9aceeb992c8c",
+            "label": "GEOMORPHIC LANDFORMS/PROCESSES",
+            "broader": "c5a4126a-8f0a-4774-9bef-c2a9f9487727",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "c654a873-271a-4586-90bf-995866885cc4",
+        "label": "Trash Can/Locations",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "2c7ee979-5008-4ef9-9259-9f62868626f6",
+            "label": "Test",
+            "broader": "c654a873-271a-4586-90bf-995866885cc4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "649c7926-a726-406f-abec-92d3e1877714",
+            "label": "BYELORUSSIAN SSR",
+            "broader": "c654a873-271a-4586-90bf-995866885cc4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7848d9b7-a18d-4519-bec3-b4f5fe19a68f",
+            "label": "ZAIRE",
+            "broader": "c654a873-271a-4586-90bf-995866885cc4",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "85267adf-b16e-414d-930f-d513dc5f2800",
+            "label": "Maher Island",
+            "broader": "c654a873-271a-4586-90bf-995866885cc4",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "e675abf7-83bd-4b65-984c-c682457dce1f",
+        "label": "Trash Can/Storage for deleted or cut concepts",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "15c423c3-4268-4d7c-98c1-899f0105ed97",
+            "label": "SOCIAL BEHAVIOR",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Social Behavior is broadly defined to be social information such\r\nas socioeconomic status, voting patterns, environmental effects on various\r\ngroups of people and other broad environmental preferences.",
+            "children": []
+          },
+          {
+            "uuid": "1914294c-fd0a-4791-8bfe-7b81c98b6e33",
+            "label": "FOG",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "242682ac-eec0-45e9-bbbf-628141170e1c",
+            "label": "LGGE-UJF-CNRS 5183",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Laboratoire de Glaciologie et Géophysique de l'Environnement (LGGE) has built its reputation on the scientific study of climate and atmospheric composition. These studies focus on the present but also on past trends through the archives that make up the snow and ice accumulated over time. However LGGE has other very competitive know-how focused on snow and ice, as the physical and mechanical properties of ice, the air-snow chemical exchange or the acquisition of field data and satellite . The research carried out combines technological and analytical approach to numerical modeling related to various fields, from the atmosphere to the flow of ice masses. The Arctic and Antarctic polar regions are preferred sites of action of LGGE but experience also extends to mountain areas: study of alpine glaciers, Andean and Himalayan pollution in the Alpine valleys. These studies contribute to understanding major scientific problems that are often social issues such as the greenhouse effect, climate variability and the environment, the mass balance of the cryosphere, the wide pollution global and regional or glacial hazards. The research topics of LGGE developed within the four scientific teams are presented in the 'Research Teams' and the list of publications and activity reports are available in 'Scientific Production'.",
+            "children": []
+          },
+          {
+            "uuid": "24c8ec7c-1168-4422-b32f-ffe4b06c193b",
+            "label": "DIGITAL OPTICAL MODULES",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "353826c4-79ac-4928-b54d-355402e2d103",
+            "label": "THERMAL PROPERTIES",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Pertaining to measurements of any sort related to the amount of heat at the and surface.",
+            "children": []
+          },
+          {
+            "uuid": "38405b10-889c-4106-b907-8090597e9a45",
+            "label": "ENVIRONMENTAL HEALTH FACTORS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "39afe541-0553-4ade-8901-3292a89880f9",
+            "label": "PRESERVATION",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "52529452-2578-470b-93b4-609740087428",
+            "label": "ATLANTIC MULTIDECADAL OSCILLATION",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "The timeseries are calculated from the Kaplan SST dataset which is updated monthly. It is basically an index of the N Atlantic temperatures. Time time series are created; a smoothed version and an unsmoothed version. In addition, two files starting at 1948 are produced to be used in the Correlation webpages.",
+            "children": []
+          },
+          {
+            "uuid": "52d659f0-9391-4f26-ba95-e4c08f767a47",
+            "label": "Space Stations/Crewed Spacecraft",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "587ef900-8084-4931-8788-edaa4c29422a",
+            "label": "TEST",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5b8200c9-985c-4d7f-99a1-afed060039d3",
+            "label": "LAND USE/LAND COVER CLASSIFICATION",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5d46a49e-be86-46be-81cc-28fdc7e63ae8",
+            "label": "CENTRAL INDIAN PRECIPITATION INDEX",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "65f9067f-1434-47d6-9ebf-61921ac0b506",
+            "label": "ANATOMICAL PARAMETERS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Anatomical parameters relate to the branch of morphology relating to studies of\nthe structures of organisms and their health.",
+            "children": []
+          },
+          {
+            "uuid": "6aaf70f1-e1fa-4eb0-b96c-8edc2e2867a7",
+            "label": "STANDARDIZED PRECIPITATION INDEX",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7eff6ab9-dc01-4ee0-9472-a30cc62496ad",
+            "label": "METEOROLOGICAL HAZARDS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Atmospheric phenomena and processes that are capable of causing harm to persons, property, animals, plants, or other natural resources.",
+            "children": []
+          },
+          {
+            "uuid": "896397ff-ea9c-463b-92fc-480068601377",
+            "label": "TEST",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "945e6100-feff-4298-8882-4fb9283ff672",
+            "label": "GovDataMaps",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9fedbb67-fc17-4a39-87e9-1138adb51c23",
+            "label": "50 km - < 100 km or approximately .5 degree - < 1 degree",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a16a36d1-d869-452d-ab60-0e91dc186952",
+            "label": "CROP MOISTURE INDEX",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "The Crop Moisture Index (CMI) was developed by Palmer (1968) to assess\nshort-term crop water conditions and needs across major crop-producing regions.\nIt is based on the concept of abnormal evapotranspiration deficit, calculated\nas the difference between computed actual evapotranspiration (ET) and computed\npotential evapotranspiration.",
+            "children": []
+          },
+          {
+            "uuid": "b74e22e3-8744-414a-ae7a-2c68e7825a46",
+            "label": "VITAL STATISTICS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Vital Statistics refers to statistics about contaminants,\r\nenvironmental samples, fuel economy, transportation or any other\r\nstatistics that may provide information about human health and the quality\r\nof the environment.",
+            "children": []
+          },
+          {
+            "uuid": "bc3160ab-0b98-46a6-82fb-a4fd8b737091",
+            "label": "PSYCHOLOGICAL PARAMETERS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Psychological parameters refer to the parameters obtained from the study of\r\npsychology (the scientific study of behavior and the mind). This definition\r\ncontains three elements. The first is that psychology is a scientific\r\nenterprise that obtains knowledge through systematic and objective methods of\r\nobservation and experimentation. Second is that psychologists study behavior,\r\nwhich refers to any action or reaction that can be measured or observed such as\nthe blink of an eye, an increase in heart rate, or the unruly violence that\r\noften erupts in a mob. Third is that psychologists study the mind, which refers\nto both conscious and unconscious mental states. These states cannot actually\r\nbe seen, only inferred from observable behavior.",
+            "children": []
+          },
+          {
+            "uuid": "d1f086a0-8e75-4814-8d1b-8e1fa0892a5c",
+            "label": "LANDFORMS",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Many features that taken together make up the surface of the earth. These include broad features, such as plains, plateaus, and mountains, and also minor features, such as hills, valleys, slopes, canyons, arroyos, and\nalluvial fans.",
+            "children": []
+          },
+          {
+            "uuid": "ece489af-6804-4039-84b6-e856327fc383",
+            "label": "PUBLIC HEALTH",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "Public Health is how the residents of a particular area\r\nare affected by the quality of their environment (air, water, etc).",
+            "children": []
+          },
+          {
+            "uuid": "f25741c4-f28d-4d6f-8387-c077766fb085",
+            "label": "ADVECTION FOG",
+            "broader": "e675abf7-83bd-4b65-984c-c682457dce1f",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+        "label": "Trash Can/Granule Data Format",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "0fd9652e-2b6e-4dba-8c4d-63021f34bd53",
+            "label": "NetCDF Classic",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "1fc323de-e1f0-41a4-9914-b72eddb0383f",
+            "label": "BIL",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "24f3781c-428a-40ec-ac8f-96435e2c7614",
+            "label": "GIF",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2544f989-47b8-40dd-ae10-c4abee8198b8",
+            "label": "Georeferenced TIFF",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "28d8f538-1934-460c-94ea-cb06ce1535cd",
+            "label": "Slope",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2d0ca5a9-1627-4f0e-bd55-bb3235fd4f5c",
+            "label": "ESRI ArcInfo Interchange File (E00)",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3465ad3b-63eb-4718-a347-8d2844ae54dc",
+            "label": "Atlas GIS",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3bd030e2-a015-473b-987e-25632cbbd386",
+            "label": "DEM",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3ca1eef4-a930-4566-a92e-29a1bcfe3690",
+            "label": "NetCDF-CF/Radial",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "59d4ac47-d1d0-4c7c-bb2b-dc37e6273943",
+            "label": "ESRI Geodatabase",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7534e14c-0847-48d2-879a-6fa64ff05dd0",
+            "label": "ESRI Shapefile",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9145565a-0f8b-4806-b4a8-296f021be5b8",
+            "label": "ESRI ASCII Raster",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "93e6035a-9f46-4ece-b365-10e1507b116e",
+            "label": "MLC",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "ab1e1949-c4d0-4af2-9f34-1c7489e30ae6",
+            "label": "ISO Image",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b12a5f68-4344-43b4-8e44-8c34e2a638e1",
+            "label": "DV",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b20dfc5c-e40d-473b-9e31-789dc6e1ed2e",
+            "label": "Word",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b80a8053-d46a-45dd-b5d3-e9e66d4c404e",
+            "label": "Cloud Optimized GeoTIFF (COG)",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server, with an internal organization that enables more efficient workflows on the cloud. It does this by leveraging the ability of clients issuing ​HTTP GET range requests to ask for just the parts of a file they need.",
+            "children": []
+          },
+          {
+            "uuid": "bbf2a46d-7de1-4e70-a039-4db2f3251776",
+            "label": "ESRI Grid",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bc5c5996-c046-4d70-aeea-4ba4de2c4f96",
+            "label": "SLC",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "bf085809-cf9f-4c42-b17d-45de69183cf7",
+            "label": "Incidence Angle File",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cfcd3481-9ddc-49d2-a827-76cecd1746d5",
+            "label": "OGC KML",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d0314652-e5e1-493b-945b-d712b4d30df1",
+            "label": "HDF",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d806dc1f-63cc-431e-b1c0-222caa1da54e",
+            "label": "HDF-EOS",
+            "broader": "ea286b54-905a-432d-9e15-20fed0d7f29b",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "ed72f095-568f-4d67-a8dd-cd020f089633",
+        "label": "Trash Can/Providers",
+        "broader": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "002cb064-86db-4037-8da6-b244facf19fd",
+            "label": "DOC_NOOA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "02a13e51-a356-4954-b0c0-d6e8daf8adbb",
+            "label": "NASA/GSFC/SED/ESD/GCDC/OCG",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "03e6c260-90ab-490c-a13c-d7e149ade9a7",
+            "label": "DOI/USGS/FRESC/SRFS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The USGS Forest and Rangeland Ecosystem Science Center provides research and technical assistance in support of sound management and conservation of biological systems in the western United States.\n\nHistory:\n\nFRESC, as an organizational unit of the Federal Government is fairly young, but the various groups that merged to form FRESC have lengthy histories, some dating back 30 years\n\nVision:\n\nNatural resource managers, policy makers, and the scientific community will recognize FRESC as a premier source of unbiased and socially relevant scientific information.\n\n[Summary provided by the U.S. Geological Survey.]",
+            "children": []
+          },
+          {
+            "uuid": "041211a9-bdb8-441a-85fc-6501f1517a81",
+            "label": "TEST",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "07f97a51-9e5b-42e9-ad1f-fcfac7b8d87d",
+            "label": "LGGE",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "0d923b41-7e05-482c-9ffa-6a6532b19f6c",
+            "label": "DOI/USGS/CMG/WRCMG/MBMS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Monterey Bay National Marine Sanctuary (MBNMS) is a Federally protected marine area offshore of California's central coast. Stretching from Marin to Cambria, the MBNMS encompasses a shoreline length of 276 miles and 5,322 square miles of ocean. Supporting one of the world's most diverse marine ecosystems, it is home to numerous mammals, seabirds, fishes, invertebrates and plants in a remarkably productive coastal environment. The MBNMS was established for the purpose of resource protection, research, education, and public use of this national treasure. The MBNMS is part of a system of 13 National Marine Sanctuaries administered by the National Oceanic and Atmospheric Administration\n\nSummary provided by http://montereybay.noaa.gov/",
+            "children": []
+          },
+          {
+            "uuid": "129687ec-ad1b-4159-8700-e15a4dbd513a",
+            "label": "UK/BBSRC/UKCROPNET",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Biotechnology and Biological Sciences Research Council\n(BBSRC) is the leading funding agency for academic research and\ntraining in the biosciences at universities and institutes\nthroughout the UK.\n\nResearch funded by BBSRC furthers our understanding of processes\nat the level of molecules and cells, as well as improving our\nknowledge of how whole organisms work, and how they interact\nwith each other in populations and ecological systems\n\nThe UK Crop Plant Bioinformatics Network (UK CropNet) was\nestablished in 1996 as part of the BBSRC's Plant and Animal\nGenome Analysis special initiative.  Our focus is the\ndevelopment, management, and distribution of information\nrelating to comparative mapping and genome research in crop\nplants.\n\nWebsite: 'http://ukcrop.net/'\n\n[Summary provided by The Biotechnology and Biological Sciences\nResearch Council and The UK Crop Plant Bioinformatics Network.]",
+            "children": []
+          },
+          {
+            "uuid": "157a17b1-e036-422b-8cfb-fa966a514877",
+            "label": "LGGE/CNRS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "LGGE has built its reputation on the scientific study of climate and atmospheric composition. These studies focus on the present but also on past trends through the archives that make up the snow and ice accumulated over time. However LGGE has other very competitive know-how focused on snow and ice, as the physical and mechanical properties of ice, the air-snow chemical exchange or the acquisition of field data and satellite . The research carried out combines technological and analytical approach to numerical modeling related to various fields, from the atmosphere to the flow of ice masses. The Arctic and Antarctic polar regions are preferred sites of action of LGGE but experience also extends to mountain areas: study of alpine glaciers, Andean and Himalayan pollution in the Alpine valleys. These studies contribute to understanding major scientific problems that are often social issues such as the greenhouse effect, climate variability and the environment, the mass balance of the cryosphere, the wide pollution global and regional or glacial hazards.\nThe research topics of LGGE developed within the four scientific teams are presented in the 'Research Teams' and the list of publications and activity reports are available in 'Scientific Production'",
+            "children": []
+          },
+          {
+            "uuid": "18f0a1eb-5765-43d2-a026-39fd64100141",
+            "label": "USDA/APHIS/PPQ",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Animal and Plant Health inspection Service (APHIS) is responsible for\nprotecting and promoting U.S. agricultural health, administering the Animal\nWelfare Act, and carrying out wildlife damage management activities.\n\nThe APHIS mission is an integral part of U.S. Department of Agriculture's\n(USDA) efforts to provide the Nation with safe and affordable food. Without\nAPHIS protecting America's animal and plant resources from agricultural pests\nand diseases, threats to our food supply and to our Nation's economy would be\nenormous. For example, if Mediterranean fruit fly and Asian longhorned beetle,\ntwo major agricultural pests, were left unchecked by APHIS, production and\nmarketing losses of several billions of dollars would occur annually in this\ncountry. And, if APHIS was not on the job as the first line of defense, 24\nhours a day, 7 days a week, animal diseases like foot-and-mouth disease and\nbovine spongiform encephalopathy (mad cow disease) could devastate our\nlivestock industry and our food supply. All these plant and animal pests and\ndisease threats could cost billions of dollars in lost domestic and\ninternational markets and have a huge impact on U.S. consumers, but APHIS has\naggressively and successfully worked to prevent and respond to these\nsituations.\n\nWebsite: 'http://www.aphis.usda.gov/ppq/'\n\n[Summary provided by the USDA.]",
+            "children": []
+          },
+          {
+            "uuid": "216c96e1-f190-4f6b-a1c2-419d39515915",
+            "label": "TAMU/CNRIT",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Center for Natural Resource Information Technology (CNRIT) serves as an institution for research and development that takes a holistic and interdisciplinary approach to information and decision support systems for planning, monitoring and assessing management paradigms, new technologies and policy relative to the economic well-being of landholders, society and the natural resources supporting future generations.",
+            "children": []
+          },
+          {
+            "uuid": "220d4cb3-8b03-4bba-bc97-cde3a45c14a3",
+            "label": "DOC_NOAA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "23595c29-806e-4e0e-8d7d-b7e418b5b1e3",
+            "label": "DOC/NOAA/NESDIS/ORA/LST",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Land Surface Team (LST) provides research and oversight for\nland remote sensing products and activities in NOAA/NESDIS. Land\nsurface products are developed and generated to provide boundary\nand initial conditions for numerical weather prediction models,\nfor input to coupled models for ENSO forecasts, for drought\ndetection and assessment, and for NWP model validation and\nimprovement.\n\nWebsite: 'http://orbit-net.nesdis.noaa.gov/crad/sat/surf/'\n\n[Summary provided by the NOAA LST]",
+            "children": []
+          },
+          {
+            "uuid": "24ff851e-f09c-4a6d-9e5b-0deab6d9fe46",
+            "label": "LRMG/DBB/UERJ",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "29957325-ec04-419f-88f1-20916624ae13",
+            "label": "NASA/GSFC/SED/ESD/LA/GPM",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "[Text Source: NASA Science Missions Directorate Homepage, http://nasascience.nasa.gov/missions/gpm ] \n\nGPM Constellation is a joint mission with the Japan Aerospace Exploration Agency (JAXA) and other international partners. Building upon the success of the Tropical Rainfall Measuring Mission (TRMM), it will initiate the measurement of global precipitation, a key climate factor. Its science objectives are: to improve ongoing efforts to predict climate by providing near-global measurement of precipitation, its distribution, and physical processes; to improve the accuracy of weather and precipitation forecasts through more accurate measurement of rain rates and latent heating; and to provide more frequent and complete sampling of the Earth's precipitation. GPM Constellation is envisioned to consist of a core spacecraft to measure precipitation structure and to provide a calibration standard for the constellation spacecraft, an international constellation of NASA and contributed spacecraft to provide frequent precipitation measurements on a global basis, calibration/validation sites distributed globally with a broad array of precipitation-measuring instrumentation, and a global precipitation data system to produce and distribute global rain maps and climate research products.",
+            "children": []
+          },
+          {
+            "uuid": "2af11745-524e-43b6-b556-f8ae0c31f984",
+            "label": "DOE/NREL/PSEC/DESI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Distributed Energy Systems Integration group, managed by Dr. James Cale, conducts collaborative research and provides technical support in a range of distributed generation areas, including interconnection engineering and standards, system integration engineering and testing, interconnection interface applications, and policy and regulatory analysis.\n\n[Summary provided by NREL's Power Systems Engineering Center.]",
+            "children": []
+          },
+          {
+            "uuid": "2ff8aff2-3760-48c5-bf9e-c603a4e07d1e",
+            "label": "RU/FSR/HME/AARI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "37a23460-73cf-4383-b7b6-5fabba68022f",
+            "label": "ACCU-WEATHER",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "ACCU-DATA is the world's most comprehensive and flexible state-of-the-art\ndatabase designed and continually improved by Accu-Weather's staff of over 100\nmeteorologists and computer scientists, and is real-time, interactive and\naffordable.  ACCU-DATA data sources include the National Weather Service (NWS)\nDomestic Data Service (including Services A and C), NWS Public Products\nService, State Weather Wires, International Data Service, National\nMeteorological Center Numerical Products Service, FAA 604 Data Circuit,\nEuropean World Forecasting Model data, DIFAX, WEFAX, GOES Satellite data,\nlightning data and radar data.\nACCU-DATA consists of 6 major components:\n1) Data and Text: Select from over 35,000 data types including surface\n   observations, upper air data, forecasts, watches, warnings, climatological\n   summaries and marine data.  Easy commands allow you to select what you need\n   by site, region, state or county, and for specific time periods.\n2) High Resolution Maps: The Advanced Map Plotting System (AMPS) permits you to\n   choose from over one million high resolution maps and graphics.  Any area of\n   the world can be sized and contoured to your specifications at a keystroke.\n   Then you overlay the data display you want in the exact form and format you\n   desire.\n3) Color Graphic Images: Choose from over 2,000 full color graphics daily--the\n   same high quality images used by television stations and major government\n   agencies.  Select national and regional satellite images, radars and\n   RadarPlus, current and forecast surface and upper air maps, and temperature\n   band maps.\n4) Lightning Data and Graphics: the distribution, intensity and frequency of\n   lightning strikes are available in real-time on a local, regional and\n   national basis.\n5) European and Other Forecast Models: The European World Forecast Model,\n   MRF (Spectral), NGM (Nested Grid Model), RAF's (Regional Area Forecast) and\n   LFM (Limited Fine Mesh) model outputs yield computerized forecasts for the\n   Northern and Southern Hemispheres up to 7 days ahead.\n6) DIFAX: Access over 300 NWS DIFAX products within seconds of availability.\nACCU-DATA Contact:\n   Email: info@accuwx.com\n   Phone: 814-235-8600 (AccuWeather Sales)\n   WWW: 'http://www.accuweather.com/'\nAccess Procedures:\nConnect from anywhere in the world by telephone.  Requires no specialized\nequipment and is compatible with virtually all terminals, modems, and personal\nand business computers.\nOrdering/Price Policy:\nPay only for the time you use.  No phone charges, set up fees, or penalty\novertime costs.",
+            "children": []
+          },
+          {
+            "uuid": "3807d23e-b701-4b28-87ae-3ffbb1fbe6c1",
+            "label": "DOC_NOAA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "3e8dcb5b-3acf-4334-8e09-a23f0f4d72d5",
+            "label": "IN/ISRO/MOSDAC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "44a93a03-29c0-4800-a5a8-67d2c2c2caa7",
+            "label": "OR-STATE/EOARC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Eastern Oregon Agricultural Research Center is a branch of the Oregon Agricultural Experiment Station of OSU's College of Agricultural Sciences. Jointly funded and staffed by OSU and Agricultural Research Service, U.S. Department of Agriculture, the Eastern Oregon Agricultural Research Center serves two major cattle-raising environments of the region: the sagebrush-steppe of the Great Basin and the inland coniferous forests. The mission is to develop agricultural and natural resource strategies that maintain or enhance intermountain forest and shrub steppe ecosystems for the benefit of present and future generations.",
+            "children": []
+          },
+          {
+            "uuid": "450eda8e-ab22-487d-bce2-8d55c811bec9",
+            "label": "CEDA",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "45483768-5470-42f8-a204-20f9855533f5",
+            "label": "VIETNAM",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4c6dd36a-98fe-4081-8353-b47dea583d12",
+            "label": "DataONE",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "4e372e20-55a7-4d3b-ab0f-cde1f15578c6",
+            "label": "DOC/NOAA/NESDIS/NOSA",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "NOAA can manage its observation system more efficiently and effectively with an architecture that defines a consistent set of principles, policies, and standards. The NOAA Observing System Architecture (NOSA) Action Group, directed by the NOSA Senior Steering Group, was established to develop an observational architecture that helps NOAA:\n\n    * design observing systems that support NOAA&#039;s mission and provide maximum value,\n    * avoid duplication of existing systems, and\n    * operate efficiently and in a cost-effective manner.\n\nNOSA includes:\n\n    * NOAA&#039;s observing systems (and others) required to support NOAA&#039;s mission,\n    * The relationship among observing systems including how they contribute to support NOAA&#039;s mission and associated observing requirements, and\n    * the guidelines governing the design of a target architecture and the evolution toward this target architecture\n\nSummary provided by http://nosa.noaa.gov/about_nosa.html",
+            "children": []
+          },
+          {
+            "uuid": "4fb7aac8-712f-4664-a2c3-f3a3d89e9562",
+            "label": "NASA/GSFC/SED/ESD/GCDC/GESDISC/HDISC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "[Text Source: http://disc.sci.gsfc.nasa.gov/hydrology/ ]\n\nThe Hydrology DISC supports data products generated by GSFC's Hydrological Sciences Branch. Data products from the North America Land Data Assimilation System (NLDAS) and the Global Land Data Assimilation System (GLDAS) can  be accessed through anonymous ftp, the Mirador search and access tool or the GrADS Data Server (GDS). NLDAS and GLDAS systems integrate data from multiple space-based Earth observing systems using advanced land surface modeling and assimilation techniques. These products support weather and climate forecast experiments, water resources applications, and water and energy cycle research.",
+            "children": []
+          },
+          {
+            "uuid": "51e837ac-022a-47ee-a0b6-726f24306b7a",
+            "label": "DOI/USGS/BRD/NBII/MPIN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Mountain Prairie Information Node (MPIN) is a part of the National Biological Information Infrastructure (NBII) program. The NBII was established by the National Biological Survey in 1993 and is composed of a network of geographic (regional) and thematic information nodes that collectively provide Web-based access to high-quality data, information, and resources about the Nation's biological resources. Mountain Prairie is a key part of the national program, focusing on Montana, North Dakota, South Dakota, Nebraska, Kansas, Wyoming, and relevant parts of Idaho.\n\nMountain Prairie's mission is to develop an integrated Web-based program that provides access to information about biological resources in the mountains and prairies of the north-central United States and that contributes to the collaborative conservation of these resources.\n\nMountain Prairie provides:\n\n    * Geographically-based information at regional, state, and other scales.\n    * Thematically organized information concerning topics of regional interest.\n    * Tools and processes that facilitate data integration. \n\nThe Mountain Prairie Information Node is managed by Montana State University's Big Sky Institute for Science & Natural History (BSI), the USGS Northern Prairie Wildlife Research Center, and the USGS Northern Rockies Mountain Science Center (NRMSC). Together, these organizations have partnered with the U.S. Geological Survey, and Montana Fish Wildlife & Parks to develop a strategic plan that will guide the program over 2006-2010.\n\nSummary provided by http://mpin.nbii.gov/portal/server.pt",
+            "children": []
+          },
+          {
+            "uuid": "56b64767-f574-4853-ae3c-72ecfc56a218",
+            "label": "AIRNow",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "5913c3db-41bb-4c20-af8d-d95603ba00cf",
+            "label": "DOI/USGS/BRD/NBII/PBIN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "PBIN is an information system that provides access to data and computer applications related to Pacific Island biodiversity. It is a cooperative venture including federal, state, public, and private organizations. These organizations have joined together in hopes of having a lasting impact on the biodiversity of tropical and subtropical islands by providing well-organized, authoritative, and timely information to educate, enable scientific progress, and address questions related to biodiversity conservation. \n\nSummary provided by http://www.nbii.gov/portal/community/Communities/Geographic_Perspectives/Pacific_Basin/",
+            "children": []
+          },
+          {
+            "uuid": "5dc3064a-2ee6-432d-88e2-1fef76b40ef1",
+            "label": "IOOS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "61ef5681-fb19-4ba1-9858-aecd1e96cf56",
+            "label": "DOC/NOAA/NESDIS/OSPO",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "624b3f56-3572-4078-8614-98f15a7908ff",
+            "label": "DOC/NOAA/NESDIS/OSDPD",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The NOAA Office of Satellite Data Processing and Distribution\n      (OSDPD) manages and directs the operation of the central ground\n      facilities which ingest, process, and distribute environmental\n      satellite data and derived products to domestic and foreign\n      users.\n      \n      Mission Statement:\n      \n      -The Office of Satellite Data Processing and Distribution\n      (OSDPD) manages and directs the operation of the central ground\n      facilities which ingest, process, and distribute environmental\n      satellite data and derived products to domestic and foreign\n      users.\n      \n      -OSDPD serves as the primary operating level interface with\n      civil sector users of data from operational environmental\n      satellites.\n      \n      -OSDPD provides interpretive and consultative services to those\n      users and is responsible for the transmission of data products\n      to remote receiving stations.\n      \n      -OSDPD provides for the collection of environmental data from\n      remote platforms using NESDIS satellites.\n      \n      -OSDPD manages the Search and Rescue Satellite Aided Tracking\n      (SARSAT) System, and is responsible for coordinating and\n      implementing the United States activities in the international\n      satellite aided search and rescue program, COSPAS-SARSAT.\n      \n      -OSDPD assists the Office of the Assistant Administrator in\n      planning and developing new satellites and ground facilities and\n      the major modifications to existing facilities within the\n      central ground facilities and National Weather Service field\n      stations.\n      \n      -OSDPD maintains the central ground facilities and makes such\n      improvements to the equipment and software that are within the\n      available capabilities and resources.\n      \n      -OSDPD evaluates the effectiveness of the operational ground\n      facilities and procedures in terms of the quality and quantity.\n      \n      -OSDPD assesses the timeliness of the products and services\n      provided and maintains an inventory of operational products and\n      services and prepares assessments, recommendations and plans for\n      the initiation of new products and services.\n      \n      Website: https://www.ospo.noaa.gov/\n      \n      [Summary provided by OSDPD]",
+            "children": []
+          },
+          {
+            "uuid": "659b2007-000f-4608-95c6-41b431223ab1",
+            "label": "DOC/NOAA/NOS/OCM",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "6691e077-1fc9-4509-b49b-3b896d6c49ac",
+            "label": "DOC/NOAA/NESDIS/OSEI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The mission of the NOAA Operational Significant Event Imagery\n(OSEI) is to produce high-resolution, detailed imagery of\nsignificant environmental events which are visible in\nremotely-sensed data available at the NOAA Science Center in\nSuitland, Maryland.\n\nDaily Operational Significant Event Imagery Report (DOSEIR)\noutlines the events we have captured in satellite imagery and\nprovides a direct link to each image. The images are described\nwith short narratives.\n\nThis report is available Monday through Friday as an email via\nsubscription or on this website in a remote window.\n\nWebsite: 'http://www.osei.noaa.gov/'\n\n[Summary provided by OSEI]",
+            "children": []
+          },
+          {
+            "uuid": "702015ed-b703-44eb-97de-5d086d5d343a",
+            "label": "UKS/BINHM/PALEOBOT",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "For approximately 15 years, our laboratory has been working on various aspects\nof Late Permian (~250 million years ago) and Middle Triassic (238 myr) floras\nfrom Antarctica. The best of these floras is anatomically preserved, so that\nevery cell within the plants is intact, a preservation process called\npermineralization. Permineralized deposits are the rarest form of plant fossil\npreservation and can reveal a great deal of information about anatomy,\nmorphology, and reproductive biology, as well as plant-animal and plant-microbe\ninteractions in the ecosystem.  In addition, the floras from Antarctica are\nparticularly important since we know very little about the plants that lived\nduring the Permian and Triassic, due to generally poor preservation of floras\nelsewhere in the world.  During these time periods a number of unusual seed\nplant groups evolved, several of which have been implicated as possible\nancestors of the flowering plants (angiosperms), the group that dominates the\nworld today.The availability of anatomically preserved material from these\ngroups has furthered our knowledge of seed plant evolution in the late\nPaleozoic and Mesozoic considerably.\n\nThis research has already produced significant results including:\n\n-The oldest, anatomically preserved fossil cycad (Smoot et al., 1985) and\nassociated pollen cone (Klavins et al., 2003)\n\n-Evidence of polyembryony in Permian seeds (Smoot and Taylor, 1986)\n\n-Two standing fossil forests which grew at very high paleolatitudes\n(80-85º S in the Permian; 70-75º in the Triassic) (Taylor et al., 1992; Cúneo\net al., 2003)\n\n-Anatomically preserved reproductive organs of the Permian seed ferns,\nGlossopteridales (Taylor and Taylor, 1992) and associated stems and leaves\n(Pigg et al., 1990, 1993)\n\n-The discovery that Triassic Dicroidium-type leaves were borne on\ndifferent stem types in East Gondwana and West Gondwana (Meyer-Berthaud et al.,\n1993)\n\n-A completely new group of Mesozoic seed ferns, the Petriellales, which\nshow some characters similar to the flowering plants (Triassic) (Taylor et al.,\n1994)\n\n-Triassic specimens of Osmunda, the 'interrupted fern,' which appear\nalmost identical to modern forms (Phipps et al., 1998)\n\n-Data on paleoclimate in Antarctica based on fossil tree rings, indicating\nthat the poles were warmer than has been suggested from physical paleoclimate\nmodels (Taylor et al., 2000)\n\n-The first evidence of the attachment of Dicroidium fronds, the most\ncommon leaf type in the Triassic of the southern hemisphere, to stems that also\nbear seeds in cupules (Axsmith et al., 2000)\n\nWebsite: http://paleobotany.bio.ku.edu/default.htm\n\n[Summary provided by the University of Kansas.]",
+            "children": []
+          },
+          {
+            "uuid": "70a7c747-c22c-43b7-9b4d-9051111015b0",
+            "label": "USDA/ADDS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Agricultural Database for Decision Support Center is the result of efforts\nof the Cooperative Extension System and Land Grant Universities in cooperation\nwith other public and private individuals and groups. ADDS Center products are\ncompiled from extension materials, university research reports and private\nindustry documents into easily accessible, readily available reference\nmaterials. ADDS Center products can benefit the following industry groups: \n\n1. Producers. Providing instant access to timely information to support\nimportant decisions.\n\n2. Education Providers. A one-stop shop for educational resources and\ninformation technology.\n\n3. Private Industry. The latest in research information to assist clients in\nmaking informed decisions.\n\nWebsite: 'http://www.adds.org/'\n\n[Summary provided by the USDA.]",
+            "children": []
+          },
+          {
+            "uuid": "714f79b8-34af-4aa6-a075-ed80470a3812",
+            "label": "WHOI/WSG",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Woods Hole Sea Grant program, based at the Woods Hole Oceanographic Institution (WHOI), supports research, education, and extension projects that encourage environmental stewardship, long-term economic development, and responsible use of the nation’s coastal and ocean resources. It is part of the National Sea Grant College Program of the National Oceanic and Atmospheric Administration, a network of 32 individual programs located in each of the coastal and Great Lakes states. Together, these programs form a national network of over 300 participating institutions involving more than 3,000 scientists, engineers, educators, students, and outreach experts.\n\nSea Grant’s legislative charge is to “increase the understanding, assessment, development, utilization, and conservation of the nation’s ocean and coastal resources by providing assistance to promote a strong educational base, responsive research and training activities, and broad and prompt dissemination of knowledge and techniques.”\n\nLocally, Sea Grant’s affiliation with WHOI began in 1971 with support for a number of individual research projects. In 1973, WHOI was designated a Coherent Sea Grant Program and, in 1985, was elevated to its current status as an Institutional Sea Grant Program. The Woods Hole Sea Grant Program has made great strides to channel the expertise of world-renowned ocean scientists toward meeting the research and information needs of users of the marine environment. Public and private institutions throughout Massachusetts, and the northeast region, participate in the Woods Hole Sea Grant Program.\n\nSummary provided by http://www.whoi.edu/seagrant/",
+            "children": []
+          },
+          {
+            "uuid": "72a4a606-6c4f-4853-bcc2-0492c2eef29b",
+            "label": "TAMU/BLACKLAND",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7315aa27-2d06-4d42-bd4a-4b35ff948159",
+            "label": "DOI/USGS/BRD/NBII/SWIN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Southwest Strategy is a community development and natural resources\nconservation and management effort by federal, state, tribal and local\ngovernments. Its mission is to facilitate collaborative, scientifically based\napproaches to enhance communities and its resources. The major focus is the\nUnited States and the Mexican Border?s ecosystem and water supply.\n\nThe Scientific Information Database (SID) lets you search for information on\nscientific research or collection activities on federal public lands in Arizona\nand New Mexico.\n\nWebsite: 'http://swin.nbii.gov/sid'\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "77ca1af2-3526-47df-944c-0071d21cde38",
+            "label": "KOBIS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "7e600ff0-b546-4012-abdd-951d4f56d2e1",
+            "label": "DOI/USGS/CMG/WHSC/GMIS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "Research Environmental Data and Information Management System (REDIMS) for the\nGulf of Maine - a Regional Marine Research Program funded collaborative between\nthe University of New Hampshire (UNH) , the Bedford Institute of Oceanography\n(BIO), Dartmouth College , and the U.S. Geological Survey (USGS).  A list of\nregional  research programs along with data links are available online.\n\n[Source: 'http://woodshole.er.usgs.gov/project-pages/oracle/gomaine/']",
+            "children": []
+          },
+          {
+            "uuid": "80f4b816-9b51-4279-a2a5-1ab4d3b3396b",
+            "label": "DOC/NOAA/GEO-IDE",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Global Earth Observation - Integrated Data Environment (GEO-IDE) wiki contains information on a wide variety of standards and tools being considered, used or developed across NOAA and in the broader environmental data management community. It is intended to help you find resources and connect to others in order to improve the access, interoperability, and usability of environmental information.\n\nThe wiki makes use of “Categories” to help organize and manage content (see Wikipedia Categories Page for information about using categories). The Categories link in the navigation menu on the left links to the Categories List from any page in the wiki. See using the GEO-IDE wiki page for additional tips on using the wiki. \n\n[Summary provided by NOAA.]",
+            "children": []
+          },
+          {
+            "uuid": "8952670f-37c5-4fa3-b6a9-c8e89497f09c",
+            "label": "Cal-Adapt",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "89a8717d-eb00-4dad-8fdf-3757bb8ff171",
+            "label": "DOC_NOAA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "9678d3a6-5c21-41c5-b794-83817989d662",
+            "label": "DOC/NOAA/NESDIS/NODC/NCDDC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "National Oceanographic and Atmospheric Administration&#039;s (NOAA) National Coastal Data Development Center (NCDDC) is dedicated to supporting ecosystem management by providing access to the Nation&#039;s coastal and ocean data resources.\n\nNCDDC fulfills this mission by bringing together diverse coastal data from a variety of sources and creating ways for users to access data via the Internet. In order to make coastal data more accessible, NCDDC maintains a searchable metadata catalog of coastal data, develops gateways to data repositories, and uses technology that allows users to receive data in specific formats for their needs.\n\nTo enhance our mission, NCDDC forms partnerships across NOAA and with agencies in federal, state and local government, academic institutions, and non-governmental organizations that collect or provide coastal data and information. By maintaining these partnerships, NCDDC is able to know what partner data collections are available and produce dynamic end-to-end data and information products.\n\nSummary provided by http://www.ncddc.noaa.gov/",
+            "children": []
+          },
+          {
+            "uuid": "98afeb95-b773-4d6a-8689-5eb748e7203c",
+            "label": "NASA/GSFC/SED/ESD/GCDC/GESDISC/ACDISC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Atmospheric Composition Data and Information Services Center (ACDISC) is a\nportal to the Atmospheric Composition (AC) specific, user driven, multi-sensor,\non-line, easy access archive and distribution system employing data analysis\nand visualization, data mining, and other user requested techniques for the\nbetter science data usage.\n\nIt provides convenient access to AC data and information from various\nremote-sensing missions, from heritage TOMS, UARS, MODIS, and AIRS data sets,\nto the most recent data from Aura OMI, MLS, HIRDLS (once these data sets are\nreleased to the public), as well as AC data sets residing at other remote\narchive sites.\n\n[Text From the ACDISC home Page]",
+            "children": []
+          },
+          {
+            "uuid": "999a2474-5a48-4e7c-b107-e1e707c72f2c",
+            "label": "SEA-COOS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Southeast Atlantic Coastal Ocean Observing System (SEA-COOS)\nis an information system that collects, manages, and\ndisseminates observations and information products of the\ncoastal ocean off of North Carolina, South Carolina, Georgia and\nFlorida. It is an effort to develop an umbrella organization to\ncoordinate observing system related activities in the four\nstates.\n\nSEA-COOS is envisioned to be one of the regional systems ringing\nthe U.S. to form the coastal component of the Integrated Ocean\nObserving System (IOOS).\n\nOne of the challenges faced in developing IOOS is how to move\nforward from the planning stage. SEA-COOS is an initiative to\nstart building a regional system for the Southeast and is based,\nin part, on the results of a planning workshop held in Miami, 27,\n29 June. It will enhance and expand existing observing\nsystems, test and develop needed sensor support infrastructure\nsuch as data transmission and power systems, develop data\nmanagement capabilities such as Web-based regional DODS servers\nand a gateway for data and metadata to national repositories,\nand develop data-assimilative model products. Because these\ncomponents are required by all coastal observing networks,\nadvances made within this project will benefit the development\nof the national system.\n\nWHY? Better and more timely information on the state of the\ncoastal ocean is needed to support better decision-making and to\npromote better quality of life in the coastal zone. Over the\nlast decade there has been an international effort to define how\nthis should happen, called the Global Ocean Observing System\n(GOOS).\n\nWebsite: 'http://www.seacoos.org/'\n\n[Summary provided by SEA-COOS.]",
+            "children": []
+          },
+          {
+            "uuid": "9ae61c7c-dc8c-4a88-bd4c-320b58089921",
+            "label": "NASA/GSFC/SED/ESD/GCDC/GESDISC/NEESPI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The GES DISC NEESPI portal is a multi-sensor, online, easy access data archive and distribution system to provide advanced data management capabilities in support of the NEESPI scientific objectives. Its tools include data analysis and visualization, data mining and other techniques for better science data usage.\n\nThe portal integrates remote sensing data from MODIS, AVHRR, and other instruments on board polar-orbiting satellites, with customized data products from climatology data sets and models into a single one-stop-shopping; interdisciplinary NEESPI data center for remote sensing products. \n\nAdditional Information:\nhttp://neespi.gsfc.nasa.gov/\n\n[Text Source: GES-DISC/NEESPI Home Page]",
+            "children": []
+          },
+          {
+            "uuid": "a0631ab7-4db5-479e-9ee2-d414b0ec8705",
+            "label": "ORAU/ORISE",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "a58e4924-5da8-4bc4-b68f-969afbc260c6",
+            "label": "DOI/USGS/BRD/WERC/SNGC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Sierra Nevada Global Change Research Program began in 1991. The program was\noriginally funded by the National Park Service, and is now funded by the\nBiological Resources Division of the U.S. Geological Survey.  \n\nThe program has involved more than 20 scientists from ten research\ninstitutions. Studies of the Sierra Nevada organized around three time periods:\npast, present and future.\n\nWebsite:  http://www.werc.usgs.gov/sngc/\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "ad4a01a6-5c60-4708-ae9b-b44aabbf9659",
+            "label": "NASA/MSFC/SWC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Solar Physics Group at NASA&#039;s Marshall Space Flight Center was formed in the early 1970&#039;s in conjunction with the Apollo Skylab Mission. These pages contain an overview of solar physics itself along with highlights of our own work, our current projects, and possible future missions.\n\nSummary provided by http://solarscience.msfc.nasa.gov/",
+            "children": []
+          },
+          {
+            "uuid": "b1354238-1b5e-48a3-a68c-6ad8ac7b90c0",
+            "label": "DOI/USGS/BRD/CERC/BRAZOS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Brazos Field Research Station (BFRS) of the Columbia Environmental Research\nCenter (CERC) provides leadership and scientific information for the U.S.\nGeological Survey.  BFRS works with members from CERC and Wildlife and\nFisheries Sciences at Texas A&M University.\n\nCERC?s main focus includes fields in toxicology, ecology, biochemistry and\nphysiology, environmental chemistry, ecogeography, and information technology.\nBFRS while under the supervision of CERC conducts ecotoxicological field\nresearch and provide technical assistance to meet the goals of the USGS.\n\nWebsite: 'http://www.cerc.usgs.gov/FRS_Webs/Brazos1/'\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "b175a5c3-9b7b-48ed-a55f-c7c71d5f6318",
+            "label": "DOC/NOAA/NESDIS/COARE",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The TOGA COARE Data Information System contains information\nabout TOGA COARE datasets and provides direct access to data\ncenters. You may locate a dataset by using the Data User's Guide\nor the catalog. If you already know the dataset location, go\ndirectly to one of the permanent data centers identified\nbelow. Additional COARE-related information is available at this\nsite, including online reports, a publication list, e-mail\nmailing list (tcsci) subscription services, and updates from the\ncommunity. Links to other COARE data inventories, browse\nproducts and data websites are also provided.\n\nWebsite: 'http://www.ncdc.noaa.gov/oa/coare/'\n\n[Summary provided by TOGA COARE]",
+            "children": []
+          },
+          {
+            "uuid": "b21f7975-82ec-4ee0-a061-7dc5a507d39c",
+            "label": "DOC_NOAA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "b4d761c0-08d5-466e-928c-f30bd36ccb4c",
+            "label": "DOI/USGS/BRD/CBI/NBII/WDIN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "cfa5e686-6692-4bbd-a889-e863f5cd38ef",
+            "label": "DOC_NOAA_NWS_ROC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d662008d-b069-4ad7-aa60-df5a7dd9b62e",
+            "label": "DOI/USGS/BRD/CBI/NBII/SAIN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The National Biological Information Infrastructure (NBII) is a broad,\ncollaborative program to provide increased access to data and information on\nthe nation's biological resources. The NBII links diverse, high-quality\nbiological databases, information products, and analytical tools maintained by\nNBII partners and other contributors in government agencies, academic\ninstitutions, non-government organizations, and private industry.\n\nThe NBII is a program based amongst federal state, international,\nnon-government, and academic and private industry partners.\n\nWebsite: 'http://sain.nbii.gov/'\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "d83cfe62-201f-4a36-89d2-3ef9dd4beb33",
+            "label": "TBSTEST",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "d9c35c4e-17f8-4b51-9384-d24fca95dd45",
+            "label": "NASA/GSFC/SED/ESD/GCDC/OBPG",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Ocean Biology Processing Group (OBPG) is responsible for the production and distribution of the ocean color data products from the MODIS sensor on Aqua and from SeaWiFS (Sea Viewing Wide Field of View Sensor).\n      \nMODIS and SeaWiFS standard products can be found at http://oceancolor.gsfc.nasa.gov/ or by ftp at ftp://oceans.gsfc.nasa.gov/\n      \nVisually search the ocean color data archive and directly download and/or order data from single files to the entire mission through the Level 1 and 2 Browser at http://oceancolor.gsfc.nasa.gov/cgi/browse.pl?sen=am\n      \nBrowse the entire Level 3 global ocean color data set for many parameters and time periods and download either JPEG images or digital data in HDF format. View time series plots of selected SeaWiFS parameters for selected regions of the globe.  Level 3 Standard Mapped Images for MODIS Aqua and SeaWiFS can be found at https://oceancolor.gsfc.nasa.gov/",
+            "children": []
+          },
+          {
+            "uuid": "e0e0fafb-495b-4932-9399-2a69ec54eec7",
+            "label": "UAK-F/GI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "e26dc6df-d3d4-48b1-83e4-a251f04c67fe",
+            "label": "FI/FEI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Finnish Environment Institute (SYKE) is the national\nenvironmental research and development centre of the\nenvironmental administration. Research and development in the\nSYKE deals with changes in the environment, cause and effect\nrelationships, means of resolving environmental problems and\neffects of policy measures. SYKE is the national environmental\ninformation centre and provides expert services and takes care\nof certain national and international statutory tasks.\n\nWebsite: 'http://www.environment.fi/'\n\n[Summary provided by The Finnish Environment Institute]",
+            "children": []
+          },
+          {
+            "uuid": "e2c8850f-c171-4787-a1f9-6a3ee0420ffb",
+            "label": "NASA/GSFC/EOS/ESDIS/ECHO",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "Provide the NASA workforce the information infrastructure and tools that adapt and evolve to support management, science, research, and technology programs; to develop and implement unique and specialized IT systems to support mission planning and operations; and provide systems that disseminate information to the public and that preserve NASA's information assets.\n      \nSummary Provided by:\n      \nhttp://www.nasa.gov/offices/ocio/about/index.html",
+            "children": []
+          },
+          {
+            "uuid": "e3a96915-4b58-4b47-9bf3-a5f7597b7611",
+            "label": "DOI/USGS/CMG/WHSC/MS/GLORIA",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The GLORIA system was developed specifically to map the morphology and texture\nof seafloor features in the deep ocean. The GLORIA system is a digital side\nscan sonar system capable of producing digital image maps of the seafloor from\nreflected sound waves. \n\nThe GLORIA creates sonographs by transmitting images by way of sound pulses and\nrecorded echoes from the sea floor as the collecting ship moves along a set\ncourse.  The sound source and receivers are built into a 'fish' that is towed\nabout 200 meters behind a ship. This electronic mapping system brings out a\nsignal pulse every 30 seconds, which is then recorded by shipboard computers.\nThe GLORIA provides such a broad view of the seafloor.  The recorded digital\ndata are processed and used to construct digital maps of the seafloor.\n\nWebsite: http://coastalmap.marine.usgs.gov/gloria/\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "e672670f-5a87-4c6c-b999-4a0cb986b1bc",
+            "label": "UCO/CEAS/CCAR",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Colorado Center for Astrodynamics Research (CCAR) was established at the\nUniversity of Colorado at Boulder in the College of Engineering and Applied\nScience during the fall of 1985. It is hosted by the Department of Aerospace\nEngineering Sciences and is a part of the University of Colorado's commitment\nto develop a program of excellence in space science. CCAR is a\nmultidisciplinary group involving faculty, staff and students from the\nDepartments of Aerospace Engineering Sciences and Electrical and Computer\nEngineering. Its research program emphasizes astrodynamics, satellite\nmeteorology, oceanography, geodesy, and terrestrial vegetation studies.\n\nWebsite: http://ccar.colorado.edu/\n\n[Summary provided by the University of Colorado.]",
+            "children": []
+          },
+          {
+            "uuid": "e8dfc732-9097-494c-996b-c7ce882e049e",
+            "label": "USGS NMWSC",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "Welcome to the U.S. Geological Survey (USGS) Web page for the water resources of New Mexico; this is your direct link to all kinds of water-resource information. Here you'll find information on New Mexico's rivers and streams. You'll also find information about ground water, water quality, and many other topics. The USGS operates the most extensive satellite network of stream-gaging stations in New Mexico, many of which form the backbone of flood-warning systems.",
+            "children": []
+          },
+          {
+            "uuid": "e9a2f905-b0bc-4352-b7a2-af0afd49a037",
+            "label": "NFHP",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "efb8a6e2-44a8-4da9-9f01-e234d014a127",
+            "label": "DOI/USGS/FICS/CARS/NAS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "Nonindigenous Aquatic Species originally started with the passage of the\nNonindigenous Aquatic Nuisance Species Control and Prevention Act of 1990. The\ngoal of the information system is to provide timely, reliable data about the\npresence and distribution of Nonindigenous aquatic species.\n\nThe Data Repository and Information Management uses geographic information\nsystem (GIS) technology supported by significant information management and\nanalysis capability, and a computerized data repository to collect, analyze and\ndisseminate information about the presence and distribution of Nonindigenous\naquatic species and their effects.\n\nReporting and findings for the GIS will be directly presented by the Center or\nthrough intermediaries, such as university researchers, State fish and wildlife\nagency staff, Sea Grant Marine Advisory Service agents, and research\nlaboratories.\n\nWebsite: http://nas.er.usgs.gov/\n\n[Summary provided by the USGS.]",
+            "children": []
+          },
+          {
+            "uuid": "f13a4ed7-4436-4d3e-97a9-586779750d22",
+            "label": "NASA/GSFC/SED/ESD/GCDC/GESDISC/ATMODYN",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f4a6a354-8206-4799-9cb7-28be14b324ff",
+            "label": "NASA/GSFC/SED/ESD/HBSL/BISB/MODAPS",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "f5ebc827-1782-41cb-a78d-2782ebde4bb9",
+            "label": "CMI",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "Cycloview Media Inc. supply the worlds widest range of VR Imaging services and consultation. With experience since 1995 we know what works and how well it works. We specialize in Production services but are able to carry out creative undertaking and distribution. We offer a unique data rescue service that allows us to rescue your lost images form Flash card. We supply both Java and QuickTime solutions for the web we use XML.\n\nSummary provided by http://www.productionhub.com/directory/description.aspx?item=135637",
+            "children": []
+          },
+          {
+            "uuid": "f91efc17-b50a-4119-8aa1-6d34258c09a3",
+            "label": "NASA/JPL/EMIT",
+            "broader": "ed72f095-568f-4d67-a8dd-cd020f089633",
+            "definition": "The Earth Surface Mineral Dust Source Investigation (EMIT) science team at NASA’s Jet Propulsion Laboratory will generate new, more accurate mineral composition maps of Earth’s dust source regions.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "uuid": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+    "label": "Mime Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "07bcc60e-1551-44d9-b87e-7c260d230ecb",
+        "label": "application/opensearchdescription+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for Opensearch Description files. application/opensearchdescription+xml provides a human-readable text description of the search engine.\n\nParent: OpenSearchDescription\nRestrictions: The value must contain 1024 or fewer characters of plain text. The value must not contain HTML or other markup.\nRequirements: This element must appear exactly once.",
+        "children": []
+      },
+      {
+        "uuid": "091b6afc-ab75-4790-8e71-3b32ae8bd0a4",
+        "label": "text/xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "Mime Type for an unprocessed, source XML document that is readable by casual users. Application/xml is preferable when the XML MIME entity is unreadable by casual users.",
+        "children": []
+      },
+      {
+        "uuid": "17e82b7c-498d-4d69-993c-fd691aa25ce8",
+        "label": "application/tar+zip",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "2065aabb-9beb-4c84-8ad7-0e16cfed17cf",
+        "label": "text/csv",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for CSV files.\n\nIn computing, a comma-separated values (CSV) file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.",
+        "children": []
+      },
+      {
+        "uuid": "2b192915-32a8-4b68-a720-8ca8a84f04ca",
+        "label": "application/x-netcdf",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for NetCDF files.\n\nNetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.",
+        "children": []
+      },
+      {
+        "uuid": "3195dfce-51db-4b40-aadb-808b43573743",
+        "label": "text/css",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for CSS files.\n\nCascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.",
+        "children": []
+      },
+      {
+        "uuid": "3e048f9e-8f93-4f0c-9f0b-20bafb909c68",
+        "label": "image/tiff",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for TIFF files.\n\nTagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images, popular among graphic artists, the publishing industry,[1] and photographers. TIFF is widely supported by scanning, faxing, word processing, optical character recognition, image manipulation, desktop publishing, and page-layout applications.[2] The format was created by Aldus Corporation for use in desktop publishing. It published the latest version 6.0 in 1992, subsequently updated with an Adobe Systems copyright after the latter acquired Aldus in 1994.",
+        "children": []
+      },
+      {
+        "uuid": "3f697f52-6a1c-4e2c-bd4b-13aaaf45f2e6",
+        "label": "image/jpeg",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for JPEG files.\n\nJPEG is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality.",
+        "children": []
+      },
+      {
+        "uuid": "40bdf6e5-780c-43e2-ab8e-e5dfae4bd779",
+        "label": "application/gml+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for GML files. \n\nGML (Geography Markup Language) is an international standard adopted by both the Open Geospatial Consortium (OGC) and International Organization for Standardization (ISO).",
+        "children": []
+      },
+      {
+        "uuid": "40cb0bdd-67f4-43c8-aa57-2bdc260e6950",
+        "label": "text/javascript",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for JavaScript files.\n\nJavaScript often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.",
+        "children": []
+      },
+      {
+        "uuid": "415a10b5-7286-4195-a88e-00c7b995b7d0",
+        "label": "text/html",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for HTML files.\n\nHypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[3] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.",
+        "children": []
+      },
+      {
+        "uuid": "43ca8ee0-04a5-4020-b0ec-998ec0e0f30e",
+        "label": "application/tar+gzip",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "4e5db77b-bc1d-4f7c-9f13-e3e54e0b2e3b",
+        "label": "application/zip",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for ZIP files.\n\nZIP is an archive file format that supports lossless data compression. A .ZIP file may contain one or more files or directories that may have been compressed. The .ZIP file format permits a number of compression algorithms, though DEFLATE is the most common. This format was originally created in 1989 by Phil Katz, and was first implemented in PKWARE, Inc.'s PKZIP utility,[2] as a replacement for the previous ARC compression format by Thom Henderson. The .ZIP format is now supported by many software utilities other than PKZIP. Microsoft has included built-in .ZIP support (under the name 'compressed folders') in versions of Microsoft Windows since 1998. Apple has included built-in .ZIP support in Mac OS X 10.3 (via BOMArchiveHelper, now Archive Utility) and later. Most free operating systems have built in support for .ZIP in similar manners to Windows and Mac OS X.",
+        "children": []
+      },
+      {
+        "uuid": "4e80047b-c50b-4805-ac68-789dbc38803f",
+        "label": "application/x-hdf5",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for HDF5 files.\n\nHDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data. HDF5 is portable and is extensible, allowing applications to evolve in their use of HDF5. The HDF5 Technology suite includes tools and applications for managing, manipulating, viewing, and analyzing data in the HDF5 format.",
+        "children": []
+      },
+      {
+        "uuid": "5e70beda-396e-4cc8-bdd5-70dfc8a1142e",
+        "label": "application/x-tar-gz",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for .tar.gz files.\n\nUnder Unix, tar archives are the most common means of distributing bundles of files, and gzip is the most common compression program.\nA .tar.gz file is simply a bundle of files packaged with tar, and subsequently compressed with gzip.\n\nSometimes the extension '.tgz' is used as an abbreviation for '.tar.gz'. This is especially common on platforms such as MS-DOS that have arbitrary constraints on filenames (no more than one dot, and no more than three characters after the dot).",
+        "children": []
+      },
+      {
+        "uuid": "627269ae-ba93-492e-8c31-cc4de1d69810",
+        "label": "application/pdf",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for PDF files.\n\nPortable Document Format (PDF) is a file format used to present documents in a manner independent of application software, hardware, and operating systems.[3] Each PDF file encapsulates a complete description of a fixed-layout flat document, including the text, fonts, graphics, and other information needed to display it.",
+        "children": []
+      },
+      {
+        "uuid": "7c99ff72-5239-424d-a0bf-9712c33ea76d",
+        "label": "application/vnd.ms-excel",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for Microsoft Excel files.\n\nMicrosoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications. It has been a very widely applied spreadsheet for these platforms, especially since version 5 in 1993, and it has replaced Lotus 1-2-3 as the industry standard for spreadsheets. Excel forms part of Microsoft Office.",
+        "children": []
+      },
+      {
+        "uuid": "80045dcb-18ee-463a-8baf-ffcabed510ea",
+        "label": "application/vnd.google-earth.kml+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for KML files.\n\nKML is an acronym for Keyhole Markup Langage, which stems from the time before the Keyhole Corporation was acquried by Google, and their Keyhole application redesigned and rebranded as Google Earth.\n\nKML is an XML-based file format and grammar for modeling and storing \ngeographic features such as points, lines, images, and polygons for display in \na geospatial browser.",
+        "children": []
+      },
+      {
+        "uuid": "84ef762f-e348-42a6-981c-563822a47806",
+        "label": "application/tar",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "8542dd4a-a11b-475d-8d46-cad785a7f510",
+        "label": "application/json",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for JSON files.\n\nJSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.",
+        "children": []
+      },
+      {
+        "uuid": "a8ee535a-8bc8-46fd-8b97-917bd7ea7666",
+        "label": "application/gzip",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for gzip files. \n\ngzip is a file format and a software application used for file compression and decompression. The program was created by Jean-loup Gailly and Mark Adler as a free software replacement for the compress program used in early Unix systems, and intended for use by GNU (the 'g' is from 'GNU'). Version 0.1 was first publicly released on 31 October 1992, and version 1.0 followed in February 1993.",
+        "children": []
+      },
+      {
+        "uuid": "ad61b259-8131-4e0e-aac8-a800a0a51ca6",
+        "label": "image/gif",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for GIF iles.\n\nThe Graphics Interchange Format (better known by its acronym GIF is a bitmap image format that was developed by a team at the bulletin board service (BBS) provider CompuServe led by American computer scientist Steve Wilhite on June 15, 1987.[1] It has since come into widespread usage on the World Wide Web due to its wide support and portability.",
+        "children": []
+      },
+      {
+        "uuid": "b0a3e733-4d1b-486f-b56c-c405a5e4367b",
+        "label": "application/x-hdf",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for HDF files.\n\nHierarchical Data Format (HDF) is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of data. Originally developed at the National Center for Supercomputing Applications, it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF.",
+        "children": []
+      },
+      {
+        "uuid": "b1eac265-2b00-4c39-a429-797c13a2c640",
+        "label": "application/x-hdfeos",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b26761fa-8d8e-4bd8-a8ba-db6575554ad7",
+        "label": "application/vnd.opendap.dap4.dmrpp+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b403039f-a107-4a84-88a1-29e4d1b30b0b",
+        "label": "text/markdown",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for Markdown files.\n\nMarkdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name.[8] Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. As the initial description of Markdown contained ambiguities and unanswered questions, many implementations and extensions of Markdown appeared over the years to answer these issues.",
+        "children": []
+      },
+      {
+        "uuid": "b7687b8f-7a24-4150-bd9d-28e0d53f7554",
+        "label": "image/bmp",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for BMP files.\n\nThe BMP file format, also known as bitmap image file or device independent bitmap (DIB) file format or simply a bitmap, is a raster graphics image file format used to store bitmap digital images, independently of the display device (such as a graphics adapter), especially on Microsoft Windows[1] and OS/2[2] operating systems.\n\nThe BMP file format is capable of storing two-dimensional digital images both monochrome and color, in various color depths, and optionally with data compression, alpha channels, and color profiles. The Windows Metafile (WMF) specification covers the BMP file format.[3] Among others wingdi.h defines BMP constants and structures.",
+        "children": []
+      },
+      {
+        "uuid": "b77e64ef-ce80-4dab-b552-c6062990a6e0",
+        "label": "application/octet-stream",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for 'octet-stream' files.\n\nThe 'octet-stream' subtype is used to indicate that a body contains arbitrary binary data.  \n\nThe set of currently defined parameters is:\n\n (1)   TYPE -- the general type or category of binary data.\n       This is intended as information for the human recipient\n       rather than for any automatic processing.\n\n (2)   PADDING -- the number of bits of padding that were\n       appended to the bit-stream comprising the actual\n       contents to produce the enclosed 8bit byte-oriented\n       data.  This is useful for enclosing a bit-stream in a\n       body when the total number of bits is not a multiple of\n       8.",
+        "children": []
+      },
+      {
+        "uuid": "c1a8dbb7-312d-4481-998e-58d126b32080",
+        "label": "application/x-vnd.iso.19139-2+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "ISO 19139-2:2012 defines Geographic Metadata for imagery and gridded data (gmi) encoding. This is an XML Schema implementation derived from ISO 19115-2.",
+        "children": []
+      },
+      {
+        "uuid": "c79a0e11-2774-4cf3-a194-45b9e58a93fd",
+        "label": "application/msword",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for Microsoft Word files.\n\nMicrosoft Word is a word processor developed by Microsoft. It was first released on October 25, 1983[4] under the name Multi-Tool Word for Xenix systems.[5][6][7] Subsequent versions were later written for several other platforms including IBM PCs running DOS (1983), Apple Macintosh running Classic Mac OS (1985), AT&T Unix PC (1985), Atari ST (1988), OS/2 (1989), Microsoft Windows (1989), SCO Unix (1994), and macOS (2001). Commercial versions of Word are licensed as a standalone product or as a component of Microsoft Office, Windows RT or the discontinued Microsoft Works suite. Microsoft Word Viewer and Office Online are freeware editions of Word with limited features.",
+        "children": []
+      },
+      {
+        "uuid": "d3ef6fe7-b6cd-45b4-9a27-d42fa3289116",
+        "label": "image/vnd.collada+xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for COLLADA files.\n\nCOLLADA (COLLAborative Design Activity) is an interchange file format for interactive 3D applications. It is managed by the nonprofit technology consortium, the Khronos Group, and has been adopted by ISO as a publicly available specification, ISO/PAS 17506.",
+        "children": []
+      },
+      {
+        "uuid": "dd6c5cea-4100-4973-9ba9-659fdd7fd608",
+        "label": "application/xml",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "Mime Type when the XML MIME entity is unreadable by casual users.",
+        "children": []
+      },
+      {
+        "uuid": "e384b8a8-8cec-4230-9ebe-4db76bbef706",
+        "label": "application/x-bufr",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for BUFR files.\n\nThe Binary Universal Form for the Representation of meteorological data (BUFR) is a binary data format maintained by the World Meteorological Organization (WMO). The latest version is BUFR Edition 4. BUFR Edition 3 is also considered current for operational use.",
+        "children": []
+      },
+      {
+        "uuid": "edb9e800-ec31-4d5c-848d-c548fd151db2",
+        "label": "image/png",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for PNG files.\n\nPortable Network Graphics (PNG) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most widely used lossless image compression format on the Internet.",
+        "children": []
+      },
+      {
+        "uuid": "f7328bf5-8ef2-4f95-a4e0-6fb16d122237",
+        "label": "application/vnd.google-earth.kmz",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "MIME Type for KMZ files.\n\nKML files are very often distributed in KMZ files, which are zipped KML files with a .kmz extension. These must be legacy (ZIP 2.0) compression compatible (i.e. stored or deflate method), otherwise the .kmz file might not uncompress in all geobrowsers.[5] The contents of a KMZ file are a single root KML document (notionally 'doc.kml') and optionally any overlays, images, icons, and COLLADA 3D models referenced in the KML including network-linked KML files. The root KML document by convention is a file named 'doc.kml' at the root directory level, which is the file loaded upon opening. By convention the root KML document is at root level and referenced files are in subdirectories (e.g. images for overlay images).",
+        "children": []
+      },
+      {
+        "uuid": "fea4e0a7-d794-481d-9915-52f1be226714",
+        "label": "text/plain",
+        "broader": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+        "definition": "Default MimeType value for for textual files.",
+        "children": []
+      }
+    ]
+  }
+]
