@@ -1,5 +1,14 @@
 # Changelog
 
+## [v3.0.1](https://github.com/adiwg/mdKeywords/tree/v3.0.1)
+
+[Full Changelog](https://github.com/adiwg/mdKeywords/compare/v3.0.0...v3.0.1)
+
+- Refactor GCMD harvester script
+- Add harvester control process to build all GCMD vocabularies from configuration files
+- Add custom vocabularies for the USGS [National Geological and Geophysical Data Preservation Program](https://www.usgs.gov/programs/national-geological-and-geophysical-data-preservation-program) (NGGDPP) to the default vocabulary configuration file (to assist USGS with a time sensitive need).
+
+
 ## [v3.0.0](https://github.com/adiwg/mdKeywords/tree/v3.0.0)
 
 [Full Changelog](https://github.com/adiwg/mdKeywords/compare/v2.0.1...v3.0.0)
@@ -16,9 +25,7 @@ The updates were planned, however, they were not documented through issues, and 
 - Set dev as the default branch
 - Add vocabulary configuration file to define default vocabularies
 - Add harvester scripts to generate custom vocabularies
-- Refactor GCMD harvester script
-- Add harvester control process to build all GCMD vocabularies from configuration files
-- Add custom vocabularies for the USGS [National Geological and Geophysical Data Preservation Program](https://www.usgs.gov/programs/national-geological-and-geophysical-data-preservation-program) (NGGDPP) to the default vocabulary configuration file (to assist USGS with a time sensitive need).
+- Create GitHub actions workflow to automate keyword harvesting
 
 **Deprecated:**
 
