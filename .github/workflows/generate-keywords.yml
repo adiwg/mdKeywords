@@ -2,8 +2,6 @@ name: generate-keywords
 run-name: Generating keywords ${{ github.ref_name }}
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 7 * * *"
 jobs:
   generate-json-file:
     runs-on: ubuntu-latest
