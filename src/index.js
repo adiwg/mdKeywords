@@ -42,7 +42,7 @@ async function compileVocabulariesFromProfiles(profiles) {
 
 async function generateCitations(vocabularies) {
   const previousCitations = loadConfig(
-    `../${outputFilePath}/${vocabulariesFilename}`
+    `${outputFilePath}/${vocabulariesFilename}`
   );
   const citations = loadConfig(`conf/${defaultVocabulariesFilename}`);
   for (const vocabulary of vocabularies) {
