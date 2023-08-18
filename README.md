@@ -131,3 +131,7 @@ Both control processes follow the same steps:
 2. Compile Unique Vocabularies - some profiles may have overlapping vocabularies, so duplicates need to be removed.
 3. Iterate through all vocabularies and generate the thesaurus configuration object for each one, then save to a local file.
 3. For each vocabulary, based on the source of the vocabulary, run the respective harvester to generate and save the keywords files.
+
+## License
+
+Unlicense © [jbradley@arcticlcc.org](https://github.com/jlblcc)
