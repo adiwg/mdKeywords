@@ -19,6 +19,62 @@ This directory contains the json file for the list of vocabularies (vocabularies
 
 This directory contains all the keywords files in the mdEditor's json format.
 
+GCMD keyword files are formatted as follows (contains nested children)
+
+```
+[
+  {
+    "uuid": "",
+    "label": "",
+    "broader": ,
+    "definition": "",
+    "children": [
+      {
+        "uuid": "",
+        "label": "",
+        "broader": "",
+        "definition": "",
+        "children": [ ]
+      }
+    ]
+  }
+]
+```
+
+ScienceBase keyword files are formatted as follows (children array is always empty)
+
+```
+[
+  {
+    "uuid": "",
+    "parentId": "",
+    "label": "",
+    "definition": "",
+    "children": []
+  }
+]
+```
+
+USGS Thesaurus is formatted as follows (contains nested children)
+
+```
+[
+  {
+    "uuid": "",
+    "label": "",
+    "definition": "",
+    "children": [
+      {
+        "uuid": "",
+        "label": "",
+        "definition": "",
+        "children": [ ]
+      }
+    ]
+  }
+]
+```
+
 ## Getting Started
 
 This repository is not designed to be cloned and modified, the intent is for it to be used as provided by the maintainers.
