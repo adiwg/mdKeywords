@@ -15,7 +15,7 @@ const writeToLocalFile = (
 ) => {
   const outputDestination = `${filepath}/${filename}`;
   fs.writeFileSync(
-    `../${filepath}/${filename}`,
+    `${filepath}/${filename}`,
     JSON.stringify(jsonData, null, 2)
   );
   console.log('File successfully saved to', outputDestination);

@@ -123,15 +123,3 @@ In order to run this script, simply execute it:
 `node src/gcmd-all.js`
 
 This will produce a second dynamic-manifest file `resources/gcmd-vocabularies-dynamic.json` with the GCMD vocabulary configuration objects as well as keyword files for each vocabulary.
-
-## Control Processes Overview
-
-Both control processes follow the same steps:
-1. Load Profiles - retrieve the file `profiles-list.json` from the mdProfiles repository, then load each profile configuration file.
-2. Compile Unique Vocabularies - some profiles may have overlapping vocabularies, so duplicates need to be removed.
-3. Iterate through all vocabularies and generate the thesaurus configuration object for each one, then save to a local file.
-3. For each vocabulary, based on the source of the vocabulary, run the respective harvester to generate and save the keywords files.
-
-## License
-
-Unlicense © [jbradley@arcticlcc.org](https://github.com/jlblcc)
