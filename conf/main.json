@@ -1,0 +1,19 @@
+{
+  "usgs": {
+    "sourceUrl": "https://apps.usgs.gov/thesaurus/download/update-usgs-thesaurus.sql",
+    "vocabularies": [
+      {
+        "id": "usgs-thesaurus",
+        "name": "USGS Thesaurus"
+      }
+    ]
+  },
+  "sciencebase": {
+    "filename": "sb-vocabularies.json",
+    "baseUrl": "https://www.sciencebase.gov/vocab"
+  },
+  "gcmd": {
+    "filename": "gcmd-vocabularies.json",
+    "baseUrl": "https://gcmd.earthdata.nasa.gov/kms/"
+  }
+}

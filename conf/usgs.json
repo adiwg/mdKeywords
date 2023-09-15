@@ -1,4 +1,0 @@
-{
-  "sqlUrl": "https://apps.usgs.gov/thesaurus/download/update-usgs-thesaurus.sql",
-  "outputFilename": "usgs-thesaurus.json"
-}
