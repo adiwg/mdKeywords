@@ -1,76 +1,76 @@
 {
-    "vocabularies": [
-        {
-            "id": "6112869cf0d1326bc2b4bed8",
-            "name": "Favret Conservation Status (dry)"
-        },
-        {
-            "id": "6112869df0d1326bc2b4bedc",
-            "name": "Favret Conservation Status (fluid)"
-        },
-        {
-            "id": "6112869df0d1326bc2b4bee0",
-            "name": "Favret Conservation Status (slide)"
-        },
-        {
-            "id": "6112869df0d1326bc2b4bee4",
-            "name": "Favret Container Condition (dry)"
-        },
-        {
-            "id": "6112869ef0d1326bc2b4bee9",
-            "name": "Favret Container Condition (fluid)"
-        },
-        {
-            "id": "6112869ef0d1326bc2b4beed",
-            "name": "Favret Container Condition (slide)"
-        },
-        {
-            "id": "611286a0f0d1326bc2b4befc",
-            "name": "Favret Processing State (dry)"
-        },
-        {
-            "id": "611286a0f0d1326bc2b4bf00",
-            "name": "Favret Processing State (fluid)"
-        },
-        {
-            "id": "611286a1f0d1326bc2b4bf04",
-            "name": "Favret Processing State (slide)"
-        },
-        {
-            "id": "58b45852e4b0f974afcf03b4",
-            "name": "CollectionTheme"
-        },
-        {
-            "id": "4f4e475ee4b07f02db47df14",
-            "name": "primaryPurpose"
-        },
-        {
-            "id": "4f4e475ee4b07f02db47df0b",
-            "name": "userGroup"
-        },
-        {
-            "id": "4f4e475ee4b07f02db47df22",
-            "name": "category"
-        },
-        {
-            "id": "4f4e475fe4b07f02db47df7b",
-            "name": "unit"
-        },
-        {
-            "id": "4f4e475ee4b07f02db47df1d",
-            "name": "type"
-        },
-        {
-            "id": "611d3f2dbfff3461918aba4d",
-            "name": "Known To Contain Types"
-        },
-        {
-            "id": "611d213fbfff3461918aba48",
-            "name": "Hazardous Materials"
-        },
-        {
-            "id": "5bf3f7bce4b00ce5fb627d57",
-            "name": "NGGDPP ReSciColl ScienceBase Type Tags"
-        }
-    ]
+  "vocabularies": [
+    {
+      "id": "6112869cf0d1326bc2b4bed8",
+      "name": "Favret Conservation Status (dry)"
+    },
+    {
+      "id": "6112869df0d1326bc2b4bedc",
+      "name": "Favret Conservation Status (fluid)"
+    },
+    {
+      "id": "6112869df0d1326bc2b4bee0",
+      "name": "Favret Conservation Status (slide)"
+    },
+    {
+      "id": "6112869df0d1326bc2b4bee4",
+      "name": "Favret Container Condition (dry)"
+    },
+    {
+      "id": "6112869ef0d1326bc2b4bee9",
+      "name": "Favret Container Condition (fluid)"
+    },
+    {
+      "id": "6112869ef0d1326bc2b4beed",
+      "name": "Favret Container Condition (slide)"
+    },
+    {
+      "id": "611286a0f0d1326bc2b4befc",
+      "name": "Favret Processing State (dry)"
+    },
+    {
+      "id": "611286a0f0d1326bc2b4bf00",
+      "name": "Favret Processing State (fluid)"
+    },
+    {
+      "id": "611286a1f0d1326bc2b4bf04",
+      "name": "Favret Processing State (slide)"
+    },
+    {
+      "id": "58b45852e4b0f974afcf03b4",
+      "name": "CollectionTheme"
+    },
+    {
+      "id": "4f4e475ee4b07f02db47df14",
+      "name": "primaryPurpose"
+    },
+    {
+      "id": "4f4e475ee4b07f02db47df0b",
+      "name": "userGroup"
+    },
+    {
+      "id": "4f4e475ee4b07f02db47df22",
+      "name": "category"
+    },
+    {
+      "id": "4f4e475fe4b07f02db47df7b",
+      "name": "unit"
+    },
+    {
+      "id": "4f4e475ee4b07f02db47df1d",
+      "name": "type"
+    },
+    {
+      "id": "611d3f2dbfff3461918aba4d",
+      "name": "Known To Contain Types"
+    },
+    {
+      "id": "611d213fbfff3461918aba48",
+      "name": "Hazardous Materials"
+    },
+    {
+      "id": "5bf3f7bce4b00ce5fb627d57",
+      "name": "NGGDPP ReSciColl ScienceBase Type Tags"
+    }
+  ]
 }
