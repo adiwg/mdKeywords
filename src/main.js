@@ -1,18 +1,13 @@
-const fs = require('fs');
 const path = require('path');
-
-const { loadConfig, writeToLocalFile } = require('./utils');
 
 const sciencebase = require('./sciencebase');
 const usgs = require('./usgs');
 const gcmd = require('./gcmd');
+const { loadConfig, writeToLocalFile } = require('./utils');
 
 async function loadVocabulariesFromFile(filename) {
   const vocabulariesFilePath = path.join('conf', filename);
-  console.log('Loading vocabularies from', vocabulariesFilePath);
-  const vocabulariesFile = fs.readFileSync(vocabulariesFilePath, 'utf8');
-  const { vocabularies } = JSON.parse(vocabulariesFile);
-  console.log('returning vocabularies');
+  const { vocabularies } = loadConfig(vocabulariesFilePath);
   return vocabularies;
 }
 
@@ -92,24 +87,26 @@ async function buildKeywords(vocabulary) {
 async function main() {
   // load configuration
   const config = loadConfig('conf/main.json');
-  console.log('config', config);
+
   // load list of vocabularies
+  console.log('Loading vocabularies');
   const vocabularies = await loadVocabularies(config);
-  console.log('vocabularies loaded');
+
   // generate manifest file
+  console.log('Building manifest file');
   const manifest = await buildManifest(vocabularies, config);
   writeToLocalFile(manifest, config.manifestPath);
+
   for (let i = 0; i < vocabularies.length; i++) {
     // for each vocabulary create thesaurus configuration file
     const vocabulary = vocabularies[i];
-    console.log('building thesaurus config for', vocabulary.id);
+    console.log('processing vocabulary', vocabulary.id);
     const configData = await buildThesaurusConfig(vocabulary);
     writeToLocalFile(
       configData,
       `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`
     );
     // for each vocabulary create keywords file
-    console.log('building keywords for', vocabulary.id);
     const keywords = await buildKeywords(vocabulary);
     writeToLocalFile(
       keywords,
