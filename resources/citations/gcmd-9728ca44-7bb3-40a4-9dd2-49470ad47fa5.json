@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-08-18 07:57:40",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Vertical Resolution Ranges",
+    "edition": "Version 16.8",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/9728ca44-7bb3-40a4-9dd2-49470ad47fa5?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "9728ca44-7bb3-40a4-9dd2-49470ad47fa5"
+      }
+    ]
+  },
+  "keywordType": "verticalresolutionrange",
+  "label": "Vertical Resolution Ranges",
+  "keywords": []
+}
