@@ -4,10 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "gcmd": "node src/index.js source=gcmd",
-    "usgs": "node src/index.js source=usgs",
-    "sb": "node src/index.js source=sciencebase"
+    "start": "node src/main.js",
+    "build": "node src/main.js"
   },
   "author": "",
   "license": "ISC",
