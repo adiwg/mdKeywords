@@ -20,7 +20,6 @@ const getNode = async (parentId, nodeType) => {
     });
   const total = response.total;
   let list = response.list;
-  console.log(`Total: ${total}`);
   while (list.length < total) {
     await sleep(1500);
     params.offset += 10;
