@@ -2,7 +2,7 @@ const axios = require('axios');
 const { loadConfig, sleep } = require('./utils');
 
 const CONF_JSON = 'conf/main.json';
-const { baseUrl } = loadConfig(CONF_JSON);
+const { baseUrl } = loadConfig(CONF_JSON).sciencebase;
 
 const getNode = async (parentId, nodeType) => {
   let params = {
@@ -74,11 +74,9 @@ async function loadMetadataFromId(id) {
   let params = {
     format: 'json',
   };
-  console.log('scienceBaseID', id);
   const metadata = await axios
     .get(`${baseUrl}/vocabulary/${id}`, { params })
     .then((response) => response.data);
-  console.log('metadata', metadata);
   return metadata;
 }
 
