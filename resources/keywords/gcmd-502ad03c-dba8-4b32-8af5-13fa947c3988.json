@@ -1,0 +1,143 @@
+[
+  {
+    "uuid": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+    "label": "Temporal Resolution Ranges",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "027dee16-b361-481e-868d-add966eb5b71",
+        "label": "Hourly Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9",
+        "label": "Daily - < Weekly",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "2de882f0-d84a-471e-8fb5-9f8a1c7913c1",
+        "label": "Weekly Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "31765761-b153-478a-92b3-1088997fd74b",
+        "label": "Hourly - < Daily",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "3d97e993-dc6a-41ff-8a49-3e837c1fc2b1",
+        "label": "Decadal",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "40e09855-fb48-4a7d-9851-d6e809e6c309",
+        "label": "Annual",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "42a2f639-d1c3-4e82-a8b8-63f0f4a60ac6",
+        "label": "< 1 second",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "48ff676f-836c-4cff-bc88-4c4cc06b2e1b",
+        "label": "1 second - < 1 minute",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7afdb8ba-a504-45b6-b301-730e3c69d23a",
+        "label": "Subannual",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7b2a303c-3cb7-4961-9851-650548964674",
+        "label": "Weekly - < Monthly",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "7c5420a6-94e2-40ca-9dff-20309090d327",
+        "label": "Seasonal",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "8900c323-8789-4403-91e9-c399de369935",
+        "label": "Monthly - < Annual",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "8c8c70b1-f6c5-4f34-89b5-510049b8c8ab",
+        "label": "Monthly Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "99ef187e-6940-4c10-8d65-00d4426d493b",
+        "label": "Diurnal",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "A diurnal cycle is any pattern that recurs every 24 hours as a result of one full rotation of the Earth[1] with respect to the Sun.",
+        "children": []
+      },
+      {
+        "uuid": "af931dca-9a7d-4ba9-b40f-2a21e31f2d5b",
+        "label": "Annual Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "bca20202-2b06-4657-a425-5b0e416bce0c",
+        "label": "1 minute - < 1 hour",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e0040d4b-e398-4b65-bd42-d39434b5cc95",
+        "label": "Pentad Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f308a8db-40ea-4932-a58c-fb0a093959dc",
+        "label": "Climate Normal (30-year climatology)",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f86e464a-cf9d-4e15-a39b-501855d1dc5a",
+        "label": "Daily Climatology",
+        "broader": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]
