@@ -425,5 +425,26 @@
     "source": "usgs",
     "citationUrl": "resources/citations/usgs-usgs-thesaurus.json",
     "keywordsUrl": "resources/keywords/usgs-usgs-thesaurus.json"
+  },
+  {
+    "id": "category",
+    "name": "LCC Project Category",
+    "source": "lcc",
+    "citationUrl": "resources/citations/lcc-category.json",
+    "keywordsUrl": "resources/keywords/lcc-category.json"
+  },
+  {
+    "id": "deliverabletype",
+    "name": "LCC Deliverable Types",
+    "source": "lcc",
+    "citationUrl": "resources/citations/lcc-deliverabletype.json",
+    "keywordsUrl": "resources/keywords/lcc-deliverabletype.json"
+  },
+  {
+    "id": "usertype",
+    "name": "LCC End User Types",
+    "source": "lcc",
+    "citationUrl": "resources/citations/lcc-usertype.json",
+    "keywordsUrl": "resources/keywords/lcc-usertype.json"
   }
 ]
