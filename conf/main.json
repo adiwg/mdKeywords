@@ -40,5 +40,8 @@
   "gcmd": {
     "filename": "gcmd-vocabularies.json",
     "baseUrl": "https://gcmd.earthdata.nasa.gov/kms/"
-  }
+  },
+  "citationsPath": "resources/citations",
+  "keywordsPath": "resources/keywords",
+  "manifestPath": "resources/manifest.json"
 }
