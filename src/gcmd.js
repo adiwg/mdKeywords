@@ -1,12 +1,8 @@
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('./utils');
-const CONF_JSON = 'conf/gcmd.json';
+const { loadConfig, sleep } = require('./utils');
 
-const { baseUrl, outputFilePrefix, outputFileBaseUrl } = loadConfig(CONF_JSON);
-
-function generateFilename(name) {
-  return `${outputFilePrefix}${name}.json`;
-}
+const CONF_JSON = 'conf/main.json';
+const { baseUrl } = loadConfig(CONF_JSON).gcmd;
 
 async function fetchConceptById(id) {
   try {
@@ -85,7 +81,7 @@ function buildCitation(metadata) {
           dateType: 'revision',
         },
       ],
-      description: 'No description available.',
+      description: metadata.description || 'No description available.',
       title: `Global Change Master Directory (GCMD) ${metadata.conceptData.prefLabel}`,
       edition: `Version ${metadata.conceptData.keywordVersion}`,
       onlineResource: [
@@ -101,21 +97,14 @@ function buildCitation(metadata) {
     },
     keywordType: metadata?.conceptData?.scheme?.shortName,
     label: metadata.conceptData.prefLabel,
-    dynamicLoad: true,
-    keywordsUrl: `${outputFileBaseUrl}${generateFilename(
-      metadata.conceptData.scheme.shortName
-    )}`.toLowerCase(),
     keywords: [],
   };
 }
 
-async function generateKeywordsFile(vocabulary) {
+async function generateKeywords(vocabulary) {
   const metadata = await loadMetadata(vocabulary);
   const keywordsJson = await buildKeywordTree(metadata);
-  const filename = generateFilename(
-    metadata.conceptData.scheme.shortName
-  ).toLowerCase();
-  if (keywordsJson) writeToLocalFile(keywordsJson, filename);
+  return keywordsJson;
 }
 
 async function generateCitation(vocabulary) {
@@ -124,4 +113,4 @@ async function generateCitation(vocabulary) {
   return citation;
 }
 
-module.exports = { generateCitation, generateKeywordsFile };
+module.exports = { generateCitation, generateKeywords };

@@ -1,9 +1,8 @@
 const axios = require('axios');
-const { loadConfig, sleep, writeToLocalFile } = require('./utils');
+const { loadConfig, sleep } = require('./utils');
 
-const CONF_JSON = 'conf/sciencebase.json';
-const { baseUrl, keywordsBaseUrl, outputFilenamePrefix } =
-  loadConfig(CONF_JSON);
+const CONF_JSON = 'conf/main.json';
+const { baseUrl } = loadConfig(CONF_JSON);
 
 const getNode = async (parentId, nodeType) => {
   let params = {
@@ -75,13 +74,15 @@ async function loadMetadataFromId(id) {
   let params = {
     format: 'json',
   };
+  console.log('scienceBaseID', id);
   const metadata = await axios
     .get(`${baseUrl}/vocabulary/${id}`, { params })
     .then((response) => response.data);
+  console.log('metadata', metadata);
   return metadata;
 }
 
-function generateCitationInternal(metadata, outputFilename) {
+function buildCitation(metadata) {
   return {
     citation: {
       date: [
@@ -106,24 +107,20 @@ function generateCitationInternal(metadata, outputFilename) {
     },
     keywordType: metadata.nodeType || '',
     label: metadata.label || '',
-    dynamicLoad: true,
-    keywordsUrl: `${keywordsBaseUrl}${outputFilename}`,
     keywords: [],
   };
 }
 
-async function generateKeywordsFile(vocabulary) {
+async function generateKeywords(vocabulary) {
   const { id: sciencebaseId } = vocabulary;
   const keywords = await buildTree(sciencebaseId);
-  const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
-  writeToLocalFile(keywords, outputFilename);
+  return keywords;
 }
 
 async function generateCitation(vocabulary) {
-  const { id: sciencebaseId } = vocabulary;
-  const metadata = await loadMetadataFromId(sciencebaseId);
-  const outputFilename = `${outputFilenamePrefix}${sciencebaseId}.json`;
-  return generateCitationInternal(metadata, outputFilename);
+  const { id } = vocabulary;
+  const metadata = await loadMetadataFromId(id);
+  return buildCitation(metadata);
 }
 
-module.exports = { generateCitation, generateKeywordsFile };
+module.exports = { generateCitation, generateKeywords };

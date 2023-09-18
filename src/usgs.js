@@ -1,8 +1,8 @@
 const axios = require('axios');
-const { loadConfig, writeToLocalFile } = require('./utils');
+const { loadConfig } = require('./utils');
 
-const CONF_JSON = 'conf/usgs.json';
-const { metadata, outputFilename, sqlUrl } = loadConfig(CONF_JSON);
+const CONF_JSON = 'conf/main.json';
+const { sourceUrl } = loadConfig(CONF_JSON).usgs;
 
 const regex = /insert into term \(code,name,parent,scope\) values \((.*)\);$/gm;
 
@@ -58,19 +58,18 @@ const buildTree = (sqlData) => {
 };
 
 const loadSql = async () => {
-  const response = await axios.get(sqlUrl);
+  const response = await axios.get(sourceUrl);
   return response.data;
 };
 
-async function generateKeywordsFile() {
+async function generateKeywords() {
   const sqlData = await loadSql();
   const tree = buildTree(sqlData);
-  writeToLocalFile(tree, outputFilename);
+  return tree;
 }
 
-// eslint-disable-next-line no-unused-vars
 function generateCitation(vocabulary) {
-  return metadata;
+  return vocabulary.citationConfig;
 }
 
-module.exports = { generateCitation, generateKeywordsFile };
+module.exports = { generateCitation, generateKeywords };
