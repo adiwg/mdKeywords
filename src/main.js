@@ -42,13 +42,13 @@ async function loadVocabularies(config) {
   return vocabularies;
 }
 
-async function buildManifest(vocabularies) {
+async function buildManifest(vocabularies, config) {
   const manifest = vocabularies.map((vocabulary) => ({
     id: vocabulary.id,
     name: vocabulary.name,
     source: vocabulary.source,
-    citationUrl: `resources/citations/${vocabulary.source}-${vocabulary.id}.json`,
-    keywordsUrl: `resources/keywords/${vocabulary.source}-${vocabulary.id}.json`,
+    citationUrl: `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`,
+    keywordsUrl: `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`,
   }));
   return manifest;
 }
@@ -97,21 +97,23 @@ async function main() {
   const vocabularies = await loadVocabularies(config);
   console.log('vocabularies loaded');
   // generate manifest file
-  const manifest = await buildManifest(vocabularies);
-  writeToLocalFile(manifest, 'resources/manifest.json');
+  const manifest = await buildManifest(vocabularies, config);
+  writeToLocalFile(manifest, config.manifestPath);
   for (let i = 0; i < vocabularies.length; i++) {
     // for each vocabulary create thesaurus configuration file
     const vocabulary = vocabularies[i];
+    console.log('building thesaurus config for', vocabulary.id);
     const configData = await buildThesaurusConfig(vocabulary);
     writeToLocalFile(
       configData,
-      `resources/citations/${vocabulary.source}-${vocabulary.id}.json`
+      `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`
     );
     // for each vocabulary create keywords file
+    console.log('building keywords for', vocabulary.id);
     const keywords = await buildKeywords(vocabulary);
     writeToLocalFile(
       keywords,
-      `resources/keywords/${vocabulary.source}-${vocabulary.id}.json`
+      `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`
     );
   }
 }
