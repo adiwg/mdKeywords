@@ -14,16 +14,24 @@ const getNode = async (parentId, nodeType) => {
   };
   const response = await axios
     .get(`${baseUrl}/categories/get`, { params })
-    .then((response) => response.data);
+    .then((response) => response.data)
+    .catch((error) => {
+      console.log('Error getting node', error);
+    });
   const total = response.total;
   let list = response.list;
+  console.log(`Total: ${total}`);
   while (list.length < total) {
     await sleep(1500);
     params.offset += 10;
-    const nextResponse = await axios.get(`${baseUrl}/categories/get`, {
-      params,
-    }).data;
-    list = list.concat(nextResponse.list);
+    const nextResponse = await axios
+      .get(`${baseUrl}/categories/get`, {
+        params,
+      })
+      .catch((error) => {
+        console.log('Error getting next page', error);
+      });
+    list = list.concat(nextResponse.data.list);
   }
   return { list };
 };
@@ -111,12 +119,14 @@ function buildCitation(metadata) {
 
 async function generateKeywords(vocabulary) {
   const { id: sciencebaseId } = vocabulary;
+  console.log(`Generating keywords for ${sciencebaseId}`);
   const keywords = await buildTree(sciencebaseId);
   return keywords;
 }
 
 async function generateCitation(vocabulary) {
   const { id } = vocabulary;
+  console.log(`Generating citation for ${id}`);
   const metadata = await loadMetadataFromId(id);
   return buildCitation(metadata);
 }
