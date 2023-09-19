@@ -97,7 +97,7 @@ function buildCitation(metadata) {
     },
     keywordType: metadata?.conceptData?.scheme?.shortName,
     label: metadata.conceptData.prefLabel,
-    keywords: [],
+    keywords: null,
   };
 }
 

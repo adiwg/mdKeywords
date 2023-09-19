@@ -112,7 +112,7 @@ function buildCitation(metadata) {
     },
     keywordType: metadata.nodeType || '',
     label: metadata.label || '',
-    keywords: [],
+    keywords: null,
   };
 }
 
