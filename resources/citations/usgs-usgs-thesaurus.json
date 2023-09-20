@@ -21,5 +21,6 @@
     ]
   },
   "keywordType": "usgsThesaurus",
-  "label": "USGS Thesaurus"
+  "label": "USGS Thesaurus",
+  "keywords": null
 }
