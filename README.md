@@ -100,4 +100,4 @@ This is an npm project, start by cloning and installing the normal way:
 
 You can inspect package.json to find the following execution options:
 
-`npm start` OR `npm run build` will run all the harvesters
+`npm start` OR `npm run build` will run all the harvesters (both commands are aliases for `node src/main.js`)
