@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-08-18 07:57:37",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) ISO Topic Categories",
+    "edition": "Version 16.8",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/27fa831b-f131-4f6d-8020-cc4ab0896249?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "27fa831b-f131-4f6d-8020-cc4ab0896249"
+      }
+    ]
+  },
+  "keywordType": "isotopiccategory",
+  "label": "ISO Topic Categories",
+  "keywords": null
+}

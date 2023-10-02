@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-08-18 07:59:06",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Personnel Role",
+    "edition": "Version 16.8",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/5c07062e-1ad1-4721-bc0f-f2d51352c2c1?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "5c07062e-1ad1-4721-bc0f-f2d51352c2c1"
+      }
+    ]
+  },
+  "keywordType": "PersonnelRole",
+  "label": "Personnel Role",
+  "keywords": null
+}

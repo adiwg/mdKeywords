@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "Terms for tagging ReSciColl information by structure for processing and archiving.",
+    "title": "NGGDPP ReSciColl ScienceBase Type Tags",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/5bf3f7bce4b00ce5fb627d57"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "5bf3f7bce4b00ce5fb627d57"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "NGGDPP ReSciColl ScienceBase Type Tags",
+  "keywords": null
+}

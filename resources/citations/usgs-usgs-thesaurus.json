@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2020-01-09",
+        "dateType": "revision"
+      }
+    ],
+    "description": "Topics and methods of scientific study carried out by USGS, with product types, scientific disciplines, geologic time, and types of institutional structure and activities. Broad and shallow, used to help people find scientific information.",
+    "title": "USGS Thesaurus",
+    "edition": "v1.0",
+    "onlineResource": [
+      {
+        "uri": "https://apps.usgs.gov/thesaurus/thesaurus.php?thcode=2"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "usgs-thesaurus"
+      }
+    ]
+  },
+  "keywordType": "usgsThesaurus",
+  "label": "USGS Thesaurus",
+  "keywords": null
+}

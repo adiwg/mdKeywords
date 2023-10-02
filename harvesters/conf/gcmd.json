@@ -1,5 +1,0 @@
-{
-  "baseUrl": "https://gcmd.earthdata.nasa.gov/kms/",
-  "outputFileBaseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/json/",
-  "outputFilePrefix": "gcmd-"
-}

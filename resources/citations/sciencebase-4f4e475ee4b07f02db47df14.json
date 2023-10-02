@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "No description available.",
+    "title": "primaryPurpose",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df14"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "4f4e475ee4b07f02db47df14"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null
+}
