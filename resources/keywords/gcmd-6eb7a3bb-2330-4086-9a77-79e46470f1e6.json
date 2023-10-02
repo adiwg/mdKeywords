@@ -1,0 +1,122 @@
+[
+  {
+    "uuid": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+    "label": "Product Level Id",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "04c81482-22a0-4899-91f2-0cc3f0ef6db4",
+        "label": "3A",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "L3A data are generally periodic summaries (weekly, ten-day, monthly) of L2 products.",
+        "children": []
+      },
+      {
+        "uuid": "133f0bed-a48c-4a1a-8790-4f2485a55a4f",
+        "label": "1B",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "L1B data are L1A data that have been processed to sensor units (not all instruments have L1B source data).",
+        "children": []
+      },
+      {
+        "uuid": "3797d495-1849-4c33-bdb6-50e40d5b74e4",
+        "label": "2G",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "6bd06926-fde3-45f1-8895-678416d854f6",
+        "label": "2",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "Derived geophysical variables at the same resolution and location as L1 source data.",
+        "children": []
+      },
+      {
+        "uuid": "7f4a899c-0273-4a1d-8928-2fd71ceecaa6",
+        "label": "2A",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "L2A data contains information derived from the geolocated sensor data, such as ground elevation, highest and lowest surface return elevations, energy quantile heights (“relative height” metrics), and other waveform-derived metrics describing the intercepted surface.",
+        "children": []
+      },
+      {
+        "uuid": "808cdb91-d7eb-4625-96c5-0e2caed61636",
+        "label": "3",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "Variables mapped on uniform space-time grid scales, usually with some completeness and consistency.",
+        "children": []
+      },
+      {
+        "uuid": "87fdeb97-2d3e-4812-8540-b88f425d920c",
+        "label": "1A",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "Level 1A (L1A) data are reconstructed, unprocessed instrument data at full resolution, time-referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters (e.g., platform ephemeris) computed and appended but not applied to L0 data.",
+        "children": []
+      },
+      {
+        "uuid": "a930f39b-a41f-4122-8a79-c800960ffda5",
+        "label": "1",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "acb6dc53-b39d-4590-8963-9cf2fa624b6a",
+        "label": "Not provided",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "af090ded-5f1f-49bd-96ef-ebe2f4227e69",
+        "label": "4",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "Model output or results from analyses of lower-level data (e.g., variables derived from multiple measurements).",
+        "children": []
+      },
+      {
+        "uuid": "b58fa5bb-dfc7-4d6c-b240-161fe44c15d3",
+        "label": "0",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "Reconstructed, unprocessed instrument and payload data at full resolution, with any and all communications artifacts (e.g., synchronization frames, communications headers, duplicate data) removed. (In most cases, NASA's EOS Data and Operations System [EDOS] provides these data to the DAACs as production data sets for processing by the Science Data Processing Segment [SDPS] or by one of the SIPS to produce higher-level products.)",
+        "children": []
+      },
+      {
+        "uuid": "b85956c5-19b8-4e2a-bdae-358f9f1be0ab",
+        "label": "NA",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e208ff78-0860-4717-bc52-8c02e4abec19",
+        "label": "1C",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "L1C data are L1B data that include new variables to describe the spectra. These variables allow the user to identify which L1C channels have been copied directly from the L1B and which have been synthesized from L1B and why.",
+        "children": []
+      },
+      {
+        "uuid": "ef126a1a-e2b7-4ddf-acd9-ecf743d35760",
+        "label": "2B",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "L2B data are L2A data that have been processed to sensor units (not all instruments will have a L2B equivalent).",
+        "children": []
+      },
+      {
+        "uuid": "f0adb8af-d267-48e5-bf19-7a1ac0c62b33",
+        "label": "1T",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f14f5874-765a-4d2b-af98-f681c870ec61",
+        "label": "2P",
+        "broader": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

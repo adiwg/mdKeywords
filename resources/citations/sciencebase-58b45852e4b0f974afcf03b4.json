@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "Type of geoscientific collection.",
+    "title": "Collection Theme",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/58b45852e4b0f974afcf03b4"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "58b45852e4b0f974afcf03b4"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null
+}
