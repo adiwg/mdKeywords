@@ -22,5 +22,6 @@
   },
   "keywordType": "vocabulary",
   "label": "",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/sciencebase-4f4e475ee4b07f02db47df1d.json"
 }

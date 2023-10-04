@@ -2,13 +2,13 @@
   "citation": {
     "date": [
       {
-        "date": "2023-08-18 07:59:08",
+        "date": "2023-09-08 13:18:40",
         "dateType": "revision"
       }
     ],
     "description": "No description available.",
     "title": "Global Change Master Directory (GCMD) Collection Data Type",
-    "edition": "Version 16.8",
+    "edition": "Version 16.9",
     "onlineResource": [
       {
         "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/62a5777d-3582-498a-b900-54110baf8eb4?format=json}"
@@ -22,5 +22,6 @@
   },
   "keywordType": "CollectionDataType",
   "label": "Collection Data Type",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-62a5777d-3582-498a-b900-54110baf8eb4.json"
 }

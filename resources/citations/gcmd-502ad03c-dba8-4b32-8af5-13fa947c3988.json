@@ -2,13 +2,13 @@
   "citation": {
     "date": [
       {
-        "date": "2023-08-18 07:57:40",
+        "date": "2023-09-08 13:18:08",
         "dateType": "revision"
       }
     ],
     "description": "No description available.",
     "title": "Global Change Master Directory (GCMD) Temporal Resolution Ranges",
-    "edition": "Version 16.8",
+    "edition": "Version 16.9",
     "onlineResource": [
       {
         "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988?format=json}"
@@ -22,5 +22,6 @@
   },
   "keywordType": "temporalresolutionrange",
   "label": "Temporal Resolution Ranges",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-502ad03c-dba8-4b32-8af5-13fa947c3988.json"
 }

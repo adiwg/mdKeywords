@@ -22,5 +22,6 @@
   },
   "keywordType": "vocabulary",
   "label": "NGGDPP ReSciColl ScienceBase Type Tags",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/sciencebase-5bf3f7bce4b00ce5fb627d57.json"
 }

@@ -2,13 +2,13 @@
   "citation": {
     "date": [
       {
-        "date": "2023-08-18 07:59:02",
+        "date": "2023-09-08 13:18:37",
         "dateType": "revision"
       }
     ],
     "description": "No description available.",
     "title": "Global Change Master Directory (GCMD) Dataset Language",
-    "edition": "Version 16.8",
+    "edition": "Version 16.9",
     "onlineResource": [
       {
         "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/79ec7ee3-0013-4ef7-a439-bbfcce88fb38?format=json}"
@@ -22,5 +22,6 @@
   },
   "keywordType": "DatasetLanguage",
   "label": "Dataset Language",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-79ec7ee3-0013-4ef7-a439-bbfcce88fb38.json"
 }

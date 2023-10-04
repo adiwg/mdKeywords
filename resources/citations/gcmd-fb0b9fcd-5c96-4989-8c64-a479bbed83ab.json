@@ -2,13 +2,13 @@
   "citation": {
     "date": [
       {
-        "date": "2023-09-07 16:16:33",
+        "date": "2023-09-22 17:26:41",
         "dateType": "revision"
       }
     ],
     "description": "No description available.",
     "title": "Global Change Master Directory (GCMD) Projects",
-    "edition": "Version 16.8",
+    "edition": "Version 16.9",
     "onlineResource": [
       {
         "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/fb0b9fcd-5c96-4989-8c64-a479bbed83ab?format=json}"
@@ -22,5 +22,6 @@
   },
   "keywordType": "projects",
   "label": "Projects",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-fb0b9fcd-5c96-4989-8c64-a479bbed83ab.json"
 }

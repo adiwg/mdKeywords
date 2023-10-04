@@ -2,13 +2,13 @@
   "citation": {
     "date": [
       {
-        "date": "2023-08-18 07:59:13",
+        "date": "2023-09-08 13:18:42",
         "dateType": "revision"
       }
     ],
     "description": "No description available.",
     "title": "Global Change Master Directory (GCMD) Metadata Language",
-    "edition": "Version 16.8",
+    "edition": "Version 16.9",
     "onlineResource": [
       {
         "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/475934c7-e05f-4547-aaa3-b0cf01afff06?format=json}"
@@ -22,5 +22,6 @@
   },
   "keywordType": "MetadataLanguage",
   "label": "Metadata Language",
-  "keywords": null
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-475934c7-e05f-4547-aaa3-b0cf01afff06.json"
 }
