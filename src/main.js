@@ -39,16 +39,13 @@ async function loadVocabularies(config) {
 
 async function buildManifest(vocabularies, config) {
   const manifest = vocabularies.map((vocabulary) => ({
-    id: vocabulary.id,
     name: vocabulary.name,
-    source: vocabulary.source,
-    citationUrl: `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`,
-    keywordsUrl: `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`,
+    url: `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`,
   }));
   return manifest;
 }
 
-async function buildThesaurusConfig(vocabulary) {
+async function buildThesaurusConfig(vocabulary, config) {
   let thesaurusConfigFile;
   switch (vocabulary.source) {
     case 'sciencebase':
@@ -63,6 +60,7 @@ async function buildThesaurusConfig(vocabulary) {
     default:
       throw new Error('Bad source type');
   }
+  thesaurusConfigFile.keywordsUrl = `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`;
   return thesaurusConfigFile;
 }
 
@@ -101,7 +99,7 @@ async function main() {
     // for each vocabulary create thesaurus configuration file
     const vocabulary = vocabularies[i];
     console.log('processing vocabulary', vocabulary.id);
-    const configData = await buildThesaurusConfig(vocabulary);
+    const configData = await buildThesaurusConfig(vocabulary, config);
     writeToLocalFile(
       configData,
       `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`
