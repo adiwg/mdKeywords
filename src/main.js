@@ -40,7 +40,7 @@ async function loadVocabularies(config) {
 async function buildManifest(vocabularies, config) {
   const manifest = vocabularies.map((vocabulary) => ({
     name: vocabulary.name,
-    url: `${config.baseUrl}${config.citationsPath}${vocabulary.source}-${vocabulary.id}.json`,
+    url: `${config.baseUrl}${config.thesaurusPath}${vocabulary.source}-${vocabulary.id}.json`,
   }));
   return manifest;
 }
@@ -102,7 +102,7 @@ async function main() {
     const configData = await buildThesaurusConfig(vocabulary, config);
     writeToLocalFile(
       configData,
-      `${config.citationsPath}${vocabulary.source}-${vocabulary.id}.json`
+      `${config.thesaurusPath}${vocabulary.source}-${vocabulary.id}.json`
     );
     // for each vocabulary create keywords file
     const keywords = await buildKeywords(vocabulary);
