@@ -40,7 +40,7 @@ async function loadVocabularies(config) {
 async function buildManifest(vocabularies, config) {
   const manifest = vocabularies.map((vocabulary) => ({
     name: vocabulary.name,
-    url: `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`,
+    url: `${config.baseUrl}${config.citationsPath}${vocabulary.source}-${vocabulary.id}.json`,
   }));
   return manifest;
 }
@@ -60,7 +60,7 @@ async function buildThesaurusConfig(vocabulary, config) {
     default:
       throw new Error('Bad source type');
   }
-  thesaurusConfigFile.keywordsUrl = `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`;
+  thesaurusConfigFile.keywordsUrl = `${config.baseUrl}${config.keywordsPath}${vocabulary.source}-${vocabulary.id}.json`;
   return thesaurusConfigFile;
 }
 
