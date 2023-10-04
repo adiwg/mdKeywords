@@ -102,13 +102,13 @@ async function main() {
     const configData = await buildThesaurusConfig(vocabulary, config);
     writeToLocalFile(
       configData,
-      `${config.citationsPath}/${vocabulary.source}-${vocabulary.id}.json`
+      `${config.citationsPath}${vocabulary.source}-${vocabulary.id}.json`
     );
     // for each vocabulary create keywords file
     const keywords = await buildKeywords(vocabulary);
     writeToLocalFile(
       keywords,
-      `${config.keywordsPath}/${vocabulary.source}-${vocabulary.id}.json`
+      `${config.keywordsPath}${vocabulary.source}-${vocabulary.id}.json`
     );
   }
 }
