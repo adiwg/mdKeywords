@@ -1,11 +1,5 @@
 # Changelog
 
-## [v4.0.1]
-
-- Update the manifest.json schema
-- Add keywordsUrl to thesaurus configuration files
-- Updates to resources from source updates
-
 ## [v4.0.0]
 
 Major refactoring of the mdKeywords repository.
@@ -13,6 +7,9 @@ Major refactoring of the mdKeywords repository.
 - Remove dependency on mdProfiles
 - Harvester driven from local (in-repository) configuration files
 - List of vocabularies to harvest are now in configuration files and not pulled from profiles
+- Update the manifest.json schema
+- Add keywordsUrl to thesaurus configuration files
+- Updates to resources from source updates
 
 ## [v3.0.1](https://github.com/adiwg/mdKeywords/tree/v3.0.1)
 
