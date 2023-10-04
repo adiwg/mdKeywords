@@ -8,8 +8,9 @@ Major refactoring of the mdKeywords repository.
 - Harvester driven from local (in-repository) configuration files
 - List of vocabularies to harvest are now in configuration files and not pulled from profiles
 - Update the manifest.json schema
-- Add keywordsUrl to thesaurus configuration files
 - Updates to resources from source updates
+- Separate thesaurus configuration files for each vocabulary
+  - Add keywordsUrl to thesaurus configuration files
 
 ## [v3.0.1](https://github.com/adiwg/mdKeywords/tree/v3.0.1)
 
