@@ -19,7 +19,8 @@
       }
     ]
   },
-  "keywords": [],
   "keywordType": "LCC Project Category",
-  "label": "LCC Project Category"
+  "label": "LCC Project Category",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/lcc-category.json"
 }

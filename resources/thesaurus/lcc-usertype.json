@@ -19,7 +19,8 @@
       }
     ]
   },
-  "keywords": [],
   "keywordType": "LCC End User Type",
-  "label": "LCC End User Types"
+  "label": "LCC End User Types",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/lcc-usertype.json"
 }

@@ -19,7 +19,8 @@
       }
     ]
   },
-  "keywords": [],
   "keywordType": "LCC Deliverable",
-  "label": "LCC Deliverable Types"
+  "label": "LCC Deliverable Types",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/lcc-deliverabletype.json"
 }
