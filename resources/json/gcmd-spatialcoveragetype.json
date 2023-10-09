@@ -1,0 +1,45 @@
+[
+  {
+    "uuid": "26a99b0d-1f56-4969-844e-4b213a036873",
+    "label": "Spatial Coverage Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "0391636a-d383-4b49-82ba-c867ad6751f9",
+        "label": "Vertical",
+        "broader": "26a99b0d-1f56-4969-844e-4b213a036873",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "54b48fd2-19ca-47c7-a6eb-676b456d2ca4",
+        "label": "Orbit",
+        "broader": "26a99b0d-1f56-4969-844e-4b213a036873",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "73bf2951-32e2-4546-ac78-f287a64f2982",
+        "label": "HorizontalVertical",
+        "broader": "26a99b0d-1f56-4969-844e-4b213a036873",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "811e8301-3a1f-4bd0-a40e-775e9f617808",
+        "label": "Horizontal",
+        "broader": "26a99b0d-1f56-4969-844e-4b213a036873",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "d6b02e86-f419-4eac-af02-9da4d83452b4",
+        "label": "Horizon&amp;Vert",
+        "broader": "26a99b0d-1f56-4969-844e-4b213a036873",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]
