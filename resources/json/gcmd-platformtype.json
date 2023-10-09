@@ -1,0 +1,94 @@
+[
+  {
+    "uuid": "0cde2885-d08e-4539-9055-99d9a4754df0",
+    "label": "Platform Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "21581605-c47a-4e2b-8bdc-f99ccba14d64",
+        "label": "Aircraft",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "245a9adf-2db6-434a-a052-3931c4e18e00",
+        "label": "In Situ Land-based Platforms",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "269e6617-919c-455e-b3ae-5faa7483abf1",
+        "label": "Interplanetary Spacecraft",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "415980f0-80de-4b1f-8937-6d32b4eb5fa3",
+        "label": "Maps/Charts/Photographs",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "88719898-3f20-4af2-ab02-fb6e1546e61f",
+        "label": "Balloons/Rockets",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "89ff9bda-137b-4bad-91fc-4183d83aad64",
+        "label": "Not provided",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "ab7ab46a-57e8-40f7-92ad-abafc1b94130",
+        "label": "Navigation Platforms",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b6d7b54a-130d-49fc-a391-4ae0036fd7a0",
+        "label": "Space Stations/Crewed Spacecraft",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "bd6e607f-8709-45cf-9882-b14b82c9d931",
+        "label": "Models/Analyses",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "c0f89522-a581-4a24-9a49-ba738d700b70",
+        "label": "In Situ Ocean-based Platforms",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f2c2bf0c-0b8d-4513-b5ec-b2260ea277f3",
+        "label": "Solar/Space Observation Satellites",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f48231d4-0d47-4208-9830-13a7d0e3c1bb",
+        "label": "Earth Observation Satellites",
+        "broader": "0cde2885-d08e-4539-9055-99d9a4754df0",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]
