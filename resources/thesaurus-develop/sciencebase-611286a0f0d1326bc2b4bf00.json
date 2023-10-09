@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "No description available.",
+    "title": "Favret Processing State (fluid)",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/611286a0f0d1326bc2b4bf00"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "611286a0f0d1326bc2b4bf00"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@30-create-directory-for-thesaurus-configuration-files/resources/keywords/sciencebase-611286a0f0d1326bc2b4bf00.json"
+}

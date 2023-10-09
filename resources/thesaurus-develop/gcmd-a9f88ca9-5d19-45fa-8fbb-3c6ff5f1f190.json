@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:14:00",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Chronostratigraphic Units",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190"
+      }
+    ]
+  },
+  "keywordType": "chronounits",
+  "label": "Chronostratigraphic Units",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@30-create-directory-for-thesaurus-configuration-files/resources/keywords/gcmd-a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190.json"
+}

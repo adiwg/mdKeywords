@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "No description available.",
+    "title": "Hazardous Materials",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/611d213fbfff3461918aba48"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "611d213fbfff3461918aba48"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@30-create-directory-for-thesaurus-configuration-files/resources/keywords/sciencebase-611d213fbfff3461918aba48.json"
+}
