@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:36",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Private",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/0901b01e-447a-45b5-a716-33ac9b8bc27a?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "0901b01e-447a-45b5-a716-33ac9b8bc27a"
+      }
+    ]
+  },
+  "keywordType": "Private",
+  "label": "Private",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-0901b01e-447a-45b5-a716-33ac9b8bc27a.json"
+}

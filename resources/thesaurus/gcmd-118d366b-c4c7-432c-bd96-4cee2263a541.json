@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:05",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) IDN Nodes",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/118d366b-c4c7-432c-bd96-4cee2263a541?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "118d366b-c4c7-432c-bd96-4cee2263a541"
+      }
+    ]
+  },
+  "keywordType": "idnnode",
+  "label": "IDN Nodes",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-118d366b-c4c7-432c-bd96-4cee2263a541.json"
+}

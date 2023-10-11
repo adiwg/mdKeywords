@@ -1,0 +1,31 @@
+[
+  {
+    "uuid": "62a5777d-3582-498a-b900-54110baf8eb4",
+    "label": "Collection Data Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "10e8a2ae-a550-4e89-ba7a-a9f5a9d7caaf",
+        "label": "SCIENCE_QUALITY",
+        "broader": "62a5777d-3582-498a-b900-54110baf8eb4",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "ad598334-f541-4be4-888c-c2dc7eb54194",
+        "label": "NEAR_REAL_TIME",
+        "broader": "62a5777d-3582-498a-b900-54110baf8eb4",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "f2a18701-ff6d-45b3-8712-158a68912790",
+        "label": "OTHER",
+        "broader": "62a5777d-3582-498a-b900-54110baf8eb4",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

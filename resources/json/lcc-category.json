@@ -1,0 +1,63 @@
+{
+  "citation": {
+    "date": [{
+      "date": "2017-09",
+      "dateType": "revision"
+    }],
+    "title": "Project Category - Landscape Conservation Cooperatives",
+    "edition": "2017",
+    "onlineResource": [{
+      "uri": "https://www.sciencebase.gov/vocab/vocabulary/52dee7c5e4b0dee2a6cd6b18"
+    }],
+    "identifier": [{
+      "identifier": "5da1d3b7-375b-58ae-a134-2ee0c94c395f"
+    }]
+  },
+  "keywords": [{
+      "label": "Conservation design",
+      "uuid": "21cd1d35-2b38-4c8c-9f2a-6206c3358ac8"
+    },
+    {
+      "label": "Conservation planning",
+      "uuid": "df9dfc35-ca87-4427-9b8c-30cfa792cb13"
+    },
+    {
+      "label": "Data Acquisition and Development",
+      "uuid": "4ff0b865-a3f9-46ff-af84-618c773fabb4"
+    },
+    {
+      "label": "Data Management and Integration",
+      "uuid": "deafcd1e-24ef-4b8a-96d6-08cc2fbdc8da"
+    },
+    {
+      "label": "Decision support",
+      "uuid": "44402ffb-a509-47c8-a1b5-9a7864e02433"
+    },
+    {
+      "label": "Informing Conservation Delivery",
+      "uuid": "77d7e292-1174-4969-883d-e63a7213af53"
+    },
+    {
+      "label": "Monitoring",
+      "uuid": "11877b7e-133b-40fc-8377-77e7f1ff8bcb"
+    },
+    {
+      "label": "Population and Habitat Evaluation/Projection",
+      "uuid": "95876b11-23f8-4ec7-9ed7-c2050fd7061e"
+    },
+    {
+      "label": "Socio-economics/Ecosystem Services",
+      "uuid": "3d097386-6df3-4d86-aa97-47b94ef2fe00"
+    },
+    {
+      "label": "Traditional Ecological Knowledge",
+      "uuid": "5af816d0-fb10-4959-87dc-7ba7999e03df"
+    },
+    {
+      "label": "Vulnerability Assessment",
+      "uuid": "c092afab-5f1b-4afe-9399-66a021d7c2d4"
+    }
+  ],
+  "keywordType": "LCC Project Category",
+  "label": "LCC Project Category"
+}

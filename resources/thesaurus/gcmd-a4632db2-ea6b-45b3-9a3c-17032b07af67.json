@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:36",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Persistent Identifier",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/a4632db2-ea6b-45b3-9a3c-17032b07af67?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "a4632db2-ea6b-45b3-9a3c-17032b07af67"
+      }
+    ]
+  },
+  "keywordType": "PersistentIdentifier",
+  "label": "Persistent Identifier",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-a4632db2-ea6b-45b3-9a3c-17032b07af67.json"
+}

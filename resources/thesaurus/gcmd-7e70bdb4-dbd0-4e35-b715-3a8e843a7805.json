@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:09",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Trash Can",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/7e70bdb4-dbd0-4e35-b715-3a8e843a7805?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805"
+      }
+    ]
+  },
+  "keywordType": "Trash",
+  "label": "Trash Can",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-7e70bdb4-dbd0-4e35-b715-3a8e843a7805.json"
+}

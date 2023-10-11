@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "No description available.",
+    "title": "type",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/4f4e475ee4b07f02db47df1d"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "4f4e475ee4b07f02db47df1d"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/sciencebase-4f4e475ee4b07f02db47df1d.json"
+}

@@ -1,0 +1,67 @@
+{
+  "citation": {
+    "date": [{
+      "date": "2017-09",
+      "dateType": "revision"
+    }],
+    "title": "End User Types - Landscape Conservation Cooperatives",
+    "edition": "2017",
+    "onlineResource": [{
+      "uri": "https://www.sciencebase.gov/vocab/vocabulary/54760ef9e4b0f62cb5dc41a0"
+    }],
+    "identifier": [{
+      "identifier": "425f4a7c-dca2-56d8-947e-6f6bd1033d70"
+    }]
+  },
+  "keywords": [{
+      "label": "Academics & scientific researchers",
+      "uuid": "f32aa768-3925-4b18-bb45-e5b8e56f68a1"
+    },
+    {
+      "label": "Conservation NGOs",
+      "uuid": "06b28706-b861-484c-9636-2a1a8ae8f57b"
+    },
+    {
+      "label": "Federal resource managers",
+      "uuid": "fc5be9a1-b939-4cdb-8f0c-4090bf0e05e9"
+    },
+    {
+      "label": "Hunters & anglers",
+      "uuid": "e29d3e95-d766-480b-91ba-4467c3121443"
+    },
+    {
+      "label": "Interested public",
+      "uuid": "dd7b5708-cd40-44e3-86bc-3ca70eb775ee"
+    },
+    {
+      "label": "K-12 students & teachers",
+      "uuid": "2b9d8546-d441-4435-82a2-4ab3e783bcd7"
+    },
+    {
+      "label": "Other",
+      "uuid": "00466d2b-f2bd-484a-8596-075896d7dfce"
+    },
+    {
+      "label": "Policy makers & regulators",
+      "uuid": "10cefd04-2aca-4ec9-8c0e-1530f441042e"
+    },
+    {
+      "label": "Private land owners",
+      "uuid": "b6962a43-dc0a-4c95-ae69-3eaea7bbcf0a"
+    },
+    {
+      "label": "Regional & county planners",
+      "uuid": "55a41753-67eb-4dca-a701-f43e8bfa7e17"
+    },
+    {
+      "label": "State agencies",
+      "uuid": "155cbe3c-a89f-4472-95b1-67bb50340aa0"
+    },
+    {
+      "label": "Tribes",
+      "uuid": "004d65a8-70e6-44bd-a6a7-0a49708f85f2"
+    }
+  ],
+  "keywordType": "LCC End User Type",
+  "label": "LCC End User Types"
+}
