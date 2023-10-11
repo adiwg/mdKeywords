@@ -1,0 +1,23 @@
+[
+  {
+    "uuid": "5bf3f84de4b00ce5fb627d59",
+    "parentId": "5bf3f7bce4b00ce5fb627d57",
+    "label": "ndc_collection",
+    "definition": "Item that represents a logical collection of physical data items managed by an organization contributing to the National Digital Catalog. These are core metadata items for which we expect to find full metadata describing the collection and a method of accessing the contents in the collection.",
+    "children": []
+  },
+  {
+    "uuid": "5bf44423e4b00ce5fb627d5a",
+    "parentId": "5bf3f7bce4b00ce5fb627d57",
+    "label": "ndc_folder",
+    "definition": "Denotes a ScienceBase Item that functions as an organizational folder within the National Digital Catalog.",
+    "children": []
+  },
+  {
+    "uuid": "5bf3f7f5e4b00ce5fb627d58",
+    "parentId": "5bf3f7bce4b00ce5fb627d57",
+    "label": "ndc_organization",
+    "definition": "Item that represents a contributing organization. Used to set permissions in ScienceBase to allow management access by members of the organization.",
+    "children": []
+  }
+]

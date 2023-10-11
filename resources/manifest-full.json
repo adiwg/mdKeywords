@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Favret Conservation Status (dry)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869cf0d1326bc2b4bed8.json"
+  },
+  {
+    "name": "Favret Conservation Status (fluid)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869df0d1326bc2b4bedc.json"
+  },
+  {
+    "name": "Favret Conservation Status (slide)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869df0d1326bc2b4bee0.json"
+  },
+  {
+    "name": "Favret Container Condition (dry)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869df0d1326bc2b4bee4.json"
+  },
+  {
+    "name": "Favret Container Condition (fluid)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869ef0d1326bc2b4bee9.json"
+  },
+  {
+    "name": "Favret Container Condition (slide)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-6112869ef0d1326bc2b4beed.json"
+  },
+  {
+    "name": "Favret Processing State (dry)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-611286a0f0d1326bc2b4befc.json"
+  },
+  {
+    "name": "Favret Processing State (fluid)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-611286a0f0d1326bc2b4bf00.json"
+  },
+  {
+    "name": "Favret Processing State (slide)",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-611286a1f0d1326bc2b4bf04.json"
+  },
+  {
+    "name": "CollectionTheme",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-58b45852e4b0f974afcf03b4.json"
+  },
+  {
+    "name": "primaryPurpose",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-4f4e475ee4b07f02db47df14.json"
+  },
+  {
+    "name": "userGroup",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-4f4e475ee4b07f02db47df0b.json"
+  },
+  {
+    "name": "category",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-4f4e475ee4b07f02db47df22.json"
+  },
+  {
+    "name": "unit",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-4f4e475fe4b07f02db47df7b.json"
+  },
+  {
+    "name": "type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-4f4e475ee4b07f02db47df1d.json"
+  },
+  {
+    "name": "Known To Contain Types",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-611d3f2dbfff3461918aba4d.json"
+  },
+  {
+    "name": "Hazardous Materials",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-611d213fbfff3461918aba48.json"
+  },
+  {
+    "name": "NGGDPP ReSciColl ScienceBase Type Tags",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/sciencebase-5bf3f7bce4b00ce5fb627d57.json"
+  },
+  {
+    "name": "Chronostratigraphic Units",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190.json"
+  },
+  {
+    "name": "Platforms",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-f3261de5-34c1-4980-af22-f9d7e7206d12.json"
+  },
+  {
+    "name": "Disciplines",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-5b98265f-7cd1-4976-bc78-1ac1e6b9b90f.json"
+  },
+  {
+    "name": "IDN Nodes",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-118d366b-c4c7-432c-bd96-4cee2263a541.json"
+  },
+  {
+    "name": "ISO Topic Categories",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-27fa831b-f131-4f6d-8020-cc4ab0896249.json"
+  },
+  {
+    "name": "Horizontal Resolution Ranges",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-1499785c-8b74-45f4-bbf7-19d2d4e43b2f.json"
+  },
+  {
+    "name": "Vertical Resolution Ranges",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-9728ca44-7bb3-40a4-9dd2-49470ad47fa5.json"
+  },
+  {
+    "name": "Temporal Resolution Ranges",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-502ad03c-dba8-4b32-8af5-13fa947c3988.json"
+  },
+  {
+    "name": "Trash Can",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-7e70bdb4-dbd0-4e35-b715-3a8e843a7805.json"
+  },
+  {
+    "name": "Instruments",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-b2140059-b3ca-415c-b0a7-3e142783ffe8.json"
+  },
+  {
+    "name": "Projects",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-fb0b9fcd-5c96-4989-8c64-a479bbed83ab.json"
+  },
+  {
+    "name": "Persistent Identifier",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-a4632db2-ea6b-45b3-9a3c-17032b07af67.json"
+  },
+  {
+    "name": "Private",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-0901b01e-447a-45b5-a716-33ac9b8bc27a.json"
+  },
+  {
+    "name": "Phone Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9.json"
+  },
+  {
+    "name": "Product Flag",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-54cfb555-6e95-4e89-96b9-57863cbf732f.json"
+  },
+  {
+    "name": "Dataset Progress",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-1638caf0-d46c-4858-8916-ec14d82cb44c.json"
+  },
+  {
+    "name": "Dataset Language",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-79ec7ee3-0013-4ef7-a439-bbfcce88fb38.json"
+  },
+  {
+    "name": "Metadata Association Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-9d03a2d8-132d-49ea-95d5-6dea6d769053.json"
+  },
+  {
+    "name": "Organization Personnel Role",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-d6cd58e1-e83e-4718-b48d-08de1aba2f40.json"
+  },
+  {
+    "name": "Personnel Role",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-5c07062e-1ad1-4721-bc0f-f2d51352c2c1.json"
+  },
+  {
+    "name": "Organization Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18.json"
+  },
+  {
+    "name": "Duration Unit",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-e496c2bf-7f1c-461b-93b1-0248e4a5e932.json"
+  },
+  {
+    "name": "Platform Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-0cde2885-d08e-4539-9055-99d9a4754df0.json"
+  },
+  {
+    "name": "Collection Data Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-62a5777d-3582-498a-b900-54110baf8eb4.json"
+  },
+  {
+    "name": "Coordinate System",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd.json"
+  },
+  {
+    "name": "Granule Spatial Representation",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-d48348ea-bf06-4f04-91bd-647f3839aefd.json"
+  },
+  {
+    "name": "Product Level Id",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-6eb7a3bb-2330-4086-9a77-79e46470f1e6.json"
+  },
+  {
+    "name": "Spatial Coverage Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-26a99b0d-1f56-4969-844e-4b213a036873.json"
+  },
+  {
+    "name": "Multimedia Format",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-e2ad33dc-e1e4-45e3-be83-2efca11e451b.json"
+  },
+  {
+    "name": "Metadata Language",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-475934c7-e05f-4547-aaa3-b0cf01afff06.json"
+  },
+  {
+    "name": "Contact Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-8c84f591-ec2b-4dc4-8002-7fc9586ffcca.json"
+  },
+  {
+    "name": "Mime Type",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-ec1a1350-be24-42e6-a5cc-ccb806793def.json"
+  },
+  {
+    "name": "Distribution Size Unit",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-e0e6f883-9dee-4908-bb76-20adae968df1.json"
+  },
+  {
+    "name": "Related URL Content Types",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-8759ab63-ac04-4136-bc25-0c00eece1096.json"
+  },
+  {
+    "name": "Data Format",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-8e770fe1-6e82-43aa-9f8a-75d217d7e6cb.json"
+  },
+  {
+    "name": "Measurement Name",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-2bc6e372-93d8-4672-96b1-ec159aff2e19.json"
+  },
+  {
+    "name": "Projection Name",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-9d37b0bc-31fa-4b2e-b39d-1e19ceefa103.json"
+  },
+  {
+    "name": "Projection Authority",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-0cffc8cf-f913-43c8-9c7b-179eb6749c4f.json"
+  },
+  {
+    "name": "Chained Operations",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-ee18f758-071a-4ac8-8cd6-b217270243ea.json"
+  },
+  {
+    "name": "Operations",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-e97d2b88-a545-4882-801b-40964a2bc723.json"
+  },
+  {
+    "name": "Projection Datum Names",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-7e8086f8-a35a-433d-ba29-9bc948511cd1.json"
+  },
+  {
+    "name": "Science Keywords",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
+  },
+  {
+    "name": "USGS Thesaurus",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/usgs-usgs-thesaurus.json"
+  },
+  {
+    "name": "LCC Deliverables",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-deliverabletype.json"
+  },
+  {
+    "name": "LCC End User Types",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-usertype.json"
+  },
+  {
+    "name": "LCC Project Category",
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-category.json"
+  }
+]

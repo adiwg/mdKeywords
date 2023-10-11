@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:42",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Mime Type",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/ec1a1350-be24-42e6-a5cc-ccb806793def?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "ec1a1350-be24-42e6-a5cc-ccb806793def"
+      }
+    ]
+  },
+  "keywordType": "MimeType",
+  "label": "Mime Type",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-ec1a1350-be24-42e6-a5cc-ccb806793def.json"
+}

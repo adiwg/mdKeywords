@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:39",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Organization Type",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18"
+      }
+    ]
+  },
+  "keywordType": "OrganizationType",
+  "label": "Organization Type",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18.json"
+}

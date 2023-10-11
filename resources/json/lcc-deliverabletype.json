@@ -1,0 +1,67 @@
+{
+  "citation": {
+    "date": [{
+      "date": "2017-09",
+      "dateType": "revision"
+    }],
+    "title": "Deliverable Types - Landscape Conservation Cooperatives",
+    "edition": "2017",
+    "onlineResource": [{
+      "uri": "https://www.sciencebase.gov/vocab/vocabulary/5307baa3e4b0dcc7bdc913a9"
+    }],
+    "identifier": [{
+      "identifier": "fa455d4a-5d87-56bc-b074-9a967beff904"
+    }]
+  },
+  "keywords": [{
+      "label": "Applications and Tools",
+      "uuid": "2a6b1dc9-1795-4b09-9d86-6c0250063b3d"
+    },
+    {
+      "label": "Conservation Plan/Design/Framework",
+      "uuid": "de41eac2-74a4-44c7-9044-36140a82f819"
+    },
+    {
+      "label": "Datasets/Database",
+      "uuid": "54617fec-3a0c-45a8-8f25-f3c0da0ef159"
+    },
+    {
+      "label": "Map",
+      "uuid": "a77876cd-3c3e-4f7d-b422-03369baf7543"
+    },
+    {
+      "label": "Methodology/Protocol",
+      "uuid": "cfe03b40-a669-4851-a48c-b3b373270808"
+    },
+    {
+      "label": "Pilot/Case Study",
+      "uuid": "097945e2-01c5-4450-8d92-ee62497a7497"
+    },
+    {
+      "label": "Presentation",
+      "uuid": "db6a9f4d-8052-4672-b432-111370948cf4"
+    },
+    {
+      "label": "Publication",
+      "uuid": "a51ab411-b439-4583-921e-507eaeb17252"
+    },
+    {
+      "label": "Report",
+      "uuid": "d0523908-ef98-4744-a7d3-b816a7b032e0"
+    },
+    {
+      "label": "Training/Outreach/Workshop",
+      "uuid": "7635051d-6aca-47a1-ad52-75487e93918f"
+    },
+    {
+      "label": "User Manual",
+      "uuid": "9e450af7-e9b4-4a21-b57b-1c68f261271d"
+    },
+    {
+      "label": "Website",
+      "uuid": "3938d16e-44b9-4a8d-8682-4239f4b71afc"
+    }
+  ],
+  "keywordType": "LCC Deliverable",
+  "label": "LCC Deliverable Types"
+}

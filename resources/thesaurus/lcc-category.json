@@ -1,0 +1,26 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2017-09",
+        "dateType": "revision"
+      }
+    ],
+    "title": "Project Category - Landscape Conservation Cooperatives",
+    "edition": "2017",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/vocabulary/52dee7c5e4b0dee2a6cd6b18"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "5da1d3b7-375b-58ae-a134-2ee0c94c395f"
+      }
+    ]
+  },
+  "keywordType": "LCC Project Category",
+  "label": "LCC Project Category",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/lcc-category.json"
+}

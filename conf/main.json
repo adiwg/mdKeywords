@@ -42,7 +42,8 @@
     "filename": "gcmd-vocabularies.json",
     "baseUrl": "https://gcmd.earthdata.nasa.gov/kms/"
   },
-  "citationsPath": "resources/citations",
-  "keywordsPath": "resources/keywords",
-  "manifestPath": "resources/manifest.json"
+  "thesaurusPath": "resources/thesaurus/",
+  "keywordsPath": "resources/keywords/",
+  "manifestPath": "resources/manifest.json",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/"
 }

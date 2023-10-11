@@ -1,0 +1,45 @@
+[
+  {
+    "uuid": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+    "label": "Metadata Association Type",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "05e2b0c3-8cc0-454f-b1d2-8423681bcfd1",
+        "label": "Input",
+        "broader": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "0f27cea5-08b1-4069-9c7e-9848502efcb7",
+        "label": "Dependent",
+        "broader": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "2992faf4-390c-42c2-bb5a-e0f868010561",
+        "label": "Other",
+        "broader": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "483744ff-530a-4ee6-be64-1c39759554b1",
+        "label": "Parent",
+        "broader": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "eabd9cfd-9885-4699-be85-ce4f172eeb27",
+        "label": "Science Associated",
+        "broader": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]

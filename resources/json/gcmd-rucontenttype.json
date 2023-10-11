@@ -1,0 +1,739 @@
+[
+  {
+    "uuid": "8759ab63-ac04-4136-bc25-0c00eece1096",
+    "label": "Related URL Content Types",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "65373de8-3fb3-4882-a8ca-cfe23a4ff58e",
+        "label": "DataContactURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "e5803df8-c802-4f3f-96f5-53e534835887",
+            "label": "HOME PAGE",
+            "broader": "65373de8-3fb3-4882-a8ca-cfe23a4ff58e",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "731f4e5c-d200-4c56-9daa-e6fad17415ef",
+        "label": "VisualizationURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "58848eb9-9c2c-491e-847e-5a4f3d9f6889",
+            "label": "Color Map",
+            "broader": "731f4e5c-d200-4c56-9daa-e6fad17415ef",
+            "definition": "No definition available.",
+            "children": [
+              {
+                "uuid": "197d7881-a01b-4892-822f-94ca72aea2f4",
+                "label": "Giovanni",
+                "broader": "58848eb9-9c2c-491e-847e-5a4f3d9f6889",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "503206c2-c5ae-4d65-8c18-be8d06370c0c",
+                "label": "Harmony GDAL",
+                "broader": "58848eb9-9c2c-491e-847e-5a4f3d9f6889",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "87117fb4-888c-41b9-a795-d13d436d828b",
+                "label": "GITC",
+                "broader": "58848eb9-9c2c-491e-847e-5a4f3d9f6889",
+                "definition": "No definition available.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+            "label": "GET RELATED VISUALIZATION",
+            "broader": "731f4e5c-d200-4c56-9daa-e6fad17415ef",
+            "definition": "The URL for accessing a data set visualization.",
+            "children": [
+              {
+                "uuid": "389ab1cf-fbf4-49ee-bf22-e40643fa00f6",
+                "label": "SOTO",
+                "broader": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+                "definition": "State of the Ocean is a web-based tool that generates informative maps, animations, and plots that communicate and promote the discovery and analysis of the State of the Oceans.",
+                "children": []
+              },
+              {
+                "uuid": "690210ef-4cf8-4645-b68d-921466bba6a2",
+                "label": "GIOVANNI",
+                "broader": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+                "definition": "Giovanni is a Web-based application developed by the Goddard Earth Sciences Data and Information Services Center (GES DISC)  that provides a simple and intuitive way to visualize, analyze, and access vast amounts of Earth science remote sensing data without having to download the data. Giovanni is an acronym for the Geospatial Interactive Online Visualization ANd aNalysis Infrastructure.",
+                "children": []
+              },
+              {
+                "uuid": "e6f9524a-e4bc-460a-bdf3-a5e8f0e921a9",
+                "label": "MAP",
+                "broader": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "eeff646c-6faf-468e-a0ab-ff78fc6f86f9",
+                "label": "WORLDVIEW",
+                "broader": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+                "definition": "The URL for viewing a Worldview visualization. The Worldview tool from NASA's Earth Observing System Data and Information System (EOSDIS) provides the capability to interactively browse over 600 global, full-resolution satellite imagery layers and then download the underlying data. Many of the imagery layers are updated within three hours of observation, essentially showing the entire Earth as it looks 'right now'. This supports time-critical application areas such as wildfire management, air quality measurements, and flood monitoring.",
+                "children": []
+              },
+              {
+                "uuid": "efbd1edc-388f-4985-8033-6782ee87d463",
+                "label": "GIS",
+                "broader": "dd2adc64-c7bd-4dbf-976b-f0496966817c",
+                "definition": "GIS data visualization displays the spatial patterns or relationship between or among locations. Popular open source software included here are ArcGIS, Tableau, InstantAtlas, QGIS, SAGA GIS, GeoDa, and MapWindow.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "894edd57-afb3-4bb3-878f-fc245d8b6e82",
+        "label": "PublicationURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+            "label": "VIEW RELATED INFORMATION",
+            "broader": "894edd57-afb3-4bb3-878f-fc245d8b6e82",
+            "definition": "The URL for accessing related data set documentation.",
+            "children": [
+              {
+                "uuid": "0b597285-eaac-4cbd-94cc-d87ae8046681",
+                "label": "PRODUCTION HISTORY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set production version history. Product version history refers to a history of each version type of a data product and the differences between each version including how the data was produced and any changes in science parameters and quality.",
+                "children": []
+              },
+              {
+                "uuid": "0eba3253-8eb7-4e43-9627-9cff48775e27",
+                "label": "DATA QUALITY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data quality information for a data set.",
+                "children": []
+              },
+              {
+                "uuid": "1132a0fc-888b-4332-ad0a-dc5c6e615afa",
+                "label": "PRODUCT USAGE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a data set product usage information.",
+                "children": []
+              },
+              {
+                "uuid": "13a4deec-bd22-4864-9804-77fac181f484",
+                "label": "PUBLICATIONS",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing related data set publications.",
+                "children": []
+              },
+              {
+                "uuid": "15b0a4c4-b39d-48f5-92d2-905e45e6dc6a",
+                "label": "SCIENCE DATA PRODUCT VALIDATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing science data product validation information.",
+                "children": []
+              },
+              {
+                "uuid": "2af2cfc4-9390-43da-8fa8-1f272e8ee0b0",
+                "label": "IMPORTANT NOTICE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing important notice web pages.",
+                "children": []
+              },
+              {
+                "uuid": "3112d474-b44f-4af1-8266-c3dd6d28220f",
+                "label": "CASE STUDY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set case study information.",
+                "children": []
+              },
+              {
+                "uuid": "367f8b8a-e57e-4c49-b971-0b5c6a484186",
+                "label": "PI DOCUMENTATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing project investigator documentation.",
+                "children": []
+              },
+              {
+                "uuid": "40cf5001-15ec-4d9a-913c-bb323f2974fc",
+                "label": "DATA CITATION POLICY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing information related to a data set citation policy.",
+                "children": []
+              },
+              {
+                "uuid": "415cfe86-4d71-4100-8f35-6404caec1c91",
+                "label": "DATA PRODUCT SPECIFICATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "4f3c0b04-1fe6-4e11-994a-9cc4afd09ce0",
+                "label": "MICRO ARTICLE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing micro articles. Micro articles are concise and focused selections of information that allow users to quickly assess topics and locate the most useful or relevant associated data, information and tools.",
+                "children": []
+              },
+              {
+                "uuid": "547600e9-b60a-44eb-b14b-5c6e1f2c094e",
+                "label": "DATA RECIPE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set recipes - instructions on how to access or use Earth science data sets.",
+                "children": []
+              },
+              {
+                "uuid": "7cfa5214-7f69-4355-b259-286be88f25d1",
+                "label": "PROCESSING HISTORY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set processing history.",
+                "children": []
+              },
+              {
+                "uuid": "7ebd73e5-b0aa-4cf2-ace5-1d3890c2c3ce",
+                "label": "HOW-TO",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing how-to web pages. How-To web pages describe how to accomplish specific tasks related to data discovery, access and/or usage.",
+                "children": []
+              },
+              {
+                "uuid": "86b8b121-d710-4c5b-84b0-7b40717f6c76",
+                "label": "REQUIREMENTS AND DESIGN",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing requirements and design information for a data set or service/software/tool.",
+                "children": []
+              },
+              {
+                "uuid": "914cbb7e-5b20-4bcd-86e3-ffcfa26f0a73",
+                "label": "ANOMALIES",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set anomaly information.",
+                "children": []
+              },
+              {
+                "uuid": "aa3cea98-b20a-4de8-8f22-7a8b30784625",
+                "label": "READ-ME",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a data set READ-ME file. A README file contains information about other files in a directory or archive of computer software. A form of documentation, it is usually a simple plain text file called READ.ME, README.TXT,[1] README.md (for a text file using markdown markup), README.1ST – or simply README.",
+                "children": []
+              },
+              {
+                "uuid": "ab2fce71-e5f9-4ba6-bfb1-bc428a8b7dd8",
+                "label": "USER FEEDBACK PAGE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing user feedback information.",
+                "children": []
+              },
+              {
+                "uuid": "aebf20eb-39c7-4f4f-aecf-a628f703867b",
+                "label": "GENERAL DOCUMENTATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing general documentation.",
+                "children": []
+              },
+              {
+                "uuid": "b292f51f-d2b4-4e65-84a9-e50306238989",
+                "label": "PRODUCT HISTORY",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a data set product version history.",
+                "children": []
+              },
+              {
+                "uuid": "b7ed88ce-3f04-40ea-863e-ac58bd048ff3",
+                "label": "PRODUCT QUALITY ASSESSMENT",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a data set product quality assessment. The assessment comprises of administrative and procedural activities implemented in a quality system so that requirements and goals for a product, service or activity will be fulfilled. It is the systematic measurement, comparison with a standard, monitoring of processes and an associated feedback loop that confers error prevention.",
+                "children": []
+              },
+              {
+                "uuid": "be0460d8-ca8e-45c8-b637-8fb4ce5a5e97",
+                "label": "DELIVERABLES CHECKLIST",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a deliverables checklist for a data set or service.",
+                "children": []
+              },
+              {
+                "uuid": "d1996d91-e824-4b24-b94e-3aae4543b63b",
+                "label": "USER'S GUIDE",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing a user's guide. A user guide is a technical communication document intended to give assistance to people regarding a data set and/or service.",
+                "children": []
+              },
+              {
+                "uuid": "e8e6e972-832f-4501-a721-4108f33332d6",
+                "label": "SCIENCE DATA PRODUCT SOFTWARE DOCUMENTATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing science data product software documentation.",
+                "children": []
+              },
+              {
+                "uuid": "fc3c1abb-92c1-49c2-90d4-161c70cff44a",
+                "label": "INSTRUMENT/SENSOR CALIBRATION DOCUMENTATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing instrument and sensor calibration data documentation.",
+                "children": []
+              },
+              {
+                "uuid": "fcc9411c-a1c9-415d-a16c-75c42f2cec45",
+                "label": "ALGORITHM DOCUMENTATION",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing data set algorithm documentation.",
+                "children": []
+              },
+              {
+                "uuid": "fd01f7ec-fdf6-4440-b974-75f12fb4ec5f",
+                "label": "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+                "broader": "5ec1bb9d-0efc-4099-9b31-ec791bbd8145",
+                "definition": "The URL for accessing Algorithm Theoretical Basis Documents (ATBD). Algorithm Theoretical Basis Documents (ATBD) are intended to describe the physical and mathematical description of the algorithms to be used in the generation of data products. The ATBD include a description of variance and uncertainty estimates and considerations of calibration and validation, exception control, and diagnostics. In some cases, internal and external data product flows are required.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "b2df0d8e-d236-4fd2-a4f6-12951b3bb17a",
+        "label": "DataCenterURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "05c685ab-8ce0-4b8a-8eba-b15fc6bbddfa",
+            "label": "HOME PAGE",
+            "broader": "b2df0d8e-d236-4fd2-a4f6-12951b3bb17a",
+            "definition": "No definition available.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "c7bbd6c7-8b0a-46ed-a428-a2f0453ed69e",
+        "label": "CollectionURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "3c9d4493-22fd-48a8-9af5-bf0d16b7ede5",
+            "label": "EXTENDED METADATA",
+            "broader": "c7bbd6c7-8b0a-46ed-a428-a2f0453ed69e",
+            "definition": "The URL for accessing supplementary metadata.",
+            "children": [
+              {
+                "uuid": "4cc17021-b9cc-4b3f-a4f1-f05f7c1aeb2d",
+                "label": "DMR++ MISSING DATA",
+                "broader": "3c9d4493-22fd-48a8-9af5-bf0d16b7ede5",
+                "definition": "The DMR++ MISSING DATA is a sidecar data file that is used to store data that are missing from the actual data file. These are typically domain coordinate data like latitude and longitude values that can be computed based on the dataset metadata values but that are not explicitly present in the source data file. Commonly used conventions like Climate Forecast (CF-x.x) require these values to be explicitly provided.",
+                "children": []
+              },
+              {
+                "uuid": "f02b0c6a-7fd9-473d-a1cb-a6482e8daa61",
+                "label": "DMR++",
+                "broader": "3c9d4493-22fd-48a8-9af5-bf0d16b7ede5",
+                "definition": "The DMR++ is a metadata file that extends a data file’s current metadata with the raw locations of all the data values. This is accomplished by examining the data file during the production of the dmr++.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "6e72d128-7d28-4bd0-bac0-8c5ffd8b31f1",
+            "label": "PROJECT HOME PAGE",
+            "broader": "c7bbd6c7-8b0a-46ed-a428-a2f0453ed69e",
+            "definition": "The URL for accessing data set related project home pages.",
+            "children": []
+          },
+          {
+            "uuid": "8826912b-c89e-4810-b446-39b98b5d937c",
+            "label": "DATA SET LANDING PAGE",
+            "broader": "c7bbd6c7-8b0a-46ed-a428-a2f0453ed69e",
+            "definition": "The URL for accessing a data set landing page. A data set landing page generally has information about the data set including the identifier information, data set version, abstract, provenance information, and a link to download the data set. There may be other relevant information about the data set on the landing page.",
+            "children": []
+          },
+          {
+            "uuid": "f00cf885-8fc5-42ca-a70e-1689530f00cf",
+            "label": "PROFESSIONAL HOME PAGE",
+            "broader": "c7bbd6c7-8b0a-46ed-a428-a2f0453ed69e",
+            "definition": "The URL for accessing a professional web page of a PI at a data center or university.",
+            "children": []
+          }
+        ]
+      },
+      {
+        "uuid": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+        "label": "DistributionURL",
+        "broader": "8759ab63-ac04-4136-bc25-0c00eece1096",
+        "definition": "No definition available.",
+        "children": [
+          {
+            "uuid": "172cd72d-30d3-4795-8660-dc38820faba0",
+            "label": "GET DATA VIA DIRECT ACCESS",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "No definition available.",
+            "children": []
+          },
+          {
+            "uuid": "2892b502-2c66-42d5-af3d-bcddb57d9195",
+            "label": "GET CAPABILITIES",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "No definition available.",
+            "children": [
+              {
+                "uuid": "09c6e3ea-f8e0-4052-8b41-c3b1269799ed",
+                "label": "OpenSearch",
+                "broader": "2892b502-2c66-42d5-af3d-bcddb57d9195",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "ca5440d6-a9e4-416b-8e35-c4769f664b95",
+                "label": "GIBS",
+                "broader": "2892b502-2c66-42d5-af3d-bcddb57d9195",
+                "definition": "No definition available.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+            "label": "GET DATA",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "The URL for accessing a data set.",
+            "children": [
+              {
+                "uuid": "0b50c12d-a6ae-4d63-b42b-d99bf7aa2da0",
+                "label": "LAADS",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NASA LAADS system.",
+                "children": []
+              },
+              {
+                "uuid": "26431afd-cb37-4772-9e97-3a36f6dff32d",
+                "label": "MODAPS",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NASA MODIS Adaptive Processing System (MODAPS).",
+                "children": []
+              },
+              {
+                "uuid": "2e869d22-88fe-43dc-852d-9f50c911ad02",
+                "label": "GIOVANNI",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NASA GIOVANNI tool.",
+                "children": []
+              },
+              {
+                "uuid": "2fc3797c-71b5-4d01-8ae1-d5634ec625ce",
+                "label": "DATACAST URL",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the EOSDIS DAAC data cast feed.",
+                "children": []
+              },
+              {
+                "uuid": "3779ec72-c1e0-4a0f-aff8-8e2a2a7af486",
+                "label": "EOSDIS DATA POOL",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the EOSDIS data pool.",
+                "children": []
+              },
+              {
+                "uuid": "38219044-ad26-4a32-98c0-dca8ad3cd29a",
+                "label": "Subscribe",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "3c2a68a6-d8c2-4f14-8208-e57a4446ad71",
+                "label": "DATA TREE",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for downloading a data set via a navigation tree.",
+                "children": []
+              },
+              {
+                "uuid": "3c60609c-d48d-47c4-b069-43951fa0aea3",
+                "label": "IceBridge Portal",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "444f03b4-e588-42da-aee6-73028f3c45be",
+                "label": "DATA COLLECTION BUNDLE",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for downloading a data set bundled with additional data sets.",
+                "children": []
+              },
+              {
+                "uuid": "4485a5b6-d84c-4c98-980e-164863ca518f",
+                "label": "USGS EARTH EXPLORER",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the USGS Earth Explorer.",
+                "children": []
+              },
+              {
+                "uuid": "459decfe-53ee-41ce-b608-d7578b04ef7b",
+                "label": "Sub-Orbital Order Tool",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The Sub-Orbital Order Tool (SOOT) is a tool developed by the Atmospheric Science Data Center (ASDC) at NASA Langley Research Center for handling data acquired from suborbital field campaigns that are assigned to and archived at the ASDC. SOOT allows users to discover data variables from multiple airborne studies and/or platforms. Based on users’ selections, they can output data products including original data submitted by each instrument Principal Investigator (PI) and merged data (i.e., geolocated data from one or multiple instrument PIs). This tool supports data users interested in airborne/field campaign data and promotes sub-orbital research and analysis. SOOT provides a modern user interface that streamlines data discovery and accessibility of airborne field campaigns archived at the DAAC. SOOT enables users to easily filter and browse field campaign data based on more specific metadata attributes such as PI, platform, and instruments. By providing these search functionalities, the unique needs of the airborne science teams will be addressed. SOOT supports data discovery and accessibility for users interested in airborne and field campaign data and promotes suborbital research and analysis.",
+                "children": []
+              },
+              {
+                "uuid": "49be0345-a6af-4608-98d8-9b2343e60077",
+                "label": "PORTAL",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for downloading a data set via a portal.",
+                "children": []
+              },
+              {
+                "uuid": "5520d1de-f7f5-4798-9ebc-698885805489",
+                "label": "VERTEX",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data via Vertex, Alaska Satellite Facility’s data portal for remotely sensed imagery of the Earth.",
+                "children": []
+              },
+              {
+                "uuid": "5b8013bb-0b15-4811-8aa3-bfc108c3a041",
+                "label": "Earthdata Search",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via NASA's Earthdata search client.",
+                "children": []
+              },
+              {
+                "uuid": "6b8f0bfc-d9a4-4af1-9d94-6dcfade03bda",
+                "label": "APPEEARS",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing a data set via AppEEARS, the Application for Extracting and Exploring Analysis Ready Samples, which offers a simple and efficient way to access and transform geospatial data from a variety of federal data archives.",
+                "children": []
+              },
+              {
+                "uuid": "78d28911-a87c-40a0-ada2-c14f7cfb0834",
+                "label": "VIRTUAL COLLECTION",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "A URL that points to annotated (i.e., with metadata) collections of resource addresses, such as URLs. They can span multiple DAACs, SIPS, and/or EOSDIS elements. Virtual collection URLs can include:\n\n- Specific data directories or data files\n- OPeNDAP data directories\n- OPeNDAP constraint URLs\n- WMS GetMap requests\n- WCS GetCoverage requests\n- OpenSearch Description Documents\n- OpenSearch search requests\n- Giovanni requests",
+                "children": []
+              },
+              {
+                "uuid": "7ff3e5a8-650a-4cd1-80db-cca0fd209a84",
+                "label": "MLHub",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "Radiant MLHub is the world’s first cloud-based open library dedicated to Earth observation training data for use with machine learning algorithms. Designed to encourage widespread data collaboration, Radiant MLHub allows anyone to access, store, register, and share open training datasets for high-quality Earth observations.",
+                "children": []
+              },
+              {
+                "uuid": "8e33a2dd-df13-4079-8636-391abb5344c6",
+                "label": "DIRECT DOWNLOAD",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for downloading the entire data set.",
+                "children": []
+              },
+              {
+                "uuid": "93bc7186-2634-49ae-a8da-312d893ef15e",
+                "label": "CERES Ordering Tool",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing a tool which allows for visualizing, subsetting, and ordering CERES data.",
+                "children": []
+              },
+              {
+                "uuid": "9b05d2a3-9a5a-425c-b6ed-59e0e56814fa",
+                "label": "MIRADOR",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NASA MIRADOR system.",
+                "children": []
+              },
+              {
+                "uuid": "9bfb0f20-189e-411b-a678-768bf3fa256e",
+                "label": "GoLIVE Portal",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "No definition available.",
+                "children": []
+              },
+              {
+                "uuid": "a36f1716-a310-41f5-b4d8-6c6a5fc933d9",
+                "label": "NOAA CLASS",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NOAA Comprehensive Large Array-data Stewardship System (CLASS).",
+                "children": []
+              },
+              {
+                "uuid": "aa11ac15-3042-4634-b47e-acc368f608bd",
+                "label": "LANCE",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing data sets via the NASA Land, Atmosphere Near real-time Capability for EOS (LANCE) system.",
+                "children": []
+              },
+              {
+                "uuid": "b434314f-949f-4c26-be57-2ea4c7f03643",
+                "label": "NOMADS",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "The URL for accessing a data set via NOAA National Operational Model Archive and Distribution System (NOMADS).",
+                "children": []
+              },
+              {
+                "uuid": "bd91340d-a8b3-4c01-b262-71e50fe69c83",
+                "label": "Order",
+                "broader": "750f6c61-0f15-4185-94d8-c029dec04bc5",
+                "definition": "No definition available.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "ca8b62c9-5f31-40bd-92a9-8d30081309e2",
+            "label": "DOWNLOAD SOFTWARE",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "The URL for downloading a software package.",
+            "children": [
+              {
+                "uuid": "5fedeefd-2609-488c-a897-fe168cae34dd",
+                "label": "MOBILE APP",
+                "broader": "ca8b62c9-5f31-40bd-92a9-8d30081309e2",
+                "definition": "The URL for downloading a mobile application.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "d117cf5c-8d23-4662-be62-7b883cecb219",
+            "label": "USE SERVICE API",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "The URL for accessing a service Application Programming Interface (API).",
+            "children": [
+              {
+                "uuid": "029540bb-7f5c-44ba-8578-61e2f858be60",
+                "label": "WEB COVERAGE SERVICE (WCS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for leveraging the Web Coverage Service (WCS) API. The Open Geospatial Consortium, Inc. (OGC) Web Coverage Service (WCS) provides an open specification for sharing raster datasets on the web.",
+                "children": []
+              },
+              {
+                "uuid": "0c3aa5c6-f1f9-4c16-aa96-30672028d26c",
+                "label": "MAP SERVICE",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for accessing a map service.",
+                "children": []
+              },
+              {
+                "uuid": "411d2781-822c-4c48-8d5b-4b51b100ce0a",
+                "label": "SERVICE CHAINING",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for accessing a service chain workflow service.",
+                "children": []
+              },
+              {
+                "uuid": "5c0cd574-0255-4202-9b5b-3da8711b7ed7",
+                "label": "GRADS DATA SERVER (GDS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for leveraging the Grid Analysis and Display System (GrADS) Data Server (GDS) API. GrADS Data Server (GDS), is a stable, secure data server that provides subsetting and analysis services across the internet. The core of the GDS is OPeNDAP, a software framework used for data networking that makes local data accessible to remote locations. GDS services can be provided for any GrADS-readable dataset: GRIB, Binary, NetCDF, HDF, BUFR, and GrADS station data format. The GDS unifies all these data formats into a NetCDF framework. The GDS subsetting capability allows users to retrieve a specified temporal and/or spatial subdomain from a large dataset, eliminating the need to download everything simply to access a small relevant portion of a dataset. The GDS analysis capability allows users to retrieve the results of an operation applied to one or more datasets on the server. Examples of analysis operations include basic math functions, averages, smoothing, differencing, correlation, and regression; the GDS supports any operation that can be expressed in a single GrADS expression. The GDS is based on Anagram, a modular framework for high-performace scientific data servers.",
+                "children": []
+              },
+              {
+                "uuid": "77cae7cb-4676-4c69-a88b-d78971496f97",
+                "label": "THREDDS DATA",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for access to the Thematic Real-time Environmental Distributed Data Services (THREDDS). The THREDDS Data Server (TDS) is a web server that provides metadata and data access for scientific datasets, using OPeNDAP, OGC WMS and WCS, HTTP, and other remote data access protocols.",
+                "children": []
+              },
+              {
+                "uuid": "7aac9f91-20c4-4234-9153-e850c8ace8a9",
+                "label": "WEB MAP TILE SERVICE (WMTS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for leveraging the GIBS Web Map Tile Service (WMTS) API. The WMTS implementation standard provides a standards-based solution for serviing digital maps using predefined image tiles. Through the constructs of the specification, a WMTS service advertises imagery layers (e.g. imagery product) and defines the coordinate reference system, scale, and tiling grid available for access.",
+                "children": []
+              },
+              {
+                "uuid": "7b664934-70c4-4694-b8c1-416e7c91afb9",
+                "label": "TABULAR DATA STREAM (TDS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for leveraging the Tabular Data Stream (TDS) API. The Tabular Data Stream (TDS) Protocol is an application-level protocol used for the transfer of requests and responses between clients and database server systems.",
+                "children": []
+              },
+              {
+                "uuid": "89b80cbd-027f-4eab-823f-ae00c268f5bf",
+                "label": "OpenSearch",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for accessing OpenSearch, which is a collection of simple formats for the sharing of search results. A user can use OpenSearch formats to help people discover and use your search engine and to syndicate search results across the web.",
+                "children": []
+              },
+              {
+                "uuid": "b0e2089c-3c1d-4c12-b833-e07365a4038e",
+                "label": "WEB MAP SERVICE (WMS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for leveraging a Web Map Service (WMS) API. The Open Geospatial Consortium, Inc. (OGC), Web Map Service (WMS) specification is an international specification for serving and consuming dynamic maps on the web.",
+                "children": []
+              },
+              {
+                "uuid": "c4d406e6-7a34-42aa-bd79-f7f9265cc7bd",
+                "label": "WEB FEATURE SERVICE (WFS)",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for accessing a Web Feature Service (WFS) API. The Open Geospatial Consortium Web Feature Service (WFS) Interface Standard provides an interface allowing requests for geographical features across the web using platform-independent calls.",
+                "children": []
+              },
+              {
+                "uuid": "eae7a041-b004-48df-8d4e-d758969e3185",
+                "label": "OPENDAP DATA",
+                "broader": "d117cf5c-8d23-4662-be62-7b883cecb219",
+                "definition": "The URL for accessing an Open-source Project for a Network Data Access Protocol (OPeNDAP ) API framework.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "uuid": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+            "label": "GOTO WEB TOOL",
+            "broader": "d25982b9-92e9-4ec0-ab44-48e79ecbe137",
+            "definition": "The URL for accessing a data set related tool.",
+            "children": [
+              {
+                "uuid": "20ab6d52-f5a7-439c-a044-6ef2452a2838",
+                "label": "LIVE ACCESS SERVER (LAS)",
+                "broader": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+                "definition": "The URL for accessing a Live Access Server (LAS) tool. The Live Access Server (LAS) is a highly configurable web server designed to provide flexible access to geo-referenced scientific data. It can present distributed data sets as a unified virtual data base through the use of DODS networking. Ferret is the default visualization application used by LAS, though other applications (Matlab, IDL, GrADS, ...) can also be used.",
+                "children": []
+              },
+              {
+                "uuid": "6ffc54ea-001a-4c03-afff-5086b2da8f59",
+                "label": "SIMPLE SUBSET WIZARD (SSW)",
+                "broader": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+                "definition": "The URL for accessing the Simple Subset Wizard (SSW) Tool. The Simple Subset Wizard (SSW) makes searching for granules easier. The tool unites the search function with various subsetters to deliver a single, simple, seamless process. SSW uses OpenSearch to query the Earth Observing System Clearing House (ECHO) for granules and then employs individual subset agents to submit requests.",
+                "children": []
+              },
+              {
+                "uuid": "a7225578-b398-4222-a7a0-8f5175338ddf",
+                "label": "HITIDE",
+                "broader": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+                "definition": "HiTIDE, the High-level Tool for Interactive Data Extraction, allows users to subset and download popular PO.DAAC level 2 (swath) datasets. Users can search across a wide variety of parameters, such as variables, sensors and platforms, and filter the resulting data based on spatial and temporal boundaries of interest to the user. HiTIDE goes even further, offering instant previews of variable imagery, allowing users to rapidly find data of interest for download and further, rigorous scientific analysis.",
+                "children": []
+              },
+              {
+                "uuid": "bf37a20c-8e99-4187-b91b-3ea254f006f9",
+                "label": "SUBSETTER",
+                "broader": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+                "definition": "The URL for accessing a subsetter tool. A subsetter provides the user with a way to subset and regrid the data on-the-fly. You can choose from several subsetting options such as spatial, variable, temporal and vertical level.",
+                "children": []
+              },
+              {
+                "uuid": "c1c61697-b4bd-467c-9db4-5bd0115545a3",
+                "label": "MAP VIEWER",
+                "broader": "ffccf1c0-f25d-4747-ac4a-f09444383031",
+                "definition": "The URL for accessing a map viewer.  A map viewer is an easy way to view and access maps and data.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:18:41",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Multimedia Format",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/e2ad33dc-e1e4-45e3-be83-2efca11e451b?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "e2ad33dc-e1e4-45e3-be83-2efca11e451b"
+      }
+    ]
+  },
+  "keywordType": "MultimediaFormat",
+  "label": "Multimedia Format",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-e2ad33dc-e1e4-45e3-be83-2efca11e451b.json"
+}

@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:19:50",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Projection Authority",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/0cffc8cf-f913-43c8-9c7b-179eb6749c4f?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "0cffc8cf-f913-43c8-9c7b-179eb6749c4f"
+      }
+    ]
+  },
+  "keywordType": "ProjectionAuthority",
+  "label": "Projection Authority",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-0cffc8cf-f913-43c8-9c7b-179eb6749c4f.json"
+}

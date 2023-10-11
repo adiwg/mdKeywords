@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "2023-09-08 13:19:52",
+        "dateType": "revision"
+      }
+    ],
+    "description": "No description available.",
+    "title": "Global Change Master Directory (GCMD) Science Keywords",
+    "edition": "Version 16.9",
+    "onlineResource": [
+      {
+        "uri": "https://gcmd.earthdata.nasa.gov/kms/concept/1eb0ea0a-312c-4d74-8d42-6f1ad758f999?format=json}"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "1eb0ea0a-312c-4d74-8d42-6f1ad758f999"
+      }
+    ]
+  },
+  "keywordType": "sciencekeywords",
+  "label": "Science Keywords",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
+}

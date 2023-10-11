@@ -1,0 +1,150 @@
+[
+  {
+    "uuid": "e97d2b88-a545-4882-801b-40964a2bc723",
+    "label": "Operations",
+    "broader": null,
+    "definition": "No definition available.",
+    "children": [
+      {
+        "uuid": "1b4a365e-e611-446e-8b5d-24fa5677402c",
+        "label": "DropStoredQuery",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "1cd3267a-f923-4f54-8662-3d47351ec4f4",
+        "label": "VARIABLE_SUBSETTING",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "3a5e58f3-5aaf-41de-8a39-455e127c6ac2",
+        "label": "SPATIAL_SUBSETTING",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "47fd3a19-f4fc-4536-b0c9-b54007c29fe1",
+        "label": "GetCoverage",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "48c02bf7-36db-4139-9955-753cb018bb5c",
+        "label": "DescribeCoverage",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "4f02784a-c0ad-4534-83f3-1335496eae7d",
+        "label": "GetPropertyValue",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "604f481f-a793-4944-aa1b-4cf18eef7f2b",
+        "label": "ListStoredQueries",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "780459b0-67a7-4fc5-bb4c-c769f1367462",
+        "label": "GetFeature",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "79775124-8f25-4af7-b1fa-1970b063e8e1",
+        "label": "DescribeFeatureType",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "89ccacf9-89c2-467a-9d1f-77a614700ff0",
+        "label": "Transaction",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "8c09a82a-9be4-48b0-a0d6-a1c34fc6f25e",
+        "label": "GetFeatureInfo",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "99221b68-ed74-4d71-a654-d459d1af4a56",
+        "label": "GetFeatureWithLock",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "a628136a-049b-4e2d-9547-f596cf27ade0",
+        "label": "LockFeature",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "ac4d1b70-5b7e-4cf6-8f7f-a94ced2d408c",
+        "label": "CreateStoredQuery",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "b9f9cd42-3be3-4f05-a9d9-be87ab6f8d8d",
+        "label": "GetMap",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "bde376c4-ba7e-4891-8fdb-3a678c350907",
+        "label": "VARIABLE_AGGREGATION",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "d9bbd6ab-f323-43ee-aee4-8c7004667154",
+        "label": "GetCapabilities",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e228289a-e188-419d-b531-ac9267d4e657",
+        "label": "GetLegendGraphic",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "e7a34817-3e5e-4685-b64a-751e96a12d51",
+        "label": "DescribeStoredQueries",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      },
+      {
+        "uuid": "ed567f43-a195-48ab-8a39-fb81e75e8a7a",
+        "label": "TEMPORAL_SUBSETTING",
+        "broader": "e97d2b88-a545-4882-801b-40964a2bc723",
+        "definition": "No definition available.",
+        "children": []
+      }
+    ]
+  }
+]
