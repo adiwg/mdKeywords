@@ -1,0 +1,27 @@
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "No description available.",
+    "title": "Favret Container Condition (dry)",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": "https://www.sciencebase.gov/vocab/category/6112869df0d1326bc2b4bee4"
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": "6112869df0d1326bc2b4bee4"
+      }
+    ]
+  },
+  "keywordType": "vocabulary",
+  "label": "",
+  "keywords": null,
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@temp/test/resources/keywords/sciencebase-6112869df0d1326bc2b4bee4.json"
+}
