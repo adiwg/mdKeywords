@@ -86,7 +86,7 @@ function buildCitation(metadata) {
       edition: `Version ${metadata.conceptData.keywordVersion}`,
       onlineResource: [
         {
-          uri: `${baseUrl}concept/${metadata.conceptData.uuid}?format=json}`,
+          uri: `${baseUrl}concept/${metadata.conceptData.uuid}?format=json`,
         },
       ],
       identifier: [
