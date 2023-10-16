@@ -18,7 +18,7 @@
     "start": "node src/main.js",
     "build": "node src/main.js"
   },
-  "author": "Johnathan Aspinwall",
+  "author": "jbradley@arcticlcc.org",
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/adiwg/mdKeywords/issues"
