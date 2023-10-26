@@ -23,5 +23,5 @@
   "keywordType": "temporalresolutionrange",
   "label": "Temporal Resolution Ranges",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-502ad03c-dba8-4b32-8af5-13fa947c3988.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-502ad03c-dba8-4b32-8af5-13fa947c3988.json"
 }

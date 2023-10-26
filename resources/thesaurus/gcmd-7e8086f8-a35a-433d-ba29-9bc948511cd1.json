@@ -23,5 +23,5 @@
   "keywordType": "ProjectionDatumNames",
   "label": "Projection Datum Names",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-7e8086f8-a35a-433d-ba29-9bc948511cd1.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-7e8086f8-a35a-433d-ba29-9bc948511cd1.json"
 }

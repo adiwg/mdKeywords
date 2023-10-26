@@ -23,5 +23,5 @@
   "keywordType": "CoordinateSystem",
   "label": "Coordinate System",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd.json"
 }

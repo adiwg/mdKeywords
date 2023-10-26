@@ -23,5 +23,5 @@
   "keywordType": "sciencekeywords",
   "label": "Science Keywords",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
 }

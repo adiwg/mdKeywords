@@ -23,5 +23,5 @@
   "keywordType": "usgsThesaurus",
   "label": "USGS Thesaurus",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/usgs-usgs-thesaurus.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/usgs-usgs-thesaurus.json"
 }

@@ -23,5 +23,5 @@
   "keywordType": "DatasetLanguage",
   "label": "Dataset Language",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-79ec7ee3-0013-4ef7-a439-bbfcce88fb38.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-79ec7ee3-0013-4ef7-a439-bbfcce88fb38.json"
 }

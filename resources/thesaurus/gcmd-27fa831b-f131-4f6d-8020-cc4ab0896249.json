@@ -23,5 +23,5 @@
   "keywordType": "isotopiccategory",
   "label": "ISO Topic Categories",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-27fa831b-f131-4f6d-8020-cc4ab0896249.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-27fa831b-f131-4f6d-8020-cc4ab0896249.json"
 }

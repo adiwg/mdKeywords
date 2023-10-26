@@ -23,5 +23,5 @@
   "keywordType": "MeasurementName",
   "label": "Measurement Name",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-2bc6e372-93d8-4672-96b1-ec159aff2e19.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-2bc6e372-93d8-4672-96b1-ec159aff2e19.json"
 }

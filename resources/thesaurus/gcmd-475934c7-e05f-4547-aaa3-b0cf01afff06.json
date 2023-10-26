@@ -23,5 +23,5 @@
   "keywordType": "MetadataLanguage",
   "label": "Metadata Language",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-475934c7-e05f-4547-aaa3-b0cf01afff06.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-475934c7-e05f-4547-aaa3-b0cf01afff06.json"
 }

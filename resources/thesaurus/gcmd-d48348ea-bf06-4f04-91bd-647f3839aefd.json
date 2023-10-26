@@ -23,5 +23,5 @@
   "keywordType": "GranuleSpatialRepresentation",
   "label": "Granule Spatial Representation",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-d48348ea-bf06-4f04-91bd-647f3839aefd.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-d48348ea-bf06-4f04-91bd-647f3839aefd.json"
 }

@@ -23,5 +23,5 @@
   "keywordType": "MetadataAssociationType",
   "label": "Metadata Association Type",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-9d03a2d8-132d-49ea-95d5-6dea6d769053.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-9d03a2d8-132d-49ea-95d5-6dea6d769053.json"
 }

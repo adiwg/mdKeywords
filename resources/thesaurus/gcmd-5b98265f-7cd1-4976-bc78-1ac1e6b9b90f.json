@@ -23,5 +23,5 @@
   "keywordType": "discipline",
   "label": "Disciplines",
   "keywords": null,
-  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-5b98265f-7cd1-4976-bc78-1ac1e6b9b90f.json"
+  "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/keywords/gcmd-5b98265f-7cd1-4976-bc78-1ac1e6b9b90f.json"
 }
