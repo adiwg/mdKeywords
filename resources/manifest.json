@@ -1,26 +1,26 @@
 [
   {
     "name": "Platforms",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-f3261de5-34c1-4980-af22-f9d7e7206d12.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/gcmd-f3261de5-34c1-4980-af22-f9d7e7206d12.json"
   },
   {
     "name": "Instruments",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-b2140059-b3ca-415c-b0a7-3e142783ffe8.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/gcmd-b2140059-b3ca-415c-b0a7-3e142783ffe8.json"
   },
   {
     "name": "Science Keywords",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/gcmd-1eb0ea0a-312c-4d74-8d42-6f1ad758f999.json"
   },
   {
     "name": "LCC Deliverables",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-deliverabletype.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/lcc-deliverabletype.json"
   },
   {
     "name": "LCC End User Types",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-usertype.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/lcc-usertype.json"
   },
   {
     "name": "LCC Project Category",
-    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/thesaurus/lcc-category.json"
+    "url": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@test-dev/resources/thesaurus/lcc-category.json"
   }
 ]
