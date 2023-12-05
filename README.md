@@ -9,19 +9,60 @@ This directory contains the main configuration file and lists of vocabularies fo
 
 ## src/
 
-This directory contains the source files for the harvesters to generate the manifest file and citation and keywords files.
+This directory contains the source files for the harvesters. 
 
 ## resources/
 
-This directory contains the manifest file for the list of vocabularies (manifest.json). It is automatically generated and contains the details about the vocabulary and where to access its citation and keywords files.
+This directory contains the manifest file for the list of vocabularies (manifest.json). It is automatically generated and contains the details about the vocabulary and where to access its configuration file. The configuration file will then point to the keywords file. The format of a thesaurus entry in the manifest file is as follows:
 
-### resources/citations/
+```
+{
+  "name": "",
+  "url": ""
+}
+```
 
-This directory contains all the citation files for the individual vocabularies.
+The name is optional and is for human readability of the thesaurus, it is not used by the mdEditor.
+
+### resources/thesaurus/
+
+This directory contains all the thesaurus configuration files. The format for a thesaurus configuation is as follows:
+
+```
+{
+  "citation": {
+    "date": [
+      {
+        "date": "",
+        "dateType": ""
+      }
+    ],
+    "description": "",
+    "title": "",
+    "edition": "",
+    "onlineResource": [
+      {
+        "uri": ""
+      }
+    ],
+    "identifier": [
+      {
+        "identifier": ""
+      }
+    ]
+  },
+  "keywordType": "",
+  "label": "",
+  "keywords": null,
+  "keywordsUrl": ""
+}
+```
+
+Note that the keywords key is set to null. If a keywordsUrl is provided then keywords should be null, but you can optionally provide the keywords array directly inside of this configuration file if desired - that is not recommended. The keywordsUrl should use the jsdelivr url to point to the keywords file in the resources/keywords/ directory that is associated with the specified thesaurus. There is a resources/schema/ directory with a detailed specification for the configuration file format.
 
 ### resources/keywords/
 
-This directory contains all the keywords files in the mdEditor's json format.
+This directory contains all the keywords files. Depending on the source, the keywords file format is slightly different (this should probably be normalized).
 
 GCMD keyword files are formatted as follows (contains nested children)
 
