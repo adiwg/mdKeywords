@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "thesaurusConfiguration.json#",
+    "id": "file:///schemas/thesaurusConfiguration.json#",
     "type": "object",
     "title": "thesaurusConfiguration",
     "description": "Configuration for thesauri",

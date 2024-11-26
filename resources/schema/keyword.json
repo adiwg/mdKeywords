@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "keyword.json#",
+    "id": "file:///schemas/keyword.json#",
     "type": "object",
     "title": "keyword",
     "description": "Schema for a keyword",
