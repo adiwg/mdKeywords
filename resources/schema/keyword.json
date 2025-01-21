@@ -1,24 +1,22 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "file:///schemas/keyword.json#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "keyword.json#",
+  "title": "keyword",
+  "description": "Array of keywords",
+  "type": "array",
+  "items": {
     "type": "object",
-    "title": "keyword",
     "description": "Schema for a keyword",
-    "example": "resources/keywords/lcc-category.json",
-    "required": ["label", "uuid"],
+    "required": ["label", "uuid", "definition"],
     "additionalProperties": true,
     "properties": {
       "label": {
-        "type": "object",
+        "type": "string",
         "description": ""
       },
       "uuid": {
         "type": "string",
         "description": ""
-      },
-      "broader": {
-        "type": "string",
-        "description": "Identifier of the broader (parent) keyword"
       },
       "parentId": {
         "type": "string",
@@ -29,11 +27,8 @@
         "description": "Definition of the keyword"
       },
       "children": {
-        "type": "array",
-        "description": "List of child keywords",
-        "items": {
-          "$ref": "keyword.json#"
-        }
+        "$ref": "keyword.json#"
       }
     }
   }
+}

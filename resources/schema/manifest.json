@@ -1,20 +1,24 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "file:///schemas/manifest.json#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "manifest.json#",
+  "type": "array",
+  "title": "Manifest Array",
+  "description": "Schema for the manifest.json file containing an array of objects",
+  "items": {
     "type": "object",
-    "title": "manifest",
-    "description": "Schema for the manifest.json file",
-    "example": "resources/manifest.json",
+    "title": "Manifest Object",
+    "description": "Schema for each object in the manifest.json array",
     "required": ["url"],
     "additionalProperties": true,
     "properties": {
       "name": {
-        "type": "object",
+        "type": "string",
         "description": "Name of the thesaurus"
       },
       "url": {
         "type": "string",
-        "description": "Url to the thesaurus configuration file"
+        "description": "URL to the thesaurus configuration file"
       }
     }
   }
+}
