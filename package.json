@@ -1,5 +1,5 @@
 {
-  "name": "mdKeywords",
+  "name": "mdkeywords",
   "version": "4.0.0",
   "description": "Keywords for metadata",
   "main": "harvesters/index.js",
