@@ -1,0 +1,170 @@
+[
+  {
+    "id": "a9f88ca9-5d19-45fa-8fbb-3c6ff5f1f190",
+    "name": "Chronostratigraphic Units"
+  },
+  {
+    "id": "f3261de5-34c1-4980-af22-f9d7e7206d12",
+    "name": "Platforms"
+  },
+  {
+    "id": "5b98265f-7cd1-4976-bc78-1ac1e6b9b90f",
+    "name": "Disciplines"
+  },
+  {
+    "id": "118d366b-c4c7-432c-bd96-4cee2263a541",
+    "name": "IDN Nodes"
+  },
+  {
+    "id": "27fa831b-f131-4f6d-8020-cc4ab0896249",
+    "name": "ISO Topic Categories"
+  },
+  {
+    "id": "1499785c-8b74-45f4-bbf7-19d2d4e43b2f",
+    "name": "Horizontal Resolution Ranges"
+  },
+  {
+    "id": "9728ca44-7bb3-40a4-9dd2-49470ad47fa5",
+    "name": "Vertical Resolution Ranges"
+  },
+  {
+    "id": "502ad03c-dba8-4b32-8af5-13fa947c3988",
+    "name": "Temporal Resolution Ranges"
+  },
+  {
+    "id": "7e70bdb4-dbd0-4e35-b715-3a8e843a7805",
+    "name": "Trash Can"
+  },
+  {
+    "id": "b2140059-b3ca-415c-b0a7-3e142783ffe8",
+    "name": "Instruments"
+  },
+  {
+    "id": "fb0b9fcd-5c96-4989-8c64-a479bbed83ab",
+    "name": "Projects"
+  },
+  {
+    "id": "a4632db2-ea6b-45b3-9a3c-17032b07af67",
+    "name": "Persistent Identifier"
+  },
+  {
+    "id": "0901b01e-447a-45b5-a716-33ac9b8bc27a",
+    "name": "Private"
+  },
+  {
+    "id": "8b0d5cf7-f3b0-4c08-8a31-3727bc4377b9",
+    "name": "Phone Type"
+  },
+  {
+    "id": "54cfb555-6e95-4e89-96b9-57863cbf732f",
+    "name": "Product Flag"
+  },
+  {
+    "id": "1638caf0-d46c-4858-8916-ec14d82cb44c",
+    "name": "Dataset Progress"
+  },
+  {
+    "id": "79ec7ee3-0013-4ef7-a439-bbfcce88fb38",
+    "name": "Dataset Language"
+  },
+  {
+    "id": "9d03a2d8-132d-49ea-95d5-6dea6d769053",
+    "name": "Metadata Association Type"
+  },
+  {
+    "id": "d6cd58e1-e83e-4718-b48d-08de1aba2f40",
+    "name": "Organization Personnel Role"
+  },
+  {
+    "id": "5c07062e-1ad1-4721-bc0f-f2d51352c2c1",
+    "name": "Personnel Role"
+  },
+  {
+    "id": "e8a3cc69-e3be-4d7e-8b44-6fa5fbbe9a18",
+    "name": "Organization Type"
+  },
+  {
+    "id": "e496c2bf-7f1c-461b-93b1-0248e4a5e932",
+    "name": "Duration Unit"
+  },
+  {
+    "id": "0cde2885-d08e-4539-9055-99d9a4754df0",
+    "name": "Platform Type"
+  },
+  {
+    "id": "62a5777d-3582-498a-b900-54110baf8eb4",
+    "name": "Collection Data Type"
+  },
+  {
+    "id": "1984b2b1-e3b1-4b66-8e6a-f5994d8d0cfd",
+    "name": "Coordinate System"
+  },
+  {
+    "id": "d48348ea-bf06-4f04-91bd-647f3839aefd",
+    "name": "Granule Spatial Representation"
+  },
+  {
+    "id": "6eb7a3bb-2330-4086-9a77-79e46470f1e6",
+    "name": "Product Level Id"
+  },
+  {
+    "id": "26a99b0d-1f56-4969-844e-4b213a036873",
+    "name": "Spatial Coverage Type"
+  },
+  {
+    "id": "e2ad33dc-e1e4-45e3-be83-2efca11e451b",
+    "name": "Multimedia Format"
+  },
+  {
+    "id": "475934c7-e05f-4547-aaa3-b0cf01afff06",
+    "name": "Metadata Language"
+  },
+  {
+    "id": "8c84f591-ec2b-4dc4-8002-7fc9586ffcca",
+    "name": "Contact Type"
+  },
+  {
+    "id": "ec1a1350-be24-42e6-a5cc-ccb806793def",
+    "name": "Mime Type"
+  },
+  {
+    "id": "e0e6f883-9dee-4908-bb76-20adae968df1",
+    "name": "Distribution Size Unit"
+  },
+  {
+    "id": "8759ab63-ac04-4136-bc25-0c00eece1096",
+    "name": "Related URL Content Types"
+  },
+  {
+    "id": "8e770fe1-6e82-43aa-9f8a-75d217d7e6cb",
+    "name": "Data Format"
+  },
+  {
+    "id": "2bc6e372-93d8-4672-96b1-ec159aff2e19",
+    "name": "Measurement Name"
+  },
+  {
+    "id": "9d37b0bc-31fa-4b2e-b39d-1e19ceefa103",
+    "name": "Projection Name"
+  },
+  {
+    "id": "0cffc8cf-f913-43c8-9c7b-179eb6749c4f",
+    "name": "Projection Authority"
+  },
+  {
+    "id": "ee18f758-071a-4ac8-8cd6-b217270243ea",
+    "name": "Chained Operations"
+  },
+  {
+    "id": "e97d2b88-a545-4882-801b-40964a2bc723",
+    "name": "Operations"
+  },
+  {
+    "id": "7e8086f8-a35a-433d-ba29-9bc948511cd1",
+    "name": "Projection Datum Names"
+  },
+  {
+    "id": "1eb0ea0a-312c-4d74-8d42-6f1ad758f999",
+    "name": "Science Keywords"
+  }
+]

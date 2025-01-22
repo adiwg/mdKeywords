@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "keyword.json#",
+  "title": "keyword",
+  "description": "Array of keywords",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "Schema for a keyword",
+    "required": ["label", "uuid", "definition"],
+    "additionalProperties": true,
+    "properties": {
+      "label": {
+        "type": "string",
+        "description": ""
+      },
+      "uuid": {
+        "type": "string",
+        "description": ""
+      },
+      "parentId": {
+        "type": ["string", "null"],
+        "description": "Identifier of the parent keyword"
+      },
+      "definition": {
+        "type": "string",
+        "description": "Definition of the keyword"
+      },
+      "children": {
+        "$ref": "keyword.json#"
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "citation": {
     "date": [
       {
-        "date": "2023-09-22 16:53:47",
+        "date": "2023-09-22T16:53:47",
         "dateType": "revision"
       }
     ],
@@ -20,8 +20,6 @@
       }
     ]
   },
-  "keywordType": "instruments",
   "label": "Instruments",
-  "keywords": null,
   "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/gcmd-b2140059-b3ca-415c-b0a7-3e142783ffe8.json"
 }

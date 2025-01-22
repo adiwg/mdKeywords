@@ -5,20 +5,14 @@
 Major refactoring of the mdKeywords repository.
 
 - Remove dependency on mdProfiles
-- Harvester driven from local (in-repository) configuration files
-- List of vocabularies to harvest are now in configuration files and not pulled from profiles
+- Remove harvesters - they have moved to https://github.com/USGS-NGGDPP/mdEditor-keywords
 - Update the manifest.json schema
-- Updates to resources from source updates
+- Remove json/ directory
+- Remove non-default thesaurus configurations and keywords files
+- Remove all extra manifest and test files
 - Separate thesaurus configuration files for each vocabulary
   - Add keywordsUrl to thesaurus configuration files
-
-## [v3.0.1](https://github.com/adiwg/mdKeywords/tree/v3.0.1)
-
-[Full Changelog](https://github.com/adiwg/mdKeywords/compare/v3.0.0...v3.0.1)
-
-- Refactor GCMD harvester script
-- Add harvester control process to build all GCMD vocabularies from configuration files
-- Add custom vocabularies for the USGS [National Geological and Geophysical Data Preservation Program](https://www.usgs.gov/programs/national-geological-and-geophysical-data-preservation-program) (NGGDPP) to the default vocabulary configuration file (to assist USGS with a time sensitive need).
+- Fix id in schemas
 
 ## [v3.0.0](https://github.com/adiwg/mdKeywords/tree/v3.0.0)
 

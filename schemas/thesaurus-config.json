@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "thesaurus-config.json#",
+  "type": "object",
+  "title": "Thesaurus Configuration",
+  "description": "Configuration for thesauri",
+  "required": ["citation", "label"],
+  "oneOf": [
+    {
+      "required": ["keywords"]
+    },
+    {
+      "required": ["keywordsUrl"]
+    }
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "citation": {
+      "type": "object",
+      "title": "citation",
+      "description": "",
+      "required": ["description", "title"],
+      "additionalProperties": true,
+      "properties": {
+        "date": {
+          "type": "array",
+          "description": "Array of dates",
+          "items": {
+            "type": "object",
+            "required": ["date", "dateType"],
+            "additionalProperties": true,
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": "An ISO 8601 date/timestamp.",
+                "pattern": "^(\\d{4}(-\\d{2}(-\\d{2})?)?)$|^(\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?(Z|([+-]\\d{2}:\\d{2}))?)?)$"
+              },
+              "dateType": {
+                "type": "string",
+                "description": "The type of date. iso_dateType",
+                "enum": [
+                  "creation",
+                  "publication",
+                  "revision",
+                  "expiry",
+                  "lastUpdate",
+                  "lastRevision",
+                  "nextUpdate",
+                  "unavailable",
+                  "inForce",
+                  "adopted",
+                  "deprecated",
+                  "superseded",
+                  "validityBegins",
+                  "validityExpires",
+                  "released",
+                  "distribution",
+                  "acquisition",
+                  "assessment",
+                  "award",
+                  "collected",
+                  "due",
+                  "end",
+                  "received",
+                  "reported",
+                  "start",
+                  "transmitted"
+                ]
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Thesaurus description"
+        },
+        "title": {
+          "type": "string",
+          "description": "Full name of the thesaurus"
+        },
+        "edition": {
+          "type": "string",
+          "description": "The version of the thesaurus"
+        },
+        "onlineResource": {
+          "type": "array",
+          "description": "Array of online resources",
+          "items": {
+            "type": "object",
+            "required": ["uri"],
+            "additionalProperties": false,
+            "properties": {
+              "uri": {
+                "type": "string",
+                "description": "URL to the source of the thesaurus"
+              }
+            }
+          }
+        },
+        "identifier": {
+          "type": "array",
+          "description": "Array of identifiers",
+          "items": {
+            "type": "object",
+            "required": ["identifier"],
+            "additionalProperties": false,
+            "properties": {
+              "identifier": {
+                "type": "string",
+                "description": "Identifier for the thesaurus"
+              }
+            }
+          }
+        }
+      }
+    },
+    "keywordType": {
+      "type": "string",
+      "description": "",
+      "enum": [
+        "discipline",
+        "place",
+        "stratum",
+        "temporal",
+        "theme",
+        "dataCentre",
+        "featureType",
+        "instrument",
+        "platform",
+        "process",
+        "project",
+        "service",
+        "product",
+        "subTopicCategory",
+        "taxon",
+        "region",
+        "isoTopicCategory",
+        "methodology"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "description": "Short name for the thesaurus"
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Array of keywords",
+      "$ref": "./keyword.json#"
+    },
+    "keywordsUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to keywords file in resources/keywords/ directory."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.json#",
+  "type": "array",
+  "title": "Manifest Array",
+  "description": "Schema for the manifest.json file containing an array of objects",
+  "items": {
+    "type": "object",
+    "title": "Manifest Object",
+    "description": "Schema for each object in the manifest.json array",
+    "required": ["url"],
+    "additionalProperties": true,
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Name of the thesaurus"
+      },
+      "url": {
+        "type": "string",
+        "description": "URL to the thesaurus configuration file"
+      }
+    }
+  }
+}

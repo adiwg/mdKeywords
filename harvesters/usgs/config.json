@@ -1,0 +1,8 @@
+{
+  "BASE_REPO_URL": "https://cdn.jsdelivr.net/gh/USGS-NGGDPP/mdEditor-keywords@main",
+  "BASE_URL": "https://apps.usgs.gov/",
+  "KEYWORDS_DIR": "resources/keywords",
+  "TERM": "thesaurus/term.php",
+  "THESAURUS": "thesaurus/thesaurus.php",
+  "THESAURUS_DIR": "resources/thesaurus"
+}
