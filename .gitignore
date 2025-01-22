@@ -62,3 +62,6 @@ typings/
 #generated files
 /lib/js
 /dist
+
+# gnis data
+harvesters/gnis/data/

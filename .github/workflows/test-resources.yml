@@ -1,0 +1,21 @@
+name: test-resources
+run-name: Testing keywords and thesaurus configuration files
+on:
+  push:
+jobs:
+  test-resources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run tests
+        run: yarn test

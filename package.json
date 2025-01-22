@@ -2,7 +2,7 @@
   "name": "mdKeywords",
   "version": "4.0.0",
   "description": "Keywords for metadata",
-  "main": "src/main.js",
+  "main": "harvesters/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adiwg/mdKeywords.git"
@@ -15,8 +15,23 @@
     "mdJSON"
   ],
   "scripts": {
-    "start": "node src/main.js",
-    "build": "node src/main.js"
+    "test": "yarn build && jest",
+    "build": "yarn && yarn clean && yarn build:harvesters && yarn build:schemas && yarn build:tests && yarn copy",
+    "build:harvesters": "babel harvesters --out-dir dist/harvesters --source-maps",
+    "build:schemas": "node scripts/copySchemas.cjs && babel schemas --out-dir dist/schemas --source-maps",
+    "build:tests": "babel tests --out-dir dist/tests --source-maps",
+    "build:manifest": "node scripts/buildManifest.cjs",
+    "clean": "node scripts/clean.cjs",
+    "copy": "node scripts/copyJsonFilesToDist.cjs && node scripts/copyGnisData.cjs",
+    "start": "echo 'yarn start' is not configured because each harvester takes a long time to run. Use 'yarn lithography' or 'yarn gcmd' or 'yarn gnis' or 'yarn nalt' or 'yarn sciencebase' or 'yarn usgs' or any other configured harvester instead.",
+    "gcmd": "yarn build && node dist/harvesters/index.js gcmd && yarn build:manifest",
+    "gnis": "yarn build && node dist/harvesters/index.js gnis && yarn build:manifest",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "nalt": "yarn build && node dist/harvesters/index.js nalt && yarn build:manifest",
+    "sb": "yarn sciencebase",
+    "sciencebase": "yarn build && node dist/harvesters/index.js sciencebase && yarn build:manifest",
+    "usgs": "yarn build && node dist/harvesters/index.js usgs && yarn build:manifest"
   },
   "author": "jbradley@arcticlcc.org",
   "license": "Unlicense",
@@ -24,16 +39,43 @@
     "url": "https://github.com/adiwg/mdKeywords/issues"
   },
   "homepage": "https://github.com/adiwg/mdKeywords",
-  "dependencies": {
-    "axios": "^1.3.4",
-    "lodash": "^4.17.21"
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testMatch": [
+      "**/dist/tests/**/*.test.js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "node"
+    ]
   },
   "devDependencies": {
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^2.8.8"
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/plugin-syntax-import-attributes": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@eslint/js": "^9.3.0",
+    "ajv": "^8.13.0",
+    "ajv-errors": "^3.0.0",
+    "ajv-formats": "^3.0.1",
+    "axios": "^1.6.8",
+    "babel-jest": "^29.7.0",
+    "dayjs": "^1.11.11",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-json": "^4.0.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "fs-extra": "^11.2.0",
+    "globals": "^15.3.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "readline": "^1.3.0",
+    "rimraf": "^5.0.7",
+    "uuid": "^10.0.0",
+    "xml2js": "^0.6.2"
   }
 }
