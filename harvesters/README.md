@@ -1,4 +1,6 @@
-# USGS-NGGDPP mdEditor-keywords Harvesters
+# harvesters
+
+Originally produced for the USGS-NGGDPP mdEditor-keywords Harvesters
 
 ## Overview
 
