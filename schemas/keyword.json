@@ -19,7 +19,7 @@
         "description": ""
       },
       "parentId": {
-        "type": "string",
+        "type": ["string", "null"],
         "description": "Identifier of the parent keyword"
       },
       "definition": {

@@ -6,6 +6,7 @@
         "dateType": "revision"
       }
     ],
+    "description": "",
     "title": "End User Types - Landscape Conservation Cooperatives",
     "edition": "2017",
     "onlineResource": [
@@ -19,8 +20,6 @@
       }
     ]
   },
-  "keywordType": "LCC End User Type",
   "label": "LCC End User Types",
-  "keywords": null,
   "keywordsUrl": "https://cdn.jsdelivr.net/gh/adiwg/mdKeywords@master/resources/keywords/lcc-usertype.json"
 }
